@@ -1,0 +1,64 @@
+%FILENAME%
+networkmanager-dmenu-git-r141.78c8a78-1-any.pkg.tar.zst
+
+%NAME%
+networkmanager-dmenu-git
+
+%BASE%
+networkmanager-dmenu-git
+
+%VERSION%
+r141.78c8a78-1
+
+%DESC%
+Control NetworkManager via dmenu
+
+%CSIZE%
+15804
+
+%ISIZE%
+38480
+
+%MD5SUM%
+37fb8df3e928a40be0773029ab80235d
+
+%SHA256SUM%
+e6a919f2cc396a44f24b5d8f6275439f4ec641c23d8b3d835688e1ddf498f5ee
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmBMs7QACgkQip4UoHAQ9+NhEggAtVPwj61SOtYxSQJKk1Yur6MZ38yLD8rH7LaMTqgfztxgtHKeeDmM/UaV27BVUfRqBVN742ZvMxpqYH7fdLUvh3h3IJQK9NQvbfrb2LG48zJ2/UaxhicbcxEAM+vZB8A7rLKcvgZukuMDkv7mgHGECpwRbzZxmlkRuxvuS5DI68giWfYX2nUvNUKQj3pCxCeUdzBLw8/qs1S7VFU2USyuklaK1W9nfwGZGU1Sdvi05MU5I3vyOr6q79YZWD81A//YKfqi+dRrgvaXnHxfcZQ99OCSOCBlzt9JyOcPyFNxPBLMMKLDh0rB3CsPVloNp/lbd5V3PMIR4MAAeuiJrYCbsQ==
+
+%URL%
+https://github.com/firecat53/networkmanager-dmenu
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1615639459
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+networkmanager-dmenu
+
+%PROVIDES%
+networkmanager-dmenu
+
+%DEPENDS%
+python
+networkmanager
+python-gobject
+
+%OPTDEPENDS%
+dmenu: either dmenu or rofi is required
+rofi: either dmenu or rofi is required
+network-manager-applet: for the nm-connection-editor GUI
+
+%MAKEDEPENDS%
+git
+

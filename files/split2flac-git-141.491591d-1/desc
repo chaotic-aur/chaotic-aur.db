@@ -1,0 +1,73 @@
+%FILENAME%
+split2flac-git-141.491591d-1-any.pkg.tar.zst
+
+%NAME%
+split2flac-git
+
+%BASE%
+split2flac-git
+
+%VERSION%
+141.491591d-1
+
+%DESC%
+Split flac/ape/wv/wav + cue sheet into separate tracks. Git version.
+
+%CSIZE%
+12485
+
+%ISIZE%
+25389
+
+%MD5SUM%
+fc668ff5e26fd21553ccee14cbbdac43
+
+%SHA256SUM%
+ef3269bd17f47e000b5e08ad3835ec8bcfc199484384538b8d82ce64f6bc7732
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmB250QACgkQip4UoHAQ9+N7bQgAp/F9boOPiXPr3Q8/h+gGl7Gk5MCmt2VcHN8HeGuUiAsRpPW6WI75Fa4kTM/YiVrj/7jCea/DDC9M2GrdtiOqL+SHDownQFCBMpP5CYb8q5r5XmM51AD0Uoyb8+g98yL3GdlY0eG6x5DUJq4WrKQuAOgtLxPBIGYi58GbqZODtuUVIfHkFFQB6PIXDH1pYzXbh2xPoUoyancFCJJfvBG0zJgghxGRJr3SqSb0BGSBfLHTW5lRuVGzGLIGNPkcwv+B2Sb6UoToc/6gaS+JTarrxmeOhvDSNp7X+dqXIA2zInMuRyZgx1XIvrTPsGpkDB4VQyqyxPdqXTpDDqEIrtrviQ==
+
+%URL%
+https://github.com/ftrvxmtrx/split2flac
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1618405186
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+split2flac
+
+%DEPENDS%
+cuetools
+shntool
+flac
+
+%OPTDEPENDS%
+aacgain: to adjust gain in m4a
+enca: to automatically detect charset if not UTF8
+faac: to split into m4a
+flac: for flac replay gain support
+flake: faster FLAC encoding
+mac: to split APE format
+id3lib: to set tags in mp3 (unicode not supported)
+imagemagick: to convert/resize album cover images
+lame: to split into mp3
+libmp4v2: to split into m4a
+mp3gain: mp3 volume normalization
+ttaenc: to convert to TrueAudio
+vorbis-tools: to split into ogg vorbis
+vorbisgain: ogg vorbis volume normalization
+wavpack: to split WV
+
+%MAKEDEPENDS%
+git
+

@@ -1,0 +1,71 @@
+%FILENAME%
+xdg-desktop-portal-wlr-git-v0.4.0.r20.g5f5a29c-1-x86_64.pkg.tar.zst
+
+%NAME%
+xdg-desktop-portal-wlr-git
+
+%BASE%
+xdg-desktop-portal-wlr-git
+
+%VERSION%
+v0.4.0.r20.g5f5a29c-1
+
+%DESC%
+xdg-desktop-portal backend for wlroots
+
+%CSIZE%
+150900
+
+%ISIZE%
+335553
+
+%MD5SUM%
+20635054ab9cc43923892274e67cc4ad
+
+%SHA256SUM%
+b0e0ab6f3ba882c9aa22106bea9e7d229b28665fea256f2b587a123606702547
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmESeSIACgkQOkDLXn5cvDDqAQf+KoFELKIRWnJqyynt2gKOuqeEKNeNv6Iym+UiODul0A/4t/LZoHkP+5bqdy02VyrWq0x0LCxtA4JASTf9oS/K8NLjJcbJhbB2OcGaisz8uvxIsPrIMbYyE2y0D13jDR7LaKHqvG2/5IDQmTxMxsgs+CbA9hSTBBiNted2TGehG+7MJGcPKLvRGRGXTRQAmeTKh9c3Y7j6cuxWn0F6Jh+gJQExteZXRdfURz5Uc18+j5P5G4BSkaE7dCDwnbVkjU4624ZEPU2nwizR+iHjjSK6HxbrKeUowKEz4iToJuL4tgCJP2Z5jpSx4uBIzuvERuZmtZTg9sKAGSO268sGIAsPfg==
+
+%URL%
+https://github.com/emersion/xdg-desktop-portal-wlr
+
+%LICENSE%
+custom:MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1628600587
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+xdg-desktop-portal-wlr
+
+%PROVIDES%
+xdg-desktop-portal-wlr
+xdg-desktop-portal-impl
+
+%DEPENDS%
+xdg-desktop-portal
+pipewire
+libinih
+
+%OPTDEPENDS%
+grim: required for the screenshot portal to function
+slurp: support for interactive mode for the screenshot portal; one of the built-in chooser options for the screencast portal
+bemenu: one of the built-in chooser options for the screencast portal
+wofi: one of the built-in chooser options for the screencast portal
+obs-xdg-portal: support for the screencast portal in obs
+
+%MAKEDEPENDS%
+git
+meson
+wayland-protocols
+wayland
+scdoc
+

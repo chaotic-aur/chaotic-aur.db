@@ -1,0 +1,76 @@
+%FILENAME%
+qwikaccess-git-0.0.1.r66.d906572-1-any.pkg.tar.zst
+
+%NAME%
+qwikaccess-git
+
+%BASE%
+qwikaccess-git
+
+%VERSION%
+0.0.1.r66.d906572-1
+
+%DESC%
+A point and click Qt GUI for scripts we use frequently.
+
+%CSIZE%
+68511
+
+%ISIZE%
+166856
+
+%MD5SUM%
+95fb9f7ed88e161169f24bb247863ca9
+
+%SHA256SUM%
+1a96800c46d0d8cb59ee8c934a486ac97999f73e67836225bf294dc638aeb83e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmDYocIACgkQBwa5DTfZuIG6bQ//aDLLnQjrBmKm0Dam1vI9YvwgDWnsbw+XWAofBcQpbTv6CHw9+ALmeQoaZX6HiNv2FMXw82qffTEkgmMqrSTzXPR1uKYu80rBNLEKHUvuBZbZApHngxanKmDRIQpmeejdTHBpPQH7ug1LSjkrtdPGIpt6O77q5mSxXOjF5Gx3/AnvUCxbHt4P8P4P02Tpdv4pVbRYq8vFqogCAJbWlY8ScAlu4FF+Vzg5a73tEG1VR/GU3galO1WgWBNUJ3VGheWjU0lDsc20Yqu6pzVLhgvV6oXASNaaEb62bW1svked/FCUakdIJVWM/g3FEq1HbhN89C5nQoZqOHxXI5QOMVmO94pOTltmKiRgZ7sA69/Rol8qhPoDPAxNValGH8OnXyHwZeCJ0jyInHU5uBYUobGtuLBO0IeLijlBrtqnath/oN9650FDFGSW6qITspFQu50VSoPaaJTy7WHgZdhr1j7xse0oa3wybrijahuZu21+hhScflFoLsfgavh70auyLsmrVJRJtGFwGwvCAQoNC+rkzeez6bTbK3gqiZpISLBcy3cTmQMaL1HgYwxytMjEEywNPyGRUecfzvFfe7JR6tz0/6T1j/0fPpidPIEVPqmTcks8z//nUhhP9wZ6fXYVaZ4aN7udsYk+8IY3kJVpx6xdprRo84TiWCViji38qnC0Qzg=
+
+%URL%
+https://github.com/librewish/qwikaccess
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1624809906
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+qwikaccess
+
+%PROVIDES%
+qwikaccess
+
+%DEPENDS%
+qt5-base
+polkit
+libnotify
+libpulse
+brightnessctl
+inotify-tools
+ffmpeg
+
+%OPTDEPENDS%
+xorg-xrandr: for screen rotation
+xorg-xinput: for autorotation
+iio-sensor-proxy: for autorotation
+redshift: for night mode
+xdg-utils: for lock screen (xdg-screensaver lock)
+systemd: for leave commands and gps services
+wmctrl: for screencam ffplay to be on above all windows
+grim: for wayland screenshot
+wf-recorder: for wayland screencapture
+grep: used in scripts
+gawk: used in scripts
+
+%MAKEDEPENDS%
+git
+

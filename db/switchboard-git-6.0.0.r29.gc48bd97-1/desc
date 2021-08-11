@@ -1,0 +1,76 @@
+%FILENAME%
+switchboard-git-6.0.0.r29.gc48bd97-1-x86_64.pkg.tar.zst
+
+%NAME%
+switchboard-git
+
+%BASE%
+switchboard-git
+
+%VERSION%
+6.0.0.r29.gc48bd97-1
+
+%DESC%
+The Pantheon Control Center
+
+%CSIZE%
+86483
+
+%ISIZE%
+280094
+
+%MD5SUM%
+cb860ea959d76b1f4e8876a5a6bc1bfa
+
+%SHA256SUM%
+948f4d100572f73327c0123ec9f6e61b73ecaafd1667b61c11ec50178c895981
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmEP8soACgkQOkDLXn5cvDAvFAf/WlnaUiC6ohEW7W0hYIjl3OhaAQJcKyBN4IgTIEMZZoprVkZukEh3bLodNoTVWw0LG1bC0wz9d001arIa9ZjPrCjkMLx39bj2Up0a/vqmAwqr2a8MCvXixKih9dX+0QQ8eieiOWGacf2WKHW/JZ5yrDmw3GA0vCT6meayCDi0OUDe8X4YFMwPj2LZsbS3SAehjmRWMMkZbfjklPU0WJn7XU3ana2fLawNUw+vjrIUA4PzTMKkucuUtKSA08sRkq1FIWPaN7abQFpKp7xMF6i2PZDPGV6oV5wKyqKepKR+1LwYbOpJnz7MJ4TQtHb9WaRCExMd+ELoEgTp2k6V88pAjg==
+
+%URL%
+https://github.com/elementary/switchboard
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1628435099
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+switchboard
+
+%PROVIDES%
+switchboard
+libswitchboard-2.0.so=0-64
+
+%DEPENDS%
+clutter-gtk
+glib2
+glibc
+gtk3
+libgee
+libgranite.so=6-64
+libhandy
+
+%OPTDEPENDS%
+switchboard-plug-about-git: About plug
+switchboard-plug-default-applications-git: Default applications plug
+switchboard-plug-elementary-tweaks-git: Elementary tweaks plug
+switchboard-plug-keyboard-git: Keyboard plug
+switchboard-plug-pantheon-shell-git: Pantheon Shell plug
+switchboard-plug-power-git: Power plug
+
+%MAKEDEPENDS%
+git
+granite-git
+intltool
+meson
+vala
+

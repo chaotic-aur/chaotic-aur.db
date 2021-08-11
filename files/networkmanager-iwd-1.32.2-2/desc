@@ -1,0 +1,116 @@
+%FILENAME%
+networkmanager-iwd-1.32.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+networkmanager-iwd
+
+%BASE%
+networkmanager-iwd
+
+%VERSION%
+1.32.2-2
+
+%DESC%
+Network connection manager and user applications; using iwd backend instead of wpa_supplicant
+
+%CSIZE%
+5109404
+
+%ISIZE%
+17589232
+
+%MD5SUM%
+58a73cbafd6107306a53bbcf623a19d1
+
+%SHA256SUM%
+d9007c3ae84b83c6ce6c689a4bfd94d3ac5301d696688ff092ddc94c6d54c2da
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmDxoc8ACgkQBwa5DTfZuIHrqw/+JP4rYN9F98F8rUWPU7YBzihOglm94T8OiJyJZ+8iPAe4m63k1aGvZdjPA+sTrX15oLlrx6t3hzPG8WtaUm5YulF9dShGhK2qgIG641FhnCArVyfUBQK31P19euGH5A17Mc1GA64peYgfRdAWAawOCNXtlEMc2xVkEwUfSD9sNujzY55cK1ML0RWLkZf/XQBkyPSDaKxN4pnv9xsP8/sOJ1V7nxOwEApBwnHlmYMJ/RQhQde+O8zkkhMV8MDzY+4VOzVuN8/8nkiIYLQe6J69iYl8QTTo29tXA9CQ/0t/gbQKuVm23ThiU6XyTN55Bob/GCwzTYaoq8SMNheWnmFqbJeMALvW4lK/4h5LbmCqUbMg00k9laKFUTiZRMYtlQBtuaPCG2CWC7Pjv7RyIvkuRrSHNkFkG37NxWo/8ubLEqgNRW5tFgoagRjLRMD+MDf6uMC/VdC+wlBbMoYmMWUn/2Zi71m7umFuC2cR4N4LYr/ODX7QVEEoAKzaRlqb5mFjw8aR60kjPPrKhoedZygE+a7RvVJdfxyxPtMisaNx+SfMGchxqofY2SAOKr5OKMgDwmUy+JK6DST55IXp4pt5+8qzoDWBSjMIlwNqR/bdwK+S3dzOzV7Kk1X5sTgIytkBfDMiYPzI3t0BeNhhodzHJKE52YAVjhEIBXFqEru+fRs=
+
+%URL%
+https://wiki.gnome.org/Projects/NetworkManager
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1626447315
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+networkmanager
+
+%PROVIDES%
+networkmanager
+
+%DEPENDS%
+libnm-iwd
+iproute2
+polkit
+iwd
+libmm-glib
+libnewt
+libndp
+libteam
+curl
+bluez-libs
+libpsl
+audit
+mobile-broadband-provider-info
+
+%OPTDEPENDS%
+dnsmasq: connection sharing
+nftables: connection sharing
+iptables: connection sharing
+bluez: Bluetooth support
+ppp: dialup connection support
+modemmanager: cellular network support
+dhclient: alternative DHCP client
+dhcpcd: alternative DHCP client
+openresolv: alternative resolv.conf manager
+firewalld: firewall support
+
+%MAKEDEPENDS%
+intltool
+dhclient
+iptables-nft
+gobject-introspection
+gtk-doc
+ppp=2.4.9
+modemmanager
+iproute2
+nss
+polkit
+wpa_supplicant
+curl
+systemd
+libmm-glib
+libnewt
+libndp
+libteam
+nftables
+vala
+perl-yaml
+python-gobject
+git
+vala
+jansson
+bluez-libs
+glib2-docs
+iwd
+dnsmasq
+openresolv
+libpsl
+audit
+meson
+
+%CHECKDEPENDS%
+libx11
+python-dbus
+

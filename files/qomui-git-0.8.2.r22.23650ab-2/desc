@@ -1,0 +1,75 @@
+%FILENAME%
+qomui-git-0.8.2.r22.23650ab-2-x86_64.pkg.tar.zst
+
+%NAME%
+qomui-git
+
+%BASE%
+qomui-git
+
+%VERSION%
+0.8.2.r22.23650ab-2
+
+%DESC%
+Qt OpenVPN Management UI
+
+%CSIZE%
+3209581
+
+%ISIZE%
+3953560
+
+%MD5SUM%
+e477f88b3198605f83cf07da9dbb9c58
+
+%SHA256SUM%
+8b9f7ccf780dbaf76763257c83b8c056aa19191a6d163c80a07ea2ed5000ee24
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmA9nXMACgkQip4UoHAQ9+PhPQf/VeGfUnQ1+H7kt5kigJoBYFvTwSS8dQ6uZ/JHwvccs/ciDeKhtNsxCl4mCIdVDTgvZoFyRNLxNcTUWv8/uhC71/BP/2kwu2bhg3fUz68ndExVFuombxHYFKPhxAMCmgE2gCTVL+fnHFbHr0DVdZXsTC4FzBwFUxanvvmUiNMQLRy5edyHC4Cd1r6rMBzVGHtwHmksAwy+qS4r8XL/WtM6Ucscr9U+I90YyXlpamIheOl4AeiWuKGH+XhUVTYgQwbNAeKtiugex+c1cIL4aIr524ZOZrFWapmzHyp8oFeNZUUBH1+2GkSfPwbkH7jYpdYV47Mo+aP3FXQTQ4yKqSxVLA==
+
+%URL%
+https://github.com/corrad1nho/qomui
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1614650733
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+qomui
+
+%PROVIDES%
+qomui
+
+%DEPENDS%
+python-pyqt5
+python-dbus
+openvpn
+stunnel
+bind-tools
+python-psutil
+python-requests
+python-lxml
+python-beautifulsoup4
+python-pexpect
+wireguard-tools
+python-cryptography
+
+%OPTDEPENDS%
+geoip: to identify server locations
+dnsmasq: required for bypassing OpenVPN
+libcgroup: required for bypassing OpenVPN
+iptables: required for bypassing OpenVPN
+
+%MAKEDEPENDS%
+git
+python-setuptools
+

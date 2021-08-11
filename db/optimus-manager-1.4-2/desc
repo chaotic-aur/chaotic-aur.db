@@ -1,0 +1,67 @@
+%FILENAME%
+optimus-manager-1.4-2-any.pkg.tar.zst
+
+%NAME%
+optimus-manager
+
+%BASE%
+optimus-manager
+
+%VERSION%
+1.4-2
+
+%DESC%
+Management utility to handle GPU switching for Optimus laptops
+
+%CSIZE%
+77405
+
+%ISIZE%
+284302
+
+%MD5SUM%
+f0793bd04f59ad7f1249c7cd3da0b81f
+
+%SHA256SUM%
+64400a697cde06f2597ae89b8e74e32edf34184e04dd7d8d91cd32c297bf058e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmBDfD8ACgkQip4UoHAQ9+NarggApIi1ZUf7tHl9cxT9sNjnv2SyfYMN566jicCLugmC8zsYxnnOAS6nvkb0s0D1mYc3BU3PlOThXY8iu2CI9qI7kMUscgh+hq9Xm2GK7BIdx4ZevO4y3vE6TJJyEv1AEpzCD5vLCcFm39uBGMkhuM+GhBwP6UegzJBovczbyKzfyu6KV+fzk4oAxObVuZf3Wc/+QffQUNyf3Raf5WvRY0kWyi/2XtRdpCS854lfUhNqSb43s+fwPMOtBlKIjKmxBl55rcU6DtVi6VAJyYiwC641ght+dvPVPtf0zek1zj/Wtf4AqBJlipyMW5jj2Pq+sWea81GgTcAm5RiThuqi6jKsfA==
+
+%URL%
+https://github.com/Askannz/optimus-manager
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1615035446
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+optimus-manager-git
+
+%PROVIDES%
+optimus-manager=1.4
+
+%DEPENDS%
+python3
+python-setuptools
+python-dbus
+mesa-demos
+xorg-xrandr
+
+%OPTDEPENDS%
+bbswitch: alternative power switching method
+acpi_call: alternative power switching method
+xf86-video-intel: provides the Xorg intel driver
+
+%MAKEDEPENDS%
+python-setuptools
+git
+

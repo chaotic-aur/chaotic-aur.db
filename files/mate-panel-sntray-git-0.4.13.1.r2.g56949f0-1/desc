@@ -1,0 +1,69 @@
+%FILENAME%
+mate-panel-sntray-git-0.4.13.1.r2.g56949f0-1-x86_64.pkg.tar.zst
+
+%NAME%
+mate-panel-sntray-git
+
+%BASE%
+vala-panel-sntray-git
+
+%VERSION%
+0.4.13.1.r2.g56949f0-1
+
+%DESC%
+Plugin for mate-panel to show StatusNotifierItems (AppIndicators) via FlowBox
+
+%CSIZE%
+92765
+
+%ISIZE%
+236061
+
+%MD5SUM%
+9d87a0306813672ba7034e62ef6c2686
+
+%SHA256SUM%
+697433870a98efb68f18c8390ec61d2db057ba71907e3957a4afbce608bb0543
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmAHGWUACgkQip4UoHAQ9+PmVgf/VIX8foS54DAOSEUKIV3CddyGATlQkIzW1HiMgrqg2NVxJXUzouhpCfPyISExET7DzJweMxEiUloujfzjlUY+ly9qCUb5+r8JlxtbDo55UocHSBbL0Ap1G7RxsIK1yqOwEExKHHyNHtTOJIi0BA7b5KEMANEV4vF73QOWQ2OET3h63L0Wv9dNHWqWsAQOFyPW2gQmu2+9uVkDPHyz7Meb5YG8h/IrE51G/kKWJ8oPhqOWYnsENG4vdLOdedGhSe6ApTljgAc7YFdxCP7RASaIRa2QMhzZ5uA3GNliymEpbQm9snAdQNC5+zgD20i41Bqb3TtRSW3gkTqy/9BA8sMe8A==
+
+%URL%
+https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1611077928
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%DEPENDS%
+gtk3
+mate-panel
+sntray-plugin-common-git
+
+%OPTDEPENDS%
+vala-panel-extras-volume: ALSA volume applet
+vala-panel-extras-battery: UPower battery applet
+vala-panel-extras-weather: Weather applet
+vala-panel-extras-xkb: XKB applet
+sni-qt: Qt applications for StatusNotifier
+libappindicator-gtk2: Gtk2 applications for StatusNotifier
+libappindicator-gtk3: Gtk3 applications for StatusNotifier
+
+%MAKEDEPENDS%
+cmake
+vala
+gtk3
+libpeas
+mate-panel
+xfce4-panel>=4.11.2
+vala-panel>=0.3.75
+budgie-desktop
+

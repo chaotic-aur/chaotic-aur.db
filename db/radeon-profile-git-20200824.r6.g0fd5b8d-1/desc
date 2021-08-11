@@ -1,0 +1,70 @@
+%FILENAME%
+radeon-profile-git-20200824.r6.g0fd5b8d-1-x86_64.pkg.tar.zst
+
+%NAME%
+radeon-profile-git
+
+%BASE%
+radeon-profile-git
+
+%VERSION%
+20200824.r6.g0fd5b8d-1
+
+%DESC%
+App for display info about radeon card
+
+%CSIZE%
+589093
+
+%ISIZE%
+1377875
+
+%MD5SUM%
+253fc86b418da5353fabfc903aa38c93
+
+%SHA256SUM%
+a8f3f653f9217cc72872824331f2949170b26d5ebbc9035509f468a4edd57683
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmDAv2oACgkQOkDLXn5cvDD3bwf+KsHnQi3GYYOrj4Vm+3V/bUSVx7m6TwsSuMQ8CmBW+apzCAQQ1miZMYyaK6AvX+bhiKCrACIJLXqF/T6WlzqR2yTfUuQ0U0i1hXhc+xhL/VcNMI2i9RBKwpAlzgIsAZgXl6NK2AfzAzSbKE15+xi4Cjiz6CMHs5YqTaxsylYUhHc/VqZ/jj/lnlIQ/OvDCPTHu5GZLES3pRbiCzQbedAyilNPwmD73AExDAMvZcd27voDWsNb/BgUMlbwq6PV77HpsouUWuubez4zK+5dyawJiXNQ6mOs9TbGanrJSOY8yZbbMcVJKUj0AQ3dKDn5TFwhansUmX/F3hVtd2aqfTm2aA==
+
+%URL%
+http://github.com/marazmista/radeon-profile
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1623244344
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%REPLACES%
+radeon-profile
+
+%PROVIDES%
+radeon-profile
+
+%DEPENDS%
+qt5-base
+qt5-charts
+libxkbcommon-x11
+libxrandr
+
+%OPTDEPENDS%
+radeon-profile-daemon: system daemon for reading card info
+sudo: start with root privilages without password
+mesa-demos: for glxinfo
+xorg-xdriinfo: display driver name
+xorg-xrandr: show card connected outputs
+xf86-video-ati: radeon open source driver
+xf86-video-amdgpu: amdgpu open source driver
+
+%MAKEDEPENDS%
+qt5-tools
+git
+

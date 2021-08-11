@@ -1,0 +1,70 @@
+%FILENAME%
+petsc-3.15.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+petsc
+
+%BASE%
+petsc
+
+%VERSION%
+3.15.0-1
+
+%DESC%
+Portable, extensible toolkit for scientific computation
+
+%CSIZE%
+22832314
+
+%ISIZE%
+71214211
+
+%MD5SUM%
+1144b7b4f6210365f9316158e35e9775
+
+%SHA256SUM%
+c920299eef9ccfee6b2309431256c6d621d4664d6df448dde0309d5bffae2cc2
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmCHz9EACgkQip4UoHAQ9+OFQQf/Sy39QNWLMk5D0OZg5Mw11kFPb96ik2MxLRAarevG5/KGtghXX4fyn8ofWvHHyfBNJ0MtEpPV2ECz1YMwsQ0XC8Ag609xVgJqmiOyegeYaSWOi0sqj44bCEm4zzNYnb2HBbLqbkIRVpCKkqy+htVAiri9DEw1Re9ACZgXA8d940mmZXX9BRySsdZA8LvHdo01s7K6g1x0KeMtHkrKqecqzRWvqXkhC6tO5CdA0fddWXtliimpcXsXzKosxdsBOnJqrx2h7DtWGxb2GAEY81+32CvYnlkquEQD6CHNujTcBqHGUwoKioMoh43HIGx0lSfyDeNn9Be5Ce8yHyVBvGXluQ==
+
+%URL%
+https://www.mcs.anl.gov/petsc
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1619513065
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%DEPENDS%
+python
+openmpi
+boost
+lapack
+
+%OPTDEPENDS%
+trilinos: support for trilinos
+ptscotch: support for ptscotch sequential and parallel graph partitioning library
+parmetis: support for parmetis parallel graph partitioning library
+metis: support for metis graph partitioning library
+pastix: support for the pastix solver
+superlu: support for the superlu sparse solver
+hypre: support for the hypre sparse system solver
+hdf5-openmpi: support for the parallel version of HDF5
+mumps: support for the mumps sparse solver
+fftw: support for the FFTW fast Fourier transform
+triangle: support for the two-dimensional quality mesh generator and Delaunay triangulator
+suitesparse: support for the suitesparse sparse matrix libraries
+
+%MAKEDEPENDS%
+gcc
+gcc-fortran
+cmake
+

@@ -1,0 +1,85 @@
+%FILENAME%
+git-git-2.33.0.rc0.r0.g66262451ec-1-x86_64.pkg.tar.zst
+
+%NAME%
+git-git
+
+%BASE%
+git-git
+
+%VERSION%
+2.33.0.rc0.r0.g66262451ec-1
+
+%DESC%
+A fast distributed version control system
+
+%CSIZE%
+13535705
+
+%ISIZE%
+33870811
+
+%MD5SUM%
+44636c0c6192861b95cdeefca0d9b33c
+
+%SHA256SUM%
+0cb1017816bbf4bf09fd5ed80de7aa6e6db1fa89dc780e0f401ab6b7256dd48d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmEI5+MACgkQBwa5DTfZuIEbRg/+MAvRsh0/fRXmoHL5CET1STPA5T75blFiPH0D13XTvXg3YZNHZhKW3K9pOKBh2ovFtZzLN1ECbRx3P352ZvFcftfMVECTHXZdR3a3bM7Tu4I8pGISvCZkZ95HvYt9kBnOYHh6AzA9mRdzECA7ouE9j1Lv0Hy00F7hkr2NY1gv/1UirquLU3QM/bgFqfQXDfz2kCu+J274gxkHK059weGF/VG12AzJ29bRNU31THSR+uzx8AGKVrY3c3nlZ2CK77o6cTuXNPrPafCWZbkrGXYLU00kjATFDKpHQqin0H2DhoLiZBapk5wKKWIyysHBG11jgmgbw+4DsnQxoOqf51oPBOY1tXFZZIhUY60mxt4GCvJCYY48U/LQWEOJpSi+B2RGQ2JI+NQlVuh7it4LngJAlXlBNViKBAgEdYbiZNmf+dIoK+3siKaqR8Tn55gRJBwGWoShPQ8SfeA7Kc0uqCX/5nKwFR4UjzELQeF8VdfTwtc5qsNenuqC6EN7pVD0EI4LsuwAM7Fay+aM0lzOX+D7XoudO1Q/unXSlbPYN/ElY4gyDsr8FlhKg1ppE1pWRr4eiQUNu/uNHgtJ2bd8WwaFlNsWM1EzRE7JVzj6pRcFIr3eMLDCC+MUj+ELnpkWyb4bxrRUS466pAyFzhx5ls54vqsY5G1sZJGqR6iI/gRplEM=
+
+%URL%
+http://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1627971543
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+git
+
+%PROVIDES%
+git
+
+%DEPENDS%
+curl
+expat
+perl-error
+perl
+openssl
+perl-mailtools
+pcre2
+grep
+shadow
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn
+perl-mime-tools: git send-email
+perl-net-smtp-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: various helper scripts
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+libgnome-keyring
+git
+

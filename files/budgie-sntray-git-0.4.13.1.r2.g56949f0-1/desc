@@ -1,0 +1,70 @@
+%FILENAME%
+budgie-sntray-git-0.4.13.1.r2.g56949f0-1-x86_64.pkg.tar.zst
+
+%NAME%
+budgie-sntray-git
+
+%BASE%
+vala-panel-sntray-git
+
+%VERSION%
+0.4.13.1.r2.g56949f0-1
+
+%DESC%
+Plugin for budgie to show StatusNotifierItems (AppIndicators) via FlowBox
+
+%CSIZE%
+5063
+
+%ISIZE%
+0
+
+%MD5SUM%
+e8b3f36542d662472334d7a7cccaaed6
+
+%SHA256SUM%
+d86f709b735b935c8af66fa1bde5a50b04d5c1f2cc9c085039b51de14e7b9e0b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmAHGWUACgkQip4UoHAQ9+OC2Af/R8KJAaqhevPhU7VFF51u1ws0uOUrQL4eCl284ArUNF9z9b5+ijaZCukpBroBt9lz9RhJetzq0ShJxs+TRz8B5lB0Q5kc8ALOLJdBwds9wej9UB+B2b924tbqBHRtm9iUGNnJgMJ4JiikwHwQKI7PmxjR6TKLHN8/GHlS6bVbDBBTlIrSq0xPcloNunXBSmOH7cNsGfy7Ce57IKzPkYm9jfSQGes7y+Y/hItjztN/wp1hcGhGxlmlsMNh8FBNZJy3v/4Qj4ABpxolEWPKmao03YUNVHhXG9Q4kEPUTeO7sqnzMA7SVfQjDDL2aHdk1IaBFJArNq3qRxLhLwF4qoatsA==
+
+%URL%
+https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1611077928
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%DEPENDS%
+budgie-desktop
+gtk3
+libpeas
+sntray-plugin-common-git
+
+%OPTDEPENDS%
+vala-panel-extras-volume: ALSA volume applet
+vala-panel-extras-battery: UPower battery applet
+vala-panel-extras-weather: Weather applet
+vala-panel-extras-xkb: XKB applet
+sni-qt: Qt applications for StatusNotifier
+libappindicator-gtk2: Gtk2 applications for StatusNotifier
+libappindicator-gtk3: Gtk3 applications for StatusNotifier
+
+%MAKEDEPENDS%
+cmake
+vala
+gtk3
+libpeas
+mate-panel
+xfce4-panel>=4.11.2
+vala-panel>=0.3.75
+budgie-desktop
+

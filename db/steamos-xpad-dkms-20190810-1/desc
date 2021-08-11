@@ -1,0 +1,55 @@
+%FILENAME%
+steamos-xpad-dkms-20190810-1-any.pkg.tar.zst
+
+%NAME%
+steamos-xpad-dkms
+
+%BASE%
+steamos-xpad-dkms
+
+%VERSION%
+20190810-1
+
+%DESC%
+xpad kernel module included with Valve's SteamOS
+
+%CSIZE%
+19884
+
+%ISIZE%
+64096
+
+%MD5SUM%
+5e82e0eb9eaa1eb550132644e53d3edf
+
+%SHA256SUM%
+82acf5a1a9581f70ea9e63def084c3e59057276a797be3c58d443e2c90e6efe9
+
+%PGPSIG%
+iQEzBAABCAAdFiEE75Jepg8z0MuFxErRMFZROIe3iusFAl/mhd4ACgkQMFZROIe3iuvZpQf+IF6E6ME/sEGwiCFKrm03Cb7fIe4CbdGoBoK+Cfrzrq914bYWCQD2G3XV6dwZtJkEu0CPhJnH1UyNye4DTJTdyZplsblgcmfaugEsFgawZNM7MkoSb+8g6VckRBamYH/oOcFtopkdBgJX7bxvTUWbnG18JfZG6MD8/mtHZrsBNYHp+bpO+Knmq6uBUNOCZ4vJIc/noQerOGaCvWsgrGUE7JRRjxOuA/77+jXHRnd7P6RcNpEjHYin0VaLSTSNIjttQW7xCzGwProcayUTkkII2Ut4Sua9VEvUSy9NP6B1Yxy1fbPsa7r3eSk83C4v7qni+kS1sqm8f0hJJRpQWtaz9w==
+
+%URL%
+https://github.com/ValveSoftware/steamos_kernel
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1608943060
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+steamos-xpad
+
+%DEPENDS%
+dkms
+
+%OPTDEPENDS%
+linux-headers: Build the module against Arch kernel
+linux-lts-headers: Build the module against LTS Arch kernel
+

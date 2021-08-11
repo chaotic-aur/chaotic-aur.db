@@ -1,0 +1,73 @@
+%FILENAME%
+neovim-nightly-git-0.5.0.r1353.g0a653f7ab-1-x86_64.pkg.tar.zst
+
+%NAME%
+neovim-nightly-git
+
+%BASE%
+neovim-nightly-git
+
+%VERSION%
+0.5.0.r1353.g0a653f7ab-1
+
+%DESC%
+Fork of Vim aiming to improve user experience, plugins, and GUIs (pre-release build)
+
+%CSIZE%
+6839035
+
+%ISIZE%
+22613862
+
+%MD5SUM%
+1148ec2793603f559696b56ec8988279
+
+%SHA256SUM%
+f989b09739d59a35df529f6b3ee554b67c9e04d546a19c8a4e27ced68f1718b4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmCrYGcACgkQOkDLXn5cvDAHKAf/Zf44Z+3D1UwR9zgOgkoHokho1H8MLN+8gIhgQebwo6iD+StFzAIzr2RB1PNALWfPaycGSSnkiTNZDE5+7y3QDPlgwiS4Vy0ldytUvrSHe+ZJtevcBGUcJsNaHCOdmScGu43cCQZQSVPNEjlFFyj3GikeoklZxcVDBi0CXBnH/YGIp616lvpJLvBM6CzEW8UYWR1zJL0Jm/ralPMfJLe4W5fmUaSXrfQo66p3jUrNLqYWjmWsnSmvY5BnYU3o8Z+dDo7k7LE2F68ynWGW2z+l2Gqalylw1PPdSnvXAJbuZ8yt044i5GZOXcaj5QS+jldC6DDpi5BBV/4nT0XQ22T0JA==
+
+%URL%
+https://neovim.io
+
+%LICENSE%
+custom:neovim
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1621843949
+
+%PACKAGER%
+Pedro Henrique Lara Campos <root@pedrohlc.com>
+
+%CONFLICTS%
+neovim
+
+%PROVIDES%
+neovim=0.5.0
+vim-plugin-runtime
+
+%DEPENDS%
+libtermkey
+msgpack-c
+libvterm
+libluv
+libtree-sitter.so=0-64
+
+%OPTDEPENDS%
+python-neovim: for Python 3 plugin support (see :help python)
+xclip: for clipboard support on X11 (or xsel) (see :help clipboard)
+xsel: for clipboard support on X11 (or xclip) (see :help clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
+%MAKEDEPENDS%
+git
+cmake
+ninja
+lua51-mpack
+lua51-lpeg
+gperf
+

@@ -1,0 +1,83 @@
+%FILENAME%
+inspircd-3.10.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+inspircd
+
+%BASE%
+inspircd
+
+%VERSION%
+3.10.0-1
+
+%DESC%
+InspIRCd is a modular Internet Relay Chat (IRC) server written in C++ for Linux, BSD, Windows and macOS systems.
+
+%CSIZE%
+2608014
+
+%ISIZE%
+11294610
+
+%MD5SUM%
+877e00c5469ac30be33bcb3b085debe1
+
+%SHA256SUM%
+f67c5bdee82cd4937339f81c2c4b7d68efb544d82331eb96f6893958e127f351
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmECboIACgkQBwa5DTfZuIGNKA/+Il0Lx0VabKG6qMTxS4+/y+XHh8KdLDIIHr/uKtBNhR14ofvEt2P6F0vwD3+kYM6puG7w8zXjiptTWnzSp0lohBK8Dcu/LHn6UAexmmaQge101Iq6RAYQSTtdBDYv7vJ5cbC4DK0fvgFyZGKE2u0GDDOa85zzgGcK+BAVfZJjhCMdv/wrP6UFTsRezc7gK+VClQPM38Trbidg9LSUzwsEtNNoM3036bhH/QthnXvLm9JAzKX7waFNlINTbJXPn1rA5UrZ4xXTPZU1KW4hGo2ZU0yvKwXUhgX+LltkJikg9vgm7VQNwsekxf0WBqZe1cL57MU0V8qgkAbFnJuq6Y13VC0Z45K6C5nL9MyLXNLM31Ip4/i84jQ0eKp/TAZD90flLuDE+9tM5iShKgtSN8YOjKzMMWaEMBMwEJn5fP+B5+8RPkjb3WTajjP5pDQ8mFdVEwlYdHLQN/3gieRQYbAG0NAYA6ZK7hOrxCWUQ5NMep7F9Lkp4eemuBUxTrGwRm0hf40EL5OElVj8Yk3tq+GfSWA7YB5dXUp94tu0BgRgnAL/A/1bMvGlnlarCmjeFuZXtMLm/PvzV2uO+vfGRiLooV52DbUFskKcmgcxoTYs4Jm3WMomScaj/lMnpDhfGbDcuqgo6z20aUb9a4BdXkNWpL7iVQJWXmnORM2oqVnYQQs=
+
+%URL%
+https://www.inspircd.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1627548522
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+inspircd
+
+%PROVIDES%
+inspircd
+
+%DEPENDS%
+perl
+
+%OPTDEPENDS%
+gnutls: m_ssl_gnutls
+libgcrypt: m_ssl_gnutls
+openssl: m_ssl_openssl
+libmariadbclient: m_mysql
+postgresql-client: m_pgsql
+libmaxminddb: m_geo_maxmind
+pcre: m_regex_pcre
+sqlite3: m_sqlite3
+libldap: m_ldap
+geoip: m_geoip
+re2: m_regex_re2
+tre: m_regex_tre
+mbedtls: m_ssl_mbedtls
+
+%MAKEDEPENDS%
+libmariadbclient
+sqlite3
+libldap
+geoip
+libmaxminddb
+gnutls
+openssl
+libgcrypt
+postgresql-client
+re2
+tre
+mbedtls
+

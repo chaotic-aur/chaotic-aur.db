@@ -1,0 +1,83 @@
+%FILENAME%
+steamtinkerlaunch-6.13-1-any.pkg.tar.zst
+
+%NAME%
+steamtinkerlaunch
+
+%BASE%
+steamtinkerlaunch
+
+%VERSION%
+6.13-1
+
+%DESC%
+Wrapper script for Steam custom launch options
+
+%CSIZE%
+194366
+
+%ISIZE%
+741038
+
+%MD5SUM%
+792e2c30d02991504b76c2b2dbf1ec44
+
+%SHA256SUM%
+407c3b8ea2038eafe1cd775979ffe1c05fe2bd86cd677fcb40d4eb8e58e8db98
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmEAWW8ACgkQOkDLXn5cvDAYbAgAnzv1Xb18tjFuSyLeZApSayl+6Lv7CeNAgLYgU0jQCLiPnzhoHHFbmYhUaW2309EYSmDKaXo3utqVCTMrC7EyCnnc11Xqr/NYBMVVj+rYlnB/4yWsumx8W0i7w8rQFLLtGaQLew9YWeWFGaVoxrHcRfTsBeOengDX4WtAU6sxVGLvSlJW4yd6MNoBRtUo7Xy1U4H6gd02mISM1AzmpuhT5zngoi6C9nDVLVVk5BA7+ChefZWMDxNpGeig6rLcyJI5fLDLKSlDHeKYhKKXqAsYf7nGzrJ/amYyMZekXECi+TQ/l6itZZflryFqoR0JCtnWMft+MSiYOIusSmDYpqfwBA==
+
+%URL%
+https://github.com/frostworx/steamtinkerlaunch
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1627412834
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+bash
+git
+procps-ng
+unzip
+wget
+which
+xdotool
+xorg-xprop
+xorg-xrandr
+xorg-xwininfo
+yad
+
+%OPTDEPENDS%
+strace: write a strace log of the launched game
+gamemode: for using GameMode per game
+mangohud: for using MangoHUD per game
+vkbasalt: for using vkBasalt per game
+winetricks: winetricks support
+vr-video-player: for playing regular games side-by-side in VR
+nyrna: for using Nyrna per game
+replay-sorcery: for using Replay-Sorcery per game
+net-tools: for optional network monitoring
+boxtron: for optional Boxtron support
+scummvm: for optional ScummVM support via Roberta
+wine: for optional Vortex Mod Manager support
+gameconqueror: for optional cheating
+gamescope: for optional GameScope support
+libnotify: for optional Notifier
+cabextract: optional for extracting the wmp10 setup archive
+innoextract: optional for extracting the Cheat Engine setup archive
+usbutils: optional for a quick VR HMD presence check
+jq: optional for extracting game names from the steam api and for sorting available Lutris Wine Versions
+rsync: optional for backing up steamuser files from proton games
+openssl: optional for generating a random hex string for Non-Steam games
+imagemagick: optional to scale a custom installed game header picture and for converting game icons
+appinfo-vdf: optional for converting the binary appinfo.vdf into a parsable format
+
