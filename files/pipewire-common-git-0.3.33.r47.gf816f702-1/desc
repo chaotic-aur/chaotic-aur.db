@@ -1,0 +1,105 @@
+%FILENAME%
+pipewire-common-git-0.3.33.r47.gf816f702-1-x86_64.pkg.tar.zst
+
+%NAME%
+pipewire-common-git
+
+%BASE%
+pipewire-common-git
+
+%VERSION%
+0.3.33.r47.gf816f702-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+1909007
+
+%ISIZE%
+7604950
+
+%MD5SUM%
+0414a40eef2a4d23356450c85122a7eb
+
+%SHA256SUM%
+c069de553f99c3ad3cba196a78aaa641c5842d6b0f3db47c7697ec2d3a241acc
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmEU1foACgkQOkDLXn5cvDAq0QgAl/dfpQZETh/AO3tHUYuyPetXTHyJeUPX5Onuk8JmUt4Wf85PCMgPww9rK+k098oiW+q0a5fwzaPtQ1cZKOIieDHctxav9bevlHuResh0O/SEhOyYC33yT64xKFI1gQ3Eeyso8R/vownUHIGb+7FQp3gApMAdlVgBX9/TbKbtFkZ8nPsTDF9/sG4F1KQw9lUGy88S3EWbrBz3kNChSE94Q44eBMG+rm7dR6O1Gq2V3Hm25p/w6b/Oca9PC5ouElhJ3rJEG5M6zb5lRjMUBGsyN899ZjrvPW+5C7gE3rDnljTWvnknbKqoOfwytGtnz8M33CY5mNk9yML6mvgmMmr/RQ==
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1628755386
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+pipewire
+pipewire-media-session
+alsa-card-profiles
+
+%PROVIDES%
+pipewire
+pipewire-media-session
+alsa-card-profiles
+libpipewire-0.3.so=0-64
+
+%DEPENDS%
+rtkit
+libdbus-1.so=3-64
+libncursesw.so=6-64
+libsndfile.so=1-64
+libudev.so=1-64
+libasound.so=2-64
+libsystemd.so=0-64
+libwebrtc_audio_processing.so=1-64
+libusb-1.0.so=0-64
+libbluetooth.so=3-64
+libsbc.so=1-64
+libldacBT_enc.so=2-64
+libldacBT_abr.so=2-64
+libfreeaptx.so=0-64
+libfdk-aac.so=2-64
+
+%OPTDEPENDS%
+pipewire-common-docs-git: Documentation
+pipewire-common-alsa-git: ALSA configuration
+pipewire-common-jack-git: JACK support
+pipewire-common-pulse-git: PulseAudio replacement
+pipewire-common-zeroconf-git: Zeroconf support
+gst-plugin-pipewire-common-git: GStreamer support
+ofono: ofono Bluetooth HFP support
+hsphfpd: hsphfpd Bluetooth HSP/HFP support
+
+%MAKEDEPENDS%
+git
+meson
+doxygen
+xmltoman
+ncurses
+libsndfile
+alsa-lib
+dbus
+rtkit
+libpulse
+webrtc-audio-processing
+libusb
+bluez-libs
+sbc
+libldac
+libfreeaptx
+libfdk-aac
+avahi
+gst-plugins-base-libs
+
