@@ -1,0 +1,91 @@
+%FILENAME%
+obs-studio-browser-27.0.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-browser
+
+%BASE%
+obs-studio-browser
+
+%VERSION%
+27.0.1-5
+
+%DESC%
+Free and open source software for video recording and live streaming. Built with browser, vst plugins.
+
+%CSIZE%
+89325045
+
+%ISIZE%
+231764388
+
+%MD5SUM%
+a0a460db6656bdebfe5e684747e3a85c
+
+%SHA256SUM%
+ba4ed430a0a17109c1897a2f41425aa719eed2fb69d16457fde8f0b62e3b7b51
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmEdIyEACgkQBwa5DTfZuIElpw//RT0yEQ+dlOnaCbRT+lcKR7Z04BdZg7jP6aghyGiFHEwgG0c2axb7XHic0jh0nctirQPSfYy5oDbWXr/zpDORWUhZJA1AFzlc4CpN6XGQaza/92+JEoq6BgpPdkB5aNlhWaKW2Phx5ocaPT9vAVQozB3D6lQqzT5OjHCLKX7qisb3xhUGcR6SbcA+06OIMoyt2lacQBH0o0KjXfBbToYCk66qRmA9rqd+HqIBo4OtBvR0nkGqBzQJipBBfTipPhGAzd64FFR2W9IsICEry1r7+WkRhXyw/vhlSqYDuYH7rUEwqw/40J5Uxxwzph5USEhSqWmx3S9Trvo9tWYlE/wBSMqo6puKG18VDy9LBhKsTaXmM0TaBolFs/5xt96AjqVksmH/WAcwbAsFe29VBXLUzpBnPMtEsd5vliVNnUI7w8NPGF+73X/7X4xM1IU1eY319BSbQTzSnR+R407sTTZ6ORAVUpQ+THtb5Ra8GQ49+QhZJfC3J+8rAeum7bjGlmHcca5ntFtzNLQfgIRFa3GiuKiA0URKAcuxDJNxKajeNIYn/IO/J6xRyEIMXtNc9ltqbr8PUPbWpozBLh645u26NOaSRTso4gGPlJlPgB57MSkOxcGQF7bZ9/6c3xHZ2aK+ZMnqWk+ybifLhkMBY9rjaWTf2W3JlAHQQqNdv3AjbyI=
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1629298435
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-linuxbrowser
+
+%PROVIDES%
+obs-studio=27.0.1
+
+%DEPENDS%
+ffmpeg
+jack
+jansson
+libxinerama
+libxkbcommon-x11
+qt5-svg
+qt5-x11extras
+curl
+gtk-update-icon-cache
+mbedtls
+pipewire
+libxcomposite
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: Hardware encoding
+libva-mesa-driver: Hardware encoding
+vlc-luajit: VLC Media Source
+luajit: Lua scripting
+xdg-desktop-portal: Pipewire capture
+python: Python scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+x264
+vlc-luajit
+swig
+luajit
+python
+cef-minimal>=87.0.0
+wayland
+qt5-wayland
+sndio
+

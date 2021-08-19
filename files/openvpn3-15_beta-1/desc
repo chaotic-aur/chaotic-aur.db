@@ -1,0 +1,76 @@
+%FILENAME%
+openvpn3-15_beta-1-any.pkg.tar.zst
+
+%NAME%
+openvpn3
+
+%BASE%
+openvpn3
+
+%VERSION%
+15_beta-1
+
+%DESC%
+OpenVPN 3 Linux client
+
+%CSIZE%
+2332918
+
+%ISIZE%
+6688823
+
+%MD5SUM%
+aa16ce82666b9b5a9d97ce122fa6ba97
+
+%SHA256SUM%
+1e9fd7473723b04d2feeb9793a76f8eff0d5c1f2dc7c4335ac97040d99a18e44
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmEac4YACgkQOkDLXn5cvDC+NAf7BLoSU3gQinqzBKpjiNxXGdNXU0eB2/TYGI16TcBOQoLJnLiWUX1HKtM9CXy5AlQEQ7+7Gtdo2BQ7NXWHeV2Jo+Qgl25MXYO3FBf35V5Ph223ieoE2xgWZ4O5iKPH/0p35Elv+PRIiJP21+2d+vuQ8T2pibdBbl2EHdFGUoOSy2xnGadhYWU3EW2UL/3OT745SGfDvETKfdLlujPxF3wcZdRx/7IksdRB1e+8P6VQTo4cBxaUo/5zbrS5zIVPvVZEKT31MRVLxtvf+q5NQn7pElWH/42GBG/ZxUpcDu3+bnv7gs4ajSvdQxaLB3iCAoawoStKozLNHEh4iVJUND0WKQ==
+
+%URL%
+https://github.com/OpenVPN/openvpn3-linux
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1629123222
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+glib2>=2.50
+jsoncpp>=0.10.5
+libcap-ng>=0.7.5
+lz4>=1.7.3
+util-linux-libs>=2.23.2
+protobuf
+python-dbus
+
+%OPTDEPENDS%
+python>=3.5
+python-docutils
+openssl: OpenSSL version
+mbedtls: mbed TLS version
+python-gobject
+polkit>=0.105: for systemd-resolved integration
+tinyxml2>=2.1.0: for AWS-VPC integration
+tinyxml2: for AWS-VPC integration
+
+%MAKEDEPENDS%
+pkgconf
+autoconf
+autoconf-archive
+automake
+make
+gcc
+git
+libnl
+python-jinja
+python-dbus
+
