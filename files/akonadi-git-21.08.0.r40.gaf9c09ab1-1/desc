@@ -1,0 +1,70 @@
+%FILENAME%
+akonadi-git-21.08.0.r40.gaf9c09ab1-1-x86_64.pkg.tar.zst
+
+%NAME%
+akonadi-git
+
+%BASE%
+akonadi-git
+
+%VERSION%
+21.08.0.r40.gaf9c09ab1-1
+
+%DESC%
+PIM layer, which provides an asynchronous API to access all kind of PIM data
+
+%CSIZE%
+1233307
+
+%ISIZE%
+3492536
+
+%MD5SUM%
+3ccdd346ed9df113c904676ca1a65b72
+
+%SHA256SUM%
+2df9ff0d535709e640f87923fd4389f70add1c36451783cab3fd836973bb8fa4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmEo8FQACgkQBwa5DTfZuIGUHw/+MKlIYbsRuL70zB79vCQIhGSAR0opU4SVtP8wmVCK0Wr78gvAnolvNAdUs43q8UzQMf3adPy2g1fn+bvLXcg7OGiu7em36RaxTjCOP8aquLMZvb9MvKoBKyQTcB/gQGxWHuu01mvCTOX+IZXwUhZ7pYtX6DT/6PRSaQG6DAYYaP8yoiIAvctKBZimusfmkmneCBb8pDn9K0PvZ3EFkDSNcDGeggSFXpitFjORAGuQisGqSFzMmu/iEAZbIXhzigd+Gkx8vDR41ZM2oirZAKauNyZQIWpW72c8ocWrKfc9uaeX9kn2ADoWHjYbBYbzaKgBowsvj+U7jYTMDqMw5UtaaJViS9r2xOEU2aj0o8YGiewt9VyN7pRQXz1qluGDYCc0qSNEiD4BgYnzE3dA2RGwV1XJr9uhqpks+o+8+9UCfna/2PwT8+MwFCnnDiqzWQxequGKP7miCCvXJL7CyBn+kPXU4RBFVh3UKW4pMTQ/MDh3gtD5tCMhSiRcvpkpksyyf3q+ErC2w538HFA0tCuWj/g5Sx2xgBY676wdx5eeI03y1/sZKYswJoZOHiasvIX7xB9rorlqVsfGIMCUyuWS53f4LxM1ZCT7G0S5uBPH9C1t46yyRtTrS1J5jnJyFh+RfmCfvhfYtoyl8ojA+lBHa6nDQk11Y/oovUAtVZpXyx4=
+
+%URL%
+https://kontact.kde.org
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1630060946
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+akonadi
+
+%PROVIDES%
+akonadi=21.08.0.r40.gaf9c09ab1
+
+%DEPENDS%
+libakonadi-git
+
+%OPTDEPENDS%
+mariadb: MariaDB backend
+postgresql: PostgreSQL backend
+postgresql-old-upgrade: upgrade from previous major PostgreSQL version using pg_upgrade
+sqlite: SQLite backend
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+mariadb
+postgresql
+qt5-tools
+boost
+kitemmodels
+kaccounts-integration
+
