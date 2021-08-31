@@ -1,0 +1,73 @@
+%FILENAME%
+leagueoflegends-git-0.11.16.r0.g75cdd18-1-any.pkg.tar.zst
+
+%NAME%
+leagueoflegends-git
+
+%BASE%
+leagueoflegends-git
+
+%VERSION%
+0.11.16.r0.g75cdd18-1
+
+%DESC%
+League of Legends helper script
+
+%CSIZE%
+107399
+
+%ISIZE%
+129321
+
+%MD5SUM%
+3d4169a99e152bc103b86dfef3f052f2
+
+%SHA256SUM%
+3bd6ca9e8c81eb9e524852e78f4c5b34bcecc40cb3ffe7122341980a02e42520
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmEtSdsACgkQBwa5DTfZuIGeOA/9Gj/9iihO56oi8MGTNcZ0C3/UgBSoK9uNnNX2JnJg31erKLNVdmRCIYu9q7eyMgpoe8I8qAAgkzqsIfwrjaHdwbc397YLgQLkS+FZZ5XnUxv6DO0PrCgrxxFvf0saSx5TuldAgPPoBTDXINCrTniRpqXMWCZkr38MVyYV8JD88DixYqI9VqOe0kRZQ8lEtiM29DzieIv7hfUy08qBTPKz33oPPJWoCH8AGaXxb9S5lQywH/yttDRQqGO9c150AN1xap2yppZjpC1F0Szh3zjAfIddXfMiRdSi26yZJ9Scjmt6Y3xreGgg5I55PNpd2tClNFxjdyhRjOfTv0Q7zn/tRBUs6xi4Jy/ZwebykpsfQmNFlfbofaN58JlVNCB8XeE5g8YWGTq+9a5+Q3pbwLYqEtkdGvJXkscl3Bg1ItRSG4BHE9OqLWSa1y2UheffiawwjAmgAQ5G9rS1cu9nwar1JSvntCCyNzY5Ms8EWJRvoS/Ly8gCMTKqvz7E/rssGz/A3m5GWDqSiF2fKz0vyiNsbysloAfYNJ6j3nJU+6wlUjQv0elszTfcGi+VC4NIsGlzMvj01tIdRGHoGxsfq4wZlpktdmIjQw+LoDLtQosYThh9kDhf84wAGhyaSEoOo4vwyiMC4TXepOuzMy7pJaA3a55X1PsaG2rpU4z4o0TJMkI=
+
+%URL%
+https://github.com/kyechou/leagueoflegends
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1630357952
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+leagueoflegends
+
+%PROVIDES%
+leagueoflegends
+
+%DEPENDS%
+wine-lol>=5.18
+winetricks-git
+bash
+curl
+openssl
+lib32-gnutls
+lib32-libldap
+lib32-openal
+lib32-libpulse
+vulkan-icd-loader
+lib32-vulkan-icd-loader
+vulkan-driver
+lib32-vulkan-driver
+
+%OPTDEPENDS%
+lib32-amdvlk: AMD Vulkan driver
+lib32-nvidia-utils: NVIDIA Vulkan driver
+lib32-vulkan-intel: Intel's Vulkan mesa driver
+lib32-vulkan-radeon: Radeon's Vulkan mesa driver
+zenity: Loading screen indication
+
