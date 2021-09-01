@@ -1,0 +1,90 @@
+%FILENAME%
+linux-tkg-cfs-5.14.0-195-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-cfs
+
+%BASE%
+linux-tkg-cfs
+
+%VERSION%
+5.14.0-195
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+131037451
+
+%ISIZE%
+130484037
+
+%MD5SUM%
+37acc24f7208be4cf52cb3835ff73734
+
+%SHA256SUM%
+fa4d2cc41babc84bda61ba3823630f374e4451d3647e6a8bcf25614a36e6ea0d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmEudnMACgkQip4UoHAQ9+P70gf+Jo9l97Wl4n2zHnrhjcjZry9nir2HvWgroOJDDF4cD5KvSci0Q60V1ZTDqZAcqCl1GsrXOppmc5ScpDNPPKhPe+xLkUS0UVJrXOcdoL6HUTezZtOSvYePsSEV3siaIRr0ZrlGpYGT1hMnj7coq02F4WQejUuzZP8auoY7ni4ebXDM9Mwbxbv3j6C5vyM1b8yODczrh+DJplwjzzXX2ZFhxFrgODuyxTlHW8rffuZuvs7wAgaa1eLB8F0AevYEv3CBK/UWNKT0qNUOsDWdduY2l1p9N/5B78xvlWf+BQ0HFvIv/4WEFS5QL7G8iE9tvvaHxZQZo5edZ8Ov83RpS33eog==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1630434142
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.14.0
+linux-tkg-cfs
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+
