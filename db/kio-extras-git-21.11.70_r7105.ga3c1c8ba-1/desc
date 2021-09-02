@@ -1,0 +1,82 @@
+%FILENAME%
+kio-extras-git-21.11.70_r7105.ga3c1c8ba-1-x86_64.pkg.tar.zst
+
+%NAME%
+kio-extras-git
+
+%BASE%
+kio-extras-git
+
+%VERSION%
+21.11.70_r7105.ga3c1c8ba-1
+
+%DESC%
+Additional components to increase the functionality of KIO
+
+%CSIZE%
+752370
+
+%ISIZE%
+2471641
+
+%MD5SUM%
+dc97c2d2866d0ba8e3290fd9f6158586
+
+%SHA256SUM%
+25bed6c517e3334ae8309d7542e5ca242c05bccc3dcda62f8b01d81ba4a8f1ad
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmEwwiwACgkQBwa5DTfZuIHxiQ//VI0dp7Mx1XKAgGg1BhoksYzEb4+RU5HwtrPDLXWHh+GaHB35qu2h6ejdLtB49NqSXeID/qMNGwD+DyUjUJpkAmhfNxsXwj3XU1fjnvQs6w6QV5o/OeOXN9yEQM0DoUqN2/wT6sEzpP1xusXvwPo0JIEB8CkFB0D5cCPPxpnMSGV1OFWCeRXwlSdJjoM0moj2E9uk3bXYDuZZKSKFkqi5mQfUgRl3R9FUFNqFfYPVey5vwU6PyCFQ5DAvfhyKcds5xmbKg8REYZCF/G3XLMHTk3ddAySiyoO1lQgd1mip1hXHELBt32dkuY8vT7m2G4zegiaJx5jCrGG3Ic7cZmHAhPiVfp9CZZ31uoRDlvVS0moXQ2sUEssIhen3f0adMpMW1vteg/hKQdI3HqDFJq6QeCeXkx82gIt6bo4v/pAGIUww33pJyKWlVs1EgV09OLaXFlE2iHHbvdYAbRg8jvsw5kX48V+/c4G+wJfoQaV1eX4x6ETNBZJHJdFRtpRIFhHkR7yUuJXTjF6BdXUDafbhJOXWRPsdaiVY9esmXbOATReHk/G4AS/x08ew9I4XzQq1u9HdifNqDOpCOfprXEMwDBwS6OruBtC9vzKRHQQfmULbzf4QR573Z4liFDu0Pz92INF+mqpBxa13zDX2rcV/02Wa6GIJph6cHrENqxAugP0=
+
+%URL%
+https://www.kde.org/applications/internet/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1630582158
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+kio-extras
+
+%PROVIDES%
+kio-extras
+
+%DEPENDS%
+kio-git
+kdnssd-git
+libssh
+smbclient
+libmtp
+phonon-qt5-git
+syntax-highlighting-git
+kdsoap-ws-discovery-client-git
+libxcursor
+
+%OPTDEPENDS%
+qt5-imageformats: thumbnails for additional image formats
+perl: info kioslave
+kimageformats-git: thumbnails for additional image formats
+taglib: audio file thumbnails
+libappimage: AppImage thumbnails
+icoutils: Windows executable thumbnails
+openexr: EXR format thumbnails
+kactivities-stats-git: recently used kioslave
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules-git
+kdoctools-git
+gperf
+taglib
+libappimage
+openexr
+kactivities-stats-git
+
