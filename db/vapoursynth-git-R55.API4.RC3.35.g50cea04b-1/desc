@@ -1,0 +1,81 @@
+%FILENAME%
+vapoursynth-git-R55.API4.RC3.35.g50cea04b-1-x86_64.pkg.tar.zst
+
+%NAME%
+vapoursynth-git
+
+%BASE%
+vapoursynth-git
+
+%VERSION%
+R55.API4.RC3.35.g50cea04b-1
+
+%DESC%
+A video processing framework with simplicity in mind. (GIT version)
+
+%CSIZE%
+1362271
+
+%ISIZE%
+4998110
+
+%MD5SUM%
+a9a59750b8b8a407cb1a3c01965439f5
+
+%SHA256SUM%
+2f900ee7a2200be809bd03f794fd1ac00144816af3cc793e517295a999ac31a4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmE88AwACgkQOkDLXn5cvDDQBQgAgm0zPoBxjJ8h1tw3MPQShQiQ+rNib51WfpRwIf3m94ed0hz3Bi2EResrYFGF8E8fdIO8QFJQdUCvTGBlo9fkatPpLYmD74lfKxcw7+cePsmOao57oMLm2UJcEKxFrByo0/nOUpwXdmIDfB2l0LNY0Yhn9ZudXhRTSJE9WvW5BcimRhzw/NFeNKwKG+ufvFzJyk4M5+PGLY1JSOFKVWTvvIHC5h4P1yo7Ep4sg+/dbXplC3WWKHwUWjI5K9BvH9RCi/4aMjE9LmpnAYPhecjtI45qkD5dvIxU+Wroy0Sc/v3/Jgtulrzc+QVt+xWmRZ9aT7UGFHK1ZutV6CARIsTGNQ==
+
+%URL%
+http://www.vapoursynth.com
+
+%LICENSE%
+LGPL2.1
+custom:OFL
+custom:WFTPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1631383386
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+vapoursynth
+vapoursynth-plugin-miscfilters
+
+%PROVIDES%
+vapoursynth
+
+%DEPENDS%
+libzimg.so=2-64
+python
+
+%OPTDEPENDS%
+imagemagick: imwri plugin
+tesseract: OCR plugin
+libarchive: OCR plugin
+curl: OCR plugin
+libass.so: subtext plugin
+libavformat.so: subtext plugin
+libavcodec.so: subtext plugin
+libavutil.so: subtext plugin
+
+%MAKEDEPENDS%
+git
+cython
+python-sphinx
+imagemagick
+libass.so
+tesseract
+libavformat.so
+libavcodec.so
+libavutil.so
+curl
+libarchive
+

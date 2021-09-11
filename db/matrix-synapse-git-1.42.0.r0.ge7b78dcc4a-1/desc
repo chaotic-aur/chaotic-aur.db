@@ -1,0 +1,110 @@
+%FILENAME%
+matrix-synapse-git-1.42.0.r0.ge7b78dcc4a-1-any.pkg.tar.zst
+
+%NAME%
+matrix-synapse-git
+
+%BASE%
+matrix-synapse-git
+
+%VERSION%
+1.42.0.r0.ge7b78dcc4a-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+2944081
+
+%ISIZE%
+14853532
+
+%MD5SUM%
+b2f23a58c540b1f8ca3afdd0be198141
+
+%SHA256SUM%
+da9a1d823a3b709a5535d1c67762fe84fc0e154754deb6020160094829186116
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmE3uqUACgkQOkDLXn5cvDB/Owf+NYhdhhrq39efQ7HRZHZDm8B9xCp2e3ZD+OzN/nd1MYB8v3IDUMcWQaP8/Xa4UtbGArAHzs4obFtVYcyPybbIDlzEDPt+FBlB0NUut3nfJFVATk6J7cJan+zlBzTtx40YPpbhfIw301NPg1GH0IdZGpYEtO1M9Z0eZVDrY4D0pERd6Xkahr96cLUQIqRob3QxHNkX9qYHDdxm0vsagVqraj5sF/XbewWkY/CQUUxr05+WIfMko2RVSVjkRkBLGatFm75/itdthyV8lPOBNj8W6QnHKjGSslXWtXoZZ5QULSf+UiUJJafk1MlBqfrIFV3EHo8Ac/AQju+f6bGuGnG8Vg==
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1631042085
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+matrix-synapse-py3-git
+
+%CONFLICTS%
+matrix-synapse
+
+%PROVIDES%
+matrix-synapse
+
+%DEPENDS%
+python-jsonschema
+python-frozendict
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pynacl
+python-idna
+python-service-identity
+python-twisted
+python-treq
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pyasn1-modules
+python-bcrypt
+python-pillow
+python-sortedcontainers
+python-pymacaroons
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-jinja
+python-bleach
+python-typing-extensions
+python-ijson
+python-systemd
+systemd
+
+%OPTDEPENDS%
+python-matrix-synapse-ldap3: LDAP3 auth provider
+python-psycopg2: PostgreSQL support
+python-txacme: ACME support (Let's Encrypt)
+python-pysaml2: SAML2 support
+python-authlib: OIDC support
+python-lxml: URL previewing
+python-sentry_sdk: Sentry support
+python-jaeger-client: tracing support
+python-opentracing: tracing support
+python-pyjwt: JWT support
+python-txredisapi: worker communication via Redis
+python-hiredis: worker communication via Redis (faster)
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-mock
+python-parameterized
+python-lxml
+python-authlib
+python-pyjwt
+
