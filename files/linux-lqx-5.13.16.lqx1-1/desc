@@ -1,0 +1,67 @@
+%FILENAME%
+linux-lqx-5.13.16.lqx1-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lqx
+
+%BASE%
+linux-lqx
+
+%VERSION%
+5.13.16.lqx1-1
+
+%DESC%
+The Linux Liquorix kernel and modules
+
+%CSIZE%
+85844477
+
+%ISIZE%
+321725783
+
+%MD5SUM%
+f46f6b6fc1227518d4cbe8ea95f5786c
+
+%SHA256SUM%
+2e9849660f91ec455467c7d62b51efb4f1c6f70ecfb6c0fca7bbeaee42f12303
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmE/jhYACgkQBwa5DTfZuIF4JxAAibYGUA1U3tASaodNbUjdwmiOS2Z0qXlGsFDXpIImAsHhsLt5BNjfPquxzBJsJoQwPQgkrN/iA84QqAyu6fTL2OvNo3HWvI2bLzDSngEtGyu01NnvhJwL7f5sm0taw5uE27AA2U7n5N46d6K3WacCxamrSrUun0wnleuafjJy/6peSlhsT+5uLvW1kiKLKbC6KKOO0hDd+eU0nBOpAxTjqVr+eDa7phUl3FoDTgeoGTXhc14wCpa5PtX60ZBghiNbhjmF1whS+j3aelLCg5bDcRXV9pTKD/eyHngD30hoBgMupSy1Q20wP3smud7K6RjZuxYJ6sJcSkbS164aJFCIMuKoTrYr45ZNX2bQbQ4GLaeqbk9KyLp9iM6R7kJzu0WGf6GI3Do+1l5J+oJ6sUApiGLtGMM/bE2p9YOAgiGjQfvJB0qprmX4eVRZscR+hLMOPZwvX8sX/I++aTpTs7jah4WKrNZkF9MzflUxjrNreqhXopVraI6LmWAl3Rsi26+KtPFB8nREdMcXH+jvpYjUTyDcYH115gSfD0h5I7zU8csxHyBRZWo6jfs8dXEG6+oSTJRYNrOK09xbcUFVldtulW6UCN6y3TvThRm70pQTNcTuN0WWFu+Lp6xxMWoeWh8R+kuL9kAtqVo0jd1Lb3FJC5V3x0J1jCu9d0VE3wAHkvQ=
+
+%URL%
+https://liquorix.net/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1631535757
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+crda: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+sof-firmware: firmware images needed for Sound Open Firmware capable devices
+
+%MAKEDEPENDS%
+bc
+kmod
+libelf
+cpio
+python
+pahole
+
