@@ -14,19 +14,19 @@ split2flac-git
 Split flac/ape/wv/wav + cue sheet into separate tracks. Git version.
 
 %CSIZE%
-12485
+12524
 
 %ISIZE%
 25389
 
 %MD5SUM%
-fc668ff5e26fd21553ccee14cbbdac43
+0afb0d117c1c51369b0b9ff9da5afc44
 
 %SHA256SUM%
-ef3269bd17f47e000b5e08ad3835ec8bcfc199484384538b8d82ce64f6bc7732
+c68dfe543a0f33415d8f69d574d57ab46e38d9cf06e72ecdcba7cb5ec4b0297b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmB250QACgkQip4UoHAQ9+N7bQgAp/F9boOPiXPr3Q8/h+gGl7Gk5MCmt2VcHN8HeGuUiAsRpPW6WI75Fa4kTM/YiVrj/7jCea/DDC9M2GrdtiOqL+SHDownQFCBMpP5CYb8q5r5XmM51AD0Uoyb8+g98yL3GdlY0eG6x5DUJq4WrKQuAOgtLxPBIGYi58GbqZODtuUVIfHkFFQB6PIXDH1pYzXbh2xPoUoyancFCJJfvBG0zJgghxGRJr3SqSb0BGSBfLHTW5lRuVGzGLIGNPkcwv+B2Sb6UoToc/6gaS+JTarrxmeOhvDSNp7X+dqXIA2zInMuRyZgx1XIvrTPsGpkDB4VQyqyxPdqXTpDDqEIrtrviQ==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFBgJwACgkQOkDLXn5cvDB9WQf/XFFRCnrFz7SUZ6PZxRjnZR6LPpzR+YNfwKbFW7wyjLcfhYlk9vy1thtXgYsmV0bsIInaX+YJcBmIIqHaajrbxpOzJs2QO+2Jc9YwHNhHLgcl0JRVUVUfToFj6ozJHDrscaggh8HjriC2q0GO7+FcqdE0yHGMp+2/t1MXhER1XNth9JVUpyc5vYf1EJKQFT9G82So5kdkP1f186bnj+sciBYWf6zra7zdz97BdK8fdWPtJV5a2o5sNzSmaAQ/xIFnWSkX5vhqmxshj33DHy20EYpmwWXwJ7QJBoTZ0CPBk4XYofpSxYk0GnL/2pd1cm6FNy8wrDOZqmX97ejnUhVniA==
 
 %URL%
 https://github.com/ftrvxmtrx/split2flac
@@ -38,10 +38,10 @@ MIT
 any
 
 %BUILDDATE%
-1618405186
+1631682545
 
 %PACKAGER%
-Pedro Henrique Lara Campos <root@pedrohlc.com>
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
 
 %CONFLICTS%
 split2flac
@@ -61,8 +61,10 @@ mac: to split APE format
 id3lib: to set tags in mp3 (unicode not supported)
 imagemagick: to convert/resize album cover images
 lame: to split into mp3
+mutagen: to split into mp3
 libmp4v2: to split into m4a
 mp3gain: mp3 volume normalization
+mutagen: to set tags in mp3 (with unicode support)
 ttaenc: to convert to TrueAudio
 vorbis-tools: to split into ogg vorbis
 vorbisgain: ogg vorbis volume normalization

@@ -13,23 +13,20 @@ r148.48b482e-1
 %DESC%
 Session settings for Pantheon
 
-%GROUPS%
-pantheon-unstable
-
 %CSIZE%
-20648
+20749
 
 %ISIZE%
 43129
 
 %MD5SUM%
-2a4dbc250927e1358abe9a87380111de
+01bf30a3919c484284d5e1712f3ee576
 
 %SHA256SUM%
-3fe5396caf8da67dc286aa6dc4688843f9de8c9ee5c98fd19e85e3d298b56540
+00807ffd67dcc0d7c2cc6bad0c2127a990105b9ab1bdcc99aaf5f78d262da958
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmCi7FsACgkQOkDLXn5cvDDgmggAkCkL3jRutKmd9dPry65Q/KOt0SUZ2atEs5NyCjGyuvocR3bfW352F60L+ENY7kjFHHguOP8kwXXGyjgjjt1Ooxi4wXb+lrW8UijwzNKUctAVs1qBTeyO/Aem2n4AxCoaMx4EogXdL+o3B+rBzOGlL7Ke36dImbINqoSANOjIAapILa1WcaTCnw6M01cOsR1X6+NLByf2S1Ljc37oIPGPJoZMsB6nekaeoKVoIPl2bymUNhIn89Fx1QTM6mN9JS1ZPvgx5B1uCrc416CJzE5N9Y2jnFt26L49w3F3NKyPVoot/D0y+kpbR41qO+JmVOvVKPOl1N9yon9833mGLFLl/g==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFBgKEACgkQOkDLXn5cvDDS0gf/euTwHdB4vxDsgW3qHWrifZnHuL3QeOgejt6HgcmNbADKiNOglozWp9wNJs6mHDWWyhGgruPl7dSLW2U4vHQSO+uXKXxQ6+X72aBuPHnyPFuwLiZ8ilX1dqCrxoLgVfcYcV0DMMQmVfObEA+r6SZRdVMmo+9XpS7fDEREiw0jFkpyegvQQVrtmtreXTRtZh6Ctw77BWF4hrKJgq3+UWZlqM5LDahVwQ4ELItTwppXCE5cyzZbaLymDE3G7sEQC07wCoXTTmWjAU0b/y/DdsWY3zAbFJTEYzPjpqT6IJZ8L3XHXMNnWZjHsLowPcTCIU1Z2cVowoJQyORCEl5+Ex3+Mw==
 
 %URL%
 https://github.com/elementary/session-settings
@@ -41,27 +38,29 @@ GPL3
 any
 
 %BUILDDATE%
-1621290065
+1631682546
 
 %PACKAGER%
-Pedro Henrique Lara Campos <root@pedrohlc.com>
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
 
 %DEPENDS%
 dconf
 gnome-keyring
 gnome-session
 gnome-settings-daemon
-libgala.so=0-64
-libwingpanel-2.0.so=0-64
+gala
+wingpanel
 onboard
 orca
 pantheon-applications-menu
-pantheon-dpms-helper
-plank
+pantheon-dock
+pantheon-settings-daemon
 xdg-user-dirs-gtk
 
 %OPTDEPENDS%
-pantheon-default-settings
+pantheon-default-settings: Default settings for Pantheon
+pantheon-onboarding: Onboarding app for new users
+contractor: A desktop-wide extension service
 
 %MAKEDEPENDS%
 git

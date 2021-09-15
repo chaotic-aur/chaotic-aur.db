@@ -14,19 +14,19 @@ materia-theme-git
 upstream git package for the Material Design-like flat theme for GTK4, GTK3, GTK2, Metacity, and GNOME-Shell.
 
 %CSIZE%
-681036
+668056
 
 %ISIZE%
 6297104
 
 %MD5SUM%
-e74452f82578446cdeace2d73937458e
+8d5af279febee36031f4ebe1d9e5e769
 
 %SHA256SUM%
-14e52cc6571f90cd3bbfa3d29e139533a510a26fca4c485dd1a1edadfd49ec85
+6d2d49cd29bbece6e8caa98f08d23301386aee52acf9380f1e721ae498c5a0e7
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmEBu5sACgkQOkDLXn5cvDA/5wgAmvCLWANHtxyC/YfFQ7D1lnwQFm/MIvHEguweVa2OzoPPVOyr9+5SBgEuY5n48KOj1zr6tSqAZ6j/LKt/Ghkp3iETQMskEEkncVQdQjg02WSEmET1qhrg5meqgU0bUDdLyk4kYl7Tuab1mJQv8/KfsxVnCqbpPq+vfT4vIqGbkuwwlXBaCp1Zh/+VJtQynxvH5ly8SCmVATfW2mHwR0KYwU1Arf79RzFmPpHmrq6J7jYJ9htwpn/QM+by2fWCOo6U50uQz+szkSlAb7OeBni2mop6XaHFvxiHibnusyObtxT5EaWxQzzikgozqKk8Xhkv4/nIwt4VW2fPbta47PJmBw==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFBhccACgkQOkDLXn5cvDDcswf+NOwZUJcH6A3x4gh+aj3ZbrwSHnsHTVWvnWAP/lYurwlXm45yD5/HNGxjwKZsBuix6kZqbgAYPmMzXHpK97veIMaRMh0gJPRx7GWxnlvI616gOuk/kCBziA0x0tVrD37pNqhQBsJo9JIOROBbdXWgfBeWhbDrTAtIJ+7NankE3WULfSuia6C071ht9SG3tQMGV0qJqcv85g54aUFz0pa81CggGn/Bq/ELUSNlPAjku64ITMBcwemLDWhgxk/fpe9Hi0WtTCt18d5ZmyQqf/nAmo+jmsP7rEyjDs/fx9Z1IYHyn9+u7Nd+6qEq94vO5B8RC+fWyWZaFrYTG96RXS93Iw==
 
 %URL%
 https://github.com/nana-4/materia-theme
@@ -38,7 +38,7 @@ GPL
 any
 
 %BUILDDATE%
-1627503190
+1631683696
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -51,8 +51,10 @@ materia-theme
 
 %DEPENDS%
 gtk3>=3.22
-gtk-engine-murrine
 gnome-themes-extra
+
+%OPTDEPENDS%
+gtk-engine-murrine: for gtk2 theme
 
 %MAKEDEPENDS%
 git
