@@ -1,0 +1,84 @@
+%FILENAME%
+netdata-git-v1.31.0.r268.g65ed64cbb-1-x86_64.pkg.tar.zst
+
+%NAME%
+netdata-git
+
+%BASE%
+netdata-git
+
+%VERSION%
+v1.31.0.r268.g65ed64cbb-1
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+9158897
+
+%ISIZE%
+30643601
+
+%MD5SUM%
+efb3bece717aa67c39e3d9860ffb1d0b
+
+%SHA256SUM%
+680e7cef09dde9c801feb621a5afbb4e703111c5dfc5711bb5ae914423c18132
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFIIzwACgkQBwa5DTfZuIF49w/+OGd6QYu1s2XEJ1ywDhH+orz/j2yZzxf4h925FqVgKR7Da2J6+iM9mGzHLjeL+PnKU7tZPq2DrJBSSZ5FBPG5JvdEZ3glNo/jckgPpioIFtc7ob0c74Vb4B78m4PGoOhutW0tJpQwpSOtaq5Y+bYRrbokY7F6HPlYPiz+NDIh3y+eIcHt11CbwmItO482hWvcHzAK6h5gxyJCJzBSHHeaWREj0UgJr6cBbE0pkbasYdrXhABfuaAXX2DaeWz3oYw8XE86dEBuu4pXZYk1BKC1Q29rzGrN3upirla1e8nkl8HrnQR9ijEerqBqq194SUdoGqGVLdD+9nNdJQVnNyhCCp3/BzixoHglhXyPVrbhSEDwpz05+a3vrEeGHJWYfberC9ykGYsfN/dqDJxANW+AkIno1mhUcyRlDjbpejekZo5dBOH06wAWDwlQ8gJ7Fs0H5W/2+i6IGCUO7V0ehsV/SGaNdeda1lzGGPvWX5l5PCAJonNVa+FND6efPFgk15LdM9P9sJbdA8bWlQDCGeV2gyg97m9JUiDaz+6wHMG4iE5Tyyq2aDtrzthqcRTRw/9l33woZGFkncxY8wLjrmjtOe8dUH1w/P0e1uHiC36O9N8mMBQbSG39qPWnlIimD1nbgAnWykA3Q8OpPko/nJbipgyPOfs7DeUldCjfTvqjGNk=
+
+%URL%
+https://github.com/netdata/netdata/wiki
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1632117337
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+netdata
+
+%PROVIDES%
+netdata
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+fping: for for fping module
+apcupsd: for monitoring APC UPS
+cups: for CUPS plugin
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+
