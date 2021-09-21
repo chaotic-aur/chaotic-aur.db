@@ -1,0 +1,105 @@
+%FILENAME%
+pipewire-common-git-0.3.36.r44.g310e6009-1-x86_64.pkg.tar.zst
+
+%NAME%
+pipewire-common-git
+
+%BASE%
+pipewire-common-git
+
+%VERSION%
+0.3.36.r44.g310e6009-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+2012085
+
+%ISIZE%
+8048351
+
+%MD5SUM%
+678efef05c7e192fa9bb619d5311b081
+
+%SHA256SUM%
+6841ed4653505adc652b85051e31b90354b6449707cd73a126a25f954e98acbb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFJ5pAACgkQOkDLXn5cvDD0EAf9EQXw1w4yOMx26Dn9al2K1vzNCcg+KLF5QJtvNOj6tGWoRHqpIRWYRWGlzZTvgptYmuFft31gew9dWXTd+Zw9l+kv+ngtG3vot94M3r0lbzRd9oFE57izPgu33ZFuQ42MKqbXjUCAKIWMPRTccy4wM8TKhbgIOm/SlMV9QEy7Hpkio43ZyFXea98o1W20FOKmNZn03U9W5i1Q4QR/G7Nl4SGCr30s1M/Ye/Z+kRWvlE7+zw4MH1t6PRDehImsZbs0HlRGlBm+2Aa6crgA4AWSZk/gd9hcXVfoznC8C70xgic2UFbvgG+sbQZsxrFoagSHlbTwKytfaX7Et6JW+KZ9yA==
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1632232997
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+pipewire
+pipewire-media-session
+alsa-card-profiles
+
+%PROVIDES%
+pipewire
+pipewire-media-session
+alsa-card-profiles
+libpipewire-0.3.so=0-64
+
+%DEPENDS%
+rtkit
+libdbus-1.so=3-64
+libncursesw.so=6-64
+libsndfile.so=1-64
+libudev.so=1-64
+libasound.so=2-64
+libsystemd.so=0-64
+libwebrtc_audio_processing.so=1-64
+libusb-1.0.so=0-64
+libbluetooth.so=3-64
+libsbc.so=1-64
+libldacBT_enc.so=2-64
+libldacBT_abr.so=2-64
+libfreeaptx.so=0-64
+libfdk-aac.so=2-64
+
+%OPTDEPENDS%
+pipewire-common-docs-git: Documentation
+pipewire-common-alsa-git: ALSA configuration
+pipewire-common-jack-git: JACK support
+pipewire-common-pulse-git: PulseAudio replacement
+pipewire-common-zeroconf-git: Zeroconf support
+gst-plugin-pipewire-common-git: GStreamer support
+ofono: ofono Bluetooth HFP support
+hsphfpd: hsphfpd Bluetooth HSP/HFP support
+
+%MAKEDEPENDS%
+git
+meson
+doxygen
+python-docutils
+ncurses
+libsndfile
+alsa-lib
+dbus
+rtkit
+libpulse
+webrtc-audio-processing
+libusb
+bluez-libs
+sbc
+libldac
+libfreeaptx
+libfdk-aac
+avahi
+gst-plugins-base-libs
+
