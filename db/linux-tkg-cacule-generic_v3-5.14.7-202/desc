@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-cacule-generic_v3-5.14.7-202-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-cacule-generic_v3
+
+%BASE%
+linux-tkg-cacule-generic_v3
+
+%VERSION%
+5.14.7-202
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+132291201
+
+%ISIZE%
+131750474
+
+%MD5SUM%
+e123cbeac31b07afcc4a6f54806ed5e4
+
+%SHA256SUM%
+35a7fdfe4f29002d511b25ad61e82e03532e0ab798c47fbf57384133a984edfb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmFLojAACgkQip4UoHAQ9+MT/wf/WLog6NJiUgvGTviNE9szsejJJ6H9MnwmCVujsi3Y3fAEYQhfYRP9VZOF7uPIy5kSMMNEe2xaiGG6dbd+AAfMx91btzykwV5oqTg9b//4I7W/wUW0AZ/nIeQt6SqAT2N+iEpZuENvYHWf35N40ik5Xt7d6tmoaQtpt7fN3lCIj+EDDy3bZInLb4nqiwr/qQ3SCEJZCMB341+eEwDQfXOt5+Mucb3WItnxXLj1Pl76PJka/Rx3YOXABXybSi10fsvFZFqLF3efFQzaPrx+F6UDwvl1LbbHbO6W9FALwNt/RCKbDJEaGpGLZiRokuWUuoBl3Oj0LTJPCfko6UugF1zRFQ==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1632345876
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.14.7
+linux-tkg-cacule-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
