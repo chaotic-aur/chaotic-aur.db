@@ -1,0 +1,66 @@
+%FILENAME%
+linux-wifi-hotspot-4.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+linux-wifi-hotspot
+
+%BASE%
+linux-wifi-hotspot
+
+%VERSION%
+4.1.0-2
+
+%DESC%
+Feature-rich wifi hotspot creator
+
+%CSIZE%
+95458
+
+%ISIZE%
+194911
+
+%MD5SUM%
+db4d95d652d6cb8a64f04d0d10921834
+
+%SHA256SUM%
+452ea68ee06602d8c84c2edf96793cdd503ff0336accb71b7338b7393432722b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFSJAYACgkQBwa5DTfZuIHvGQ/9E4KynU/72DRsgZYZlm0uvNrGv19PInOWbyTtgzcoFQob4wDxFflbqLTb0xWFBxCNNO4ZF4UhBZkTh8qoa9nelOxb2+U9TkGCsXxUiiQblmG/JRuRvjMqA7579WOAOHhiuq1H20T5BYB+8GleKECR8Ct8tfyWj7unDTspmkchLNVd6lVkGwHmErqXWGEbL3ZTs+q8aV0m9kjOWJwCjaPD9FuRI55t++igntnLDPi39zW2oUA5dVMORtI/sq8oG+02X/AE0+Ba06cGAfOc/nMULy4MOI9pMsJgawqBtCdJnxdum5gjbPzrCkm77mXn8hU5TupsOFUW1VM9esA8fwDLHec64m7Rxc79yf6y0/kVRUM60TFSPZgTIOq0JCDW9ULFJfRO0tx4/KrFxQkndVy0ftxvo8vs4j4DtFTh0u/8rKNP9gPi1AnAis+GPkFH9ZQQfab6YWsYFMSxZnP3C/I96XXmjhQYtI9U4Jkw9zoZmMhN4gxedn+2FdT/BqAjSgI8x8shARd0xEngcZwDT0QqKjSGAgbDNxJdpzLyHH7sC1zi4DT4wpXpGgQ6qz3OxpR0J2e729k748sf6FUM4+QBKXmDWcTt7I2qCxpVGIU5wavME8wVtDkI0TEcACVwwyZX7t9XGRgq2Lb0WX1WEk6f5nL3hQmzKW65Ajrx6lX8u2o=
+
+%URL%
+https://github.com/lakinduakash/linux-wifi-hotspot
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1632773115
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+wihotspot
+create_ap
+
+%PROVIDES%
+wihotspot
+create_ap
+
+%DEPENDS%
+hostapd
+iw
+gtk3
+procps-ng
+dnsmasq
+iproute2
+
+%OPTDEPENDS%
+haveged: For random MAC generation
+wireless_tools: if iw cannot recognize your adapter
+bash-completion: for bash completions
+
