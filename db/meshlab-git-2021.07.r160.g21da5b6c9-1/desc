@@ -1,0 +1,79 @@
+%FILENAME%
+meshlab-git-2021.07.r160.g21da5b6c9-1-x86_64.pkg.tar.zst
+
+%NAME%
+meshlab-git
+
+%BASE%
+meshlab-git
+
+%VERSION%
+2021.07.r160.g21da5b6c9-1
+
+%DESC%
+System for processing and editing of unstructured 3D models arising in 3D scanning (qt5 version)
+
+%CSIZE%
+11423088
+
+%ISIZE%
+33642419
+
+%MD5SUM%
+1730130dc670f8c1d13ced0161c13943
+
+%SHA256SUM%
+7b8ff272a4965a30c8dd697eac05b591bb723daffa62ff40291f7a314e6703c8
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFVbIcACgkQOkDLXn5cvDBldQf8Do49Yqnr/w9jfg8oxVzVp7tmd0DdD3ix5aaAiWTlPNA44l9x2UG+ArlYi/AD3TouYuqm+0MA402R7hYNEjU8ZOvwKDbr3m7/qyquOWL+fjUydbCwgXfGXhiiRO9kVlsMyJXPoxiso1TsIWIaY+JcISi/VNHjlj8qikw9DmJaauYgmW5+Mi9yp6tLmOChrio3y6TE2S8WGrV8ph6yvASaLF8SpThJnfCjM7ijROeMdC+Vo/EikTwY8CtdAsTkwHlbGjS3AMjgPFau095Xmo2vXvvV2Pen7+8puvnBIaDuxs1bcZ23FEO63wwJgVeA2NZmoTSqYJy2aogKPtMpBMp+tg==
+
+%URL%
+https://www.meshlab.net
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1632985810
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+meshlab
+
+%PROVIDES%
+meshlab
+
+%DEPENDS%
+bzip2
+glew
+glu
+openssl-1.0
+qt5-base
+qt5-declarative
+qt5-script
+qt5-xmlpatterns
+xerces-c
+
+%OPTDEPENDS%
+u3d: for U3D and IDTF file support
+lib3ds: for Autodesk`s 3D-Studio r3 and r4 .3DS file support
+levmar: for isoparametrization and mutualcorrs plugins
+muparser: for filer_func plugins
+mpir: for Constructive Solid Geometry operation filters
+
+%MAKEDEPENDS%
+cmake
+eigen
+ninja
+git
+muparser
+levmar
+lib3ds
+mpir
+
