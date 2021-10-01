@@ -1,0 +1,86 @@
+%FILENAME%
+qemu-headless-git-14:6.1.0.r1058.gbb4aa8f59e-1-x86_64.pkg.tar.zst
+
+%NAME%
+qemu-headless-git
+
+%BASE%
+qemu-git
+
+%VERSION%
+14:6.1.0.r1058.gbb4aa8f59e-1
+
+%DESC%
+QEMU without GUI. Git version.
+
+%CSIZE%
+11668035
+
+%ISIZE%
+36418941
+
+%MD5SUM%
+d4fa6febc0d271ba49ad01360517e872
+
+%SHA256SUM%
+071db3778deae1192bd4acbd1ce536a6f5f66e394fad1302ef875419d5224b04
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFXkG4ACgkQBwa5DTfZuIFN8g/9GRB529Zb3v2KVFPXocBaaNd6t4kDNajiZ/RL6fYdU8idi5+QelL9MGERuCgdi3vdhk4VqlLicoZfwTWSqxJTedJUe7/F2wU+Oxg99MzK+E3sXvkk7+gdnw52rKZmuBP78y2qpRGdP9v5kl4k+nGB5RSbrfzt2y8MqLGOFctih2B5eGmHPP8aOeDcUBsTY5s22jmLRMqXoNO3ME5s2WPRkEP0WfrTCvfjLd6XVvdV5FgLP43swepeWiE60kyvCmRGZfn0a5Cf98b2g/4DY3pmQRKDJRJxmOWJ6e9MmYaNEAkFT7rGPpakytAJ/S1eDIRcDeg/Kw2cDRBzPOxJT6LDWxwv5HAkXPx4t54OH7teKoBFf7CmW2b36/okT+zbEZakUNKyl0ROpdB9KhPgR7zug8eK5fgWl74ciGyMTfNCd8+H50wsNP27PFXD+l9JU89zW2n0gSFoIiTSedXviKP3Iw673PNuGWkYoa/KAnoNetOOs8w0jXPegpEGBCwUcNZx2Zjd88i0NZ5agyKJktuFXTeHQ2EfDalflxh+U4yywaIrUjAFU1T+NRA8vFfOzEcqhdjiQ99M0URv7Yr+PZvCVi2RosPrr/GZ7J4oxAQw36IiouU+X2s1Ss0a8STombz8uD7ag2ihzHQfvZZZFn2l3tmJZkC0YloCg84gYBuDYMg=
+
+%URL%
+http://wiki.qemu.org/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1633108947
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+qemu-headless
+
+%DEPENDS%
+seabios
+libaio
+numactl
+libnfs
+snappy
+curl
+vde2
+spice
+libcacard
+usbredir
+libslirp
+libssh
+liburing
+ndctl
+dtc
+fuse3
+
+%OPTDEPENDS%
+qemu-headless-arch-extra-git: extra architectures support
+ovmf: Tianocore UEFI firmware for qemu
+samba: SMB/CIFS server support
+qemu-block-iscsi-git: iSCSI block support
+qemu-block-rbd-git: RBD block support
+qemu-block-gluster-git: glusterfs block support
+
+%MAKEDEPENDS%
+spice-protocol
+python
+ceph
+libiscsi
+glusterfs
+python-sphinx
+xfsprogs
+git
+ninja
+
