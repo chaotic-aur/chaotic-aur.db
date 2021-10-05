@@ -1,0 +1,81 @@
+%FILENAME%
+mkosi-git-10.r145.g30f8036-1-any.pkg.tar.zst
+
+%NAME%
+mkosi-git
+
+%BASE%
+mkosi-git
+
+%VERSION%
+10.r145.g30f8036-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+199408
+
+%ISIZE%
+748689
+
+%MD5SUM%
+7042347baba3c58548d7e563ee3f36de
+
+%SHA256SUM%
+c21365bc1a9fb67a953a172be114e2c110ddb4267e3b2ee2d7668fd7331102f3
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFcCGEACgkQOkDLXn5cvDAADAf/em7pgX4fNuB/SoyLXJYAsjP9HfcEhUR1jcrC4njN/dCNv/yC+fu4rsY2sfsisZMa0mz7QnzvDhhnoku1oXxLcf8XJyDz0hanEszMP4qnwBpW6ofQBlLMHEVSjPVEzq4jvQipA95ZoDrgJv6n2e43e9CdLR8dTIKDFp45qAKn3ASGVDE+PqZlH9Vhq/deYzVZWcW2NXWB87SwYcGHSQt/XRRHiUHw+JV+PHkXhMjn/MSsYB1c0qOwprOGjted3/7ZO528/0ttSHkgA/gpEqdgaNj39I8RpmcMTj8EvYmaLt8a10H1KUb1zGtag30t9jYW6Abe+O1BlkhS1daRCAl1NQ==
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1633421392
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+mkosi
+
+%PROVIDES%
+mkosi
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+dnf: build Fedora or Mageia images
+debootstrap: build Debian or Ubuntu images
+debian-archive-keyring: build Debian images
+ubuntu-keyring: build Ubuntu images
+arch-install-scripts: build Arch images
+zypper-git: build openSUSE images
+gnupg: sign images
+xz: compress images with xz
+pxz: compress images with xz more efficiently
+btrfs-progs: raw_btrfs and subvolume output formats
+dosfstools: build bootable images
+squashfs-tools: raw_squashfs output format
+e2fsprogs: raw_ext4 output format
+xfsprogs: raw_xfs output format
+tar: tar output format
+cryptsetup: add dm-verity partitions
+ovmf: run bootable images in QEMU
+edk2-ovmf: run bootable images in QEMU
+qemu: run bootable images in QEMU
+sbsigntools: sign EFI binaries for UEFI SecureBoot
+
+%MAKEDEPENDS%
+python-setuptools
+git
+pandoc
+
