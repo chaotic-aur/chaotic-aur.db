@@ -685,6 +685,7 @@ usr/share/cmake-3.21/Help/policy/CMP0124.rst
 usr/share/cmake-3.21/Help/policy/CMP0125.rst
 usr/share/cmake-3.21/Help/policy/CMP0126.rst
 usr/share/cmake-3.21/Help/policy/CMP0127.rst
+usr/share/cmake-3.21/Help/policy/CMP0128.rst
 usr/share/cmake-3.21/Help/policy/DEPRECATED.txt
 usr/share/cmake-3.21/Help/policy/DISALLOWED_COMMAND.txt
 usr/share/cmake-3.21/Help/prop_cache/
@@ -972,6 +973,9 @@ usr/share/cmake-3.21/Help/prop_tgt/GHS_NO_SOURCE_GROUP_FILE.rst
 usr/share/cmake-3.21/Help/prop_tgt/GNUtoMS.rst
 usr/share/cmake-3.21/Help/prop_tgt/HAS_CXX.rst
 usr/share/cmake-3.21/Help/prop_tgt/HIP_ARCHITECTURES.rst
+usr/share/cmake-3.21/Help/prop_tgt/HIP_EXTENSIONS.rst
+usr/share/cmake-3.21/Help/prop_tgt/HIP_STANDARD.rst
+usr/share/cmake-3.21/Help/prop_tgt/HIP_STANDARD_REQUIRED.rst
 usr/share/cmake-3.21/Help/prop_tgt/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst
 usr/share/cmake-3.21/Help/prop_tgt/IMPORTED.rst
 usr/share/cmake-3.21/Help/prop_tgt/IMPORTED_COMMON_LANGUAGE_RUNTIME.rst
@@ -1032,8 +1036,11 @@ usr/share/cmake-3.21/Help/prop_tgt/LANG_CLANG_TIDY.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_COMPILER_LAUNCHER.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_CPPCHECK.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_CPPLINT.rst
+usr/share/cmake-3.21/Help/prop_tgt/LANG_EXTENSIONS.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_INCLUDE_WHAT_YOU_USE.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_LINKER_LAUNCHER.rst
+usr/share/cmake-3.21/Help/prop_tgt/LANG_STANDARD.rst
+usr/share/cmake-3.21/Help/prop_tgt/LANG_STANDARD_REQUIRED.rst
 usr/share/cmake-3.21/Help/prop_tgt/LANG_VISIBILITY_PRESET.rst
 usr/share/cmake-3.21/Help/prop_tgt/LIBRARY_OUTPUT_DIRECTORY.rst
 usr/share/cmake-3.21/Help/prop_tgt/LIBRARY_OUTPUT_DIRECTORY_CONFIG.rst
@@ -1233,12 +1240,15 @@ usr/share/cmake-3.21/Help/release/dev/LINK_WHAT_USE_USE-configuration.rst
 usr/share/cmake-3.21/Help/release/dev/UseSWIG-dependencies.rst
 usr/share/cmake-3.21/Help/release/dev/cmake-install-mode-symlink.rst
 usr/share/cmake-3.21/Help/release/dev/cmake_dependent_option_policy.rst
+usr/share/cmake-3.21/Help/release/dev/compile-features-standard-logic-rework.rst
 usr/share/cmake-3.21/Help/release/dev/cpack-deb-add-zstd-compression.rst
 usr/share/cmake-3.21/Help/release/dev/cpack-rpm-requires-exclude-from.rst
 usr/share/cmake-3.21/Help/release/dev/ctest-environment-modifications.rst
 usr/share/cmake-3.21/Help/release/dev/ctest-runtime-labels.rst
 usr/share/cmake-3.21/Help/release/dev/ctest_memcheck-generate-test.xml.rst
 usr/share/cmake-3.21/Help/release/dev/env-init-configs.rst
+usr/share/cmake-3.21/Help/release/dev/fetchcontent-CMAKE-vars-passthrough.rst
+usr/share/cmake-3.21/Help/release/dev/find-blas-lapack-sizeof-integer.rst
 usr/share/cmake-3.21/Help/release/dev/find-matlab-imported-targets.rst
 usr/share/cmake-3.21/Help/release/dev/find_package-required-var.rst
 usr/share/cmake-3.21/Help/release/dev/msvc-isystem.rst
@@ -1452,6 +1462,9 @@ usr/share/cmake-3.21/Help/variable/CMAKE_GLOBAL_AUTORCC_TARGET.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_GLOBAL_AUTORCC_TARGET_NAME.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_GNUtoMS.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_HIP_ARCHITECTURES.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_HIP_EXTENSIONS.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_HIP_STANDARD.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_HIP_STANDARD_REQUIRED.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_HOME_DIRECTORY.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_HOST_APPLE.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_HOST_SOLARIS.rst
@@ -1516,6 +1529,8 @@ usr/share/cmake-3.21/Help/variable/CMAKE_LANG_CPPLINT.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_CREATE_SHARED_LIBRARY.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_CREATE_SHARED_MODULE.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_CREATE_STATIC_LIBRARY.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_LANG_EXTENSIONS.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_LANG_EXTENSIONS_DEFAULT.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_FLAGS.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_FLAGS_CONFIG.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_FLAGS_CONFIG_INIT.rst
@@ -1551,8 +1566,11 @@ usr/share/cmake-3.21/Help/variable/CMAKE_LANG_SIMULATE_ID.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_SIMULATE_VERSION.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_SIZEOF_DATA_PTR.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_SOURCE_FILE_EXTENSIONS.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_LANG_STANDARD.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_LANG_STANDARD_DEFAULT.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_STANDARD_INCLUDE_DIRECTORIES.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_STANDARD_LIBRARIES.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_LANG_STANDARD_REQUIRED.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LANG_VISIBILITY_PRESET.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LIBRARY_ARCHITECTURE.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_LIBRARY_ARCHITECTURE_REGEX.rst
@@ -1683,6 +1701,7 @@ usr/share/cmake-3.21/Help/variable/CMAKE_SYSTEM_VERSION.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_Swift_LANGUAGE_VERSION.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_Swift_MODULE_DIRECTORY.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_Swift_NUM_THREADS.rst
+usr/share/cmake-3.21/Help/variable/CMAKE_TLS_CAINFO.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_TLS_VERIFY.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_TOOLCHAIN_FILE.rst
 usr/share/cmake-3.21/Help/variable/CMAKE_TRY_COMPILE_CONFIGURATION.rst
