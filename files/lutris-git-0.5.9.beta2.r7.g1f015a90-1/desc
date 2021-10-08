@@ -1,0 +1,91 @@
+%FILENAME%
+lutris-git-0.5.9.beta2.r7.g1f015a90-1-any.pkg.tar.zst
+
+%NAME%
+lutris-git
+
+%BASE%
+lutris-git
+
+%VERSION%
+0.5.9.beta2.r7.g1f015a90-1
+
+%DESC%
+Open Gaming Platform
+
+%CSIZE%
+756641
+
+%ISIZE%
+2128209
+
+%MD5SUM%
+9ad686a6a2a9f08e4f58c664cdd237c8
+
+%SHA256SUM%
+01b99eb1fa4947de3067168a3eb8b55afc8cf06d42b1d914acb5198e7704d99c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFgpuEACgkQBwa5DTfZuIHrkQ/+Jvl2Bj7CiNsy8ptqHQvlj03KO/YLhJWziELVt1hKmTmZ4A9YO02GSteUzpYwD0piUNHYGJYb+TuODZZ6FCa7qEzTcXElLg7qPrOe1QHMi1RF1MpQVm0lB5wJd0FyvB+XvvzFychy3xYkdtNKzzgVmnSYy1KpI581dFarTyKL6+UDTd/V/swn5hZhenZEsaRFX5fi5rOT2oobRCvQo+gaitHMjYggvy0Nl8bWF4cLGZvYAO19eU8Kt3UfKLomRNlqAyueLXv0AvcNWbVQZ2QmBa4+TO1DB5N6OesaNXJpwvHX/121fd0HeooNZHtwzQAk4ey+3U0dqaDa5DOvIMbPg/Pd1b5Fqjwm/4o4j7gVqIvdK9jkQhCpFSSzkJ9SOg7zU8PeVfHU3EgsXt97sz1vajf+ixp0N0WKPILTLuT7UPeleGIHhqq14xRFq4cvkH9gIVyjYOHqqvADMXZXGoPXf4JQieunFs9Wk5EugnV/e/jCczbUnvm80qY/IWEzNex4/p7/noVNqU7EMcX0Q7ixjFxVRpsX/XfLckrJceMu4/ttKlwW50/xDmQvsZbUXnTKYze7jF5ZkIyxlYNEE5yTavnK7xREieRziw++y0sBOg8usimkupe/mXkFz+fWVZC7UnuM5xtbTV6OwwbPdjioFHtFCZ5rQHLp09mKk7VwIvc=
+
+%URL%
+https://lutris.net/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1633724016
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+lutris
+
+%PROVIDES%
+lutris
+
+%DEPENDS%
+python-gobject
+python-yaml
+python-evdev
+python-dbus
+gtk3
+glib2
+psmisc
+cabextract
+unzip
+p7zip
+curl
+xorg-xrandr
+python-pillow
+python-requests
+gnome-desktop
+webkit2gtk
+mesa-demos
+python-dbus
+python-distro
+python-magic
+python-lxml
+
+%OPTDEPENDS%
+wine: easiest way to get all the libraries missing from the Lutris runtime
+vulkan-icd-loader: Vulkan support
+lib32-vulkan-icd-loader: Vulkan support
+vkd3d: Vulkan 3D support
+lib32-vkd3d: Vulkan 3D support
+gvfs: GVFS backend
+lib32-glibc: for 32bit games support
+gamemode: Allows games to request a temporary set of optimisations
+mangohud: Display the games' FPS + other information
+lib32-mangohud: Display the games' FPS + other information
+innoextract: Extract Inno Setup installers
+
+%MAKEDEPENDS%
+git
+meson
+
