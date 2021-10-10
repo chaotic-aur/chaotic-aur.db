@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-bmq-generic_v3-5.14.11-206-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-bmq-generic_v3
+
+%BASE%
+linux-tkg-bmq-generic_v3
+
+%VERSION%
+5.14.11-206
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+132146935
+
+%ISIZE%
+131615359
+
+%MD5SUM%
+5b960393a0c9c231c0052765e9ec71dd
+
+%SHA256SUM%
+936712b9ac6b23f9bc72e018689e428b30edd5749fbe696651ec35f7cf64eb0c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmFjKAsACgkQip4UoHAQ9+OVsQgAgddLRIevd/4fSm8BwsYP/nupNwi+IKDGwzu7krs/ey5umoQMSNxrw5c+lsrAYjZXn5kl7VlRR/FC3O+B93j9ZeMJTTUALfo/hQn2sqjTyH94f4W6CjQBcdLLlEaMEMkx8tTwRThYNMDhiWB7/C1Ai8i3zKP06A6NP1ZIWJU1/k6kTG1TXWKcUc7oOIGN3G45vOja+5aphARXW5MfRQP7dt8pZ0mFAnKWTl4UsLTuvfLkmaf3g65SLQDfdLWUYelsaQKIVa1TTMp0ZeJlC3vBaCoaX0Pfe/EI8oQTvaDkYgG13H9C1XHQ7VAP/LINL8+C+q+o2l467f/6Gs3tio1leg==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1633887479
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.14.11
+linux-tkg-bmq-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+

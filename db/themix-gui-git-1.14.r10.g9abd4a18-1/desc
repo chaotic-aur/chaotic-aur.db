@@ -1,0 +1,75 @@
+%FILENAME%
+themix-gui-git-1.14.r10.g9abd4a18-1-x86_64.pkg.tar.zst
+
+%NAME%
+themix-gui-git
+
+%BASE%
+themix-gui-git
+
+%VERSION%
+1.14.r10.g9abd4a18-1
+
+%DESC%
+Plugin-based theme designer GUI for environments (like GTK2, GTK3, Cinnamon, GNOME, MATE, Openbox, Xfwm), icons and terminal palettes.
+
+%CSIZE%
+240384
+
+%ISIZE%
+1044191
+
+%MD5SUM%
+159deff4d6e0cf9eb3009d50084f96ce
+
+%SHA256SUM%
+4fa3f0c66f74c118a060141376a15be0f672886ede5125415f07b3223fbb21b9
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFjHSsACgkQOkDLXn5cvDA8gQgAin7RdxCQ3vNUUdSh3Jhgt63bI+AeQa3g0OD6mnXakZxECHJdgllrynYIS9wlC71pVu3UJ5mdoHlXMIl2o+m7jBef1aujeAIrDA2sKSZDNL3Y3mZDfJsgB52B7b9psZgMoalXJEmFu9VC1+4o0Dv4hg56mg+zW9N/e+zNaWOaCVxMHtdvCcJPvPqvXq0mYOJiZ92Q2nV1rjcj/oiVvXt8YHqnG4bPuzN2DxCF88LwEt/TcVRagKlsGn6d4662E/znT0eSDDT3HJJMTLYg1G/WJNum+DDC6AMTqkLwvl2Ou/Gku92vN+D1jIwRWYM+sNS/EMyl4FnZGKNbcT65zcs72g==
+
+%URL%
+https://github.com/themix-project/oomox
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1633885468
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+themix-gui
+oomox
+oomox-git
+
+%PROVIDES%
+themix-gui
+
+%DEPENDS%
+gtk3
+python-gobject
+python-cairo
+
+%OPTDEPENDS%
+themix-import-images: Import palettes from images
+themix-export-spotify: Apply theme to Spotify
+themix-plugin-base16: Import and export from Base16 project format
+themix-theme-materia: Theme Style plugin
+themix-theme-oomox: Theme Style plugin
+themix-icons-archdroid: Icons Style plugin
+themix-icons-gnome-colors: Icons Style plugin
+themix-icons-numix: Icons Style plugin
+themix-icons-papirus: Icons Style plugin
+themix-icons-suru-plus: Icons Style plugin
+themix-icons-suru-plus-aspromauros: Icons Style plugin
+xorg-xrdb: for the `xresources` theme
+
+%MAKEDEPENDS%
+git
+
