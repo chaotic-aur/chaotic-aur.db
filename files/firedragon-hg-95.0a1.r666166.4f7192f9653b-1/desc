@@ -1,0 +1,113 @@
+%FILENAME%
+firedragon-hg-95.0a1.r666166.4f7192f9653b-1-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon-hg
+
+%BASE%
+firedragon-hg
+
+%VERSION%
+95.0a1.r666166.4f7192f9653b-1
+
+%DESC%
+Librewolf fork build using Nightly sources with custom branding, Proton UI rework & Fission enabled.
+
+%CSIZE%
+74842478
+
+%ISIZE%
+218552420
+
+%MD5SUM%
+ac4bca9b50ffceb314dd91e49bc8db75
+
+%SHA256SUM%
+c6dec76cdf0f9c52d2df62f891399e0321260d95b25728c2cf6defc7cfae29cf
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFpYTYACgkQOkDLXn5cvDDSpQf/dNN/WaRh/WGt7sLmtCHGypWOaUbShLnGhJNPe8OLUIovRykO1qMFJgRmQz0FX07UT7hOAAxxV5crVzetACzM54J52905qVVt/HViX8Ze6zdlDMRXv5Grd4DI8mu4qflDwiEebbq3UdAQeh5gSTx6mV2DGD4mqlRyX/WFJ3H7f6WNAcB6Pi9WwK8xaH9WO/PfnRht1ERvCr6pWeHTJ/R9PyEMqvBju2IoGo8u/YbNSNHVo6bskLvQEpZorw/4TDze7CVx0L2X5EAYqgiAxBOytpYAXjjv/1ndEBcrTVsifie9xfYXSp5iZUFdY5EDwi8isiBzIc+9pxV5TzXpCRHc0g==
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1634293863
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%PROVIDES%
+firedragon
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss-hg
+nspr-hg
+ttf-font
+libpulse
+libwebp
+libvpx
+libjpeg
+zlib
+icu
+libevent
+pipewire
+aom
+harfbuzz
+graphite
+dav1d
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+rust
+ccache
+autoconf2.13
+clang
+llvm
+jack
+gtk2
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+git
+binutils
+lld
+dump_syms
+
