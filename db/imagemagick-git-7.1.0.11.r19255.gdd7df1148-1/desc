@@ -1,0 +1,113 @@
+%FILENAME%
+imagemagick-git-7.1.0.11.r19255.gdd7df1148-1-x86_64.pkg.tar.zst
+
+%NAME%
+imagemagick-git
+
+%BASE%
+imagemagick-git
+
+%VERSION%
+7.1.0.11.r19255.gdd7df1148-1
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+3304905
+
+%ISIZE%
+10906605
+
+%MD5SUM%
+995c297d437944e26df17b489b5784df
+
+%SHA256SUM%
+1604755cab0d2bb560865685f6bedd5195e599a129e112f734c71a7525261ba9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFsMx4ACgkQBwa5DTfZuIF+NQ/+J1F2tZjgj+B815v2Ek/yRY5YzlOaPHwqXzIjaxyrVB/Bqg8QCA43EAdvj1C4NCsqvcU0sASKtmKRx+OC0ARLJzJFcU6ksXGw8+zUenqUyydedoOPRgpcJjK6m5Q+6GLDbm7HF2WYyCzly6Tzz9s6diaYmsmiiCOgZllvwKe1wa2yek/2pNWBSNjf/2bKsQbkmkXjMSuEjrGNnbTLlAIKonvZfRV/eEdAm0Vlh3ogprzaR/NOtbbdRexGhwOWIRzTII4WtkKNxVxdSbyqJvsCTl7gbuVBvMf/i6NyBw4ZR3SvhrS2MEZmZ2CFZMOm6Vd1oLUCv7HnOo22vemB308XjgoFy3CLwoDzb3NjCW4Eh2zUKH/Y8s/pJt2/UU7lEYyIS7buDpilZLmwjLDxmIAam/kUXLbuHJEubkz5ORjB8ex1YuDzm5IBqZHDBO99TjFUyroP2YLWRxWni/m+FVf90n80mShbmhc0Hirn66Fud0taXwui23unzaeqr+yJK7TYzVRdMGk7LYECDamAoeXbFMycWW+R9rSPkmm+oFzZRKLC9LvEDSWTGeoGWt6s7Cw9+0C8FG1exjkiMKqqDRqYFz0ac1nCNVnDlM1rjnCzI92Fhf15GK7bLHOMLl/aBE7g7MiT/pVxrLnmAjnSrYD+xfnxgUdt+wg6YKs4oNKd/ps=
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1634479728
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+imagemagick6
+libmagick
+
+%CONFLICTS%
+imagemagick6
+imagemagick
+
+%PROVIDES%
+libmagick
+imagemagick=7.1.0.11
+
+%DEPENDS%
+libltdl
+lcms2
+fontconfig
+libxext
+liblqr
+libraqm
+libpng
+libxml2
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+libheif: HEIF support
+libraw: DNG support
+librsvg: SVG support
+libwebp: WEBP support
+libwmf: WMF support
+libxml2: Magick Scripting Language
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+imagemagick-doc: manual and API docs
+
+%MAKEDEPENDS%
+ghostscript
+openexr
+libwmf
+librsvg
+libxml2
+openjpeg2
+libraw
+opencl-headers
+libwebp
+libzip
+chrpath
+ocl-icd
+glu
+ghostpcl
+ghostxps
+libheif
+jbigkit
+lcms2
+libxext
+liblqr
+libraqm
+libpng
+djvulibre
+patch
+git
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
