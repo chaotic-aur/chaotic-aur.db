@@ -1,0 +1,73 @@
+%FILENAME%
+nyxt-2.2.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nyxt
+
+%BASE%
+nyxt
+
+%VERSION%
+2.2.1-1
+
+%DESC%
+A keyboard-oriented, infinitely extensible web browser designed for power users
+
+%CSIZE%
+28925269
+
+%ISIZE%
+139096235
+
+%MD5SUM%
+d0eab054428d31327ca80eb29c9d3172
+
+%SHA256SUM%
+6efe19863f0ed7c395c0e4407ec15f17d380dd7910d57345016567b953cbb6c9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFtGu4ACgkQBwa5DTfZuIEdBw/9EVLMeNJ4XySOZTBRvmY59++hZW+HBV9ATTRpx6x6iSGVNn49jo0Mbte75alW4q5J6kUx/4dhf7ksDp1rs1A6afs3csulKgNhIEKK6P2qVExkbNXT2cghNs3h4dhk/bGFfvWuJpeZHcuA/aSS6m759KgMf16LPDeRvsIgWGDuJ/RQ+ZDl7uCI6yan8UojBQhyxHMAti/Wbg2gCgH2UCWNR5BDldzelG32mliTtAESaPOnUF3bvPcN/2xxSPYSxTO3vVv7OFdAl3dVx8BaH56jW2Or2LNqSdcFQ18Ixtyn17XVC/94qQxu1GFg2TJlj8t8uRh2QCwTSndfLj2TkMZfWFK42ROs71g055j67DMcMpHE0GgDx95gsh185N8+Dx+MuRneBuZUGrnXrZFivfXGhCgOX7yTeGVYnRxk1vekXZ6IlBNLpfvEuYmvYzj1aTJJUrwfzHCBHLUzWDsvO3Z4AoOg3VS9AFZrq3v3RGiGXEh69cU+lB9vEJJ1LrdYxLlfw8TwKCAGdcfngPp3N8acej8o0GgRS2G6mTwcPkH8UXgq5tQ+m0talM3I+LbBRitT+6rALT5TP9k74JNdxHwoQexSU5PK4QH44iyrLkPSOJ7BHp8pbUmi2pL9to5oINthgPX10Ccu6ljmYXKhzaPTJ9L7Y7bTw9Ty//8mqCMuMUU=
+
+%URL%
+https://github.com/atlas-engineer/nyxt
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1634539667
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+nyxt-browser
+
+%PROVIDES%
+nyxt-browser
+next-browser
+
+%DEPENDS%
+enchant
+glib-networking
+gobject-introspection-runtime
+gsettings-desktop-schemas
+libfixposix
+webkit2gtk
+
+%OPTDEPENDS%
+gstreamer: for HTML5 audio/video
+gst-plugins-base: for HTML5 audio/video
+gst-plugins-good: for HTML5 audio/video
+gst-plugins-bad: for HTML5 audio/video
+gst-plugins-ugly: for HTML5 audio/video
+
+%MAKEDEPENDS%
+cl-asdf
+git
+gobject-introspection-runtime
+sbcl
+

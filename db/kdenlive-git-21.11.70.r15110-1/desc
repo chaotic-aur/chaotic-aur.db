@@ -13,24 +13,20 @@ kdenlive-git
 %DESC%
 A non-linear video editor for Linux using the MLT video framework. KF5 Frameworks (Latest Applications GIT Version)
 
-%GROUPS%
-kde-applications-git
-kde-multimedia-git
-
 %CSIZE%
-12006436
+12007920
 
 %ISIZE%
 56467874
 
 %MD5SUM%
-e09da408308a3c3d71807984a8e6fcbe
+fb1ebc64a4f9e2ce2c4c9a42a3369c8f
 
 %SHA256SUM%
-81a7d476544c18637c86c3db41a6251ac03453bbbfe05022c66d6b102d033eb3
+fdf89cbb78db38e00dc8ebaeb544d5cc0d0b356e9684c5d9ef774de0c2758dd1
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFsHcAACgkQBwa5DTfZuIH1Ww/8DK8seS/ddhrf/kX8s+r0ExmpaYXEBC9E/W0ZKD0nCR/RMRxb7vor4TXP3+A/Yo3w0Hu57WNG/1Vv/EyfWSgZDMK9/d0TQIOj8uVjn9vGmdOfHIvlcI0SgDHA32N6C8DC80lK5vT/e3WdtcR0+cfdKfWNM0Roc3LvGB/CZqmAUgll9O9XJhxktLByHtenDj/qe34ZKlawmoCL4pEBdg76tssTtUyEtH5n9FbA8s1a5NbVdkPPyQEapHxJTRAw82DFujGMtdXZKSd7E/+2kAzB0KZ6MhwXIAmSABh6FNOk1Wt6il/SbyTRK4tmcV7j3ZH/dLpEgvVi9hT7uEHZuWgsbI/nyuGs6e82zjXGcu95mT9NIlR7jqVyqFFvG6CHWne9euKb3rzDrVpVC0d/57WZDnNwkHnzF3r1SV/HbPnZiGO3zjTjNYrRD/VNbhVW2HNNhe8YB8x6fqdQG33r3LZbgxIER3Bc/HQWdilDdzNI9me83E9vpaTKJDjHqRmzkXb/3AgvWZ9i5eGdG+6xW+vJ5IULxMLYy1ot//TIl0V9a7Z4U4CnAFCCb9shSLF2i4FJ8f8J9x6IvMa65o8LtNQ72OH0Jj/avHqUIaK5y2y64nL1zBWB28t+HvI+s1UOaUKaQ3UuoAp//g3vNJnjLsjw5RfEnap8x+bihVpdxTZioow=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFtGrMACgkQBwa5DTfZuIGSSw//TusMQ7hSfDGOPm+2VT6vx6ZlPxsqDkOf0MRi4yeJ2Udo+A2LtjflY0ikVe/mbamZi96ka8lpVSJdDNRhPGh+ckypzonQ0FtzoFPeDAXlKKUHF4Helm93oWQPfC3yFVAU5V3CaKzw3e89PhsZHKEcuGb+LqdYCxmNM1lNWwbE1zSJrRCB4wpE5pOE/G25ndSKHHf3Fyt3rO5hEPiqTr2qgTWY0PXH53g6sQ2D4ipKTEKx8IquNj6kaPTNBmQze7zGqoxXZTJ4n5brpD2Co9txuPEo8vHtQQSwdArr2yAnaip7cut5v3yjX5COJd7KrqajzYDlfxg5DoKBWrcFPtODLT0KEuyeA0424cHqKgLatzY+DZUyCBNjm5YUy/1Dap/0h0pldwbj4f122Zm0aZTD+JZbZdkuMd2a/EEQhbOrPYs3HUDJDj8rqe6X8RAvdT+eIwG4JP5grzFWuMqLHoFiyR9ocZpo8AsrEgE+560UcZdVVZkKh1J0bYXoIJzSkAYCUupqCuB0nt3Bo0KpeWv1bYmQN8JElvqivGuG9ums4lKhKRGAG3WbQfKSxuNuYhN4hL7K+BJklrQ23yMBJTKHxXN4E0mkRlm29ggV7YaO6sViQDkXzLSfv+hFbS/c9hL2GadpKx9yn3G3CeTGl7iDTPFi6657+NNZo5SVdD7Fqww=
 
 %URL%
 http://www.kdenlive.org/
@@ -42,10 +38,10 @@ GPL
 x86_64
 
 %BUILDDATE%
-1634470369
+1634538952
 
 %PACKAGER%
-Nico Jensch <dr460nf1r3@chaotic.cx>
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
 
 %CONFLICTS%
 kdenlive
@@ -54,15 +50,15 @@ kdenlive
 kdenlive
 
 %DEPENDS%
-qt5-networkauth
-knewstuff-git
-knotifyconfig-git
-kfilemetadata-git
-purpose-git
+qt5-webkit
+qt5-quickcontrols
+kfilemetadata
+knewstuff
+knotifyconfig
 mlt
-rttr
-breeze-icons-git
-frei0r-plugins
+hicolor-icon-theme
+purpose
+qt5-networkauth
 
 %OPTDEPENDS%
 ffmpeg: for FFmpeg plugin
@@ -76,7 +72,8 @@ oxygen-icons: optional for xfce
 breeze-icons: otional for default theme
 
 %MAKEDEPENDS%
-extra-cmake-modules-git
-kdoctools-git
+extra-cmake-modules
+kdoctools
+git
 v4l-utils
 
