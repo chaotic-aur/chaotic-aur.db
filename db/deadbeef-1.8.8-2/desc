@@ -1,0 +1,103 @@
+%FILENAME%
+deadbeef-1.8.8-2-x86_64.pkg.tar.zst
+
+%NAME%
+deadbeef
+
+%BASE%
+deadbeef
+
+%VERSION%
+1.8.8-2
+
+%DESC%
+Modular GTK audio player for GNU/Linux
+
+%CSIZE%
+4308017
+
+%ISIZE%
+11613314
+
+%MD5SUM%
+3a8a51d9c081000996c351f1087a0aee
+
+%SHA256SUM%
+e318c35f7f03875a85f258026a871a971cf908995ae0276f9f7aa0a444de237e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmFtId8ACgkQBwa5DTfZuIFDEg//dfRw2GqTI0gretpIrfVBd9N3MbZ4rcDqv4uXOanmeqRx+rDL8mRSlM2t0Bto1FMUQfH6Vt9EQu3sfwqoIVu6/AnmFjAfmxLlyNVVUbqeDo/N26wcpCz9Ab96ovzj8Cl2OZXYLWapm3BPUgDOHOsYwPWDiWsnXVgjbrL8rpRORin72er9rJ/gmGewyYDyi6C9Ha7osLEMc2CVrOl3EGnU07luizAtnbZUM+Eid9kx6CxB7Ikr4uAnt0iJ2QFJlTobwaqBQkXU4HwhF3BOLn4geaXQwSVyq3asyE7bPQWuCNOUDDLXgCBS/MPyeKTHc8dysVjcrMD0J4ibad5xFr6fPv9NUP3NbgE1cKiKAwHrCH/Gx4XWF34EYa6POuRSFBgZ04MjuGJOmAQmh3QlOwIK6L4JhrogOBiDByvfdJtv80sfwuAu+neZ4kwy8yTJQwiFJSeJ771RtypjwBjFTvh1mDlFsk1Ya1H3Qx6IxQPxl7K3aU8hnZac205rlllF/FWXSJm/0TN6yaKQUiLu6GnlHZEslkKffhJn9WrK1wReolqVobE2U31rqf/faR8c1qWAy04aiqBv3VSXxyeB/5oT6JtreJwOdGRBxXzajHtpDgd5IaEaHjRiY/YBZOk2IGv1aa7k+BJ73UwuFt1LL/f+fSLTpkEf3pi7SaaYSdpWRCg=
+
+%URL%
+https://deadbeef.sourceforge.io/
+
+%LICENSE%
+GPL2
+LGPL2.1
+ZLIB
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1634541886
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+alsa-lib
+jansson
+libdispatch
+
+%OPTDEPENDS%
+alsa-oss: for OSS output plugin
+cdparanoia: for cd audio plugin
+curl: for last.fm, vfs_curl (shoutcast/icecast), artwork plugins
+dbus: for notification daemon support (OSD current song notifications)
+faad2: for AAC plugin
+ffmpeg: for ffmpeg plugin
+flac: for flac plugin
+imlib2: for artwork plugin
+libcddb: for cd audio plugin
+libcdio: for cd audio plugin
+libice: optional dependency for gtkui session client support
+libmad: for mp3 plugin (mpeg1,2 layers1,2,3)
+libogg: for ogg vorbis plugin
+libsamplerate: for dsp_libsrc plugin (resampler)
+libsidplay: for SID player plugin
+libsm: optional dependency for gtkui session client support
+libsndfile: for sndfile plugin
+libvorbis: for ogg vorbis plugin
+libx11: for global hotkeys plugin
+libzip: for vfs_zip plugin
+mpg123: for MP1/MP2/MP3 playback
+opusfile: for opus plugin
+pulseaudio: for PulseAudio output plugin
+wavpack: for wavpack plugin
+yasm: required to build assembly portions of ffap plugin
+zlib: for Audio Overload plugin (psf, psf2, etc), GME (for vgz)
+
+%MAKEDEPENDS%
+libvorbis
+libmad
+flac
+curl
+imlib2
+wavpack
+libsndfile
+libcdio
+libcddb
+libx11
+faad2
+zlib
+intltool
+pkgconfig
+libpulse
+libzip
+libsamplerate
+yasm
+ffmpeg
+clang
+
