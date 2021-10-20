@@ -1086,6 +1086,8 @@ usr/include/wine/windows/wmsbuffer.idl
 usr/include/wine/windows/wmsdk.h
 usr/include/wine/windows/wmsdkidl.h
 usr/include/wine/windows/wmsdkidl.idl
+usr/include/wine/windows/wmsecure.h
+usr/include/wine/windows/wmsecure.idl
 usr/include/wine/windows/wnaspi32.h
 usr/include/wine/windows/wownt16.h
 usr/include/wine/windows/wownt32.h
@@ -1241,9 +1243,11 @@ usr/lib/wine/x86_64-unix/libimagehlp.def
 usr/lib/wine/x86_64-unix/libimm32.def
 usr/lib/wine/x86_64-unix/libinetcomm.def
 usr/lib/wine/x86_64-unix/libiphlpapi.def
+usr/lib/wine/x86_64-unix/libjpeg.a
 usr/lib/wine/x86_64-unix/libjsproxy.def
 usr/lib/wine/x86_64-unix/libkernel32.def
 usr/lib/wine/x86_64-unix/libkernelbase.def
+usr/lib/wine/x86_64-unix/liblcms2.a
 usr/lib/wine/x86_64-unix/libloadperf.def
 usr/lib/wine/x86_64-unix/liblz32.def
 usr/lib/wine/x86_64-unix/libmapi32.def
@@ -1296,6 +1300,7 @@ usr/lib/wine/x86_64-unix/libolepro32.def
 usr/lib/wine/x86_64-unix/libolesvr32.def
 usr/lib/wine/x86_64-unix/libopengl32.def
 usr/lib/wine/x86_64-unix/libpdh.def
+usr/lib/wine/x86_64-unix/libpng.a
 usr/lib/wine/x86_64-unix/libpowrprof.def
 usr/lib/wine/x86_64-unix/libprntvpt.def
 usr/lib/wine/x86_64-unix/libpropsys.def
@@ -1330,6 +1335,7 @@ usr/lib/wine/x86_64-unix/libstrmiids.a
 usr/lib/wine/x86_64-unix/libsxs.def
 usr/lib/wine/x86_64-unix/libt2embed.def
 usr/lib/wine/x86_64-unix/libtapi32.def
+usr/lib/wine/x86_64-unix/libtiff.a
 usr/lib/wine/x86_64-unix/libucrtbase.a
 usr/lib/wine/x86_64-unix/libuiautomationcore.def
 usr/lib/wine/x86_64-unix/libunicows.def
@@ -1378,9 +1384,9 @@ usr/lib/wine/x86_64-unix/libwsock32.def
 usr/lib/wine/x86_64-unix/libwtsapi32.def
 usr/lib/wine/x86_64-unix/libxinput.def
 usr/lib/wine/x86_64-unix/libxmllite.def
+usr/lib/wine/x86_64-unix/libz.a
 usr/lib/wine/x86_64-unix/mountmgr.sys.so
 usr/lib/wine/x86_64-unix/mp3dmod.dll.so
-usr/lib/wine/x86_64-unix/mscms.so
 usr/lib/wine/x86_64-unix/msgsm32.acm.so
 usr/lib/wine/x86_64-unix/msv1_0.so
 usr/lib/wine/x86_64-unix/msxml3.dll.so
@@ -1394,7 +1400,6 @@ usr/lib/wine/x86_64-unix/opengl32.dll.so
 usr/lib/wine/x86_64-unix/qcap.so
 usr/lib/wine/x86_64-unix/sane.ds.so
 usr/lib/wine/x86_64-unix/secur32.so
-usr/lib/wine/x86_64-unix/user32.so
 usr/lib/wine/x86_64-unix/win32u.so
 usr/lib/wine/x86_64-unix/windowscodecs.so
 usr/lib/wine/x86_64-unix/winealsa.drv.so
@@ -2075,9 +2080,11 @@ usr/lib/wine/x86_64-windows/libimagehlp.a
 usr/lib/wine/x86_64-windows/libimm32.a
 usr/lib/wine/x86_64-windows/libinetcomm.a
 usr/lib/wine/x86_64-windows/libiphlpapi.a
+usr/lib/wine/x86_64-windows/libjpeg.a
 usr/lib/wine/x86_64-windows/libjsproxy.a
 usr/lib/wine/x86_64-windows/libkernel32.a
 usr/lib/wine/x86_64-windows/libkernelbase.a
+usr/lib/wine/x86_64-windows/liblcms2.a
 usr/lib/wine/x86_64-windows/libloadperf.a
 usr/lib/wine/x86_64-windows/liblz32.a
 usr/lib/wine/x86_64-windows/libmapi32.a
@@ -2130,6 +2137,7 @@ usr/lib/wine/x86_64-windows/libolepro32.a
 usr/lib/wine/x86_64-windows/libolesvr32.a
 usr/lib/wine/x86_64-windows/libopengl32.a
 usr/lib/wine/x86_64-windows/libpdh.a
+usr/lib/wine/x86_64-windows/libpng.a
 usr/lib/wine/x86_64-windows/libpowrprof.a
 usr/lib/wine/x86_64-windows/libprntvpt.a
 usr/lib/wine/x86_64-windows/libpropsys.a
@@ -2164,6 +2172,7 @@ usr/lib/wine/x86_64-windows/libstrmiids.a
 usr/lib/wine/x86_64-windows/libsxs.a
 usr/lib/wine/x86_64-windows/libt2embed.a
 usr/lib/wine/x86_64-windows/libtapi32.a
+usr/lib/wine/x86_64-windows/libtiff.a
 usr/lib/wine/x86_64-windows/libucrtbase.a
 usr/lib/wine/x86_64-windows/libuiautomationcore.a
 usr/lib/wine/x86_64-windows/libunicows.a
@@ -2210,6 +2219,7 @@ usr/lib/wine/x86_64-windows/libwsock32.a
 usr/lib/wine/x86_64-windows/libwtsapi32.a
 usr/lib/wine/x86_64-windows/libxinput.a
 usr/lib/wine/x86_64-windows/libxmllite.a
+usr/lib/wine/x86_64-windows/libz.a
 usr/lib/wine/x86_64-windows/light.msstyles
 usr/lib/wine/x86_64-windows/loadperf.dll
 usr/lib/wine/x86_64-windows/localspl.dll
@@ -2396,6 +2406,7 @@ usr/lib/wine/x86_64-windows/regsvr32.exe
 usr/lib/wine/x86_64-windows/resutils.dll
 usr/lib/wine/x86_64-windows/riched20.dll
 usr/lib/wine/x86_64-windows/riched32.dll
+usr/lib/wine/x86_64-windows/robocopy.exe
 usr/lib/wine/x86_64-windows/rpcrt4.dll
 usr/lib/wine/x86_64-windows/rpcss.exe
 usr/lib/wine/x86_64-windows/rsabase.dll
@@ -2738,10 +2749,12 @@ usr/lib32/wine/i386-unix/libimagehlp.def
 usr/lib32/wine/i386-unix/libimm32.def
 usr/lib32/wine/i386-unix/libinetcomm.def
 usr/lib32/wine/i386-unix/libiphlpapi.def
+usr/lib32/wine/i386-unix/libjpeg.a
 usr/lib32/wine/i386-unix/libjsproxy.def
 usr/lib32/wine/i386-unix/libkernel.def
 usr/lib32/wine/i386-unix/libkernel32.def
 usr/lib32/wine/i386-unix/libkernelbase.def
+usr/lib32/wine/i386-unix/liblcms2.a
 usr/lib32/wine/i386-unix/libloadperf.def
 usr/lib32/wine/i386-unix/liblz32.def
 usr/lib32/wine/i386-unix/libmapi32.def
@@ -2794,6 +2807,7 @@ usr/lib32/wine/i386-unix/libolepro32.def
 usr/lib32/wine/i386-unix/libolesvr32.def
 usr/lib32/wine/i386-unix/libopengl32.def
 usr/lib32/wine/i386-unix/libpdh.def
+usr/lib32/wine/i386-unix/libpng.a
 usr/lib32/wine/i386-unix/libpowrprof.def
 usr/lib32/wine/i386-unix/libprntvpt.def
 usr/lib32/wine/i386-unix/libpropsys.def
@@ -2828,6 +2842,7 @@ usr/lib32/wine/i386-unix/libstrmiids.a
 usr/lib32/wine/i386-unix/libsxs.def
 usr/lib32/wine/i386-unix/libt2embed.def
 usr/lib32/wine/i386-unix/libtapi32.def
+usr/lib32/wine/i386-unix/libtiff.a
 usr/lib32/wine/i386-unix/libucrtbase.a
 usr/lib32/wine/i386-unix/libuiautomationcore.def
 usr/lib32/wine/i386-unix/libunicows.def
@@ -2876,9 +2891,9 @@ usr/lib32/wine/i386-unix/libwsock32.def
 usr/lib32/wine/i386-unix/libwtsapi32.def
 usr/lib32/wine/i386-unix/libxinput.def
 usr/lib32/wine/i386-unix/libxmllite.def
+usr/lib32/wine/i386-unix/libz.a
 usr/lib32/wine/i386-unix/mountmgr.sys.so
 usr/lib32/wine/i386-unix/mp3dmod.dll.so
-usr/lib32/wine/i386-unix/mscms.so
 usr/lib32/wine/i386-unix/msgsm32.acm.so
 usr/lib32/wine/i386-unix/msv1_0.so
 usr/lib32/wine/i386-unix/msxml3.dll.so
@@ -2892,7 +2907,6 @@ usr/lib32/wine/i386-unix/opengl32.dll.so
 usr/lib32/wine/i386-unix/qcap.so
 usr/lib32/wine/i386-unix/sane.ds.so
 usr/lib32/wine/i386-unix/secur32.so
-usr/lib32/wine/i386-unix/user32.so
 usr/lib32/wine/i386-unix/win32u.so
 usr/lib32/wine/i386-unix/windowscodecs.so
 usr/lib32/wine/i386-unix/winealsa.drv.so
@@ -3586,10 +3600,12 @@ usr/lib32/wine/i386-windows/libimagehlp.a
 usr/lib32/wine/i386-windows/libimm32.a
 usr/lib32/wine/i386-windows/libinetcomm.a
 usr/lib32/wine/i386-windows/libiphlpapi.a
+usr/lib32/wine/i386-windows/libjpeg.a
 usr/lib32/wine/i386-windows/libjsproxy.a
 usr/lib32/wine/i386-windows/libkernel.a
 usr/lib32/wine/i386-windows/libkernel32.a
 usr/lib32/wine/i386-windows/libkernelbase.a
+usr/lib32/wine/i386-windows/liblcms2.a
 usr/lib32/wine/i386-windows/libloadperf.a
 usr/lib32/wine/i386-windows/liblz32.a
 usr/lib32/wine/i386-windows/libmapi32.a
@@ -3642,6 +3658,7 @@ usr/lib32/wine/i386-windows/libolepro32.a
 usr/lib32/wine/i386-windows/libolesvr32.a
 usr/lib32/wine/i386-windows/libopengl32.a
 usr/lib32/wine/i386-windows/libpdh.a
+usr/lib32/wine/i386-windows/libpng.a
 usr/lib32/wine/i386-windows/libpowrprof.a
 usr/lib32/wine/i386-windows/libprntvpt.a
 usr/lib32/wine/i386-windows/libpropsys.a
@@ -3676,6 +3693,7 @@ usr/lib32/wine/i386-windows/libstrmiids.a
 usr/lib32/wine/i386-windows/libsxs.a
 usr/lib32/wine/i386-windows/libt2embed.a
 usr/lib32/wine/i386-windows/libtapi32.a
+usr/lib32/wine/i386-windows/libtiff.a
 usr/lib32/wine/i386-windows/libucrtbase.a
 usr/lib32/wine/i386-windows/libuiautomationcore.a
 usr/lib32/wine/i386-windows/libunicows.a
@@ -3722,6 +3740,7 @@ usr/lib32/wine/i386-windows/libwsock32.a
 usr/lib32/wine/i386-windows/libwtsapi32.a
 usr/lib32/wine/i386-windows/libxinput.a
 usr/lib32/wine/i386-windows/libxmllite.a
+usr/lib32/wine/i386-windows/libz.a
 usr/lib32/wine/i386-windows/light.msstyles
 usr/lib32/wine/i386-windows/loadperf.dll
 usr/lib32/wine/i386-windows/localspl.dll
@@ -3924,6 +3943,7 @@ usr/lib32/wine/i386-windows/regsvr32.exe
 usr/lib32/wine/i386-windows/resutils.dll
 usr/lib32/wine/i386-windows/riched20.dll
 usr/lib32/wine/i386-windows/riched32.dll
+usr/lib32/wine/i386-windows/robocopy.exe
 usr/lib32/wine/i386-windows/rpcrt4.dll
 usr/lib32/wine/i386-windows/rpcss.exe
 usr/lib32/wine/i386-windows/rsabase.dll
