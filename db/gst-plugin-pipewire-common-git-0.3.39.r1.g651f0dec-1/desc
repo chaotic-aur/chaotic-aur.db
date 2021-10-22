@@ -14,19 +14,19 @@ pipewire-common-git
 Multimedia graph framework - pipewire plugin
 
 %CSIZE%
-54936
+54949
 
 %ISIZE%
 121954
 
 %MD5SUM%
-629ebcb33847709f0e57fef0b8301a16
+d251596f96514158600942b1d474e3db
 
 %SHA256SUM%
-963979b11bfbd8ea1d8caa7ff4e06bf7d03d3c809e71e895c0c353db823384d7
+da99e8ea02a6bd8b08db7caa99188476f8015c702b7588b6a6168eddd3546141
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFxP5AACgkQOkDLXn5cvDAZzQf8CAk6V73Oqh9LJD+PXdLzfwnE7ZvBxSwMxGd/WMy3j/2B45byPjQVewLy9+t02UN9q6EeaPWJM2PO+XBjDRujJYk2PZ3yDffeOpSKEhYcdv6O97qkaNFNY/N+T4JQZnSv74fNNgRW4NTCQq2EaZdb05wprnSjKA3NhrAvKzwrluvg8VN6a9BqGiOtI4lf0KnGFL5H1R/Awy8ZndaqUNbADGSEGM968+ahRzNS8KWJoGrk/7obw09rFMOZjFjN56K10GE6Vc4X0GdoR5nb3OxgAxoJ/Jxm75MCjCJdvKBiqZyNbeI5YcFVcSZU6qlcw7NIOfmYDZMuazwY+2VfbuzqgA==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFyRlQACgkQOkDLXn5cvDBq5wf9HT7h+Nogrp0kyxq1GLuVeLyOyCUGVI9yfG5SwIKUzxIJSSbCot2fThD+jkjriRaxbBkyYc91Vbuq7EljaJ/xlHfCgJ+NbH6sPiDiRAtFw0m7MlTopBEI/HuGea5c/m/0eVQBIi3Fu1se4QXtIpv52l2gBa1Ynk3BDWuj+2mvHqwosWvyUawsEZw3n0St4iwjqha0uFbkJBIl6/Yadh1vEi3iEWdQKGCkOS8ugEOWc2P1PL6qqbK1prflSN7H41SdhS/pvyBXYp/mEfnDFbgMcCvn8madn1aK2j4mC498Li07VRZDD+XKXfWgxsISM0CjJ/sdwCien7LGYLSX43yqdA==
 
 %URL%
 https://pipewire.org
@@ -38,7 +38,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1634811728
+1634878996
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -50,9 +50,10 @@ gst-plugin-pipewire
 gst-plugin-pipewire
 
 %DEPENDS%
+gst-plugins-base-libs
+pipewire-session-manager
 pipewire-common-git
 libpipewire-0.3.so=0-64
-gst-plugins-base-libs
 
 %MAKEDEPENDS%
 git

@@ -14,19 +14,19 @@ pipewire-common-git
 Low-latency audio/video router and processor - JACK support
 
 %CSIZE%
-127882
+127781
 
 %ISIZE%
-487863
+487658
 
 %MD5SUM%
-1e29c92d7fe1bb6932f865507b4a9228
+303df0e4ef21a3d7364f3080038d58f6
 
 %SHA256SUM%
-c81d3623f829ee0b1b0a61f3a09d61fe0c28c6bf66b1ba428a33ff0edf37ada6
+17267a26e5ea22e6f886df988376eeee0f15f44762dc1784a72b8b90778024e0
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFxP5gACgkQOkDLXn5cvDDpWgf/TDuIWDmRmGRDNWBPg0VMgEu4BwkUhyx+5foolrLlKMceNnVCgi1Jj1DqOD8ZmBehBYNKjL2ESt5kVCk0lM1CJTDSroULnWGw+YWe74XskmCeb1tr1UJLJEHP8q3++sAcatzWutjp+cQeXJ+NEQjRpmkv7OGRXpWKmmnzptzKjCGda5EyyWSOWj/8zcADBGkfbgwr/XiOA3qbqZdieuj1DNFoX1wULks6JPwI4k7ftjvOipTiXbzSgZQFswPs/TVd34QHUbe5tJC5/8rGF68pG+IHUUgxca5M4wNUETYMoWGD+RACZkHJX64cPgOOg0yAIEZNuPJ/aFBDgvSIL/VC8g==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFyRlwACgkQOkDLXn5cvDCwCwf9EWsxAMVz4T/9K5o9kvuqCGBLfGgE8VfbUkmteoJN7kvmS6w08CkAwtIq1WPGR/CUyN5kPI4PnvCCd+17Y9nqyPHcCqnmt7n6AtC+ZQw5McgeMVAwP1bIeXjx1EP4B0+1rGEuc+9+SpRIj+NTETGdbRiOTtoaHejgUxU2tuljHD7J2gbWv+UqO2XUTkdU7jSX+FXufGKhHkikpjcVFDEckiFf1w11es00C4ZWIC2UiUC9jhkqTzUuAr46YuQJr6ozZyDZGHB+1XYyXPlrtUfbsqLZHek1qTBVaEGo4b0QEm5MG8478itM+NUM+LJtBCdeoc/fJ5anso0gW+J4nSFI1g==
 
 %URL%
 https://pipewire.org
@@ -39,7 +39,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1634811728
+1634878996
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -51,9 +51,10 @@ pipewire-jack
 pipewire-jack
 
 %DEPENDS%
+bash
+pipewire-session-manager
 pipewire-common-git
 libpipewire-0.3.so=0-64
-bash
 
 %MAKEDEPENDS%
 git

@@ -14,19 +14,19 @@ pipewire-common-git
 Low-latency audio/video router and processor
 
 %CSIZE%
-2219223
+2065146
 
 %ISIZE%
-8510843
+7976764
 
 %MD5SUM%
-6b951002f9ce0adabfb35b26f41aa56f
+91cc30a9cf6fa02e84da3b4709df9f55
 
 %SHA256SUM%
-4e3efc3d0d1139a6b956471e6d6451ab79b7f694bbd1b658f93a2369271a8ac3
+256206b4ea5fb8edab4da6a6f181cac3962035e4cc524ea3f465365176a82142
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFxP5YACgkQOkDLXn5cvDBIWAf+Mx0qTSnvrJejknYImqXYGgfNoqTh6c6wZ4hNAGWKxosTiI0o0Zubt7NxEKjnH7G84y1o9tGn8NKB4EFk/vu6NVcGiXKpf7P2Whtlb6gWQoQgjI1s1NPIfv+6nFb/OvbaCDGm3O+nE5+g8h6qPEIcImrgnmjdsPsRA3ZoIajz7GogL9/3YIQ0shVMZlaDQZDP3/gLET+rEnkvUFhSF6fqO46QWrGYdqi9t3omIT/XOKpMJMZnz3KMepNPeb8LgwkmgDxJ6z3Ja99g/Rv6gj07h3vnqw5HAc82FdZvblPU3JKb8Ipwn2mHCK1eSiO7EOvgv0RiveuhIROu34WUupgJIA==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmFyRloACgkQOkDLXn5cvDAOGwgAg/GCvvjcFT8PzfnudGv0nyVM95M6WswTpukgVrlFUB0vfkwd8IGgIXpa86HnXqvKyqyqHsJ9y1fd3WkBqkpLMVqA+TZs339XHILgGzC/MI4cemaN5hF2dUem9kVMTvMF1CnEbTFw+ycuYDmf3nx09AAWQZE9eCnPQSLFFy/kRZtL2NkENBSRD+qwyqTwfSwfiqNo3jy7ckwRbnae8N0RZmvkIuqlTSrgem37afd1Jj69l+drSnY6c1rGc4ZzPyJRb6hmJyQZ62N24GByIvZpiAXWOZNffqIrq5en8Z8Iso4OYgCy2zOw+KQF6zNB+buKkVF3CNLkec9BYV74YYe3Dg==
 
 %URL%
 https://pipewire.org
@@ -39,19 +39,17 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1634811728
+1634878996
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
 
 %CONFLICTS%
 pipewire
-pipewire-media-session
 alsa-card-profiles
 
 %PROVIDES%
-pipewire
-pipewire-media-session
+pipewire=0.3.39.r1.g651f0dec
 alsa-card-profiles
 libpipewire-0.3.so=0-64
 
@@ -74,6 +72,7 @@ libfreeaptx.so=0-64
 libfdk-aac.so=2-64
 
 %OPTDEPENDS%
+pipewire-session-manager: Session manager
 pipewire-common-docs-git: Documentation
 pipewire-common-alsa-git: ALSA configuration
 pipewire-common-jack-git: JACK support
