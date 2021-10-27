@@ -1,0 +1,69 @@
+%FILENAME%
+xfce4-panel-sntray-git-0.4.13.1.r3.ga5028a3-1-x86_64.pkg.tar.zst
+
+%NAME%
+xfce4-panel-sntray-git
+
+%BASE%
+vala-panel-sntray-git
+
+%VERSION%
+0.4.13.1.r3.ga5028a3-1
+
+%DESC%
+Plugin for xfce4-panel to show StatusNotifierItems (AppIndicators) via FlowBox
+
+%CSIZE%
+98268
+
+%ISIZE%
+248453
+
+%MD5SUM%
+018e9add33f00e43b65a4b2492c18723
+
+%SHA256SUM%
+a40363d0b5a37bdaff80176221f8878b4f2b2d93546a41035b9fdb418d058eba
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmF5QRgACgkQOkDLXn5cvDCwvwf9F95y2V3zyXyDY0AY08Zx6skqponc1CtVJ8Bxbd3OvQTrmnV3+MpiRKL3og022XpKNU3CGO8yZt0Ij6+l9EoDueUC8TOy4H7Ktph2g1Mdyy7seVbPXKWjDXO6Nr3zojx6/vyibhRMZnxbhQp6xnfm50v/PorMxwQAbOeuF3MniV6mso85q+j7sP+tcejK2oPhNGoTpfU+9p0eyk+hFQCjhT9mIMYRUBYkpW1y4pfG1Tik9eg76M8mAjBK8aND+tN/kHN06iDFuEqSZCQPxGHydcNCxVNDbqsJ/EnaIerFxh2BqA0fmbsaoqt1iLeDsUZsG4aZXKUfMOiMhKwHlZcHfw==
+
+%URL%
+https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1635336404
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+gtk3
+xfce4-panel>=4.11.2
+sntray-plugin-common-git
+
+%OPTDEPENDS%
+vala-panel-extras-volume: ALSA volume applet
+vala-panel-extras-battery: UPower battery applet
+vala-panel-extras-weather: Weather applet
+vala-panel-extras-xkb: XKB applet
+sni-qt: Qt applications for StatusNotifier
+libappindicator-gtk2: Gtk2 applications for StatusNotifier
+libappindicator-gtk3: Gtk3 applications for StatusNotifier
+
+%MAKEDEPENDS%
+cmake
+vala
+gtk3
+libpeas
+mate-panel
+xfce4-panel>=4.11.2
+vala-panel>=0.3.75
+budgie-desktop
+
