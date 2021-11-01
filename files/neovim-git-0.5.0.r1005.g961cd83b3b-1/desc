@@ -1,0 +1,78 @@
+%FILENAME%
+neovim-git-0.5.0.r1005.g961cd83b3b-1-x86_64.pkg.tar.zst
+
+%NAME%
+neovim-git
+
+%BASE%
+neovim-git
+
+%VERSION%
+0.5.0.r1005.g961cd83b3b-1
+
+%DESC%
+Fork of Vim aiming to improve user experience, plugins, and GUIs.
+
+%CSIZE%
+11410658
+
+%ISIZE%
+33141608
+
+%MD5SUM%
+dff901d4f88aed55c72bce01dfd0ef03
+
+%SHA256SUM%
+6c0c38fe098abe96646e6b38cacc35da38d84218766d1d8b6075443d9c4fb87c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmF/9iMACgkQOkDLXn5cvDBykAf+OTn9er3ByDhjnBAkZbV+REMnVDY9WNW/PJ6VbWG1QLnuukj/79SjfZsuBvxUcyvmgIlEEr2zbqqnnGam3toFWtRpcMABOFpma4Lje1nAwov+zKo4N3t8BWMtHV22EERAZ7wvjMdr20NNn/ToEc6/DTjWurLEr9tmVr+mVvKSyBOBu7DqqU8R6iIfXmmHuHgZV/LnWx5LitLXkHWUoBzMsvkqAoCyBedPVu5AH3737mBWEKjruJy/AMp2gNMd+fj6y2brywSpQdyo4xh42NVBPf2riD5saqIC6RLNWNleAOMV0rKFI+5gDxotf3P5HHeSMIOHeo74cU2H65IDTzDTfw==
+
+%URL%
+https://neovim.io
+
+%LICENSE%
+custom:neovim
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1635775790
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+neovim
+
+%PROVIDES%
+neovim=0.5.0.r1005.g961cd83b3b
+vim-plugin-runtime
+
+%DEPENDS%
+libluv
+libtermkey
+libutf8proc
+libuv
+libvterm>=0.1.git5
+luajit
+msgpack-c
+unibilium
+tree-sitter
+
+%OPTDEPENDS%
+python2-neovim: for Python 2 plugin support (see :help provider-python)
+python-neovim: for Python 3 plugin support (see :help provider-python)
+ruby-neovim: for Ruby plugin support (see :help provider-ruby)
+xclip: for clipboard support (or xsel) (see :help provider-clipboard)
+xsel: for clipboard support (or xclip) (see :help provider-clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
+%MAKEDEPENDS%
+cmake
+git
+gperf
+lua51-mpack
+lua51-lpeg
+
