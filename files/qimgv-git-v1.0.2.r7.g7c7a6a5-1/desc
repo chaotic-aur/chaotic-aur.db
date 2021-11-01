@@ -1,0 +1,75 @@
+%FILENAME%
+qimgv-git-v1.0.2.r7.g7c7a6a5-1-x86_64.pkg.tar.zst
+
+%NAME%
+qimgv-git
+
+%BASE%
+qimgv-git
+
+%VERSION%
+v1.0.2.r7.g7c7a6a5-1
+
+%DESC%
+Qt5 image viewer. Fast, configurable, easy to use. Supports video playback.
+
+%CSIZE%
+760174
+
+%ISIZE%
+2173831
+
+%MD5SUM%
+8839d96fe8c82a2fec62d362b2cdd74d
+
+%SHA256SUM%
+ee804ecf9c9af4a08edb048587fc8a43a52fefd027d3a1dc5aeeb0a6f5053f61
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGAaTQACgkQOkDLXn5cvDDlWAf/cKaz/MB38s0yKTVrFlVKZkBU6BH1Q8jMCyoAVBwdNIbDjW9IWBnVURup4ic6U8rlUEN6UvcJ7YPtK9Ty1tQBRa8BjC6nPCqeJ7v59SmUD06ItJygy3cZsmsRGkBZngvLNSgAEOqPc94TXyMdQnS9z+O2w+9TQke4aJ1rd5rS3XabXcWAPZFfVTp5rTTRAAJ+Z4yzI4VM3waFKwicqBJiZpLWIf3SFc9gPfbKu24iGHiYMQcBam/Qr0GUssgrxRX3/H7tLz/MHP0bnZAroyHLtDHVeZGqc7B5tsi1VyqpiDbFE5TGqxnNvsBCFciWfy4BskBCCbGXzgY7tvMfY3Vniw==
+
+%URL%
+https://github.com/easymodo/qimgv
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1635805098
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+qimgv
+
+%PROVIDES%
+qimgv
+
+%DEPENDS%
+qt5-base
+qt5-imageformats
+qt5-svg
+mpv
+exiv2
+opencv
+
+%OPTDEPENDS%
+kimageformats: support for more image formats
+qt5-apng-plugin: apng support
+qtraw-git: RAW support
+qt5-jpegxl-image-plugin: JPEG-XL support
+qt-avif-image-plugin-git: AVIF support
+
+%MAKEDEPENDS%
+git
+cmake
+pkgconf
+qt5-tools
+mpv
+exiv2
+opencv
+
