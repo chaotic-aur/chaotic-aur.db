@@ -1,0 +1,70 @@
+%FILENAME%
+pipe-viewer-git-0.1.5.r1.ge8450bc-1-any.pkg.tar.zst
+
+%NAME%
+pipe-viewer-git
+
+%BASE%
+pipe-viewer-git
+
+%VERSION%
+0.1.5.r1.ge8450bc-1
+
+%DESC%
+A lightweight YouTube client for Linux (CLI/GTK) (fork of straw-viewer)
+
+%CSIZE%
+304189
+
+%ISIZE%
+975247
+
+%MD5SUM%
+cb930be92b40721d1f02bcd382a2060b
+
+%SHA256SUM%
+eea762e72a608adc59361354c9fa41bedd04820a1834d58ae03c9832d40710ed
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGAc+IACgkQOkDLXn5cvDDJjggAk4M6VqzbB3O098lzdcYtrL0E6PA2QmRqoxcKycM1gBoK2EgzGdlYoFrzZxNYQr244+QUeA4+5YfGTMKSrok3dZNKAUiQO57o3IchEM6JLv5GhTmO2Y6WcqutUUdmWCCerHMM1yLsHhJVW7oDa1mE2jrNZkF+tLbpt5jcZHWzzLw/E/AvELMXFAmvLrCoqLpAza6BMPSjF2G8A+hkTRhkY67/BOYvhK63kKheosshhiLQctxHmWGutwYeopueb6+jDaneGsStn7GL03XJWwzJKON8anCvUCBj+bKIjGviQraqJssJjEAh1u/cYgdbcYE8e/xHe9kuksNogFe48CW0DA==
+
+%URL%
+https://github.com/trizen/pipe-viewer
+
+%LICENSE%
+Artistic2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1635808197
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+perl
+perl-data-dump
+perl-json
+perl-lwp-protocol-https
+perl-gtk3
+perl-libwww
+perl-file-sharedir
+perl-unicode-linebreak
+
+%OPTDEPENDS%
+ffmpeg: conversions and MKV merging
+gnome-icon-theme: icons in menus
+perl-json-xs: faster JSON parsing
+perl-lwp-useragent-cached: local cache support
+perl-term-readline-gnu: better STDIN support
+mpv: play videos with MPV (recommended)
+vlc: play videos with VLC
+wget: download videos with wget
+youtube-dl: play videos with encrypted signatures
+
+%MAKEDEPENDS%
+git
+perl-module-build
+
