@@ -1,0 +1,91 @@
+%FILENAME%
+linux-lts-tkg-muqss-5.10.77-214-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts-tkg-muqss
+
+%BASE%
+linux-lts-tkg-muqss
+
+%VERSION%
+5.10.77-214
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+76795559
+
+%ISIZE%
+76684386
+
+%MD5SUM%
+d6b2babbc6a08239d51dda02f2e15bac
+
+%SHA256SUM%
+9eb1a575ff53a6450ea88b0813c3188a476b2acfc9f025ae1b0b73fc40ecea60
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmGFfGYACgkQip4UoHAQ9+PTIAgAyJg/tOEcP4CS5qxEsm0WXYdQpXSFHngjqA6DPDuok31H5EASNsRXx3aVIpIguXCd8XK6ULvlK1LZYIMFzVlWS8HrCH5vzMAao0t0hxx/Df0lMTz5or0EdhWhfRIJ6dup4ASTk9yUqAzNwwdlPrC26RBPGtXEO9vHW69EqiyolMs68D1JDFDdv1ksVeJFDrIhK9eHfnNkJFtYg6W+7QiKqRlIR6pPBVGlOFUl+cg04rDuYK6kZNJGDYLgQeVXo7rsSyS+Kmbt4UTPTWGdu5KGKOwGyEaO9bwesTp5/4K0gKfONUkpRNKlnoUkfDpAiZ/eThE1f0WIoZ1hqc+Q8MrD1Q==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1636137373
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.10.77
+linux-lts-tkg-muqss
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
