@@ -14,19 +14,19 @@ wireplumber-git
 Session / policy manager implementation for PipeWire
 
 %CSIZE%
-3546450
+3543402
 
 %ISIZE%
-7914487
+7913440
 
 %MD5SUM%
-50fdb803bab755a916c6310a05474ff1
+a7008263b8fe2c9cf6c1e47d8a20a07a
 
 %SHA256SUM%
-0bcc4a331982985f757e9b5e03cd7bf714257e8c4a82656cd11c4b07682d1df2
+d30173d7a5f3d59fee668d941cae5b23bdf6f25353fa9bda43aa782fc74ed351
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGC0F0ACgkQOkDLXn5cvDA34Qf+Op6aNr75I+fPP+nlC4ow5AtC3b4WVyDGswXbUOiAPQg6YItvUSeBq+Svn3szrCE53l7AnfXyi5IYv7WxGwqFpDi6ojyEkYygXsZ+2/WbSzxvdHzQnjqiE4tNFt5P4iNhIM5IAZF/GkaQN1depjrTzb5kDU5vVpA+v6w57k6QHo69aAaicqvwnE9zEtd4VK0b+Z2HD4mThYVKqL5uIk1/nnBQChnmek86wwEzoN/fZz5bSa9dyU5GGDg4bxKli7lKdLiu2otjvpXvn0hjMeyGB8YzQOo4T1DenzkwaxQgf8C8cfg8MADX+ylgUgryjN6XAvWDFSXRLY+3i4R7ISGnrA==
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGGsw8ACgkQBwa5DTfZuIEibQ//RbBDHiyu29vi77vQK/8H+k4NH0W0LaXzQU+ewwxOCGf47ImjYImvTsmXK2XXZt3ZW4Jgg0xE/Uj5+caqgvzdOyW7UhNpJ+H2U+mXhxYfOBaNbDGyBuwq9Ol41CP5/6g7RYn9quwBloB++wlPuAhqlngnFH5zusgaBoqCBIhTAtxcuKEChFk7djnm6GGTb/RIdxfqMTRnKAHUS3G4qaxfTN2tfHO+e+vOiVWISMM/PtSI4by5Io7g1kMvZK0hLy4OAnlI1/721A64sfMGiCu5RjrjUXOXwQWNNzLv08aDIS5Dv08z9u1grlb+RH0Tq4TjX3+tKni/knlNw2luEhyKSr3SUD/dpUchG3r4ceo6gK8N7uw4Ldj2eIyIppkh3T5fa72AuiZJj4DJJYtGhqu8yZ/yMF4ovBGjwvN8W/4SIXo5QXH7IvNsYBC62PhisHOjgzmD0adIXgGYeuM+efJKfqsK1WM5ihyZy2C/rvwtJzmoBEoHrRLYvehYqh3EkRwG+0LQwP73azO+Rqf/lzanwZQinYk9rX+VwDaH/D+g5CQjbWzmEAMlnGLeTtmSSuje/KVC3jGQCctTSoMnyyM1Z4+acv+kZ02RuyF2vhGDbMbJ3FVQGsCTdV+hSTKKBfSScavu02gCS/kUUXlUon5DDlr9qr8nAxglzwzgh9osfv0=
 
 %URL%
 https://gitlab.freedesktop.org/pipewire/wireplumber
@@ -38,22 +38,24 @@ MIT
 x86_64
 
 %BUILDDATE%
-1635962878
+1636217588
 
 %PACKAGER%
-UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
 
 %CONFLICTS%
 wireplumber
+pipewire-media-session
 
 %PROVIDES%
 wireplumber=0.4.4.r19.g4d5f959
 libwireplumber-0.4.so=0-64
+pipewire-session-manager
 
 %DEPENDS%
 gcc-libs
 glibc
-lua53
+lua
 libgio-2.0.so=0-64
 libglib-2.0.so=0-64
 libgmodule-2.0.so=0-64
@@ -67,15 +69,14 @@ glib2
 gobject-introspection
 meson
 pipewire
+hotdoc
 doxygen
 glib2
-hotdoc
 python-breathe
 python-sphinx_rtd_theme
 python-sphinx
 systemd
 git
-python-lxml
 
 %CHECKDEPENDS%
 pipewire-alsa
