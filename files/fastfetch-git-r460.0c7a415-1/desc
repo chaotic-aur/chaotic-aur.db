@@ -1,0 +1,75 @@
+%FILENAME%
+fastfetch-git-r460.0c7a415-1-any.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+r460.0c7a415-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+103050
+
+%ISIZE%
+328172
+
+%MD5SUM%
+c79dd1a9440d60ade6f93b9bb70695a9
+
+%SHA256SUM%
+7310799931f6c12823b3d8b3e0ac39431cac25abd5088e94a8d46d1bdd22c8e9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGJBJIACgkQBwa5DTfZuIGrsRAApTy93T0bImn0UmBxO9ZUxvNJM6VxGtwmSNbw5NxrzZ3vUOwkspBkXIKSssTgqUp9AZ9VH3YWgI8/osa3oNuNbpddte4Gkz16A1Stj1uYp6eLcVo5Wmy11EeTmQQMy3amKNeeWQPZm6b5RPNF38YFRe7JtRqmHMGTy2oW08AUi9ZvM/g6NG0JFU6kffDdFG2wQicV1jaAd7IqLhnHQyGJdWS6g+Xr8OUpDFpWUb4QuR9dyRCGgtBKBLTTZbKrdRinM2jYnH94b1dXZ4h0SUcAEExw6CnGitBm9Q85ERfXD8ljF1M/YFbNGbTIHAnDXps728qK7nb1UqcvmmTFUYVWiBsxWRw1C4tENCd5FxYa3JkCV4/6s35zKMxXnQvCGbmjoEKsR1hF5zolAWoGRk4lnJUMap+vJAtP1lG3/tAanJki5UT0CeJmyuDf1VA08tjB3/A1jbF+PW6SpTON1DtCIhtkw5NYnAJvBKOnBp4XMmxp/GD/oUmrscK0oV89DiCXnUfSBpTlRJAyNncL1DA1zOYby/lpHsgXryCIqrRST08/g3h/BMB8Uta1/L4ah3izMaiEpYtelwZDJQIwe6nihoQku7sCSd3F4ipbUEFJ3xJPfhfENxbrO2JSoFqtHTkdFmKAJaQJsIHzj4mcaV8AGDb9wdrVd8fKv88lmiW1Y2Q=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1636369347
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%PROVIDES%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+libx11: Basic resolution output
+libxrandr: Multi monitor and refresh rate support for resolution output
+wayland: Native wayland support for resolution output
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+xfconf: XFWM theme + xfce-terminal font
+rpm-tools: rpm package count
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+libxrandr
+dconf
+wayland
+xfconf
+rpm-tools
+
