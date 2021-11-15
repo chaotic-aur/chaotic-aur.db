@@ -1,0 +1,72 @@
+%FILENAME%
+foot-1.10.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+foot
+
+%BASE%
+foot
+
+%VERSION%
+1.10.0-2
+
+%DESC%
+Wayland terminal emulator - fast, lightweight and minimalistic
+
+%CSIZE%
+263638
+
+%ISIZE%
+545148
+
+%MD5SUM%
+ca0ca6513b92758c0750e922dd7c4aa6
+
+%SHA256SUM%
+a8f80115c79afd62ab7bf9cd9faf1f58d98b30454eb1697da62eafd8a5e62eeb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGSMrEACgkQOkDLXn5cvDBz+gf9E6yNCpk7WiJ+C99dYY0i68K3q0QsqOY1AfPI2uYx3YFRWtU2rVXVSyyvXzMfzky7LOxsSw1y+zkLI7lD53zaZtiAE0QYceTkeLLdRcJoHgSuhfHIuwYtXEgi0Zz5aIDqbxQu3D5vkTlG3NKCs0rJRGuvH04tzioa0PXFtNn6GjWGgmZTed7YWghugOssLeM5TRxIfIaxzW2AMB438hDGIMpO8Y5v/R3TDhUbyYBKAZ/is8UL5lI5bQ7c51trkkcmEWvnOtyeVMSHcuhT5Skgmjepyg9YmtwyjWf16vlBQbyWbsktTxYdYNndP3MRL94vWJbBlR0g/mbDI+E9wJ8nEw==
+
+%URL%
+https://codeberg.org/dnkl/foot
+
+%LICENSE%
+mit
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1636971132
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+libxkbcommon
+wayland
+pixman
+fontconfig
+libutf8proc
+ncurses
+fcft
+
+%OPTDEPENDS%
+foot-terminfo: alternative to ncurses' terminfo, with additional non-standard capabilities
+foot-themes: color schemes
+libnotify: desktop notifications
+xdg-utils: URI launching
+bash-completion: bash completions for foot itself
+
+%MAKEDEPENDS%
+meson
+ninja
+scdoc
+python
+wayland-protocols
+tllist
+
+%CHECKDEPENDS%
+check
+
