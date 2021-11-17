@@ -1,0 +1,94 @@
+%FILENAME%
+linux-tkg-cacule-lto_v3-5.15.2-217-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-cacule-lto_v3
+
+%BASE%
+linux-tkg-cacule-lto_v3
+
+%VERSION%
+5.15.2-217
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+138517564
+
+%ISIZE%
+137977526
+
+%MD5SUM%
+0a858b6a093eb7073340dcf2f2cd1bea
+
+%SHA256SUM%
+314a4dbe9c31eed06cf1c01bfff83638784564c01edc6f263678fc2a8ffa58f8
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmGVZikACgkQip4UoHAQ9+OrEgf+MV/6lpGe8QdUnoZo0NB0h5PSh66TvnWapOEORM1v4DJC2LuffbGSAJ/ZY5Sc/aShiw8vGWDQxRPNGcJUoZITLfZu9pSaWfD4mCql72pM2mxR+ybJ1h3+9Oj85HFen6f/5cLl80K6P6n/Cq9ihk588QoQib8iPgwhbLvpop0Ke1m01LmV7f8z3+o9sVE7QXe/4EWd1MPTahRX48+nOVGLgyJqwncd82sI45d5wJDvKTLpZ60jNjZKeDK+uZr0XBwt0wcWtfz7fuXPpkulKApfrx9MjnUyWDVrDMt943FuFIT3L6zPcH3pa7K8fN19u9/X4/pqmcJppnJCsh3HoPrPfQ==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1637179699
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.15.2
+linux-tkg-cacule-lto_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+lld
+clang
+llvm
+
