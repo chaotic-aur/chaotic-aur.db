@@ -1,0 +1,95 @@
+%FILENAME%
+lutris-git-0.5.9.1.r13.g8eb26fba-1-any.pkg.tar.zst
+
+%NAME%
+lutris-git
+
+%BASE%
+lutris-git
+
+%VERSION%
+0.5.9.1.r13.g8eb26fba-1
+
+%DESC%
+Open Gaming Platform
+
+%CSIZE%
+757025
+
+%ISIZE%
+2133055
+
+%MD5SUM%
+a4bad86fd02e6b687af9c4cc6ec5bdc2
+
+%SHA256SUM%
+73f9bb1b52b26707aeeb1cdf4a5c86b00ce6a49f8b497cbf0ecf974dbd19fa6c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGU4o8ACgkQBwa5DTfZuIEaOBAAnzs7999mlBVtrNcyLooD+f7DbJh+TVNAwRZYymlrCJI6oe/lWN8gGeYZxSrLNu8QysMQx8qBAYE2fxq/xeb67npjtp4MYGcLUVocFRPM4qSdsTnkJicBBa4D79UKSTH/XLCHvxF/IT+hFe+INL9ImKEsDI75r+M2cMtNFQAo1NTeDpyJAKCJLHBks8RAXMxEIoSglggVsJ4hkGmaWCCvzH7Yt6ekH4lOKbjlNAxyr60+C/G7A5qi+gp1Gwy6QM2BpuFV8vQCAoTsLczcmENGU8yU/z8K63mDls4epYEW82t8qrcf9BHVNUdEhsf9hcMHzpDJHZJyO0DzpbiIt+z83qG8jE/cHJz6h8VaPEN0mSuE5HgKKOE4unXQoPLoZDXgpm6kwW5LvDSeOkUeFRE+2RnIvvQME2J5ZUNPeM8oUSoHpvaUElI15SQfXPSmOa93Z1gUOp/vEJgCMg82NXrE80tGB1hLVuzZ9S6uKonN9J9Z6RJhywTGWfnNlwd3iD9mIcFjqWP47jlqVwBY1qqyywb9TnrLPjckQVJ12QuyKglVtiMpmfItzLAy6DsrT/OH7gM44d+OPjgjjtCumlwaST6WgMbEPdizOlSVUEFdMHLO/rusOFkhmOeB1JE/fvAJzLAGDXr2N4eZ7mJdkKAK7hxZ2QOhCyljbJVksVXb+tg=
+
+%URL%
+https://lutris.net/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1637147224
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+lutris
+
+%PROVIDES%
+lutris
+
+%DEPENDS%
+python-gobject
+python-yaml
+python-evdev
+python-dbus
+gtk3
+glib2
+psmisc
+cabextract
+unzip
+p7zip
+curl
+xorg-xrandr
+python-pillow
+python-requests
+gnome-desktop
+webkit2gtk
+mesa-demos
+python-dbus
+python-distro
+python-magic
+python-lxml
+
+%OPTDEPENDS%
+wine: easiest way to get all the libraries missing from the Lutris runtime
+vulkan-icd-loader: Vulkan support
+lib32-vulkan-icd-loader: Vulkan support
+vkd3d: Vulkan 3D support
+lib32-vkd3d: Vulkan 3D support
+gvfs: GVFS backend
+lib32-glibc: for 32bit games support
+gamemode: Allows games to request a temporary set of optimisations
+mangohud: Display the games' FPS + other information
+lib32-mangohud: Display the games' FPS + other information
+innoextract: Extract Inno Setup installers
+xorg-xgamma: Restore gamma on game exit
+
+%MAKEDEPENDS%
+git
+meson
+
+%CHECKDEPENDS%
+appstream-glib
+
