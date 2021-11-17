@@ -1,0 +1,91 @@
+%FILENAME%
+obs-studio-git-27.1.3.r150.g8d349ea4a-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-git
+
+%BASE%
+obs-studio-git
+
+%VERSION%
+27.1.3.r150.g8d349ea4a-1
+
+%DESC%
+Free and open source software for video recording and live streaming.
+
+%CSIZE%
+89439330
+
+%ISIZE%
+232287871
+
+%MD5SUM%
+40255fac8f2f6a7d02cdd9cfcbca203c
+
+%SHA256SUM%
+7ea9df98f349d59a41a0d1a264c4b045e7375ad79fb64cb38d166771b2f427eb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGUZF4ACgkQOkDLXn5cvDCjlgf+NqM/L77MZCsYF+IznXC59xCf8vaE1UIlY/O32Af2OExoEdrcGR4y+J4sQYKKfpccqDemBFcalnhtfL6D/5djqVCAmYf2FfbfhSb5/nRa07bZzfDMDLh/cRmvSlsJNvwzBJQk1CKZJulz+1BeJ/Ftztyybylk7Ew/csXqjbYRY4GGdfhT75m30yKq6pbdwsfuI4ZediIBZdRxavZr9jrdV5LFrDMP/G7gipJmZ4BI8O7pRvm0vDfLj7xJxl/FBJYOXkxcOHXUfGGr0EEVSdJ4sv35yY0FvksChWXjZ/iGinZlD/AqX9DEXWz8tNCCU26Ff4HJN30G06mY+fHpMTLL1A==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1637114882
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+
+%PROVIDES%
+obs-studio=27.1.3.r150.g8d349ea4a
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+qt5-svg
+qt5-x11extras
+curl
+jack
+gtk-update-icon-cache
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libxcomposite: XComposite capture support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+vlc: VLC Media Source
+luajit: Lua scripting
+python: Python scripting
+v4l2loopback-dkms: Virtual webcam
+pipewire: Pipewire capture
+xdg-desktop-portal: Pipewire capture
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+libxcomposite
+x264
+vlc
+swig
+luajit
+python
+cef-minimal-obs-studio-browser-bin
+wayland
+qt5-wayland
+pipewire
+xdg-desktop-portal
+
