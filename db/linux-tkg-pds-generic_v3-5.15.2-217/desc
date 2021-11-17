@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-pds-generic_v3-5.15.2-217-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-pds-generic_v3
+
+%BASE%
+linux-tkg-pds-generic_v3
+
+%VERSION%
+5.15.2-217
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+136229116
+
+%ISIZE%
+135680604
+
+%MD5SUM%
+7951adc484358425a3dc5516bcc919ee
+
+%SHA256SUM%
+687435e57443aed751cc134f502f7ba79ea0526a7c9dd74755d27c23beab435a
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmGVU8EACgkQip4UoHAQ9+PzjAf+MkRsaXW7cZy76aNr27qeDkUooVS9M2wwTtCoryzAzYbgmOu/AcGxmhAC2ruco5JH5xMuSs2TytsZ2s0ta8CTCP/sIGRy6OAXjMdnDcJforf1HzeEy8Q/krJfWfqI04/zP+EzsuZx2+qa2k8ZGbB8HVJM7Mytdi8WGta79dmEslUoKXHdKGiQXABbw25oAq2l2LMwI9fB3jDrhcbStd7LzCR489hdQY68Uk2LvtGP3VafYNhhMU/WBlX0beopcSJGwV/a9LKnFDk2IKkUVb7SmvMPo3utS5NKgANsitmt7G3LNm1FKX9ctGZR4SCgbZmBJiNguCrOSEnjPTqRBV0TWQ==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1637175559
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.15.2
+linux-tkg-pds-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
