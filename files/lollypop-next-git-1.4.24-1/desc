@@ -1,0 +1,84 @@
+%FILENAME%
+lollypop-next-git-1.4.24-1-any.pkg.tar.zst
+
+%NAME%
+lollypop-next-git
+
+%BASE%
+lollypop-next-git
+
+%VERSION%
+1.4.24-1
+
+%DESC%
+Music player for GNOME (dev branch)
+
+%CSIZE%
+668934
+
+%ISIZE%
+2926414
+
+%MD5SUM%
+7fcc3c4b5113dde573666314e9877ead
+
+%SHA256SUM%
+f04083c3d6020759fe0a661d3678fb9edae68f83a2d2337ed3f8216232114db0
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGXlH0ACgkQOkDLXn5cvDDeWgf/YoWoRli90L8vA2oUrWvOjR2bl4Olf0NhTlYyqmbCFR+x+qm4pFKqmYCfIyzhUEQvCOUUsXHA9CIxGElBFTDuz85H+S9SGHcJFm3v5js/NBki3IOuR/uUS5eiAJON8cKSZ/0DFu1nmP+AqQtsUAcsAwsEp5LpFyC4QuBuPxINbn9810ePQzLPTES96FitjPbk0/639hSkzH05KsJIY360Ihveq5nFeFGQukSRQXmJ0n2nLzctR4KYgt1PNS00N8z6rYPJzJLZbPHpIVphDON1jgUHgo+o4OV/0Qi5K4Ej2nMkbSen9HWSArbWMJE+Td3TWdeoJg+yXHMxw7J1WeH4mA==
+
+%URL%
+https://gitlab.gnome.org/gnumdk/lollypop
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1637323877
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+lollypop
+lollypop-git
+lollypop-stable-git
+
+%PROVIDES%
+lollypop
+
+%DEPENDS%
+appstream-glib
+gst-plugins-base-libs
+gtk3
+python-beautifulsoup4
+python-cairo
+python-gobject
+python-pillow
+gst-python
+libhandy
+totem-plparser
+
+%OPTDEPENDS%
+easytag: Modify tags
+gst-libav: FFmpeg plugin for GStreamer
+gst-plugins-bad: "Bad" plugin libraries
+gst-plugins-base: "Base" plugin libraries
+gst-plugins-good: "Good" plugin libraries
+gst-plugins-ugly: "Ugly" plugin libraries
+kid3-qt: Store covers in tags
+libsecret: Last.FM support
+python-pylast: Last.FM support
+youtube-dl: Youtube support
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+intltool
+itstool
+meson
+
