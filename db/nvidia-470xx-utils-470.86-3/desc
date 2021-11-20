@@ -1,0 +1,65 @@
+%FILENAME%
+nvidia-470xx-utils-470.86-3-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-470xx-utils
+
+%BASE%
+nvidia-470xx-utils
+
+%VERSION%
+470.86-3
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+200147072
+
+%ISIZE%
+442483050
+
+%MD5SUM%
+a17ea87e1e8b190c0b7148ac643de014
+
+%SHA256SUM%
+24a29dcb268e88c7ee7d7d8f8c9beb0f25faea107590dc2898e70dc95ebaf15e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGYZdIACgkQBwa5DTfZuIEAhA/+L9cKTnla2fGGGV1g8KweTlySZIoO6Ph10Okj6riVgMzJzAmrHyBFneyqUutunTeyiYLkX/ROmQ+ZOkBGng1DpBanbsN2Hg/I/hMkweINhceYvqjjEOzmjnPVTusgnBJTyRdo8+/DDafC7hrWMrgTXKngAXqtLXhAQftimAHXJecDVlDzFEFUjLpBdJZJCp1E/EoHQA+KM09EiZof8a0PtLfg3L0qB2TtqZXoUQN01pM5cc3xzvM5118/nd0K53f2NN6b/VsHDy/SCozkmpcrQX+eLC6f7PR99vl2cZB2I8khdz1XFAQp5H0p1VsEYD3Dl4j52+5XZw1Wwc/GNEKdQLM+yvrg/sIvPQ6FCqxPinK20EOcn1hCShhcEwuzNmfWGCnTCfPlQj8bBVAHyIkVGiJLPXrQOKypuzo8FUaPddUQugq4THoRv/rLFc+u78ir3oc+L4XEy2YUXyWznGXQYtw9hAPmy59oXSSgB2HRTh1lUs0OxyEkVd3800Q14m7A5MRHgFo+QWLGCvp0w/FQ+vVJJSmNGLqnzkTK9Ltw4xar8svwRrNqSMC4T4NLIbpMGzDpomYZPPrRp0xDje261mXxPrz3cu1n4iN9acSFmcwyvUx1UaC5+n13sJ2PESsX/yBQmLXJcDkiBBtG0WNlQz9FpDGW3+wLmNqaEG3bL4A=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1637377438
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils
+
+%DEPENDS%
+xorg-server
+libglvnd
+egl-wayland
+
+%OPTDEPENDS%
+nvidia-470xx-settings: configuration tool
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia-470xx: OpenCL support
+
