@@ -1,0 +1,85 @@
+%FILENAME%
+git-git-2.34.1.r8.g35151cf0720-1-x86_64.pkg.tar.zst
+
+%NAME%
+git-git
+
+%BASE%
+git-git
+
+%VERSION%
+2.34.1.r8.g35151cf0720-1
+
+%DESC%
+A fast distributed version control system
+
+%CSIZE%
+14193212
+
+%ISIZE%
+34678096
+
+%MD5SUM%
+6758f751d5aebeede3c18c1ecd18a6cf
+
+%SHA256SUM%
+06148f0068bbd0012b04eaf297f7cd35b47005fa9090a499ae6d97c6f7f00cf2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGfMU8ACgkQBwa5DTfZuIHMaQ//ecQp0ExbEf5d4trj4gdk4BGD6sOoOCpJcseR3hSFWV1M0EXzJP0jDN/DY8+JIiP+10hhlKtuPi9mWSok6hnZSlVmqwbVMR383f0ar5sJS6G24tXQ8KOWpW15X8LoKflVTPeTVxt6iuRgsHU+lV+VUJVxBrjAyTjsAHPY0bANhmV8KfVE01aeBYhejwOfUCFY5nqQSEIO/j9Dj59gctaLERH+bo77Q2EnoTCc/Zhx91XyZ2cZl+JhiFajaz1g1yxIc2Qo9S4u2iouIu+GkBKSu0vI8YRuCIb0Uu15v2g3FI/wd2NDn2Nj8wWAs8nw21O9PPk/WSfJ6+KfEM890u6A2/T6yh58XhuumfBPYbE8jd2StrU7xwklMXd9qBy5CdNqbUdltscJWEK2buv0D+3VtcOvdEvQmEGxg77oAkeuVTw1DryctRktQCLRr5O4L9XCH1QYK5hDOi7fGl+T2qM20EZf/PixNdHNmqi8FsBPwIRLJbkNARHbymuf37YZ27FLCTFRocpHu6emLvcz2HrL43zLZVwXEdVLhHAYtu23vKmWlUujMZkVKLHdQPxxFHhLQ7BHwIAHR0ms90yNLyP9JvGgj49dsE0HhN9lOavYNhU/iY7GBGFQuY68natqvGFA8AKpO9sxgoVhUZdWc2bztnLosvY1jGYiO4KyOwHGpWg=
+
+%URL%
+http://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1637819948
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+git
+
+%PROVIDES%
+git
+
+%DEPENDS%
+curl
+expat
+perl-error
+perl
+openssl
+perl-mailtools
+pcre2
+grep
+shadow
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn
+perl-mime-tools: git send-email
+perl-net-smtp-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: various helper scripts
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+libgnome-keyring
+git
+
