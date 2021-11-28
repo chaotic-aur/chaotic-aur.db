@@ -1,0 +1,63 @@
+%FILENAME%
+nohang-git-0.2.0.r9.ge8f5d21-1-any.pkg.tar.zst
+
+%NAME%
+nohang-git
+
+%BASE%
+nohang-git
+
+%VERSION%
+0.2.0.r9.ge8f5d21-1
+
+%DESC%
+A sophisticated low memory handler
+
+%CSIZE%
+60605
+
+%ISIZE%
+276714
+
+%MD5SUM%
+f0f82046258450fc82fbefabca7b1612
+
+%SHA256SUM%
+73c792bcd235358adf6e30213753b4309d456cbbd79a7f714a6a4ffd44ba5112
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGjjHMACgkQBwa5DTfZuIEtmw//Xo+YkXnXO5uwCtB9+LJweMBOovFbUgMpudzt5S7WDVkLcprq0+fCvtAqCvyOqHzVQdKTAFrDp5vb6/rOl6ay6AE4KglcGFExX2j3rChBYjXrOeSE6QbHDiGOrU0ABDX/ufaQhPXg8sR1wsInOYYQ+Ua5+fDcsWdSuHg2jL7U5rOOwa+4t9Rj4qfMeb3H/JSZU7PWjLpJTfr8rL3LYGh7NaTZL8obc92uBX+qEXxtrwDTSxumzgbOR5hFIZMBUjp3JfkE+qP/AKRRIXw1jIQWOe68w8UE1DX4bTaaVOhcFh9eJUcGDRr7eUN3iM7RfPSuKB4CJV7JA19KLf9wRkJh+wirazyGUjt6B/nbw4xXW4G/4H3w3X6dODw6OLfKFpFD+RX5gwPXd3FEAsRvbJER5y9fYnk718XGTPMaEXyUqRioj3918nyg4kD6L9qm6v3Uv6yJBEqiRcebWQFMite139fw7ghldq+lH3qF9cIjG3YnyR0bZHe8FwFht7sEwJCP3HjyAEx3ET3wdXWU72Tvctul3Vjyj5wK8xBiO8Wzp75PyJJcLFKUzPcLU/HusENVWMb9Gf1Rnw3V6lWBHKGIc2FuTadUV92b+aRO4OKKzq4oPEGJyw8lq97+J3rhiGYFigT4PPxSBCaIiNu2+mG6Trl8TV/Pj+epK7HaXsRaa2Y=
+
+%URL%
+https://github.com/hakavlad/nohang
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1638108216
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+nohang
+
+%PROVIDES%
+nohang
+
+%DEPENDS%
+python
+systemd
+
+%OPTDEPENDS%
+libnotify: to show GUI notifications
+sudo: to show GUI notifications if nohang started with UID=0
+logrotate: maintaining a separate log is one of the options
+
+%MAKEDEPENDS%
+git
+

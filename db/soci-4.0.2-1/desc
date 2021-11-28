@@ -1,0 +1,64 @@
+%FILENAME%
+soci-4.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+soci
+
+%BASE%
+soci
+
+%VERSION%
+4.0.2-1
+
+%DESC%
+Database access library for C++
+
+%CSIZE%
+262042
+
+%ISIZE%
+925870
+
+%MD5SUM%
+1ae338e6826df096bacd8abfb6c1d417
+
+%SHA256SUM%
+fc93188cfb47487713f12a374e6bfa2f537adfa797efccdab6b444ce9e43095d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGjl+kACgkQBwa5DTfZuIGQdQ//UcaGsORtDMgsEeUh2c3yzrsvo89sqBiTUk6BqppDLhHs//8QYUPrdbFIsFx1orOooCA2jMTuYbF7e0C2UxwnuZ2envlGqepCdAXWPYYjG5qhVQDBGK/iPqGhqy+YP6sOxRDi4xnl47s0zFdcL0ewRTGZ6tn8zOkaxiwFZGsvyxgxJTpM9dJKwMHiS2HL7LNBPT3BQV7XQ3OtCCTe3s8uqtONXQOgqq0QnC7FQYsb/ggVk3Jictfz7PvXZm6/frx9xQ7ymh3oIwDVFiaVhM76rjtui24RQOWE9GFEuX9AqXSLkOLNTD/rZ7VOFGf0kDjE72wD7jlLvh/lqOPxkjveIItCG4iPjePjLJYVrgL8gSnzso7Di2FX/zOLHLuNyr96/Pn8PSgh70zm4g9lvzilfgnHc9yvkZRrJu+QVXP/H0Zd1sUkEUyXOpPFPZzcw1Z6ni7G2YveDWf8F2Xy+FZbP8rnONkr3ajXmzElszz4DQo15AVIDK0woaW89+wCiQV3ySMmyuuZtrVmNflrOIKYAhluM/EYi4Za9pKiGhhDNhh0Ffuj+wZg3OmfreULSn9Db8kYlcG4mYe4DzdQ9Eyf2dR6H17gNASVJi3lEmgKJ4wp+/Yvpn+6iOxyD4H1OSjCyyCsaRcy1XdsO7IhQ4MnqRTcGaNHy0/jb+JTVsSD4Dk=
+
+%URL%
+http://soci.sf.net
+
+%LICENSE%
+custom:boost
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638111183
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gcc-libs
+
+%OPTDEPENDS%
+oracle-instantclient-basic: support for oracle databases
+libmysqlclient: support for mysql databases
+postgresql-libs: support for postgresql databases
+sqlite3: support for sqlite databases
+unixodbc: support for ODBC databases
+libmysqlclient
+boost-libs
+
+%MAKEDEPENDS%
+cmake
+postgresql-libs
+sqlite3
+unixodbc
+boost
+
