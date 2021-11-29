@@ -1,0 +1,91 @@
+%FILENAME%
+obs-studio-git-27.1.3.r206.gc1b87e70e-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-git
+
+%BASE%
+obs-studio-git
+
+%VERSION%
+27.1.3.r206.gc1b87e70e-1
+
+%DESC%
+Free and open source software for video recording and live streaming.
+
+%CSIZE%
+89629283
+
+%ISIZE%
+232490181
+
+%MD5SUM%
+7001be77fb5522255de38f955739c286
+
+%SHA256SUM%
+f041047b41e57a1dbc5dc2e9fc4256ccd3071fc9769a9cdb29e4f96bb8ca1f3f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGkepwACgkQBwa5DTfZuIGiKw//XbDVI2pri0NXe3dzkeTIqfpZbNv5hkN1cnGW5Hl4lRM0RHAErxDL+lI/wweWrT/+mg53PTaDwq4bjqSaBF/73rvaLkzSOZWXjMz49CHr8u53yboKQrwzpYetDDCMNYObBmqPMFJr/yNl9QT/Z+R+QPxjJn6alMi0qvf84rfTP3fFjQ939ZCHJqytF0DcXgRhb6paSTJJGoY0AYeRsHIlVz/KjHSDKFlZPJRsrd4D/gEilYCzHMQff/zDheZ1hZZR8c/KAfHKfFhciYEaOkbWBBtjElAFE03blcDyyHHRIVVJbRFDw6izyjBGN92l9KYaPlsB780ozDjCjZ+m+sbHkvLgaFiVZjdtKzGbf9qYf22JbwerO7pwZa3VlUz2pfImreW/CLeTPFOTEj/rhdm/Prki4ubUxdmyPCtiOOK+VfJeHDlMHJO1TOG7gOz68GqOskx5/jW7cbEMtruJX6my6Rbu38+ArcxSjasLdaFjEhQRcl7G6XKrRDfluh+ZAcU2jr9zi91kG6Evn1qpzFUXwyS+Zwr1xF53uBeD5RbqgnSPcbqLN83BDrDrAmYxx3Hgn2EE5OemIvWiZQo0I+oo5hlPPVEas+Fdtk6+kFVvwgiiMQfBqQu+SI4C2O1XtR52bClGCIfnPa8rZITBbtJxj2mY9gDM5XdENNhRvXkIPrQ=
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638168524
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+
+%PROVIDES%
+obs-studio=27.1.3.r206.gc1b87e70e
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+qt5-svg
+qt5-x11extras
+curl
+jack
+gtk-update-icon-cache
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libxcomposite: XComposite capture support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+vlc: VLC Media Source
+luajit: Lua scripting
+python: Python scripting
+v4l2loopback-dkms: Virtual webcam
+pipewire: Pipewire capture
+xdg-desktop-portal: Pipewire capture
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+libxcomposite
+x264
+vlc
+swig
+luajit
+python
+cef-minimal-obs-studio-browser-bin
+wayland
+qt5-wayland
+pipewire
+xdg-desktop-portal
+
