@@ -1,0 +1,62 @@
+%FILENAME%
+koka-bin-2.3.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+koka-bin
+
+%BASE%
+koka-bin
+
+%VERSION%
+2.3.6-1
+
+%DESC%
+Koka: a function-oriented language with effect inference
+
+%CSIZE%
+21434796
+
+%ISIZE%
+117163146
+
+%MD5SUM%
+34b3d490af7c5ffaef05699525e70c71
+
+%SHA256SUM%
+b33089fbf4b42ac1a8760c340b8e426fbb8e79ee8f131d86672191589f0014b4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGk3wEACgkQOkDLXn5cvDAJdAf/Rd1Hz269s9cq/c5WG0OzqmSaBWHAUMmcD1cEYABmwMsXw0gPKU8DnTMiro+7Y17nA1r5VV4WXh86BLagZxRjAw5Q1TXrH9Pelwfht7lSM8wcCJDKE3jY/R04DQ7DdHdf1AFtOHVyD51Wf18+Rf3UG+8x1aFf1XBghXAC1QbeycvzrKLz2fJE1FmxlYqv2/0UWAY5UmnbEhN4ClEfszNpHKL5+3zh+6f1qpwTcaRj4r70tFg36+2teKmStXvbbCtuhPmU/mIysZ9fk9OL8EzvzaRENvO4c6IgjZCy4g5KYVrt+zto33fO/ZNOnzgxlcmGpkZRCMFU8mTbe+Mx6ualYQ==
+
+%URL%
+https://github.com/koka-lang/koka
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638194931
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+koka
+
+%PROVIDES%
+koka
+
+%DEPENDS%
+gcc
+make
+
+%OPTDEPENDS%
+clang: for C backend compiler
+nodejs: for JavaScript target
+emscripten: for WebAssembly target
+wasmtime: for running WebAssembly modules
+mono: for C# target
+
