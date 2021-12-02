@@ -1,0 +1,84 @@
+%FILENAME%
+netdata-git-v1.32.0.r6.gf5e4ec6c3-1-x86_64.pkg.tar.zst
+
+%NAME%
+netdata-git
+
+%BASE%
+netdata-git
+
+%VERSION%
+v1.32.0.r6.gf5e4ec6c3-1
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+9165880
+
+%ISIZE%
+30802829
+
+%MD5SUM%
+a00b81842404dc187799c21345cd4811
+
+%SHA256SUM%
+c97febac5299e522fb6b0c8eb6c135016db0d5718d898818be5063e8e6b61842
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGoadwACgkQBwa5DTfZuIGUOQ//SdDNl08UUd5111+4dZ8pCd5QovB4euiZjy71OHfFZbzOgHzMe5glBEDY1wtuyYlT3FrgEkUU+ZmEd4K5STdkuuBti9XWeeGJL3sU/XnWYZNkF7hTF5gLJARcohyAKV2qspIXw2EhiHB3U/b1g2HDGgfuzm844rO1VvEVFEUrZKg4GSHQNZz1baa+CSSJFpAkrBdzq2kw5VIWeiVsfa4GhUC8wjI/DtF+XNABBtU0sOjYVTrr/10UwGyPC+eegTA+hwXUJwh+o8QAajQGFVTUa/7H0ltEd2habgFKytQFy/FWur7twt9spOWbGCa3KQyNitfvGNj1pEv/Xib+Co9n/k/wZCB4BkF41Vjm0e7q+gJoRpi6ZUNVXoXlSUOrCEnbs9S7h65hwxQjo7muDMtewJ1sD0p1BbNz1vfkpTykMgwqM1a0IeHzjl4NZoi4lQNmH/fn0hlejrIajpIQzAfcr9wzI6Jx3Hv+h4kghP5afhfKRDPpzsdR8j1uPlroy3MbwuOwRYEwyljQwGoaBS4+YBGFA5LcVvjRRKqSKg+wqEHFvBqZLlp7BKRXWigXf8NdYvI8Sn5HCdrGMPJlCJ5yMnzeYbtoqScP5o8VGUpHFyyfV96+LqOTTib443bvjoGRFb10jhd/xc7poktJHq1Lf+DjEei8/WD7oqt6KX3hd3k=
+
+%URL%
+https://github.com/netdata/netdata/wiki
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638426915
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+netdata
+
+%PROVIDES%
+netdata
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+fping: for for fping module
+apcupsd: for monitoring APC UPS
+cups: for CUPS plugin
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+
