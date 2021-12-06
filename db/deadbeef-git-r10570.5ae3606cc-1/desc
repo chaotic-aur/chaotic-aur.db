@@ -1,0 +1,113 @@
+%FILENAME%
+deadbeef-git-r10570.5ae3606cc-1-x86_64.pkg.tar.zst
+
+%NAME%
+deadbeef-git
+
+%BASE%
+deadbeef-git
+
+%VERSION%
+r10570.5ae3606cc-1
+
+%DESC%
+A GTK+ audio player for GNU/Linux (devel branch)
+
+%CSIZE%
+4550043
+
+%ISIZE%
+12932977
+
+%MD5SUM%
+697403b8be8f2fecad8ad5796583a038
+
+%SHA256SUM%
+249a6c8786b8ae842fd600a99324cc1888cdd06f937ab7995dd3dd4c63fcb7a0
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGuYk0ACgkQOkDLXn5cvDA2Fgf/a5IOA5ytNEztgbhS+/n8xFrOF+KBma5dbpDCVt+4k+sEZhsgWBRjxdwr7xA0Q1fvdMpv5ayfzFjRmwmqGls3t5d+lOXD2fAbHnSssgb+9CaFuBGUmj+T2igyTHSR8zZUu1Z5RAW+U4D8alWK3FC5f6ykNOcOQXQW2j3MYP07LAkIBxx4eDR7t2FRNVFKTEScPNpTIN6RMJe3qzveZ/cD0cNmXlIMx8XSIociWZQVnJKsPP7hc2dFHzQDzu5boFk6Imc7o1rROtRBpTzrn5l+sHsxzaWlDIwkBHLuqDDHsvbe8zF+H0wfWnbDS1tQc/I875BLPsYH8BfU0Jc/Eeg/4g==
+
+%URL%
+https://deadbeef.sourceforge.io/
+
+%LICENSE%
+GPL2
+LGPL2.1
+ZLIB
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638818260
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+deadbeef
+
+%PROVIDES%
+deadbeef=1.8.8
+
+%DEPENDS%
+alsa-lib
+hicolor-icon-theme
+jansson
+libblocksruntime
+libdispatch
+
+%OPTDEPENDS%
+gtk2: for the GTK2 interface
+gtk3: for the GTK3 interface
+libsamplerate: for dsp_libsrc plugin (resampler)
+libsm: optional dependency for gtkui session client support
+libice: optional dependency for gtkui session client support
+alsa-lib: ALSA support
+alsa-oss: for OSS output plugin
+libvorbis: for ogg vorbis plugin
+libogg: for ogg vorbis plugin
+libmad: for mp3 plugin (mpeg1,2 layers1,2,3)
+flac: for flac plugin
+curl: for last.fm, vfs_curl (shoutcast/icecast), artwork plugins
+imlib2: for artwork plugin
+wavpack: for wavpack plugin
+libsndfile: for sndfile plugin
+libcdio: for cd audio plugin
+libcddb: for cd audio plugin
+cdparanoia: for cd audio plugin
+faad2: for AAC plugin
+dbus: for notification daemon support (OSD current song notifications)
+pulseaudio: for PulseAudio output plugin
+libx11: for global hotkeys plugin
+zlib: for Audio Overload plugin (psf, psf2, etc), GME (for vgz)
+libsidplay: for SID player plugin
+yasm: required to build assembly portions of ffap plugin
+libzip: for vfs_zip plugin
+ffmpeg: for ffmpeg plugin
+opusfile: for opus plugin
+mpg123: for MP1/MP2/MP3 playback
+
+%MAKEDEPENDS%
+curl
+faad2
+flac
+git
+intltool
+imlib2
+libcddb
+libcdio
+libmad
+libpulse
+libsamplerate
+libvorbis
+libx11
+libzip
+wavpack
+yasm
+ffmpeg
+gtk2
+gtk3
+clang
+
