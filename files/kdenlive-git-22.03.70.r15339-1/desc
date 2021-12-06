@@ -11,25 +11,25 @@ kdenlive-git
 22.03.70.r15339-1
 
 %DESC%
-A non-linear video editor for Linux using the MLT video framework. KF5 Frameworks (Latest Applications GIT Version)
+A non-linear video editor for Linux using the MLT video framework
 
 %CSIZE%
-11928510
+14623199
 
 %ISIZE%
-56494416
+60607364
 
 %MD5SUM%
-73186e631ed6eccde9e07b8a7e148241
+6339781fcbe54bcf8f32652cd791d55b
 
 %SHA256SUM%
-9eeb6132599052bc69bb94db6f882f6d5a26b3d75345f2010dcdaf4fab3f1a53
+c150a680ba5c656c2caa29824d37879c040ed34a579ea549a5b5d8cbceab9207
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGuBhgACgkQBwa5DTfZuIHAgA/+JT7fW71rjavkhE3RDYEMoVWvbrUmGZOQjhxgD0dIKJ4h8r5eCRMrbu68ZpUcqliTE/UHG53lOn1gf4EIlNXTHscqRs/NFgQZA1Lbj+41UCUA1jtRswHgVt55M+u8TZu76hWYdyApaUio2DN6ITDkAGX/Te7sZuoGVHAr9yBBAXyUrxjH7sYjwmUUZMjJ3LNHYfH7y6YzLQx34V1LIuvhSh/zE7u7Rj6FZPX3NTqpNqE3UjmHNUahOxLwCJv8HDvCaKuVId2o3Y5BfdjWBK3EK4n2Oh6wbsEo7TlZg+OA/tI8iZpEE9v0y7lzdJb3diFAdYGA4juuSVLSusTuchsfA3IHYEB+9NqbMjcgniQ65YocchFdSXcusbMTa3d3dkG2yoelXL+LFHLl2EwpCEh4cih15S1ivobB2Gb6MeW56/eIBevUwamfSIywO6gUqCkuOBl6ysWc9xopRuMV3NDgAZGg+Pyl2v8uOLmEcH9N2FUddAN+y3g7VjcV+HHx9t7EhSNfpq23TUgyCBZkRLt7Vn7tcbw6pcEmphjKh5W9hyUP9LZh4LLAEJ/P0v5gvdGFy9kxYFAHcIp/lWOa3ORZs31aBx5sSHwk+7Pvdfi9Wrbiesi1Gd4XLZLluA2Zivpr7RtQ0DyMeyhhcbdOf29ZkJ+LGSG7jI1oUAz5m1y1hIw=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGuGjMACgkQBwa5DTfZuIF3wQ//ZRdl9ofLyIc0oBz/WZQ2SQJynR/Q629TZdR+D6ENSKNPGlfJO3xCMcJhGleNV8j/GD/4tjz0URt6cDJveO9WSgt3I1wre7Kix/NdM0VYWbFgtwz7yOAAUNwWREe2nJtvySXTvaf9oRflpTmeZOiD7vDl96ECybQ7W1+JO4MZJxm/EOkbppaRHbeY7oRlCOtyVtdWsuCSv7wt68DN1B1ZKKdzSrjdX2Gn0RGZLJm184Qc35X1PkMX8MCjhbsCQq+7luVo6OKzMjyKuPZdtD3YzHadIZS94kGTqmODNspmmvZDKQa4KVw8QEz4XCEGu6CjPgSa7rKCJpLcsrCSZk+We2mJAFA8nJcLOquJtgLZ1f/1OGRrSGb8F6n9WdWGwvlY4I7/B7ZRZejIhY3moIhY14H3lKhTcPTKTebAMzvfDXJKks59ilu/l0MtSNAPApiPT2UKcPtBG9Hl7sZDtnqdX4gSTNM2X/Laycq8jB5Rao1PASKXVkBgVHYss+oAov8PxUt+FLlKqXDYlBDUqSKSFiWQa/NqLyCw2orWm75EDQ3SjNiCjGJloVhpv7YFc0AKoeNuBz0BPoObacAQ0W1ggEpBjxd2ziejGvymvirPnSt2mNxC4uNhgoyJye6KPFE/Qay4uL66gSg3rdJZ45XSsi2l3nxxg9wpJ4TYZaK3E8U=
 
 %URL%
-http://www.kdenlive.org/
+https://apps.kde.org/kdenlive/
 
 %LICENSE%
 GPL
@@ -38,7 +38,7 @@ GPL
 x86_64
 
 %BUILDDATE%
-1638791267
+1638799652
 
 %PACKAGER%
 Nico Jensch <dr460nf1r3@chaotic.cx>
@@ -50,30 +50,27 @@ kdenlive
 kdenlive
 
 %DEPENDS%
-qt5-webkit
-qt5-quickcontrols
-kfilemetadata
-knewstuff
-knotifyconfig
-mlt
-hicolor-icon-theme
-purpose
 qt5-networkauth
+knewstuff-git
+knotifyconfig-git
+kfilemetadata-git
+purpose-git
+mlt
+breeze-icons-git
+frei0r-plugins
 
 %OPTDEPENDS%
 ffmpeg: for FFmpeg plugin
-cdrkit: for creation of DVD ISO images
-dvdauthor: for creation of DVD
 dvgrab: for firewire capture
-libdv: for webcam capture (if FFmpeg is not installed)
 recordmydesktop: for screen capture
-xine-ui: for DVD preview
-oxygen-icons: optional for xfce
-breeze-icons: otional for default theme
+opencv: for motion tracking
+plasma-desktop-git: theme configuration
+opentimelineio: timeline export/import
 
 %MAKEDEPENDS%
-extra-cmake-modules
-kdoctools
-git
+extra-cmake-modules-git
+kdoctools-git
 v4l-utils
+doxygen
+qt5-tools
 
