@@ -1,0 +1,84 @@
+%FILENAME%
+netdata-git-v1.32.0.r11.g0a35be340-1-x86_64.pkg.tar.zst
+
+%NAME%
+netdata-git
+
+%BASE%
+netdata-git
+
+%VERSION%
+v1.32.0.r11.g0a35be340-1
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+9165954
+
+%ISIZE%
+30802829
+
+%MD5SUM%
+49211e2d51c6091128a35a8c0e8d3002
+
+%SHA256SUM%
+8672739b36610d9f82db964c1262938226804df91107cd7426fe80b3fcdcdb3f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmGvBNoACgkQBwa5DTfZuIE07w//QybqIps7OOHhfasUaSd3vU+9BXAqHYMIaA+EcCvNtHgHjW8wG/jh3KjPuEwhgmu1/OsW6XSh7rlf2ovlL6MLF1m9hzogKk+m/BD/NPaqDL4Xb4kdDyKELIS11AA7PJ0cN75hzz+5YS+yzW1Yf3Mr91IH8S/mgqt4KmrXCLQTcacuFvMrK7TLsR9KMNQiNJTexPAvnnX9GJ9gyRJrosryKp4emKVCkl+Iol7yCEr330MeVigBprzvSVrvpZO7yDJi5eXMI7zcySsmULNkh/LG+3h9mTbjbcDNghhj4GxaCMl8W+JCWUjx3ALerf42QeLW8JSYtkoWOPiO3CdT0fjosi2DcRECtigGy568Ldku2/mYDHCEOvIEy9It83Js3Mr+9W1iDCh86wq7JlNKkeg88fMVq5moEH5XpTp0b8o6ihdSja+oYjLPRPb7gELS5OIEZr2ccFbOp9leZ3GvEebNQJoYm8KfZdTSL5RbUavV2E0NiI8aS4ibFlE/hWXubaoFOpa0BtxbfpJ7883b/vSIxh2cw6OG0aM4S20C2NC8VMgZgyUBaNJ1cupi5GGryUdjp/IGq1Im3JK+bBZVW48ZA68DOcGi1+Zq22I+atMPp63/BOzES9l2fHp+S5WRdVezj2RKdXF8Kk3Viw8oyX+tsbus6H/HQ9HkPBd2jAqVVKs=
+
+%URL%
+https://github.com/netdata/netdata/wiki
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638859810
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+netdata
+
+%PROVIDES%
+netdata
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+fping: for for fping module
+apcupsd: for monitoring APC UPS
+cups: for CUPS plugin
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+
