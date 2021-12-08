@@ -1,0 +1,76 @@
+%FILENAME%
+openrct2-git-r22452.bb35adc5b8-1-x86_64.pkg.tar.zst
+
+%NAME%
+openrct2-git
+
+%BASE%
+openrct2-git
+
+%VERSION%
+r22452.bb35adc5b8-1
+
+%DESC%
+Open source re-implementation of Roller Coaster Tycoon 2 (requires full copy of the game)
+
+%CSIZE%
+12990669
+
+%ISIZE%
+36444368
+
+%MD5SUM%
+47232f205e7e325dc71991c6879d4933
+
+%SHA256SUM%
+6eac17052b0fab8a86909870495347fcc89b56f06e587f8497e60de5f08717f4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGw6eEACgkQOkDLXn5cvDDarwf9Gj8q4MDgL8VwgIw1MUZZZcoW2L7uBVkcdbrh6AHxBoln+iLGf03OqZi6EYBZuSObXCFBeu2qiWYrxXOPmNLP8a9Pf/yk535ZHVZW6qhfLdFMCuBQbOi8R2wcIFP4SV2KUPRKRMn/ApkgCkz+tlNosrLtlqop9Eag8WyLRPgvOZoRMM1JHjDPwAktbAoaY+CpO/A7xn6z4Y6Y7+D5kyDSchanHd+aMUkd6fIpa7E4QpiHf17Cem9lr7TRok84fGdX+6RLTLw7yf1sbfMuBO43r0Wkplzd6jLXEQax2yh86AE2ZFTuLMdd0bDAA6QdnPl42uCcnRgqpcv/wazlpa0rIA==
+
+%URL%
+https://openrct2.io
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638983903
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+openrct2
+
+%PROVIDES%
+openrct2
+
+%DEPENDS%
+hicolor-icon-theme
+sdl2
+curl
+nlohmann-json
+speexdsp
+fontconfig
+libpng
+openssl
+libzip
+icu
+duktape
+benchmark
+
+%OPTDEPENDS%
+zenity: System dialog box support (GNOME/GTK)
+kdialog: System dialog box support (KDE)
+alsa-lib: ALSA audio driver
+libpulse: PulseAudio audio driver
+
+%MAKEDEPENDS%
+git
+cmake
+discord-rpc-api
+
