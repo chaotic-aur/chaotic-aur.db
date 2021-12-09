@@ -1,0 +1,108 @@
+%FILENAME%
+pipewire-common-git-0.3.40.r115.g3ab3157b-1-x86_64.pkg.tar.zst
+
+%NAME%
+pipewire-common-git
+
+%BASE%
+pipewire-common-git
+
+%VERSION%
+0.3.40.r115.g3ab3157b-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+2084596
+
+%ISIZE%
+8049707
+
+%MD5SUM%
+6de4d92867b1631960ba37fd2968e355
+
+%SHA256SUM%
+23770f397e7279ea42aa3f08d35a3632a2b051326ed7ef15b3c2245c6fdd0b69
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmGyN9QACgkQOkDLXn5cvDDT4Af/XIQU1PxCP+IV9iORuSHjApfqYH46/9Nj8zfjEVNBNZ9leoPIM3KGHFibSGy11tqtJrZoKs65hu8NsJjcPFfitPCqyRpXtRUAX+kXnAoQxhW1S2XwII8UNqpKKyf84gt6FTe0gNzfCLF0NvU7g+ig+GjwYVCrhJ2A2hfyzI6Zt8CeGi8eD4kLx3+78vKlEHjkf1PabMZCHdoDqaQI+HuZvSjLGotfgguiFRnSTQJeW3jrdLFB5/q4qUF/7pyJgOZFxZqtTvd8BMqyaLVtM30iQ+/2cICJoK6mSt/gPANVfMeKLvSmFgac0x8nCKecs9Z3wTAdwcXRyaDnyicj/Pfm8Q==
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1639069510
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+pipewire
+alsa-card-profiles
+
+%PROVIDES%
+pipewire=0.3.40.r115.g3ab3157b
+alsa-card-profiles
+libpipewire-0.3.so=0-64
+
+%DEPENDS%
+rtkit
+libdbus-1.so=3-64
+libncursesw.so=6-64
+libreadline.so=8-64
+libsndfile.so=1-64
+libudev.so=1-64
+libasound.so=2-64
+libsystemd.so=0-64
+libwebrtc_audio_processing.so=1-64
+libusb-1.0.so=0-64
+libbluetooth.so=3-64
+libsbc.so=1-64
+libldacBT_enc.so=2-64
+libldacBT_abr.so=2-64
+libfreeaptx.so=0-64
+libfdk-aac.so=2-64
+
+%OPTDEPENDS%
+pipewire-session-manager: Session manager
+pipewire-common-docs-git: Documentation
+pipewire-common-alsa-git: ALSA configuration
+pipewire-common-jack-git: JACK support
+pipewire-common-pulse-git: PulseAudio replacement
+pipewire-common-zeroconf-git: Zeroconf support
+gst-plugin-pipewire-common-git: GStreamer support
+ofono: ofono Bluetooth HFP support
+hsphfpd: hsphfpd Bluetooth HSP/HFP support
+
+%MAKEDEPENDS%
+git
+meson
+doxygen
+python-docutils
+graphviz
+ncurses
+readline
+libsndfile
+alsa-lib
+dbus
+rtkit
+libpulse
+webrtc-audio-processing
+libusb
+bluez-libs
+sbc
+libldac
+libfreeaptx
+libfdk-aac
+avahi
+openssl
+gst-plugins-base-libs
+
