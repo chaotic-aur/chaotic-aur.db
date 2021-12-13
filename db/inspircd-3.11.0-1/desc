@@ -1,0 +1,84 @@
+%FILENAME%
+inspircd-3.11.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+inspircd
+
+%BASE%
+inspircd
+
+%VERSION%
+3.11.0-1
+
+%DESC%
+InspIRCd is a modular Internet Relay Chat (IRC) server written in C++ for Linux, BSD, Windows and macOS systems.
+
+%CSIZE%
+2619535
+
+%ISIZE%
+11327914
+
+%MD5SUM%
+eeae90a7d27180bc61ede4da6104bd5b
+
+%SHA256SUM%
+216595c74494c23b9c834af0f9a9d381880ed80f2372dfc94c2210105ed3b2bb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmG26V4ACgkQOkDLXn5cvDB75wf7BxyGI2JHGp2vPeUxZB7hf5r0zFWhjta8sotV7r/+8rw3RIlObWn/xfxDgHsNWF+5YSImFWfyNArQ+k5k5JbatOmSCz4GEY2gZNfpLdHFNQDHNw5QaQ5MSSj+E9bJDtbVgRcLsmwgbNOVxMUD9uhbmQFh8kkF7tClMt3TAfajZIIb7jzvGNQo3sG+IcjUk/1zhctn6CoijUEfVpovh3YPI4HxiDBjjTc5cpWTH8ClE4kIfr2TnT13DyOuzdt8SkgR/IV8a49PAHngpEdnj/prlHmTxfCmYcpYOZrMPiQqShs2oAh6oIhMMcjCtPENXRj7xkTBFAr4t124c+KlAO135g==
+
+%URL%
+https://www.inspircd.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1639376804
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+inspircd
+
+%PROVIDES%
+inspircd
+
+%DEPENDS%
+perl
+
+%OPTDEPENDS%
+gnutls: m_ssl_gnutls
+libgcrypt: m_ssl_gnutls
+openssl: m_ssl_openssl
+libmariadbclient: m_mysql
+postgresql-client: m_pgsql
+libmaxminddb: m_geo_maxmind
+pcre: m_regex_pcre
+sqlite3: m_sqlite3
+libldap: m_ldap
+geoip: m_geoip
+re2: m_regex_re2
+tre: m_regex_tre
+mbedtls: m_ssl_mbedtls
+
+%MAKEDEPENDS%
+libmariadbclient
+sqlite3
+libldap
+geoip
+libmaxminddb
+gnutls
+openssl
+libgcrypt
+postgresql-client
+re2
+tre
+mbedtls
+pkg-config
+
