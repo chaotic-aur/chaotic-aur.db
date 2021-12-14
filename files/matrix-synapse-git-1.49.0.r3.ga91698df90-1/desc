@@ -1,0 +1,112 @@
+%FILENAME%
+matrix-synapse-git-1.49.0.r3.ga91698df90-1-any.pkg.tar.zst
+
+%NAME%
+matrix-synapse-git
+
+%BASE%
+matrix-synapse-git
+
+%VERSION%
+1.49.0.r3.ga91698df90-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3138917
+
+%ISIZE%
+15725929
+
+%MD5SUM%
+d190aca5b8e585e61fa85bb17501dc05
+
+%SHA256SUM%
+ee1819f747671a8ec41ded4d09f1b6507b8ef7a0bee69cda2a7886f56989b45b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmG4tWMACgkQOkDLXn5cvDCMiQf/U2lqHC59neULs+HanbARlbxXSrXffMS5YTn3vQBoEZ9XaKMrnfxkanN+aTIE/YP7xjN0LCesWGThg5vwYYMwtObfuqw8nFT7zCUnYMZr4PtZu3xMf9+eCkUTVvPbPPw8ArmLcnRokjIlG4pmYdwJ+4uci5+XO2EkPOIay2H7Ar3g1xiT84kV1uNhBlMWpJNHMv7lCgi3caGcG/bpk9eCjEzY7za4Kthp7Su8EcG93jliOKCVhUlQsnP2WcwJk7s6Mk5pummEoQJuJ28TsglMf77NyIqmjzSKAvpe56khTLmYiDYhXVcBSvXcXcOArqKrpUFpiIYJpx5vS/vY+H1pcA==
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1639494916
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+matrix-synapse-py3-git
+
+%CONFLICTS%
+matrix-synapse
+
+%PROVIDES%
+matrix-synapse
+
+%DEPENDS%
+libwebp
+python-jsonschema
+python-frozendict
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pynacl
+python-idna
+python-service-identity
+python-twisted
+python-treq
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pyasn1-modules
+python-bcrypt
+python-pillow
+python-sortedcontainers
+python-pymacaroons
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-jinja
+python-bleach
+python-typing_extensions
+python-cryptography
+python-ijson
+python-systemd
+systemd
+
+%OPTDEPENDS%
+python-psycopg2: PostgreSQL support
+python-pysaml2: SAML2 support
+python-authlib: OIDC support
+python-lxml: URL previewing
+python-sentry_sdk: Sentry support
+python-jaeger-client: tracing support
+python-opentracing: tracing support
+python-pyjwt: JWT support
+python-txredisapi: worker communication via Redis
+python-hiredis: faster worker communication via Redis
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-mock
+python-parameterized
+python-lxml
+python-authlib
+python-pyjwt
+python-txredisapi
+python-hiredis
+
