@@ -1,0 +1,96 @@
+%FILENAME%
+lutris-git-0.5.9.1.r100.ge12641b0-1-any.pkg.tar.zst
+
+%NAME%
+lutris-git
+
+%BASE%
+lutris-git
+
+%VERSION%
+0.5.9.1.r100.ge12641b0-1
+
+%DESC%
+Open Gaming Platform
+
+%CSIZE%
+758682
+
+%ISIZE%
+2165723
+
+%MD5SUM%
+f630eae8ac1685384b93eb2c96bd5ba2
+
+%SHA256SUM%
+64ef710121fd33ab07a5045649ab4e568e8e37b3ab6ba3158b116666cafac166
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmG5WpQACgkQBwa5DTfZuIE5yw/+KpPDwVvJToxvYmwqKBHGXbXhgRHtgS7xYRXFRH91w2ojCOQNhiZVqrefyHGcynHSDA0kQXeuHlSR7g5RYKu3dlRBouf7/+vgO8B6M2CaeZifvhcwE8M6eO4FoceeHqetnUcBAdWLFu9Eg4ODxemqMj1SgPOpH/skCgw9SFzO+UwWyUQtzQ5sWalRCa8aOBWYgWjBl71dKTKBhceF3a+brbdukIIjXIaCKBBe3FFGjuYr2GDj/nW3SV+VozUQKpX6POIQ62CuFxBCbPOu444/vuwov5uHJErjz2yhsGoyadXNc0P7MHp5M1Y0sssAoK3S6YFd3+Nokxw5LGxjDGZ1zKJI77rXPIa0FHsvybxXWA8YcdVYmAOeUg3uthWt9l52Pd5QbychrmS6kfpDq23BpVmZB5rYtZGTJpNptxcit0gtwfTrhKSqVWmgiD2xzY1z5JZ8LFHGddA8U5rwnWEQy2o+iYVUdBZ4cKJOjikVLR+qpZXTlFsrxo72aqEQI9gXBhbFbl06tv7uLBqmyf94uB4GAhsqRQxozU+6nBWedbcJXP4laejwX/0kzIUhrrbW6/9UoN+1OtMuFX5siaI9JfrtMd4Yf/AP2T2S1xWzFj/U7ggQB5FmUrk7HtkWOzoV9LGf7lDuv5A8kTbTRqZMrzy6dEtMZ6vYkesM5IuyKZA=
+
+%URL%
+https://lutris.net/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1639537282
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+lutris
+
+%PROVIDES%
+lutris
+
+%DEPENDS%
+python-gobject
+python-yaml
+python-evdev
+python-dbus
+gtk3
+glib2
+psmisc
+cabextract
+unzip
+p7zip
+curl
+xorg-xrandr
+python-pillow
+python-requests
+gnome-desktop
+webkit2gtk
+mesa-utils
+python-dbus
+python-distro
+python-magic
+python-lxml
+
+%OPTDEPENDS%
+wine: easiest way to get all the libraries missing from the Lutris runtime
+vulkan-icd-loader: Vulkan support
+lib32-vulkan-icd-loader: Vulkan support
+vkd3d: Vulkan 3D support
+lib32-vkd3d: Vulkan 3D support
+gvfs: GVFS backend
+lib32-glibc: for 32bit games support
+gamemode: Allows games to request a temporary set of optimisations
+lib32-gamemode: Allows games to request a temporary set of optimisations
+mangohud: Display the games' FPS + other information
+lib32-mangohud: Display the games' FPS + other information
+innoextract: Extract Inno Setup installers
+xorg-xgamma: Restore gamma on game exit
+
+%MAKEDEPENDS%
+git
+meson
+
+%CHECKDEPENDS%
+appstream-glib
+
