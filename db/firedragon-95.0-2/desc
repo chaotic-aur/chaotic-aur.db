@@ -1,0 +1,114 @@
+%FILENAME%
+firedragon-95.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+95.0-2
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+73083215
+
+%ISIZE%
+212251007
+
+%MD5SUM%
+612bccccb825070656a4877bc43e1ba5
+
+%SHA256SUM%
+03e69be7f773f1285be9f164b7016bf92fb11e77f138acb7c8119b9015a20025
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmG5pzgACgkQBwa5DTfZuIFMAQ/+P7AvwjVLizs2wyhVgN0kxYxSxJ7v2vdyE31kchwDaQWStYHDKvACgiBJNCn/g5f5W/vNSPZV9aXZlYUxa1tfjGXHHwy0zbmYzOfb5AzvIxg/Bx5DHbvRKk9Fhz5OT8BALFkUz/b7qwBGmKLBR5DwCvQtiNnvpW13Ulqgy+z532ADxPgRMaoQZ7Pxb6LgaYZVGgMpwfepC6rlGo0B5oPdh9HL88eCT9cT55OQmLp+b7Oeu8pwyP+hCqNy1LIKI9NzIoFuoHQodGKjSKMqAzx9jcxOYJuIZLcIAl0MGOfh/XvlZB/pKaYtaO7xMKvsE/tv4QepuTlw0j8dVrTcJrD3upGdxW/S+QMfdfvIlmJHv7Rc4UyK3COnr1yYVR2xawPyQhv+WQDJXS5p+sKsSY+n+IQQeXKPG8Thm7crMZ6T+x5yCM0ttoPZfPj//RYgHV0CbHrwCCsk82caEsZoyFSBMc8AFFkwqWdsV9nct6h6qbsdtPG2pP/7FTSKOem1FfCs3NLkCuwM+QT3pw5aR4Fbp1MCfpx/HnH8K0+Q+z/DeufECDT0qTOGrpaYiHxz13VilRhK1fnB9fpKF1XZD/cNmhkO2VCci1exMRgztad/x1IpbXQSOEa17VS+7lzFYIdXosVBblJVyfIZNrmIAFSDZJKMTIUoxbUoxgrZRjzksl4=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1639554545
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+firedragon-hg
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss
+ttf-font
+libpulse
+aom
+harfbuzz
+libvpx
+libjpeg
+zlib
+icu
+libevent
+pipewire
+kfiredragonhelper
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+ccache
+rust
+xorg-server-xwayland
+xorg-server-xvfb
+autoconf2.13
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+
