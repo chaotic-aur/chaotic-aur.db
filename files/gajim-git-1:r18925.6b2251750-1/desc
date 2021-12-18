@@ -1,0 +1,95 @@
+%FILENAME%
+gajim-git-1:r18925.6b2251750-1-any.pkg.tar.zst
+
+%NAME%
+gajim-git
+
+%BASE%
+gajim-git
+
+%VERSION%
+1:r18925.6b2251750-1
+
+%DESC%
+Jabber/XMPP instant messenger client written in Python with GTK+
+
+%CSIZE%
+7667484
+
+%ISIZE%
+21637755
+
+%MD5SUM%
+010675eaa4133c2f0242c29606d04ee0
+
+%SHA256SUM%
+1a4e296ecd5715280c71894009f49561450d91e909c34d85d1b2dec5c05bbc3e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmG9+vEACgkQOkDLXn5cvDDBbQf/cYiyTW0/9kNT08JodGbyRaWl9+sUv5YVahMy0xW7vemAYN1QWK4X+RzxiBmN23lmv9+SrFPSAMZdAWTRgTJvhyTegg1h2eRXyFtmVOScOsSHGMbQ77dfQMAipth/LzjIDh4bdhBbRcqiKYeqaFUYQxuKF1Dn1v6xRGj0bMB22aoJJ14POKi18sKo5VjyLWHbJMM+luTci8KcT2GRfUNmUlTfTDPJlGDzueD4pkFe+BPz4bhIkgBKw9/izwjrgpN1siU5mcptcXHnfeI2BT3Z/Ng0xRjlg2jmZGG1JRzP06s/yAch0XX58X57XMcUKNJ+xjdmLAxNg6Apig89JZ/amQ==
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1639840430
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+gajim-hg
+gajim-svn
+
+%CONFLICTS%
+gajim
+gajim-hg
+gajim-svn
+
+%PROVIDES%
+gajim
+
+%DEPENDS%
+gtk3
+libsoup
+python-gobject
+python-pyopenssl
+hicolor-icon-theme
+python-pyasn1
+python-nbxmpp-git
+python-cairo
+python-keyring
+python-distro
+python-css-parser
+python-precis_i18n
+
+%OPTDEPENDS%
+python-dbus: for gajim-remote and zeroconf support
+farstream: for video/voice support
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gst-plugin-gtk: for video support
+gsound: for notification sounds
+gspell: for spell checking support
+libxss: for idle time checking on X11
+notification-daemon: for desktop notifications
+gnome-keyring: store passwords encrypted in GNOME Keyring
+kded: store passwords encrypted in KSecretService
+python-crypto: support for E2E encryption
+python-docutils: for RST generator support
+gupnp-igd: for UPnP-IGD support
+geoclue2: for sharing your location
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
