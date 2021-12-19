@@ -1,0 +1,76 @@
+%FILENAME%
+fastfetch-git-r509.a15b366-1-any.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+r509.a15b366-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+113727
+
+%ISIZE%
+365394
+
+%MD5SUM%
+2dcf79bfab827297b81a64709c4ba670
+
+%SHA256SUM%
+155ad3af36d6554c7aecd73844f7b7c5b7585555df7a26d45404a0fa182a96df
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmG/q6AACgkQBwa5DTfZuIGY7w/7BGRL09ECZYhOvACxlnUV4PIKsjdHQoSpdsUvBYuLzaONvfgXJHF4R95KAbZBVTGbScbQWYDapd290ZnkySzHeJY3ZXodSKTIxmCazYz73D4JjimYSOnr9NR9VH1wo4UUJDtJNIP8D63+rCzU9Ulz4B5wtY6PnfeZtz0NLZOWkFXf21b23Npj5k2q5e1NcaQAQU/3G11ImgKqkyXM5b3iIBesIjdjigTWoawplE1JdKsybpM3YrBEFBiY+5/tlAO5wOB8tOzvYuGlxGQJbhcrssfrLXHHbMTr3ke/DqVz0BlJMujtUkVcNG22M1r0+Q0zjuFjm3OrlMOgSKBQlyka6qREwEETDtQL3iGyGAqPN0ndkk+zywmsAcR3mtc3dR/sSOqLh1xVrkFWR3nVWxJ9dKxy61xAxgxZolm22wJAa1JB00//4LBMCfQTYfouEOJcjtEDFC410Z25un5zF3OMfZCA15r8TLbhGvLvmBaa+TX27FGkSQEtA48/b7fwtBliFhzt1V57k4FzLq04qcpIOfunlDGZNQrASWWcdb5NVl7tM4K6cckOvwQS7Poa4wuyShP98UT9vGo7Yg9lNpGQhlJoGT8emik/7zOEYSyQLh4Unoos02ndC8u729r9VNNMKKypgVsuobWdJp0dx7RbgPfDI56MJQQ36T5YPwbFkHY=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1639951235
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%PROVIDES%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+libx11: Basic resolution output
+libxrandr: Multi monitor and refresh rate support for resolution output
+wayland: Native wayland support for resolution output
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+libxrandr
+dconf
+wayland
+xfconf
+
