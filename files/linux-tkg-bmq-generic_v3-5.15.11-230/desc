@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-bmq-generic_v3-5.15.11-230-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-bmq-generic_v3
+
+%BASE%
+linux-tkg-bmq-generic_v3
+
+%VERSION%
+5.15.11-230
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+136978286
+
+%ISIZE%
+136450818
+
+%MD5SUM%
+e1ad5d5c1a4a27c80cb775965f94eebd
+
+%SHA256SUM%
+19417562c73c2b09cf4a0cc44d9e9f4adff858e46e66478a96e1e76b350850e5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmHHL3EACgkQBwa5DTfZuIHXXA/6An0e/t8uSiGKmq5+IPI6LAvZp5DaemDXnJupDxQfIhUTkqmYIScTrWJcMtIXYnr3JpNsdrhIKQ1uUgBmiwXylP13Ik+70J6yNDJxqTazZR+ANEOi1y+I9Ji1o9zdLuz0RKpYyJcCOAaAjIYem9aMbGNyye2SWgXhsAknQghbFBy9IoEEfVJj2TRM1BI7V7FPiQ2WcDGjWyZX4tMuWX9WiDdyRde8frgeOuoq0icbAnkETqwRiMdc/a6nTfga9psd1/PXMOd22n8sTitKofST1/DRoLCQ4H5cKUvY4Lu+2C/vGgTgfcmTLU6Skdw8QyMy7GjykYjn5MLU8lQ149Cd7U1RQ7ckiNg5N0X0cYZg0mvMUWG9yofYxd4aRXPfmosy2Du4O0vvtNdUreWVXggG6jQLPluPb28Oum9KWtfzXXUur33dQxqvReTzT3HMddXp+FTIDArzCGdJEwvxlq8i7LiizZywDn1LDJDdvMUIawD6ipEe7d5XaMhEOu42badEpucI92KFEV3Ywe5yFjjaM/VzyJWSOsgkpk1ylCKWl3AYnPrDW8rvmPQb411OFGWZHZtzd5VPxHoJtb5cKMikgn0sgqxmBpz2DzEZRtMasApJiGYXVaFL9Sf6qSLglRaPlHAmND3BLlbp/vbYYh3qaLoOggIyB7l/bRBOgFgQcAo=
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1640442220
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.15.11
+linux-tkg-bmq-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
