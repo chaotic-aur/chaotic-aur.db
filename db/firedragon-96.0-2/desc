@@ -1,0 +1,114 @@
+%FILENAME%
+firedragon-96.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+96.0-2
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+74378355
+
+%ISIZE%
+215076322
+
+%MD5SUM%
+ce5261750c95c285f427ad02800f5e71
+
+%SHA256SUM%
+3e33db0c374de14da12b2a8e554e73fe77f69bd7ddc46a14178eb8b93d09b0ce
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmHjPZUACgkQBwa5DTfZuIGI3Q//Yg+R/HJCsOPuUa2e2Pl2zO7Rb/VXmw0pEHXBB3AgWcZ/WyQvV2NNxX9hilmTNssOa+XOEtH9QEq1GCh/u5gXyYgt/EZrRpG6TmojzOZuOS2tLmYLiSjrhi8jJ70PhqqSbNjoyjLT5G2YA0CcKoCS8VVIs2uxvvkbP81Ck1yDeqJ8Xw6HtdcKza8XX5RPbUDRbetEkPMG/hIxKm2yiBs0l8y45Jl+sX4eCKiECoDXLm/zqz7kYI+v1w+1uZyqJ8k5cXoUDryZLhaXH4rjfDw1kJzS2sVF+OQ9P48F9m9wfi9j6Iw3fN8i+AbdsOLHu3pXC0yNtyvMR1IVjk3vEAc4dNlcSfPPI3bVgXkCNhuHUSkKgeujPqS0gr+wqU7HQBqJ2ThAJzumIDuUaE8PIUMK+LROe7Lz5Ooi5DoTzdrYrzPwH/kV/T69u+x6R+POmgdXWiR4ToP0O3xsdV/JbnAn5Ix0oPLoXtAB9frz+xplN+2fsxH/iGREE8mY9F3Kx6llo9Iy/WEple7nxFsZL+rtXjnvlmUd0qk0OyOoYCkPwnWf46y8f7BUHNzxGQc9qFHxEOeKEqhZW2IC9UK/oKlfNs3m6z4Er4Vfcet29AeIyW9Vk9kSJrE1AvbH0VvTTQWpIbnPMbEfhNlzoVtp9huTR9YzPZI/BlCTBP/t7OKFJyk=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1642272061
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+firedragon-hg
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss
+ttf-font
+libpulse
+aom
+harfbuzz
+libvpx
+libjpeg
+zlib
+icu
+libevent
+pipewire
+kfiredragonhelper
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+rust
+xorg-server-xwayland
+xorg-server-xvfb
+ccache
+autoconf2.13
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+

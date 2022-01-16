@@ -1,0 +1,85 @@
+%FILENAME%
+git-git-2.35.0.rc1.r0.gdf3c41adeb-1-x86_64.pkg.tar.zst
+
+%NAME%
+git-git
+
+%BASE%
+git-git
+
+%VERSION%
+2.35.0.rc1.r0.gdf3c41adeb-1
+
+%DESC%
+A fast distributed version control system
+
+%CSIZE%
+14345952
+
+%ISIZE%
+34838277
+
+%MD5SUM%
+90603650559ab8146df250c732fcc549
+
+%SHA256SUM%
+7dbecf6dc72c310aeb7f553085d2a0a93b7413e0e5d0606e7835371ac3c716bb
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmHiH1UACgkQBwa5DTfZuIFN2Q/+MBXAqxpDqB1Y8cuCEOC82gm7wkSYWnN9PE4x8Jpj47Ed0jx4TKZWhCnVTsOpnbDvxX9yQOIUeGR81oLYZEha6t9D0oHhGIKmELyPuvIYAzLcv56dC1X7yndEQdsSV9J/NMSF12LXDeg26sb+0tHx07jPDTc8F++0+JiW5Zqi0b9SzB1UBcOgNu2v/cg6Gqj6Zv2C6g8iZRzJW2FOkez1/ptoYLfTI1tqKLEWXyRm2zFAcKKV8SbwmBGgx+sRink4BSTsjZpE+L3F7qmKYxTwr9lIcTZDOKSSyqe70SkjBSal55GKVEcWPh5Q8+h5oLiA321kk+qODdvR4soSSNlMlqKYAfQJa/WBto8XUv7ZdkxKrEDz9cY5kwC/QlPWpLaHsOhlt4WgYDjTTK4JKUgT6TrWzRRfCd81z+5ltLjdS2ryj89lHZUvIoWzs+/I9+Tnfw3XXp0QREjIiQP1I9tleJP+LgY+Tv8bU9IkUd+HzzGDi183ZkEIpTN4jtsyCIg7fzYJQ+C7J+NuzSWz4xIIY+HhibqOU0bPSfrLVZ/pel4DBkUF0boONL23XI70fn2cnel4WTflyIXL6qtPbp+PN88zbHjT9ckgGSYPGzgYsqgKJiEbx+Ui4YEVAfG99uwVW7j7AmT5SrjUcy/Fs4KihY6tNUd3MV75unEG+KaJl8Q=
+
+%URL%
+http://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1642208610
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+git
+
+%PROVIDES%
+git
+
+%DEPENDS%
+curl
+expat
+perl-error
+perl
+openssl
+perl-mailtools
+pcre2
+grep
+shadow
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn
+perl-mime-tools: git send-email
+perl-net-smtp-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: various helper scripts
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+libgnome-keyring
+git
+

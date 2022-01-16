@@ -1,0 +1,77 @@
+%FILENAME%
+leagueoflegends-git-0.11.22.r15.gfd0ffec-1-any.pkg.tar.zst
+
+%NAME%
+leagueoflegends-git
+
+%BASE%
+leagueoflegends-git
+
+%VERSION%
+0.11.22.r15.gfd0ffec-1
+
+%DESC%
+League of Legends helper script
+
+%CSIZE%
+108334
+
+%ISIZE%
+134509
+
+%MD5SUM%
+6c3abfba8d083d1870de04234de8b2e0
+
+%SHA256SUM%
+ec56fc49dacae171f4d5372ad58d4a1dfaf9b824be95cf705ec026f3882f4e35
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmHgNCwACgkQOkDLXn5cvDD79AgAlhoTouLhkISzbrDqTOJjlo8UFgN99m6qwxL4PV4B0OFiis1ORYxgclXcPRsjlfSNfhHizBfHkxZl6HEQKgZIyu1hc8B4g08E82IPMjlAvOZDuY6RYoIE+lqnx5faZj3CsKMLHD+ovZDHKy8cGrGIfBXRPlBUyiyvyNdnXG6TEwWhnWeM1sC5lzZZ9dHy0R6ofBXqO7h7nahtSLbIbYx8UzALPebImCITW97k6FO9WZeIPgrTFHkEUHJ7BJ+sf5+DbUhB8ENd6J9GBhVTCavS8Q/233SD6RuHbxSNGgLierm7C/nt2eFsOw1VoWkT98d9gDaxNCccpsKtpKZv3b1ZKA==
+
+%URL%
+https://github.com/kyechou/leagueoflegends
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1642083349
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+leagueoflegends
+
+%PROVIDES%
+leagueoflegends
+
+%DEPENDS%
+wine-lol>=5.18
+winetricks-git
+bash
+curl
+openssl
+samba
+lib32-gnutls
+lib32-libldap
+lib32-openal
+lib32-libpulse
+lib32-alsa-lib
+lib32-unixodbc
+lib32-vkd3d
+vulkan-icd-loader
+lib32-vulkan-icd-loader
+vulkan-driver
+lib32-vulkan-driver
+
+%OPTDEPENDS%
+lib32-amdvlk: AMD Vulkan driver
+lib32-nvidia-utils: NVIDIA Vulkan driver
+lib32-vulkan-intel: Intel's Vulkan mesa driver
+lib32-vulkan-radeon: Radeon's Vulkan mesa driver
+zenity: Loading screen indication
+

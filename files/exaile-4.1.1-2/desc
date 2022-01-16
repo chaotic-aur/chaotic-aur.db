@@ -1,0 +1,82 @@
+%FILENAME%
+exaile-4.1.1-2-any.pkg.tar.zst
+
+%NAME%
+exaile
+
+%BASE%
+exaile
+
+%VERSION%
+4.1.1-2
+
+%DESC%
+A full-featured Amarok-style media player for GTK+
+
+%CSIZE%
+1888449
+
+%ISIZE%
+7067496
+
+%MD5SUM%
+1b9d9166b228244fdb7e2c74d42bea11
+
+%SHA256SUM%
+0243dd427f28d7714f3f10f8e0c59a39fec6f30c6a20858368b9e487470d3a9f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmHZqRkACgkQBwa5DTfZuIFPZg//QxXrDMae6pV2Kl0M9VzmNhZmnhFdTD1ozJ5bx0PJfQnzuNCP/tVf8TR/pSOCkxwfSDl6M8rXgHaDKOIdgdrdnsF+XA6adCArl+imQ0tHCqSSRW+vEhWKV3tnIzYIEoHIc/ge38A7A6IWL9cv2mKMIUZOe0iJd1sREoYmcplzAhnveWBwv9WFoTmTRESSMjKeGT/+kaCf4GZqZRZi/JoxzLTSHIzXZf5O5TYvpBj9SLpvk+/UyqGtsLiwoj1+lqRh7hF2Iu3yH+woswIqpf7BTuqV0r0gxNlIEwO5nnE5ecMMyaRaEoFOqU3WwDWnfF76fiQHCFHTiefAkzVLWPwD7MhxGx/gOgtZjgceA01GKjDe72fVd3otTXt3bZxUC29BXFXv6JtsGwTQ3LffqN/xIBBTAPuxH53O0kEZ3hIQsxxUSsq2wc/cVJAPjFjyFx9ZNng7KM02WvxFDI/SlDcquoG6u5EMLCUfsc6gojm5mgXMAMuvKr3cvv8qy6Y4C5TyQw4zHkdCJ2RbDZofGZUxg0wHwT4MMWD5761X0ATZflxDSXZ6h0mPSPhVPhoC4Ezb88t1/Twfk+MqquQzaSyYNlTYg1ByJEWDMASrIbBEwIH/L49XWxIxHy5ggzUgD77RKuhfs+MtbrvLOumbFxijbH+H0Lf2EtGKI8Eh9VJh+Q4=
+
+%URL%
+https://www.exaile.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1641654532
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+python>=3.6
+python-bsddb
+gtk3>=3.22.0
+gst-python>=1.14.0
+gst-plugins-base>=1.14.0
+gst-plugins-good>=1.14.0
+python-mutagen>=1.38.0
+python-dbus
+python-cairo
+python-gobject
+
+%OPTDEPENDS%
+udisks2: device detection
+spydaap: DAAP server
+python-zeroconf: DAAP plugins (daapserver and daapclient)
+ipython: ipconsole plugin
+python-pylast: Last.FM integration
+python-lxml: lyrics from lyricsmania.com (lyricsmania)
+python-beautifulsoup4: lyrics from lyrics.wikia.com (lyricwiki)
+python-musicbrainzngs: Musicbrainz covers
+python-feedparser: podcast plugin
+webkit2gtk: Wikipedia info
+libkeybinder3: Xlib-based hotkeys
+librsvg: scalable icons
+libnotify: recording streams
+moodbar: moodbar plugin
+gst-plugins-bad: BPM Counter plugin
+
+%MAKEDEPENDS%
+pygobject-devel>=3.22.0
+help2man
+
+%CHECKDEPENDS%
+python-mox3
+python-pytest
+
