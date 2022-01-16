@@ -1,0 +1,104 @@
+%FILENAME%
+qtile-git-0.19.0.r34.g3e22e15f-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile-git
+
+%BASE%
+qtile-git
+
+%VERSION%
+0.19.0.r34.g3e22e15f-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager. (git version)
+
+%CSIZE%
+815976
+
+%ISIZE%
+3774926
+
+%MD5SUM%
+af647c12ffdfb63b19cf9d7abe894de0
+
+%SHA256SUM%
+fe41cfa8374cad8e782849f0b05ea49c21a5dff97df83c8d040093ae13684c79
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmHkZZAACgkQOkDLXn5cvDBO5Qf8C2Sm3ffivqBRJscWbRn9JB0nZHbe4orCsCapDJrQheGVPpgm28Doce6LdcOnBXpyD/AEw5hx2L9gzA+xI2BWmJeVz1nfUyZOC8iGKxEo3D+MWBcTqSHlSE6yExf+cjN4WiR7VVo7o5Kz2S9chUYKBzJvp/WRZmVWb+XuJAnlWNO9OiRa2NHO5DreKN7NEKO/rm66RJbvpBIzFgfjx0aBVv5C2DL6QWTDjMLoDHlk7pHjgtl4dueXFzhOeNpEAxuP0a+A0LcbFmxK/qcKwkHerhsKsC+Nuym2ktltpaTnP9zpduNzYb65gUZg35oAFlQWtftyzo8lDZjtIO9E4b1p1w==
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1642358004
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+qtile
+
+%PROVIDES%
+qtile
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+pango
+python-cairocffi
+python-cffi
+python-xcffib
+
+%OPTDEPENDS%
+alsa-utils: volume widget
+canto-daemon: canto widget
+cmus: cmus widget
+jupyter_console: interaction with qtile via Jupyter
+khal: khal_calendar widget
+libpulse: for pulse_volume and pulseaudio_ffi widget
+librsvg: for SVG support in some widgets widgets or wallpapers
+lm_sensors: sensors widget
+moc: moc widget
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: wlan widget
+python-keyring: imapwidget widget
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywlroots: Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+
+%MAKEDEPENDS%
+git
+python-setuptools
+python-setuptools-scm
+libpulse
+python-pip
+
+%CHECKDEPENDS%
+dbus
+graphviz
+gtk3
+imagemagick
+libnotify
+librsvg
+mypy
+python-bowler
+python-dbus-next
+python-gobject
+python-pytest
+python-pywlroots
+python-xdg
+python-xvfbwrapper
+wlroots
+xorg-server-xephyr
+xorg-xrandr
+
