@@ -1,0 +1,91 @@
+%FILENAME%
+linux-lts-tkg-bmq-5.15.15-237-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts-tkg-bmq
+
+%BASE%
+linux-lts-tkg-bmq
+
+%VERSION%
+5.15.15-237
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+136630616
+
+%ISIZE%
+136085255
+
+%MD5SUM%
+d799aab13b12f1df385e26c2cdf15d5c
+
+%SHA256SUM%
+961fabcecdf7e67af754b6eca2c1fda45dc59b750b35a2fb6656f4f89e496aa5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEYCX9g42CwwQfTHHKip4UoHAQ9+MFAmHolpkACgkQip4UoHAQ9+Oargf/TZ9w8pw2mgi8jQPwS2h0UD1oHnF5vhAI0kIc1fS0BFFYSEILeoQkxC+ztFwZirzFgADNED3yEvRZKOhmcP4SpYWiUHvqqTH4xDIiiFUFXUGRLxYPtbNrx6YbPjJ2SoVwkAqNW9xmIxndpXC0qWFu1PSaHq6eNAG504Nh7tKQUsBqczZ4PfSu6Chm17G2mMUHg6V96O9zdwIFgvbyA57v6q3lxLkbbtJc0CZCu0sbj9arrzOges19ftn5xPGIyzPf9gI1WUp1lRBvgsmXRNG4nfgWh5Hkm/y7WYBhufCAxf6J17loNEYEhTEXkhYTAfTnNxc4fpPylg6Gz/DwdNH+Fg==
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1642632179
+
+%PACKAGER%
+Pedro Henrique Lara Campos <pedrohlc@chaotic.cx>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.15.15
+linux-lts-tkg-bmq
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+

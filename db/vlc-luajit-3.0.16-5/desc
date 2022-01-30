@@ -1,0 +1,222 @@
+%FILENAME%
+vlc-luajit-3.0.16-5-x86_64.pkg.tar.zst
+
+%NAME%
+vlc-luajit
+
+%BASE%
+vlc-luajit
+
+%VERSION%
+3.0.16-5
+
+%DESC%
+Multi-platform MPEG, VCD/DVD, and DivX player built with luajit for OBS Studio compatibility
+
+%CSIZE%
+18011643
+
+%ISIZE%
+62835451
+
+%MD5SUM%
+e44c60b7a39ad67fb065bde5ea4c3c6f
+
+%SHA256SUM%
+55e744b3076f614f81a2d1e0db1a39ab5aaab4946f2abbf23cf33f9838156096
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmHuxmIACgkQOkDLXn5cvDB1gggAhfFDvtrpZ9DyeXSicQWrwo2Y4zIoejwQe5sDT2VrBcJqisEU+Za9VvdCQcaAmGksqz+/VbBS/v6V97amHSpCtv0kawYZeNcOslLzgHxv1ZOdtMFIA0yUoGjjS0WGLa2cmsxcv6PpjvIET/bxJ8FEfevEn/ed3pX47qLM+AmJ9MWtfISvM4XNyzs4CMD2I+MbixrSe1Tv9xHd6JPfVIeAHrSsXqZrckkrzSUhc/AXGx4BpCzf3tcRVo5VmaNEBd1utrepsGyWJp/EWDlnh08ysx5OQhBq5/4Az1qfFYC/XQsJ+CzYfmDdaHWBu1wxsL4wIJ4ChIMQ1WawBlI0G2sYfQ==
+
+%URL%
+https://www.videolan.org/vlc/
+
+%LICENSE%
+LGPL2.1
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1643038108
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+vlc
+vlc-dev
+vlc-plugin
+vlc-stable-git
+
+%PROVIDES%
+vlc=3.0.16
+
+%DEPENDS%
+a52dec
+libdvbpsi
+libxpm
+libdca
+libproxy
+luajit
+libidn
+libmatroska
+taglib
+libmpcdec
+ffmpeg
+faad2
+libmad
+libmpeg2
+xcb-util-keysyms
+libtar
+libxinerama
+libsecret
+libarchive
+qt5-base
+qt5-x11extras
+qt5-svg
+freetype2
+fribidi
+harfbuzz
+fontconfig
+libxml2
+gnutls
+libplacebo
+wayland-protocols
+libplacebo>=4.192
+libupnp>=1.14
+libixml.so=11-64
+libupnp.so=17-64
+
+%OPTDEPENDS%
+avahi: service discovery using bonjour protocol
+gst-plugins-base-libs: for libgst plugins
+dav1d: dav1d AV1 decoder
+libdvdcss: decoding encrypted DVDs
+libavc1394: devices using the 1394ta AV/C
+libdc1394: IEEE 1394 access plugin
+kwallet: kwallet keystore
+libva-vdpau-driver: vdpau backend nvidia
+libva-intel-driver: video backend intel
+libbluray: Blu-Ray video input
+flac: Free Lossless Audio Codec plugin
+twolame: TwoLAME mpeg2 encoder plugin
+libgme: Game Music Emu plugin
+vcdimager: navigate VCD with libvcdinfo
+libmtp: MTP devices discovery
+systemd-libs: udev services discovery
+smbclient: SMB access plugin
+libcdio: audio CD playback
+gnu-free-fonts: subtitle font
+ttf-dejavu: subtitle font
+libssh2: sftp access
+libnfs: NFS access
+mpg123: mpg123 codec
+lua51-socket: http interface
+libdvdread: DVD input module
+libdvdnav: DVD with navigation input module
+libogg: Ogg and OggSpots codec
+libshout: shoutcast/icecast output plugin
+libmodplug: MOD output plugin
+libvorbis: Vorbis decoder/encoder
+speex: Speex codec
+opus: opus codec
+libtheora: theora codec
+libpng: PNG support
+libjpeg-turbo: JPEG support
+librsvg: SVG plugin
+zvbi: VBI/Teletext/webcam/v4l2 capture/decoding
+libass: Subtitle support
+libkate: Kate codec
+libtiger: Tiger rendering for Kate streams
+sdl_image: SDL image support
+aalib: ASCII art video output
+libcaca: colored ASCII art video output
+libpulse: PulseAudio audio output
+alsa-lib: ALSA audio output
+jack: jack audio server
+libsamplerate: audio Resampler
+libsoxr: SoX audio Resampler
+chromaprint: Chromaprint audio fingerprinter
+lirc: lirc control
+libgoom2: Goom visualization
+projectm: ProjectM visualisation
+ncurses: ncurses interface
+libnotify: notification plugin
+gtk3: notification plugin
+aribb24: aribsub support
+aribb25: aribcam support
+pcsclite: aribcam support
+aom>=3: AOM AV1 codec
+protobuf>=3.19: chromecast streaming
+libmicrodns>=0.2: mDNS services discovery (chromecast etc)
+libvpx>=1.11: VP8 and VP9 codec
+x264>=0.163: H264 encoding
+x265>=3.5: HEVC/H.265 encoder
+srt>=1.4.3: SRT input/output plugin
+
+%MAKEDEPENDS%
+gst-plugins-base-libs
+live-media
+libnotify
+libbluray
+flac
+libdc1394
+libavc1394
+libcaca
+gtk3
+librsvg
+libgme
+xosd
+twolame
+aalib
+avahi
+systemd-libs
+libmtp
+libdvdcss
+smbclient
+vcdimager
+libssh2
+mesa
+libnfs
+mpg123
+libdvdread
+libdvdnav
+libogg
+libshout
+libmodplug
+libvorbis
+speex
+opus
+libtheora
+libpng
+libjpeg-turbo
+zvbi
+libass
+libkate
+libtiger
+sdl_image
+libpulse
+alsa-lib
+jack
+libsamplerate
+libsoxr
+lirc
+libgoom2
+projectm
+chromaprint
+dav1d
+aribb24
+aribb25
+pcsclite
+lua51
+lsb-release
+aom>=3
+libmicrodns>=0.2
+libvpx>=1.11
+libx264.so>=163
+libx265.so>=199
+protobuf>=3.19
+srt>=1.4.3
+

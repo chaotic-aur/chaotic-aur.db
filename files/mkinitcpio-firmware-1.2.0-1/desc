@@ -1,0 +1,56 @@
+%FILENAME%
+mkinitcpio-firmware-1.2.0-1-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio-firmware
+
+%BASE%
+mkinitcpio-firmware
+
+%VERSION%
+1.2.0-1
+
+%DESC%
+Optional firmware for the default linux kernel to get rid of the annoying 'WARNING: Possibly missing firmware for module:' messages
+
+%CSIZE%
+2904
+
+%ISIZE%
+239
+
+%MD5SUM%
+5204e5409d08ad2dab11071435109ff8
+
+%SHA256SUM%
+b2e4844e77233f1f8ee43d717a05ced53322eb7e78bbcef5dc335a5a7e9c8383
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmHsFygACgkQOkDLXn5cvDAVLwf9Hs/Y/LMdF3N91jPBWZymKPItgRLq0A9uggMCkWGrYfii++6jQQeGAoV/2yKqgzNSOi5W/75GZwt2N+ztIdaqdEOCEh8ifIV5bcWKU7sqMtB2vqEGE0oLv3H4oDABcRaucu4gUJW/BeYW97KWwlPwIBzQCkGVPPsL9FRPszyyNGZDsf4i0Fw1YwLKBUUQcyA7n8haFQL2VCmrWuG50363D3XB+CKiA7QO8j+DcBsKZk1AM/68+aJTHxrC6VHsVFIMV7sPgqyRckWXJPk6SYYq/AUeCSDsEzOUvI3Qr2erAqhDlKeCvHidIXmA9ZQPLFL5fbuouS9m7z5nRGww2NGPwQ==
+
+%URL%
+https://aur.archlinux.org/packages/mkinitcpio-firmware
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1642862364
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+linux-firmware
+linux-firmware-qlogic
+aic94xx-firmware
+wd719x-firmware
+upd72020x-fw
+
+%OPTDEPENDS%
+mkinitcpio: build the initramfs
+linux: default linux preset
+
