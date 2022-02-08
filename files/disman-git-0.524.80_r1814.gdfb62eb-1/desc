@@ -1,0 +1,67 @@
+%FILENAME%
+disman-git-0.524.80_r1814.gdfb62eb-1-x86_64.pkg.tar.zst
+
+%NAME%
+disman-git
+
+%BASE%
+disman-git
+
+%VERSION%
+0.524.80_r1814.gdfb62eb-1
+
+%DESC%
+Qt/C++ display management library by the KWinFT project (libkscreen fork)
+
+%CSIZE%
+444909
+
+%ISIZE%
+1914708
+
+%MD5SUM%
+6f6a84886c4298276c5cc0c97cbf2bd5
+
+%SHA256SUM%
+73967b85dfd80f769a26e28acbd86658c728a85f7d771f9e316b049e26eb952f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmICxUsACgkQBwa5DTfZuIF15A//YWxAJocZx9u5Ph6TO8mSXB2qNDQcb+Zr6OkWJTPqy1TDZC31anI6Fs4udVXu7/2Q9R2TUnG8V2oXIpcP3m3/vNItwSNclSTHtpFIi/cZxh4vHJAs8Ck2CwmnUFZoUdqVPBKD3zdh2GHd6hW2TLdEG9UgoFAykUepenENhWDpEZtYaaC0exsSOPfkPlzJmt7fU+lOhfwPmS6Jni3rneHwefKpT063CuowWcjoqEb+ywwN+QaedsXA/ZDafWVcCtwVywHhS6+t7yeDOwELBg/Bz10jPlvKCsfyHKpxj4q+dmZLnmgBWGFmsd1lH1ULkUREUfxp+iRYz7TDXBckp+CIKfqLbYuu/Fj7dW5cIIn9YcgbBX5ZyBZ4ns8L+FquMn0kDx1GoB6P7K+ZQDC86r8uMmQuVmcBSOzWY0xC2ahhphOFCXZj8LjD08ODfxYwPwd+nrr5vVL8wLL+zpcXJmrZEYeG396mG5CbZ1+B5yr0O9uVZvRXVGMjpFJaYg0G+TuPx5BuAFP5py5kQWPcnVfYkjuKBrVoO28B4Ih9D3evG3vYCrt70A0A0oCdrMhzxVROUiXk/NqMTcdbi/GLeONAmNDy1wm0LimIiwTpWfXVy564ASU32pdn0Ma6b0l2iNLWXz0Atz2V9HPpBMDXfx5bGDJX40jDaNn6sR3BBBL9cZs=
+
+%URL%
+https://gitlab.com/kwinft/disman
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644348702
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+disman
+
+%PROVIDES%
+disman
+
+%DEPENDS%
+kcoreaddons
+qt5-x11extras
+
+%OPTDEPENDS%
+libxcb: for the X11 backend plugin
+wrapland-git: for the KWinFT and wlroots backend plugins
+kwayland: for the KDE output-management backend plugin
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kwayland
+libxcb
+wrapland-git
+
