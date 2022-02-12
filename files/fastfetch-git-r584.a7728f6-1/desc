@@ -1,0 +1,78 @@
+%FILENAME%
+fastfetch-git-r584.a7728f6-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+r584.a7728f6-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+98177
+
+%ISIZE%
+219431
+
+%MD5SUM%
+c3a7c2ca9ceb147016aa6bee61b1f6ec
+
+%SHA256SUM%
+0515a02e6515d0bbd43cd1b0b412560c075a5ee544b3c435134c955a7bc507f2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmIH9igACgkQBwa5DTfZuIHs+xAAhrt1s0NErVN34HVRkfhw8T8z7Gd2gLioERgCanAiK+y0pIMlC5O4Pf4c/cAR7j/rEp+RcPU8FGvVM9/2jAWfaaV5TXYQHqjfIrS+QYmEbAhcEV0wj0RQi9tITpv/jQ/pcUfcRhuRjol36/OE/9ZLJfEulcehZsUNVM7VUTwG5n1IDbUW9LqaxcYo+/jvhcsilGGjosql0mnqnB3kSxOhYTXcfPQiUxacq6bTE1f/Ay0Hvt+xowuVKA7u7pHhhGX+icVs7vforhgP6uTnqSQA+jWba+YqhCb9LgGMmDKOH65khuvz92JZmhhC6Zj7vE+gpvRqhAoTDclA0JlmgFH+h1CBzQBA0vNbNV5hEErKNcDG3yIRKLmQa5dCBFqsgu2wk/ZV0f3qjvHJm1zNDhxp0FQyoq3dl1sYLiPWNW11URZn7+IwBSEBMdokWNiuJ6sJSRFx2NI0lPOWU8SVMl8OTMRuyFpIRkJMMV+qY6cgrCX/VR5HewxTehpqgcZ5nmLDJUW94qh6SDx8E1YFfYhXjj4y2buj5f+ogovxxA8zyjnkdm5QMpbiPeBsH1o9/GyfFauFi1Fl4uNgdVleaWgmROve0jqS8/PL2KrvwV1fT86VeqbGkBogGZSh7RYVGvdYOQaf3RW/sKijEjUn5PnWwQSoyL7D2s5mswoHp9aOlOQ=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1644688911
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%PROVIDES%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+xfconf
+
