@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-bmq-generic_v3-5.16.10-246-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-bmq-generic_v3
+
+%BASE%
+linux-tkg-bmq-generic_v3
+
+%VERSION%
+5.16.10-246
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+163308314
+
+%ISIZE%
+162694838
+
+%MD5SUM%
+8980c0246f2640b0b05f01c36e37de82
+
+%SHA256SUM%
+655830084a19789b6039be89dbec6e5feac531570472fa5df8c22eebd53f4c1c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEHwcW3JQBXKx3+mW2GaIoKvyoqB4FAmINHEoACgkQGaIoKvyoqB4jyxAAjgVfFyp1nIItKLaZHJRqI0tuphZz+hjOEgnVVkpEzTegSwANQx8WyynMh6X+Kab/tiZk0/B6tvI+ku7fHu3DnAnK4OKI7Sv2mY4FAn2IoG+3O3nA9Jg273dThKxaTMKmNSgrbSwM/dp2Bp4qO947t1xW5X2RWVIXDELIBQ80kV25ZfRnwT74wEGGViqEJ8L3JDzWfcM49WItJ3xJethfmWZIqTEJEPzud01BGy2rfRkMzSOe7NZ81J0sLERs5yJfCwBg9h3mcLm+R0nMMVcPGYH64qLxZi4J2zgUVt6Iw3XHP79/f/QF+nf9j9aJQvdt/gki6lcHdfA9cgwk1m2xQlqVeiklLxC0/RW0x9j7A5Mmf5I7vhTt6WzA442qUNpcwMUquvfwFQ/QxfwoRJpR1RHfr3VYUMcZoSNwxfQ3FwIxKdvY2J5xMjbqacfp0/ofjh6TUIHaaM86cgVXcw6YRVypgl5TVqaVmcdw2+wBC2YOUnkcU2siRg+y84UxrzgwnZOO0nXB5AZSe1ujz0iHwjv4DC7yfhLjsz9eAlikz2VAtOFYZcOg6WenUwxFfPlBkg+xtufjNK66ReyX7VV53KuDRPNkF3d120Qhpob+IEBlv7tlvrKh2G/L1HJ9AmdtZqpWo7FxCRhqKi1wh3gvTkstv+4m2UBtTvrjLnV0B9c=
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645024830
+
+%PACKAGER%
+Eduard Tolosa <edu4rdshl@protonmail.com>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.16.10
+linux-tkg-bmq-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
