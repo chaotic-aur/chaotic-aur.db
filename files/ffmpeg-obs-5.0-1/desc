@@ -1,5 +1,5 @@
 %FILENAME%
-ffmpeg-obs-4.4.1-7-x86_64.pkg.tar.zst
+ffmpeg-obs-5.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 ffmpeg-obs
@@ -8,25 +8,25 @@ ffmpeg-obs
 ffmpeg-obs
 
 %VERSION%
-4.4.1-7
+5.0-1
 
 %DESC%
 Complete solution to record, convert and stream audio and video with fixes for OBS Studio. And various options in the PKGBUILD
 
 %CSIZE%
-13316070
+13985413
 
 %ISIZE%
-35626564
+36675056
 
 %MD5SUM%
-d298e94c9ebfdb095d1e08f876896cd4
+690b5484affb8d99a2857c3682470b7d
 
 %SHA256SUM%
-ad6a2d1cea8e86957d6afca28513df211f091b43679cef7c32d01272d3b891f1
+80fd70233750ee14ce0b1ccd9fd61da17fa35921b01341d1853f3013a305eb56
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIOK38ACgkQOkDLXn5cvDB+6Af+Mqh6a/uXTuND37eZYMUjbsOfAHdg2aEXFmveU1fJEZbVgISg7UktVJ4KXLmMgEFARtGWfLPcP02N/PA/Om9chxKbiJWgb3qVGKkL6ip4XUrAGHypRXICb0RD5xXPPELpnL4gzWia5AKhoyIIKaEHZT+bb3TRtWeqUAooWqDLKuxlpD7EaY6UruKMdnYI4o+2W/dhplFfet9EJ9H4hcs2j/kkYzZHNRhYGqdfVGWB2wKH6tZWK0WPJ40/wRnicNCIiaSr7/3P4Bq7PQYOqL6ax/ifXlgHfaMPm2VBJuSfb2S/sg4EXIMjMrgzL/uWaah3SunEidcPoQsF5WL+LDgkOw==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIO1IIACgkQOkDLXn5cvDAWDwf+OaprB9SoeDYwY+4C1djbU5+UNHGsSCFrVntoKAlt6QSgWBTsf4qlBjG2WHKLH0gsuhZwped6uQ3jKGLPvgbGtOUGpeawGAYboa19quVsePYWdh5AN2q5bAzujaZTQl1t50cQTNpYZ/s+YUJmrbm+nz6YdxN/SIYZZ5+KJkBprZP1gNSRk9llT+lyE/0jw8Z0Wo+cVIAeF67bRmK2NjLS2TN5zQjDfAiUFJkazpl45u8UKBTC8sr5rWAinaS7bl8jjyFcrZHp26KvslsUwcZb9yZk9F1f//ELkF9ZML77NE1wDramY2JQaOYEKrBnNjX9X3pJ2PJb0cvArcteCdXkQA==
 
 %URL%
 https://ffmpeg.org/
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1645095181
+1645138399
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -48,14 +48,14 @@ ffmpeg
 
 %PROVIDES%
 ffmpeg
-libavcodec.so=58-64
-libavdevice.so=58-64
-libavfilter.so=7-64
-libavformat.so=58-64
-libavutil.so=56-64
-libpostproc.so=55-64
-libswresample.so=3-64
-libswscale.so=5-64
+libavcodec.so=59-64
+libavdevice.so=59-64
+libavfilter.so=8-64
+libavformat.so=59-64
+libavutil.so=57-64
+libpostproc.so=56-64
+libswresample.so=4-64
+libswscale.so=6-64
 
 %DEPENDS%
 alsa-lib
@@ -107,13 +107,13 @@ xz
 zlib
 aom>=3
 libvpx.so>=7
-libx264.so>=163
+libx264.so>=164
 libx265.so>=199
 srt>=1.4.3
 librist>=0.2.6
 libmfx
 svt-av1
-vmaf
+vmaf>=2
 
 %OPTDEPENDS%
 avisynthplus: AviSynthPlus support
