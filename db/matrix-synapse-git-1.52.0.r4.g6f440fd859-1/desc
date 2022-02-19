@@ -1,0 +1,113 @@
+%FILENAME%
+matrix-synapse-git-1.52.0.r4.g6f440fd859-1-any.pkg.tar.zst
+
+%NAME%
+matrix-synapse-git
+
+%BASE%
+matrix-synapse-git
+
+%VERSION%
+1.52.0.r4.g6f440fd859-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3158189
+
+%ISIZE%
+15905649
+
+%MD5SUM%
+b2a2ce91f79578b682c6520c9daaaad1
+
+%SHA256SUM%
+0671222da10e81af79b9e28561c0bb673f4959d73c8f24687e99b5acac7418d7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRJv0ACgkQ+vSUbo1g0HR1TQ/9FGWHFZT70xXHEYd5EPa69YxkFDRi4guLcPeOJXktW1GFmI4/p5AerxOtPUn2wMG24qhd1zRHHEX84wacdXhhoqfN9PF6clFYD0lfdkVaEGvCRStBcqhDG7sL6KLDVtYHBxOH0qpY7WjehTNxcIDexrEg/3v7WerSC0Jpp6vGQv7RaOpz0fuDRITQAzFvrTtwRq3w2Rzt7ZxzffXSA2gJceYVL6cETDzvpTklkh5IY015AnoAl3nBk5HGkbZONN/P9hKfAzXD1DEO0KqKCSV4zJF7Q54eGRCo6vHZFz34MK/7TV9PBhJD1ufXPNYzanvvgBnizp6SaW4RyYZXpM4Ek4CnJiehz1qPmkdfN26rh55KuIFMaPKT7R1PyddMc9nCtw85uQ1zrQB65i4a1Rj+reiJUB75NWZDm0t5FFly7Tfdj3I4c3Y2QojxDZacu/Rl7C+oIPkAWZsflfVF9f4uo9G8JGAJL4H1+UntD3OktXqj9uGznGT1v3ERoC224EZP4W2prGmVD1cPH+yVO2vr7tu7PPjfZgZJBJSK/OfOPnwX6uPfrF1fO9uWqcQC+v4sW8j15QwW/GfQtFaZZGv4oXUub6eCp+GpDPOxvotlIZ5Bsrq1eNbl1j4/9VBlbTnUORw/WquAsuJL01wsis7JFhgS82eWnLbJnx2Tvu6hn00=
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645291180
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%REPLACES%
+matrix-synapse-py3-git
+
+%CONFLICTS%
+matrix-synapse
+
+%PROVIDES%
+matrix-synapse
+
+%DEPENDS%
+libwebp
+python-jsonschema
+python-frozendict
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pynacl
+python-idna
+python-service-identity
+python-twisted
+python-treq
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pyasn1-modules
+python-bcrypt
+python-pillow
+python-sortedcontainers
+python-pymacaroons
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-jinja
+python-bleach
+python-typing_extensions
+python-cryptography
+python-ijson
+python-systemd
+python-matrix-common
+systemd
+
+%OPTDEPENDS%
+python-psycopg2: PostgreSQL support
+python-pysaml2: SAML2 support
+python-authlib: OIDC support
+python-lxml: URL previewing
+python-sentry_sdk: Sentry support
+python-jaeger-client: tracing support
+python-opentracing: tracing support
+python-pyjwt: JWT support
+python-txredisapi: worker communication via Redis
+python-hiredis: faster worker communication via Redis
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-mock
+python-parameterized
+python-lxml
+python-authlib
+python-pyjwt
+python-txredisapi
+python-hiredis
+

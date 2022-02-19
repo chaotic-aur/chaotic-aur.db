@@ -1,0 +1,65 @@
+%FILENAME%
+booster-git-0.7.r74.gb2feba3-1-x86_64.pkg.tar.zst
+
+%NAME%
+booster-git
+
+%BASE%
+booster-git
+
+%VERSION%
+0.7.r74.gb2feba3-1
+
+%DESC%
+Fast and secure initramfs generator
+
+%CSIZE%
+4547901
+
+%ISIZE%
+11596754
+
+%MD5SUM%
+b16393fbf5dc5b932f73132bccac0482
+
+%SHA256SUM%
+2558e24729708713b5030aa310fe9d6eeb382aedfff477d0af40a9d9e7b8fad4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRImsACgkQ+vSUbo1g0HQA7A//X8NOorznZOayjBdyY/qYeyvnCpL/ZY6NBN0sdzfrVNNLIuoK+v77Ko5qeSZuXbR7V2FDNM+HFf3475KEaGUwwZM2UUbeuJt8otlim2iIdvJY6LLhmKKw9s6P1usN0gPdo3vJHZ/3qe3TmDGs584mg5Ww+51b0OtP301ILQ4c8pEdpFajC/Gdy6p4qALeXhMQD6/wjwp9U0JQHTP2OWUCwSvSf34aKdb37IPvobDa8J/VqcFqGcBQzJJyhZxw25yfLUOLbJ1KM9hTHtLyyZSH9cgvYtp6KhjEO4ZQNnbdLlrEqhN0LZPrYetslg33efmyxqIDULPRw0Kr/bBOxNsPpqNTS/ZCySZQBFzl98+ao3vaYIHP7pwF50DH82FyEWoi4v+E4bhppR31kjkbeEjwm5HtPfGFaJXtWKlFwp7EIpAqIlvQfuIrTfqYEYL+w7QxVU+gQkTLOMl5vB5o1uPBA3meRtuv4yfWQSTbbTuKcLUrubPjpPwpqkv8CYQWx0e/65zDVfDkH56GwxDzWtEvIpEqmFzomy754oQKJlLMf1Z3l+VMzlP/zlgj8wZrEMQQOrASEWQ0roGnen24H+kgRE61YSXurmngaJJs7akuTr15SqmEXqd62OR18a49agMJzC0WP4dsDl9gxANnNKtuc6UGlJ8UHK530f3ARClDWaU=
+
+%URL%
+https://github.com/anatol/booster
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645290055
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+booster
+
+%PROVIDES%
+booster
+initramfs
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+busybox: to enable emergency shell at the boot time
+yubikey-personalization: for clevis Yubikey challenge-response support
+libfido2: for systemd-enroll with FIDO2
+
+%MAKEDEPENDS%
+git
+go
+ruby-ronn-ng
+
