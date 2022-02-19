@@ -1,0 +1,72 @@
+%FILENAME%
+tlp-git-1.5.0-1-any.pkg.tar.zst
+
+%NAME%
+tlp-git
+
+%BASE%
+tlp-git
+
+%VERSION%
+1.5.0-1
+
+%DESC%
+Linux Advanced Power Management
+
+%CSIZE%
+97107
+
+%ISIZE%
+465460
+
+%MD5SUM%
+d4d89622ef4bfede48989d70a3316bde
+
+%SHA256SUM%
+c9579726ed95a38a6c78b6a4dbf4719295e6e46f3ac2654000e574fa672f0049
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIQ+f4ACgkQ+vSUbo1g0HT4Bg//Xdl2vKCFdw2BbqVDEGVH2q0c2zZRfaicOdzcETLMwBvzpsd0HYs/9X1FeZ5OGQOb8s2/9vP9fDd1vYLCLxsozm7CSAcorHpPgujL70IuG6yrGet8fjeSJt6a+0wD/Ws8DfpgQ6NSDO50kMzOxAXozC+rV1hPtABeQroAo6rta1gvKI1F/aKC/K7DdHzV6kAU7IjMYtRlo8L+QYwTBi8C8N6ro1l+FLWdhcAXKeh19w4Lh6Bx2252AUTXM0IWRC8WNg5LLmR43xec8JKRfIVPOVqtM7zjzPmLbmYxJKRT25idixhmghqAoT9ut+0WwTk7xXENVB2s/EMfqWBhuPvKvntP8iK8VxwDda3A/+4BS/ny24lqcJWqFVgc2CoT3FP3ggA4TCz0o6yjNdXLgT0kkANTyMvWlznybNiu1ipuCUUdC9fjA3plF10UyRtP1/k0IplfLjbdq9Kh3X138kIq6vOzGBwq01zh/4uXDwgRpa1fNg1m5pfEgRGg+XPodakLKcc4d9az6u3VqBHhmaNBPfNmr4dk70KVh+HDKr7r1ivtXbaISJdHTZ+fWDOsjf0p8vfBEZLRBjgoBUYiFmkJYbYv5te3Qa4M5ZL+GAF96pzRtSmXr/tWwHebN0Zx8UO7DKOZq8+R1DEXM93wH87D1n1oWCWEXi1OlXVB9roXtAM=
+
+%URL%
+https://linrunner.de/en/tlp/tlp.html
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645279733
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+laptop-mode-tools
+pm-utils
+tlp
+
+%PROVIDES%
+tlp
+
+%DEPENDS%
+hdparm
+iw
+pciutils
+rfkill
+usbutils
+util-linux
+
+%OPTDEPENDS%
+acpi_call: ThinkPad battery functions, Sandy Bridge and newer
+bash-completion: Bash completion
+ethtool: Disable Wake On Lan
+smartmontools: Display S.M.A.R.T. data in tlp-stat
+tp_smapi: ThinkPad battery functions
+x86_energy_perf_policy: Set energy versus performance policy on x86 processors
+
+%MAKEDEPENDS%
+git
+

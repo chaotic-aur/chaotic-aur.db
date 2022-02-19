@@ -1,0 +1,69 @@
+%FILENAME%
+xfce4-panel-sntray-git-0.4.13.1.r3.ga5028a3-1-x86_64.pkg.tar.zst
+
+%NAME%
+xfce4-panel-sntray-git
+
+%BASE%
+vala-panel-sntray-git
+
+%VERSION%
+0.4.13.1.r3.ga5028a3-1
+
+%DESC%
+Plugin for xfce4-panel to show StatusNotifierItems (AppIndicators) via FlowBox
+
+%CSIZE%
+98201
+
+%ISIZE%
+248453
+
+%MD5SUM%
+02051e947adf030bbb70759aa73a3ba7
+
+%SHA256SUM%
+e33af4799249fdc0ff0bc9cf96524121457974cbeaa3fa15f043075826cf33a8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRBOcACgkQ+vSUbo1g0HSztQ//ZLtgMWfJYR1yRdmqxJ3s5Nn7B6LVTmXKb6ZQLfTud/CBak3lrQX6nlkzgXe1XI/ioxqHXhO6wkbDpdNSdCujEl0lmstkzneXw2fiKReB1VF6G0ELhMyVtS/VlsgG6+Bhm9D8MBxU3GIHLfGGG2sRoIvXXMO9+YzdMaA2GQ/zqxkE59NIv1ymOLmr0lGXrjKlDx13gd2tL3WI4IapU/na+X1xR9pGo1xmBSMVhghX1lWWtE6PUis6cvLreeuFo0hy6K8EjbvvyGGhc5ynsM+Dllq4E+5ZIb6RoIa1wTdyB+ZAOPR8IejkHupXjb+2OLX3Rs9GxNOWI2NnDgUKBLwhEOW1rM6JaoV1f5rSkvH7JOlVBnLHVmGDH7ATlfwERmb2F++jJHJpnkr5nwrf+zRKeaLH0ykdNq5cXQ1cIEI7iTuPnhqOzxxBW3ltAlsAWD9YOWZNZrOD+lalVZIXToAzkO0NiDylr7c1LjoHsEfyzBXKUcHzZ5vaA6Y0vAce5JI5YcSQPHxoTVzGoeOtz2w4SZmseI3vBp7Pv0hCYriX0oqui0TMKZAaWydbFfO/Y8alTouuLrhsHqvUqxjpkZtDJEsx6Lal2VC87cRrqURqZ7ExjfyLuO5NJbBeq2auSOu6FOf3EJRpDdaxyzhlyX0L3sjGwGsSi2JztwfeKeVywAI=
+
+%URL%
+https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645282509
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%DEPENDS%
+gtk3
+xfce4-panel>=4.11.2
+sntray-plugin-common-git
+
+%OPTDEPENDS%
+vala-panel-extras-volume: ALSA volume applet
+vala-panel-extras-battery: UPower battery applet
+vala-panel-extras-weather: Weather applet
+vala-panel-extras-xkb: XKB applet
+sni-qt: Qt applications for StatusNotifier
+libappindicator-gtk2: Gtk2 applications for StatusNotifier
+libappindicator-gtk3: Gtk3 applications for StatusNotifier
+
+%MAKEDEPENDS%
+cmake
+vala
+gtk3
+libpeas
+mate-panel
+xfce4-panel>=4.11.2
+vala-panel>=0.3.75
+budgie-desktop
+

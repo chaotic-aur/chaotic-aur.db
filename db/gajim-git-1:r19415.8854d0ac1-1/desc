@@ -1,0 +1,98 @@
+%FILENAME%
+gajim-git-1:r19415.8854d0ac1-1-any.pkg.tar.zst
+
+%NAME%
+gajim-git
+
+%BASE%
+gajim-git
+
+%VERSION%
+1:r19415.8854d0ac1-1
+
+%DESC%
+Jabber/XMPP instant messenger client written in Python with GTK+
+
+%CSIZE%
+8021737
+
+%ISIZE%
+22449520
+
+%MD5SUM%
+0b882fa00c259bc158a2860061ac25a3
+
+%SHA256SUM%
+2157a102e5ebeb82bc121f92984ed9470d2bff6b1a45d2122e3db8b994bdad5e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRBcQACgkQ+vSUbo1g0HQ0VxAApiu4G3zzFo3QnyKrpdi8QW0ZGXc6QOPV0yKMIy6ZjKbSvvOfe3sTRoTVGOVO3mHowKhBvb5oJu9BMEaSJ5HC2FSOhsWx1YL9AZoZwZhdDyfaaS3lPiMAlWTiD53IMNRlwICY5Nqav59ygXx901tOibGdqjeKUqzSVS1s61ChRD6g6tPPHNd2mF/8tF6Aj74n8R+aBsMA7wfzLqzeIvhpc06YQTGVYViyDo6HF/ZraQHmLBazEEczLnZ0V/JD4G8WRlUp3sz5m5IYPCCOm1MIIWjqIxNytg8tiND+peR/gVfAjHrA0Okl3TSV0pDQNTGiByLQXGjwq+9drCtw0tjrGILtuILL0dCFq1DpZ+N8WYVVo4kYJgbv8racxrxnA8TwzCfPaSNKAJC9Pj4sSJO0AIvatYxbiDjCE2UcjoHk9+SkXigRo/SUlx5neuk/ROtE3UzD3/xxJVw6yhiXBk57MgI6WI4DfBq/ZO+T/s6Fa8QZfHXUKDJ4KveCs3IligQQvPTCPjTHsMQRmcvIdDsvHdE9RRQeLC3RhTaj7WlHXMYc6OL7Wf9cfK6iG61SJxoULwBnti0uTrTKpu4J0xItZLBMRx8xe5XI/F6dCeyv+XqbXC5LTqSRprY2GIJX8l0jAPr59+lcIF+uoU9p56cHGF6X0YM4bZS6FEJ4fJQX10Q=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645282721
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%REPLACES%
+gajim-hg
+gajim-svn
+
+%CONFLICTS%
+gajim
+gajim-hg
+gajim-svn
+
+%PROVIDES%
+gajim
+
+%DEPENDS%
+gtk3
+libsoup
+python-gobject
+python-pyopenssl
+hicolor-icon-theme
+python-pyasn1
+python-nbxmpp-git
+python-cairo
+python-keyring
+python-distro
+python-css-parser
+python-precis_i18n
+python-pillow
+gtksourceview4
+
+%OPTDEPENDS%
+python-dbus: for gajim-remote and zeroconf support
+farstream: for video/voice support
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gst-plugin-gtk: for video support
+gsound: for notification sounds
+gspell: for spell checking support
+libxss: for idle time checking on X11
+libappindicator-gtk3: to get a tray icon on some desktop environments
+notification-daemon: for desktop notifications
+gnome-keyring: store passwords encrypted in GNOME Keyring
+kded: store passwords encrypted in KSecretService
+python-crypto: support for E2E encryption
+python-docutils: for RST generator support
+gupnp-igd: for UPnP-IGD support
+geoclue2: for sharing your location
+
+%MAKEDEPENDS%
+git
+python-setuptools
+

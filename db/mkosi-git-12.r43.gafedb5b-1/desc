@@ -1,0 +1,81 @@
+%FILENAME%
+mkosi-git-12.r43.gafedb5b-1-any.pkg.tar.zst
+
+%NAME%
+mkosi-git
+
+%BASE%
+mkosi-git
+
+%VERSION%
+12.r43.gafedb5b-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+243974
+
+%ISIZE%
+913208
+
+%MD5SUM%
+3ebc18337f488c0223dc08dcbb6e413f
+
+%SHA256SUM%
+8b402d9f6af47a092b50864d1ab64e859203ee43aade67e29cc4c577b63b523f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIQ/S0ACgkQ+vSUbo1g0HSYRRAAhIUkymaNzY0l9Hnt6qyUl5+PsmhIEZR1Cd0A2rcy4yWtjllvYSGF0EPrIl4JDEKNRahRlOID6chlYJlpgL7ZBiFkWLfZQAuM8CoZLh0/bjNlMzC/Mm8Ecao+9JJcLmPq4bZgsTD5RQDS4xqEsnKk1MvWx0kHU6i7aVk3ZYQ3RNdI+49O7tulLsWPzyUnPpYWDtyOZXCdGtT78JKvRIbrVjYPpKWCq4ENO/BHx5KAgp69hl5vhxdpNYkxBOaPIGlA+Z//p3cwU6f2JeLikP94p6pvR7Gd76/w2eqDnVt11i9Gb2UMHHlkpkckScnMsrV633QV9iM9RVX26ujGutlK63QtGceWnl/M6Ey25Ft+9qS0O1zj3yR4cYeq7FnFirasohtsZc1kwDzlfzBQiXEBj+TjtGCkV770GmvcwhwPdKePesk1BrcwomkaeJQJloS9CEpVERaZjqkXJnKzN+bjvODD52Azy54SnHO0qzvQP1uxjfSXl3X7WzWS4hVtHYi77SRX0wYwtxnNUxk+v1Pc3E+IvLfIOCBgLlVwxYolMSvPnjUvYhTRYhtaknUnnDC/zQ5yCST+owhm2x9EQnRKSxDMiGN93Dex0XE29gifYoeWJc65W8Xg1xGME6OhfZ6J2EGLWwHrLsR8QEh0JBAXHyTqSi6YdYt9LR13ZZ5Ki9Y=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645280550
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+mkosi
+
+%PROVIDES%
+mkosi
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+dnf: build Fedora or Mageia images
+debootstrap: build Debian or Ubuntu images
+debian-archive-keyring: build Debian images
+ubuntu-keyring: build Ubuntu images
+arch-install-scripts: build Arch images
+zypper-git: build openSUSE images
+gnupg: sign images
+xz: compress images with xz
+pxz: compress images with xz more efficiently
+btrfs-progs: raw_btrfs and subvolume output formats
+dosfstools: build bootable images
+squashfs-tools: raw_squashfs output format
+e2fsprogs: raw_ext4 output format
+xfsprogs: raw_xfs output format
+tar: tar output format
+cryptsetup: add dm-verity partitions
+python-cryptography: sign verity data
+ovmf: run bootable images in QEMU
+edk2-ovmf: run bootable images in QEMU
+qemu: run bootable images in QEMU
+sbsigntools: sign EFI binaries for UEFI SecureBoot
+
+%MAKEDEPENDS%
+python-setuptools
+git
+
