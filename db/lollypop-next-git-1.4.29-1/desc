@@ -1,0 +1,84 @@
+%FILENAME%
+lollypop-next-git-1.4.29-1-any.pkg.tar.zst
+
+%NAME%
+lollypop-next-git
+
+%BASE%
+lollypop-next-git
+
+%VERSION%
+1.4.29-1
+
+%DESC%
+Music player for GNOME (dev branch)
+
+%CSIZE%
+666382
+
+%ISIZE%
+2929359
+
+%MD5SUM%
+69c391291619839ea6734feb53ff7c7a
+
+%SHA256SUM%
+344efe5f60b956fe8a76f501e9ab8e7aed181829db60a3198755ba5e6535f183
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRIgQACgkQ+vSUbo1g0HQYfRAApoAy3VnOiZhZdSMgVZYvhveENKbRRIgtQ+ha2nnuV763Z8P9NPniGxsQeqeggQ+5+5FZICbiDl5RleoRojEbUiMCNUbr55QG/m+tXsx1WFcEGOFo4DPsFKSzKtl0UCP4ctl5Wf40ZnRqZUcsGlt/ivvw26tslF7nj6gJiMEvR6A3IDZX5j4lRfAxEFS7EEkGu96IInpJTqkml/wTaJhcy56BZL8dz7zG/viqhuQO/zvyWRT2HfOPpGnP2f/D7tCj1YKGg5XWPLR6oEUbkJ1URX5GX6VyS5Kugq7uGhs0jwVO0+LGxAIFs+23g4SEOSiVwIuvZTOxIkS8dc4r03h9titdBAk5KTpPIvmPsF6vgBARCxZB7OHUAtUpcpnTKiJRMJaRzVoI3y9+QHWiLVsQ1fHyAhJMp6E23m8k60xtUfdLqFzrKQqNj2iJkzvfYEuAPPb/qBjUHafBS2p9cbddub2ehX6Ijn1JUefofuwm97zPca91pJOq0MukyLGXfsXTASxVwXo7BI8WpZH6C67JtMHPp/addeEBW+fz6e1IM0LvBsf+C2gHxhtk4wEE6x8AmYgCEHCrWHXgi35E59An/+S0dzx/neIGpm17T/WkXMK0A4Me4dYvuyKki0VsYxKfeJLMRXMp/2WoH2csKAPxnp0Ayu9i/jRoQqq/bvKBtD8=
+
+%URL%
+https://gitlab.gnome.org/gnumdk/lollypop
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645289955
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+lollypop
+lollypop-git
+lollypop-stable-git
+
+%PROVIDES%
+lollypop
+
+%DEPENDS%
+appstream-glib
+gst-plugins-base-libs
+gtk3
+python-beautifulsoup4
+python-cairo
+python-gobject
+python-pillow
+gst-python
+libhandy
+totem-plparser
+
+%OPTDEPENDS%
+easytag: Modify tags
+gst-libav: FFmpeg plugin for GStreamer
+gst-plugins-bad: "Bad" plugin libraries
+gst-plugins-base: "Base" plugin libraries
+gst-plugins-good: "Good" plugin libraries
+gst-plugins-ugly: "Ugly" plugin libraries
+kid3-qt: Store covers in tags
+libsecret: Last.FM support
+python-pylast: Last.FM support
+youtube-dl: Youtube support
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+intltool
+itstool
+meson
+
