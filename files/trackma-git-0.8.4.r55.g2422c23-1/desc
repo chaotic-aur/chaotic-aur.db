@@ -1,0 +1,73 @@
+%FILENAME%
+trackma-git-0.8.4.r55.g2422c23-1-any.pkg.tar.zst
+
+%NAME%
+trackma-git
+
+%BASE%
+trackma-git
+
+%VERSION%
+0.8.4.r55.g2422c23-1
+
+%DESC%
+A lightweight and simple program for updating and using lists on several media tracking websites.
+
+%CSIZE%
+411714
+
+%ISIZE%
+1805477
+
+%MD5SUM%
+a1da7fc89b832e0ced9647c697136266
+
+%SHA256SUM%
+7329b8ff701d6b6c3d8e4aaa54aa5ceaf5a84b54a4995b5e4549d096a11d7da3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIQ9mcACgkQ+vSUbo1g0HQf5BAAp3Y9s5jfhCYNFgnvbr9yLeC4PGCYCFBg4CBfM1LGCVlvFig+Tz1UITuWzTUohyq5k3iyLb2aZLBcXhVKKi8I2EJRmUpSZydF75V/DCz649odZ1SqGyri1HNW9/i2mS9uQaLSgTn78pT376pPZrmgZ/429iOUbu7QKAYS5etg+eZLb+wPbXtJyqHugOgMmPfJ5T1cpwSlUE6t4jeQlLJX6M1ctwkWyG1ov1NWqAKtgrJju5cRI4RXp8aZBV/ykSFGWDoyEXMabzK21+nRPrlysnlY89vk4NSgFm3eE6ztR2Z/oCvU6f7SgghbPn6m84fOlC/fscUSonYpF29bHRooUmEZWWwampJWJyQQXykMEAnnzIBmMqchEXOx5K2ihPz8ODNzqsRr075TsOIWUJ5xH6cJiMHa2jcyIvchz/R4i3lNvYZ/bHHq+ULqQeSArYjuyRlJV91Wb7v+OcdawVmCgEQ5Ea4Kw9ductnhJue7Rf68qqMJ4/fGTADdCfbg8EyeVhbEZBi9rW2BfT8iyUHG8rM65TITCc3dtroNZzbCQQnKeUi+lslfhuYj/Qv4HdQFQiPYD0EoBIxo69LrAZL4zCgpXGs3dKGIkVB9JxLmI6mFEHp7rFn/5TcqZKN1M+hJvE1QklFjwyQduKbxJeiPmbpfDL61Ks12gQHj29G0rok=
+
+%URL%
+http://z411.github.io/trackma/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645278813
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%REPLACES%
+wmal-git
+
+%CONFLICTS%
+wmal-git
+trackma
+
+%PROVIDES%
+trackma
+
+%DEPENDS%
+python
+python-pyinotify
+
+%OPTDEPENDS%
+python-cairo: GTK frontend
+python-gobject: GTK frontend/MPRIS tracker
+python-pillow: thumbnail images for GUI frontends
+python-pydbus: MPRIS tracker
+python-pyqt5: Qt frontend
+python-urwid: ncurses frontend
+lsof: polling tracker/pyinotify alternative
+
+%MAKEDEPENDS%
+python-setuptools
+desktop-file-utils
+git
+

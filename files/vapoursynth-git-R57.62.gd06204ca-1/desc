@@ -1,0 +1,82 @@
+%FILENAME%
+vapoursynth-git-R57.62.gd06204ca-1-x86_64.pkg.tar.zst
+
+%NAME%
+vapoursynth-git
+
+%BASE%
+vapoursynth-git
+
+%VERSION%
+R57.62.gd06204ca-1
+
+%DESC%
+A video processing framework with simplicity in mind. (GIT version)
+
+%CSIZE%
+4145729
+
+%ISIZE%
+8765644
+
+%MD5SUM%
+30cdd1fe1e2f7098b8f526a21fc3b074
+
+%SHA256SUM%
+8cb7bcfdd9b0f73da8069df073e04b2b6698f2b7b3b140ebfd86ce14211f266d
+
+%PGPSIG%
+iQIyBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIQ88sACgkQ+vSUbo1g0HSUmg/3QRgo6A99Evy5ibqplaGPJlwvh3fCr2x74aV2lp76REU5iBXiB9zZVUaiuU7aKwz7COH4LGNPHvbh1Jmdj3dH6oK4YV6WE/6sclPchP7W96C83p8HwojEw6kc3NBcsd71QORUdKndwq4b1aVWfhAxSRPXk4C3+7g7csNnypZKQSYBEIOUUv8EdNO53oRrWpVyrjkdNj8zXhd70K5WHjRvPmYghjqZU/dfk34qYFciGSdjY5Jm3Z71zaleORgvjMDDSzX88B7bGtZ/6FypCEpXx6hF1b8TwwQs4CqG5oL0YAb118RljOQxtBe75jDMbWOAED2K/1tctAopWLsn62KeIQav3gtQUrpfHzbAnRKFGgQobGrwNjxg1dqg9NUksRpatDkaVtjN3kXmUJ+E2ih08z1GxwzM7HZVzjLibtvgmUOmeT6pFlIlVjgOeIaVHlVgrob8AwjSccsatgYt0qKTNlw1FLBOpPRmfCWbcYKBW/6fZDupx7q8suTMa1iaxHVs3+BGNHqGS7jNCkXLCz5gAwY5UVU728WGmmtfiTkWnaoI+Walv10XnLIu6PW1dNI8Fsh80FZrMkohkBKK9luKgdr2RenGUteGv9nLwRFOfL6shkCmwOIz/ngGbw/H8RqmP0pCZNReGKnJo5wdan4a8H2yEgzgx9kxgpBT/7nL7A==
+
+%URL%
+http://www.vapoursynth.com
+
+%LICENSE%
+LGPL2.1
+custom:OFL
+custom:WFTPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645278088
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+vapoursynth
+vapoursynth-plugin-miscfilters
+
+%PROVIDES%
+vapoursynth
+
+%DEPENDS%
+libzimg.so=2-64
+python
+
+%OPTDEPENDS%
+imagemagick: imwri plugin
+tesseract: OCR plugin
+libarchive: OCR plugin
+curl: OCR plugin
+libass.so: subtext plugin
+libavformat.so: subtext plugin
+libavcodec.so: subtext plugin
+libavutil.so: subtext plugin
+
+%MAKEDEPENDS%
+git
+cython
+python-sphinx
+python-sphinx_rtd_theme
+imagemagick
+libass.so
+tesseract
+libavformat.so
+libavcodec.so
+libavutil.so
+curl
+libarchive
+
