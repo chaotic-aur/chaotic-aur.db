@@ -1,0 +1,82 @@
+%FILENAME%
+meshlab-git-2021.10.r125.g7e49eb15f-1-x86_64.pkg.tar.zst
+
+%NAME%
+meshlab-git
+
+%BASE%
+meshlab-git
+
+%VERSION%
+2021.10.r125.g7e49eb15f-1
+
+%DESC%
+System for processing and editing of unstructured 3D models arising in 3D scanning (qt5 version)
+
+%CSIZE%
+12337045
+
+%ISIZE%
+36673795
+
+%MD5SUM%
+78bb7f8d6167e8ae680121c368488e19
+
+%SHA256SUM%
+119c8e3cb4b146b5c3fd78160fb62a45ef7507250926c9bc1461f41c2dc8b8f5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmISIRkACgkQBwa5DTfZuIHh/w/+J6juPNUs7nRd1hRQHfhB6LUsIBjLFuVbYnp+/xsJ0wOfDeUNWeOZlG+ky6LNIRYaku01F7QX3LeNzJXpiR5Y6oYwPzGQtpP5X/LgNJCsJqLvUDWwjH9PyMR4ahuBOchIab+9b7ZY/a9YAB+wu48+gSHULG09AnEnbcvnuW4kDvcJ/4ciR+i/q9P5N3usqkFwnnhXTiMJFMJHm/Pv+0uaEneXfOXIzPUDUh18J0C20xmUcqG1PRS2J12uUTS4i2UhpYQmY4WPOoQBHsNCvnh15GVZI2lAdiH1qLAj3norf5usHRM7fODg+9n6l7Q9HbILsMT6dyO8lzZYA5Jr7aJVAqXVhyyJgdfWZb8kbwodyUwSgIaxsFLmrvrN2O+H6s3p2wrIK1sQiZAtspDGWi09+Yo/tn+CSEHnkGXW70bcBEvqrWpe3fwGgiPdHbZ+WwfjWWRtFCjWL05TSC4N/jskcbTwnGDIDLmSz5djdfu0VZSOvt/fPHY4hA8Kr6arTlPCLgFnS1I0zVImjxYLwvApLYCFp9gd/Qx8dE4rtEXzZj/4HkpztXKggTzfP6vbF12b8McCD9reR9ZbFHQDReycwYgd9YnrbzDqwtFh8edqMUHZeCZXp8ASUM6KfSRC5DiI14XXNV/YStFKwOKXDZ2Q2bWR8XBk7W8uKAkLruSiYj4=
+
+%URL%
+https://www.meshlab.net
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645354835
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+meshlab
+
+%PROVIDES%
+meshlab
+
+%DEPENDS%
+bzip2
+cgal
+glew
+glu
+openssl-1.0
+qt5-base
+qt5-declarative
+qt5-script
+qt5-xmlpatterns
+xerces-c
+
+%OPTDEPENDS%
+u3d: for U3D and IDTF file support
+lib3ds: for Autodesk`s 3D-Studio r3 and r4 .3DS file support
+levmar: for isoparametrization and mutualcorrs plugins
+muparser: for filer_func plugins
+mpir: for Constructive Solid Geometry operation filters
+
+%MAKEDEPENDS%
+boost
+cmake
+eigen
+ninja
+git
+muparser
+levmar
+lib3ds
+mpir
+openctm-tools
+
