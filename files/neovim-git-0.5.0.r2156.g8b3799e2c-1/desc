@@ -1,0 +1,78 @@
+%FILENAME%
+neovim-git-0.5.0.r2156.g8b3799e2c-1-x86_64.pkg.tar.zst
+
+%NAME%
+neovim-git
+
+%BASE%
+neovim-git
+
+%VERSION%
+0.5.0.r2156.g8b3799e2c-1
+
+%DESC%
+Fork of Vim aiming to improve user experience, plugins, and GUIs.
+
+%CSIZE%
+11506147
+
+%ISIZE%
+33456957
+
+%MD5SUM%
+0be3365e820ae1c726ebc698698f485a
+
+%SHA256SUM%
+4e2308ca2e517bacedbba9e1a4a770c05a39cc9ba1ffee4fec2d2d196eb6cf6c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmISDTcACgkQ+vSUbo1g0HS99A//Xl/qO51WZLY7+CRMkqPv63SkVNeat1qzznRkzzq1AQbspfeAlx0iXm28j/AOypeZ42u8XG+lQnxK6+ctqDNvpq8eaUcy430BWptKu5WyQrf7WbExpTFUhsjwRRjGaDE+Y1/r6nX/4f/W0l/4CH4cvkDqByjSh/wPQ4WdfYtrM114hDmn3jUl0LKThO0Y5hpteIIux7uVoWsN2OdcsTggRMz32CuOKDOFF6x48u9ZD/LuVJpsfDcYD6+eHYWn238IcLhE6S43k3b/WABXKRn/7K1tC5zJ7iM+yAd+YwqnkYTW9riD7G80X89w702ryVlMxCoz5jhqvqu5j2GHfLhgU4LoycJY8joVwGmiqxPaWAcu/E3aFilMjgtHUsDIA0IKXXn7y2yozh/5EY1whOAFGVTLIY64HoK22INr3wn7GlMvYdi8X5vQgkF2TMyxK7jYgVqFgN7VwRNe2TOBR+2A9Ltx2Y6Uegi4MlnFGUDZMAf/fjVtewwrgWLKaBCVuI3XudvKJhH4lHHfsIjkNlpB27SW/ABd3YBQHjLxTu2MjspBfQWN32a7/KzYpnvmk2jLjmnaZBBxuCHazBcl1B9FhrWoMs/uaUfEgMAwgOW1JlKTBL6/bbCmT7iupVD+wEyzwgvcTDZScxZ8eQnEa8+cYSvWcYcD4VebmbngHOzY/+k=
+
+%URL%
+https://neovim.io
+
+%LICENSE%
+custom:neovim
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645350172
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+neovim
+
+%PROVIDES%
+neovim=0.5.0.r2156.g8b3799e2c
+vim-plugin-runtime
+
+%DEPENDS%
+libluv
+libtermkey
+libutf8proc
+libuv
+libvterm>=0.1.git5
+luajit
+msgpack-c
+unibilium
+tree-sitter
+
+%OPTDEPENDS%
+python2-neovim: for Python 2 plugin support (see :help provider-python)
+python-neovim: for Python 3 plugin support (see :help provider-python)
+ruby-neovim: for Ruby plugin support (see :help provider-ruby)
+xclip: for clipboard support (or xsel) (see :help provider-clipboard)
+xsel: for clipboard support (or xclip) (see :help provider-clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
+%MAKEDEPENDS%
+cmake
+git
+gperf
+lua51-mpack
+lua51-lpeg
+
