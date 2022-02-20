@@ -1,0 +1,83 @@
+%FILENAME%
+steamtinkerlaunch-9.0.1-1-any.pkg.tar.zst
+
+%NAME%
+steamtinkerlaunch
+
+%BASE%
+steamtinkerlaunch
+
+%VERSION%
+9.0.1-1
+
+%DESC%
+Wrapper script for Steam custom launch options
+
+%CSIZE%
+267080
+
+%ISIZE%
+1084012
+
+%MD5SUM%
+b0f0d1e07a612039bd0c34f6bb151f3b
+
+%SHA256SUM%
+945215884c014fa87dbcdb60dc95b51cd94dae65e9c6e909f7ed928637efc37b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmISgzIACgkQOkDLXn5cvDCrXAf/XHyDGEdfRhQ6z1hmI77m2BwMbHdovk8E42m0xm7PYHdp4no+TClHl1gJvvd+DsFxANGGD/C0hLii0w37gnLdaMYH0B9aKlzXvk6P0JPu7CxyAe9ZU+3Q4AdofSDuGiJUWaeR2tM1wlz6umaDnKPQ5dqzmD7vnoVZ/SHahJqYFBh//kKtUogClUvLeaisrgdhgH3xQyVphb5WBX3KnW4d+Hf4e1p8481sXOIxO15phONUfpPwCN18XRb/7916n7O4nsdvDIF3Iwc6af45e0ksdiKu3ObKPXoW4/wY31UV+aIY7SFvdA0S3KkbpvZNwTIO7j23LlHQ4CcJTZujocHSIA==
+
+%URL%
+https://github.com/frostworx/steamtinkerlaunch
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645380383
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+bash
+git
+procps-ng
+unzip
+xxd
+wget
+xdotool
+xorg-xprop
+xorg-xrandr
+xorg-xwininfo
+yad
+
+%OPTDEPENDS%
+strace: write a strace log of the launched game
+gamemode: for using GameMode per game
+mangohud: for using MangoHUD per game
+vkbasalt: for using vkBasalt per game
+winetricks: winetricks support
+vr-video-player: for playing regular games side-by-side in VR
+nyrna: for using Nyrna per game
+replay-sorcery: for using Replay-Sorcery per game
+net-tools: for optional network monitoring
+boxtron: for optional Boxtron support
+scummvm: for optional ScummVM support via Roberta
+wine: for optional wine support
+gameconqueror: for optional cheating
+gamescope: for optional GameScope support
+libnotify: for optional Notifier
+innoextract: optional for extracting the Cheat Engine setup archive
+usbutils: optional for a quick VR HMD presence check
+jq: optional for extracting game names from the steam api
+rsync: optional for backing up steamuser files from proton games
+imagemagick: optional to scale a custom installed game header picture and for converting game icons
+p7zip: optional for extracting SpecialK archives
+pev: optional for extracting data from the game exe
+gdb: optional for starting the game under the debugger gdb
+
