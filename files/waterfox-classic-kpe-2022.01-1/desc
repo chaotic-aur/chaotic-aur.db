@@ -1,0 +1,97 @@
+%FILENAME%
+waterfox-classic-kpe-2022.01-1-x86_64.pkg.tar.zst
+
+%NAME%
+waterfox-classic-kpe
+
+%BASE%
+waterfox-classic-kpe
+
+%VERSION%
+2022.01-1
+
+%DESC%
+Customizable privacy conscious web browser with better integration with KDE
+
+%CSIZE%
+91368578
+
+%ISIZE%
+211871456
+
+%MD5SUM%
+bf605b45b107656d5705108869160f07
+
+%SHA256SUM%
+9fbe12fdf11140b9337c750f598e725017a5d2e01095fc2dd616fe664b6c1c4c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmITnZYACgkQOkDLXn5cvDAeQQf/euuslLajUsHRyKnPVZc0/3vm+pgggJf8qpryuLcdqUwqrFOVG8p+O8IcTb13YWysl/DyQ/NkSdVr44/vUb+dBrkH97ZTnhS5popxzFK+ZygwbYiXnsCnDxEoSBYZUwg+Zs/NDlT6FHhOeKBG6bZRHa8sUmJ2Up7Q0vKQkoLAvMo09ty72FNa1EkI5EtcYxMlThe3g2E8Dj/cbVwrfIg4a2sI0/p386fbzrnzQplanK2d1XgX4rCKLEdCHQHFazKgWbDy6St8CevrGww3jdm1iuF3JLSqppyBt3V5+0IHxj1RkCV7LTGOLomom0frPU7tq18oifB9W0pOL/tCWNx/3g==
+
+%URL%
+https://classic.waterfox.net/
+
+%LICENSE%
+MPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645450511
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+waterfox-kde
+
+%CONFLICTS%
+waterfox-classic
+waterfox-kde
+
+%PROVIDES%
+waterfox-classic=2022.01
+
+%DEPENDS%
+gtk3
+gtk2
+libxt
+startup-notification
+mime-types
+dbus-glib
+ffmpeg
+sqlite>=3.33
+ttf-font
+icu
+kwaterfoxhelper
+hicolor-icon-theme
+jemalloc
+libevent
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+alsa-lib: Audio support
+jack: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+python2
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+git
+nasm
+
