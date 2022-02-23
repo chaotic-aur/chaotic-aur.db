@@ -1,0 +1,82 @@
+%FILENAME%
+inxi-3.3.13.1-1-any.pkg.tar.zst
+
+%NAME%
+inxi
+
+%BASE%
+inxi
+
+%VERSION%
+3.3.13.1-1
+
+%DESC%
+Full featured CLI system information tool
+
+%CSIZE%
+337787
+
+%ISIZE%
+1100306
+
+%MD5SUM%
+b2adcb62515ad0c8f9618434a1dd40d7
+
+%SHA256SUM%
+0b687ff37e6fd93d5c5e0852b0da6f8f1d9afa184c9d0ec3e223a3c9c61e7972
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmIWahoACgkQBwa5DTfZuIGCfxAAnKC+jTAwCSSRmt43GqBm3nD0wW7/07Q5nHMq0v4bQle8sKCuwKK4ay8rqQPj9PsQmzEND6sUkfEFpvUYufP7DMKjDoeSlCEStAffS9bdG964p+NMEaNlF36pncF5sVbtPzNRC7xJ2fLwlvsGc5Rrd2awVusyMjZlPi1imkh8wG0xPEininRjm4j3CIZvzUfZagZCp5aPlPv8Oc/nBkG6v7bLnnVBmvQWzzZF0TeJ4s4LGQUofDFiseKFFJskEbgWJ8/+5WHNrfojQR2Xeqn4J9gmMi2vQKmnt0lKkkrcI+0aWRF0KTC14u3mrh+pC0wfwCrQYG0+cbAaGJFG0T1zn7D5skSr879v5+D/13QXjFNwh/vrvJj4RgwA1SamNHQluzN5ssQQHUxMsORi6gZNu1HTZ+qSrSAOvy60rTxeup8wDDByXpNcfr1+9dldpj91nvMjHgHjchcCazWh1HmFUJWXm60zlSRlkxH/DDimCm1ByvXXOPP+czkw83NxpXpe0VOALy3yKNMCcLnokDwutjdpgxVuz4qes+rTtZKNvxwgAPR27PEUvQrMLYIRfJwbamqv4/bZpaSq9vOY5ozaxQxvnAWWFue4aGn/H0bqsYqU7drX+fgILf7UJQIEHI/+YpO3egovOGchNQiRQxgF7Z6NKauVVlydTYVl2vlvPRs=
+
+%URL%
+https://smxi.org/docs/inxi.htm
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645636107
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%DEPENDS%
+coreutils
+pciutils
+perl
+procps-ng
+
+%OPTDEPENDS%
+bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig)
+bluez-utils-compat: hciconfig: -E bluetooth HCI data
+bind: -i wlan IP
+dmidecode: inxi -M if no sys machine data
+file: inxi -o unmounted file system
+freeipmi: ipmi-sensors: -s IPMI sensors
+hddtemp: inxi -Dx show hdd temp
+iproute2: inxi -i ip lan
+ipmitool: -s IPMI sensors
+kmod: inxi -Ax,-Nx module version
+lm_sensors: inxi -s sensors output
+mesa-utils: inxi -G glx info
+net-tools: inxi -i ip lan-deprecated
+perl-io-socket-ssl: -U; -w,-W; -i (if dig not installed)
+perl-cpanel-json-xs: --output json - required for export
+perl-json-xs: --output json - required for export (legacy)
+perl-xml-dumper: --output xml - Crude and raw
+systemd-sysvcompat: inxi -I runlevel
+sudo: inxi -Dx hddtemp-user;-o file-user
+tree: --debugger 20,21 /sys tree
+upower: -sx attached device battery info
+usbutils: inxi -A usb audio;-N usb networking
+wmctrl: -S active window manager (not all wm)
+xorg-xdpyinfo: inxi -G multi screen resolution
+xorg-xprop: inxi -S desktop data
+xorg-xrandr: inxi -G single screen resolution
+
+%MAKEDEPENDS%
+git
+
