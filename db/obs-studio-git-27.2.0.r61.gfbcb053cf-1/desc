@@ -1,0 +1,94 @@
+%FILENAME%
+obs-studio-git-27.2.0.r61.gfbcb053cf-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-git
+
+%BASE%
+obs-studio-git
+
+%VERSION%
+27.2.0.r61.gfbcb053cf-1
+
+%DESC%
+Free and open source software for video recording and live streaming.
+
+%CSIZE%
+103598754
+
+%ISIZE%
+266494831
+
+%MD5SUM%
+5c4722162a26dca0e4da509208328d37
+
+%SHA256SUM%
+45fe2c8214db03e1ccf9cf544d24885f86f93ee201b49a6652baf1c3c47aaf16
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmIdHtYACgkQBwa5DTfZuIFzFw//ebqVGfBLfchZ3UyjEROLlHxmHHoBenh5uiJAupb0kMnUpbHVqeb4VLZfNxR0340NPLmlCfSoyy4S7o4/75iqlnXdY/S6fgLq9uIfOgHpzXL8h9kodhz2sLWcieR7iB4N1feGisE9AmUYp83M7S7LKgVMQLaI9UkZMXx+mxbiIImcJy+pt0b/XJ0ZoNuO6kkSpnCz8mPBNhN0kQyaPabu8ucYb2fvg7k8IX8nC3lfF4FD06YvUvOFKnE+xecguOqb6ac/jFblxo4LHZwvdWLqjVG4WEn7X3quYDupP8B3R8MpQsHoEkKSQZZLvOZeBKwdnw6h3RVt4TnC6XXmSGbnLThJqu+v4daj+ISqUAcXQV72c5xu9ChxPAtVBm7BPDz+txWe//XPEa2aIoCilAzlMSyuzWKJaVQoWnfh2OJB3mKNOIogXJ2W8d5xTzYMvtXrv9rc7b+sb9cAEJ5ZXebp+Kz1Ju6pH2i4S4FSSEVonafj5eXJQhucpct63rybBGu9Ap+XtV6PZh1N2Dmu2OcaHLSAn8t59KB/a0I0BS5y9YP+TKzUus5/sefhktTemigSFv7FwSSLkz8ZWThO9wnzqiDpO9gwaBztIVdEjca8NcFL/cAT0zPTnGvCYKsgeMIMfbxrof+N5j9suMq0M3ob/lU6vu9jl1OZ1QL9oy0mFEU=
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646075137
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+
+%PROVIDES%
+obs-studio=27.2.0.r61.gfbcb053cf
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+qt5-svg
+qt5-x11extras
+curl
+jack
+gtk-update-icon-cache
+speexdsp
+pciutils
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libxcomposite: XComposite capture support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+vlc: VLC Media Source
+luajit: Lua scripting
+python: Python scripting
+v4l2loopback-dkms: Virtual webcam
+pipewire: Pipewire capture
+pipewire-media-session: Pipewire capture
+xdg-desktop-portal: Pipewire capture
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+libxcomposite
+x264
+vlc
+swig
+luajit
+python
+cef-minimal-obs-bin
+wayland
+qt5-wayland
+pipewire
+xdg-desktop-portal
+
