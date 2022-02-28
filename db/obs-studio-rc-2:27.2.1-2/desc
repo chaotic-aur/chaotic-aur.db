@@ -1,0 +1,100 @@
+%FILENAME%
+obs-studio-rc-2:27.2.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-rc
+
+%BASE%
+obs-studio-rc
+
+%VERSION%
+2:27.2.1-2
+
+%DESC%
+Beta cycle of the free and open source software for video recording and live streaming. With Browser dock and sources, VST 2 filter, FTL protocol, VLC sources. Service integration unavailable and only patches for dependencies compatibility
+
+%CSIZE%
+105889051
+
+%ISIZE%
+273474707
+
+%MD5SUM%
+b49ae07a27ae5bf0ebafc9d23597f9d4
+
+%SHA256SUM%
+e2d7771cb218b4eef33cd4a811ae258b17287385dda7a388a85d3d5052e5efc5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIcm+sACgkQOkDLXn5cvDDdDQf/RP3rkm+kx9xD6pdrb/KUXjGwLsvN8B+fZuz6XMUiUJ9xo2cGlkxO2V65rUFsCuRBBctB4yp86M1TMUQsE6/iZbZZgx3Dr8omH5b59PL8p4kBhKPjpnANsClFBpsUQzJVwVSAw9GHZe19R7BKweRycJB2dpG8iDLKAusm+j3m0vMbknSKaVfc2xYm4Dmd7D6mj1J5X+yIPWt2i7aDqZ8GIvQM2QXjbo15Ilh451M2KSBA0XZywGR9aMN/sojFbf3DChVkhghDZftBDfwjzyOXbzcHcLjuBuH4VZ67PNDjlEHZ468gSAKGCRhWqpjKLDcEd8S2ZZTDFUmwUVLlFUvolQ==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646041845
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=27.2.1
+obs-vst
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt5-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+libajantv2
+python>=3.10
+cef-minimal-obs=95.0.0_MediaHandler.2462+g95e19b8+chromium_95.0.4638.69_3
+
