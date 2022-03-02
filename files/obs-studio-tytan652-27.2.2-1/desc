@@ -1,0 +1,100 @@
+%FILENAME%
+obs-studio-tytan652-27.2.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-tytan652
+
+%BASE%
+obs-studio-tytan652
+
+%VERSION%
+27.2.2-1
+
+%DESC%
+Free and open source software for video recording and live streaming. With Browser dock and sources, VST 2 filter, FTL protocol, VLC sources, V4L2 devices by paths, my bind interface PR, and sometimes backported fixes.
+
+%CSIZE%
+105880967
+
+%ISIZE%
+273492986
+
+%MD5SUM%
+4fa2ba7a5531375267c1140980ab6a88
+
+%SHA256SUM%
+171084bc1686a3ce4814535d9831f3d279061e619aed63de371daf755e31f2c0
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIfP7EACgkQOkDLXn5cvDDdBwf/WMQgeU0jynSVQPt8rHQ/COhZMtXyFU+D2vkNhcR6BRtbrC2SLMUbdumnKVX8RqC0LRYOWxUDizfTk0DE//tNPvE7Wcq2H3UQp0bpdQ1eVE5xHQDYT9eS5a7y854KQRWKfZAEYcBt/n+X4U9DD9h7WQ57NBegohidTN0zxDsxQU1zFftaKG6QieFpcsfxl4pJi9E8aLc2j7cgcRi3u+AnVFOobgtXDb23tkvzVJPu0H2cM9b4eYtKyuRxr3s2iGAJmq2Hy+PFFTPm2rEyR8rcCg3JpYDwmpZc639YbFB+6ZiFWLFomfyBAf6M/VTSOYSWWUSn466t3Eat8tCOFWrmdQ==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646214852
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=27.2.2
+obs-vst
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt5-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+libajantv2
+python>=3.10
+cef-minimal-obs=95.0.0_MediaHandler.2462+g95e19b8+chromium_95.0.4638.69_3
+
