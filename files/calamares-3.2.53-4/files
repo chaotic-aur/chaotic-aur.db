@@ -118,9 +118,6 @@ usr/lib/calamares/modules/bootloader/bootloader.schema.yaml
 usr/lib/calamares/modules/bootloader/main.py
 usr/lib/calamares/modules/bootloader/module.desc
 usr/lib/calamares/modules/bootloader/test.yaml
-usr/lib/calamares/modules/chrootcfg/
-usr/lib/calamares/modules/chrootcfg/main.py
-usr/lib/calamares/modules/chrootcfg/module.desc
 usr/lib/calamares/modules/contextualprocess/
 usr/lib/calamares/modules/contextualprocess/libcalamares_job_contextualprocess.so
 usr/lib/calamares/modules/contextualprocess/module.desc
@@ -142,6 +139,7 @@ usr/lib/calamares/modules/fstab/fstab.schema.yaml
 usr/lib/calamares/modules/fstab/main.py
 usr/lib/calamares/modules/fstab/module.desc
 usr/lib/calamares/modules/fstab/test.yaml
+usr/lib/calamares/modules/fstab/test2.yaml
 usr/lib/calamares/modules/grubcfg/
 usr/lib/calamares/modules/grubcfg/grubcfg.schema.yaml
 usr/lib/calamares/modules/grubcfg/main.py
@@ -157,7 +155,6 @@ usr/lib/calamares/modules/initcpio/libcalamares_job_initcpio.so
 usr/lib/calamares/modules/initcpio/module.desc
 usr/lib/calamares/modules/initcpiocfg/
 usr/lib/calamares/modules/initcpiocfg/main.py
-usr/lib/calamares/modules/initcpiocfg/main.py.orig
 usr/lib/calamares/modules/initcpiocfg/module.desc
 usr/lib/calamares/modules/keyboard/
 usr/lib/calamares/modules/keyboard/libcalamares_viewmodule_keyboard.so
@@ -181,15 +178,11 @@ usr/lib/calamares/modules/luksbootkeyfile/
 usr/lib/calamares/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so
 usr/lib/calamares/modules/luksbootkeyfile/module.desc
 usr/lib/calamares/modules/luksopenswaphookcfg/
-usr/lib/calamares/modules/luksopenswaphookcfg/luksopenswaphookcfg.schema.yaml
-usr/lib/calamares/modules/luksopenswaphookcfg/main.py
+usr/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so
 usr/lib/calamares/modules/luksopenswaphookcfg/module.desc
 usr/lib/calamares/modules/machineid/
 usr/lib/calamares/modules/machineid/libcalamares_job_machineid.so
 usr/lib/calamares/modules/machineid/module.desc
-usr/lib/calamares/modules/mhwdcfg/
-usr/lib/calamares/modules/mhwdcfg/main.py
-usr/lib/calamares/modules/mhwdcfg/module.desc
 usr/lib/calamares/modules/mkinitfs/
 usr/lib/calamares/modules/mkinitfs/main.py
 usr/lib/calamares/modules/mkinitfs/module.desc
@@ -232,9 +225,6 @@ usr/lib/calamares/modules/plymouthcfg/
 usr/lib/calamares/modules/plymouthcfg/main.py
 usr/lib/calamares/modules/plymouthcfg/module.desc
 usr/lib/calamares/modules/plymouthcfg/plymouthcfg.schema.yaml
-usr/lib/calamares/modules/postcfg/
-usr/lib/calamares/modules/postcfg/main.py
-usr/lib/calamares/modules/postcfg/module.desc
 usr/lib/calamares/modules/preservefiles/
 usr/lib/calamares/modules/preservefiles/libcalamares_job_preservefiles.so
 usr/lib/calamares/modules/preservefiles/module.desc
@@ -261,9 +251,8 @@ usr/lib/calamares/modules/tracking/
 usr/lib/calamares/modules/tracking/libcalamares_viewmodule_tracking.so
 usr/lib/calamares/modules/tracking/module.desc
 usr/lib/calamares/modules/umount/
-usr/lib/calamares/modules/umount/main.py
+usr/lib/calamares/modules/umount/libcalamares_job_umount.so
 usr/lib/calamares/modules/umount/module.desc
-usr/lib/calamares/modules/umount/umount.schema.yaml
 usr/lib/calamares/modules/unpackfs/
 usr/lib/calamares/modules/unpackfs/main.py
 usr/lib/calamares/modules/unpackfs/module.desc
@@ -301,9 +290,9 @@ usr/lib/cmake/Calamares/CalamaresTargets-release.cmake
 usr/lib/cmake/Calamares/CalamaresTargets.cmake
 usr/lib/cmake/Calamares/FindYAMLCPP.cmake
 usr/lib/libcalamares.so
-usr/lib/libcalamares.so.3.2.49.1-4.1
+usr/lib/libcalamares.so.3.2.53-4
 usr/lib/libcalamaresui.so
-usr/lib/libcalamaresui.so.3.2.49.1-4.1
+usr/lib/libcalamaresui.so.3.2.53-4
 usr/share/
 usr/share/applications/
 usr/share/applications/calamares.desktop
@@ -327,7 +316,6 @@ usr/share/calamares/branding/default/squid.png.license
 usr/share/calamares/branding/default/stylesheet.qss
 usr/share/calamares/modules/
 usr/share/calamares/modules/bootloader.conf
-usr/share/calamares/modules/chrootcfg.conf
 usr/share/calamares/modules/contextualprocess.conf
 usr/share/calamares/modules/displaymanager.conf
 usr/share/calamares/modules/finished.conf
@@ -343,7 +331,6 @@ usr/share/calamares/modules/locale.conf
 usr/share/calamares/modules/localeq.conf
 usr/share/calamares/modules/luksopenswaphookcfg.conf
 usr/share/calamares/modules/machineid.conf
-usr/share/calamares/modules/mhwdcfg.conf
 usr/share/calamares/modules/mount.conf
 usr/share/calamares/modules/netinstall.conf
 usr/share/calamares/modules/notesqml.conf
@@ -355,7 +342,6 @@ usr/share/calamares/modules/packages.conf
 usr/share/calamares/modules/partition.conf
 usr/share/calamares/modules/plasmalnf.conf
 usr/share/calamares/modules/plymouthcfg.conf
-usr/share/calamares/modules/postcfg.conf
 usr/share/calamares/modules/preservefiles.conf
 usr/share/calamares/modules/rawfs.conf
 usr/share/calamares/modules/removeuser.conf
