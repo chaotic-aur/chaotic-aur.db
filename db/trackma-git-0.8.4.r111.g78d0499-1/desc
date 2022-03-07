@@ -1,0 +1,73 @@
+%FILENAME%
+trackma-git-0.8.4.r111.g78d0499-1-any.pkg.tar.zst
+
+%NAME%
+trackma-git
+
+%BASE%
+trackma-git
+
+%VERSION%
+0.8.4.r111.g78d0499-1
+
+%DESC%
+A lightweight and simple program for updating and using lists on several media tracking websites.
+
+%CSIZE%
+413575
+
+%ISIZE%
+1813496
+
+%MD5SUM%
+d1afb61a6002bf2ddd7bd536c7fd0c53
+
+%SHA256SUM%
+229223ea1aca260fe03cb51c5c37e3d540948ba1a8fa7b8594254371ad3c18bd
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmImSTEACgkQOkDLXn5cvDCK7gf+MPc5MZ+LJBA93MDyzmmMop8oub7/RUNfrWmj2scs5EhIx76BU5jF18QBx2wvvFiaU+LvsGXVn/t5uT8YARXNDMTFIGQ6R4wzeNBdyBaDMGkXHzkeJ9Hz68FbPJ9v8eN2JbGZ0RNQwLKnYV1G5miUXvpCPNPtJp35PBwTBZMdiw2k9AFzwBfGm5CNBKO8h3T5izAcaesuFpfvSB0FZO75C66DgUvpGucIVPuKRiqm5EZlPXuoecfbjbqkMKWUpg/dpTQPjKKW27F47pFgm+XpKiakn3bwSQ/jEVagZbTc2lZBSVCEo94KlJAtCZ0JS5d4Eigotw6BxsHolDo0Ka2y8g==
+
+%URL%
+http://z411.github.io/trackma/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1646676214
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+wmal-git
+
+%CONFLICTS%
+wmal-git
+trackma
+
+%PROVIDES%
+trackma
+
+%DEPENDS%
+python
+python-pyinotify
+
+%OPTDEPENDS%
+python-cairo: GTK frontend
+python-gobject: GTK frontend/MPRIS tracker
+python-pillow: thumbnail images for GUI frontends
+python-pydbus: MPRIS tracker
+python-pyqt5: Qt frontend
+python-urwid: ncurses frontend
+lsof: polling tracker/pyinotify alternative
+
+%MAKEDEPENDS%
+python-setuptools
+desktop-file-utils
+git
+
