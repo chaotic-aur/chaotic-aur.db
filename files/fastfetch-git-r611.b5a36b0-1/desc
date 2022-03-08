@@ -1,0 +1,80 @@
+%FILENAME%
+fastfetch-git-r611.b5a36b0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+r611.b5a36b0-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+102921
+
+%ISIZE%
+232498
+
+%MD5SUM%
+1c61963219f6e89a016cc3398beb85c9
+
+%SHA256SUM%
+1de9435201e7f6ae33224959bfcd591a68a243b2b79b4f9148b96e8cadcae8ea
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmInRa0ACgkQBwa5DTfZuIGfag/+NiSOUZTM6P53uaYiTuqzeE6qM/6z8KcOP8DNwVYzz3fM/SzmlqIordwtlWu3PWNcpEZcLiRi/NfSCGS6hOJFA/vq/YtqQOwCEgsD+xGkWrQ+xPkc2++nrq3EUgj20/oVSybHPH5NcZdZzMNN1MCmjM/z4rlN97llFfjfwH2JRXpQsZYS6k5WOnEOsxd8zQfLz5hkwIoEIkBppEAJIEHIaYwcDyWUcWPALgJrVT20TKx7NVCRMGGUgB6jW/prcedGo/k8jY2eHHT7F1urZT/i3/gUFhkDnJok/PAbrN4oc9ignWNPPby0nFIZNdmN1z94gdKaZ7UtMOzuroJ87/jGvR3aMB0tw8RyF0lh9/xG9YCV9CnDTO/1jjVppOjgyShvFdCYuafFfvz8QmnKT8jOWDgcaTSJrE9VvZY/OkcUQJRn1kL4y7ntTA6opjx46X6TnP/AFBk98OuKvrYSkWgz9KSWn+c5T2ZgHUEoymobFVHvXGJp9VbhNiJjsDFbtF76w66WwF5UjrQFz3HKkVfEAHfQ3M6TCtLKck5NTEp59FQrQsvCE1/G0awufJIVyNRM0nQp4EJKDPZz0/5bvmtTA5orLXUFWU1RkYdZMLk8m9eu/bAIMXeCK10l8HOTx1oZjvrtqzIeKVbm54kWjp4vmssHMptbisGE+4VHMh82u0A=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646740888
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%PROVIDES%
+fastfetch
+fastfetch-garuda
+flashfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+dbus
+xfconf
+
