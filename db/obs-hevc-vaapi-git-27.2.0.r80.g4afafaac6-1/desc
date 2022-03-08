@@ -1,0 +1,82 @@
+%FILENAME%
+obs-hevc-vaapi-git-27.2.0.r80.g4afafaac6-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-hevc-vaapi-git
+
+%BASE%
+obs-hevc-vaapi-git
+
+%VERSION%
+27.2.0.r80.g4afafaac6-1
+
+%DESC%
+Free and open source software for video recording and live streaming. With VAAPI HEVC support.
+
+%CSIZE%
+103561854
+
+%ISIZE%
+264781944
+
+%MD5SUM%
+7c157e44c00b9b3a459ddef84c7da74f
+
+%SHA256SUM%
+e961d548914e75f9bf996b3ce5f586f338ee020522fc740291e03499f2e911f2
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmInlKgACgkQOkDLXn5cvDBWNAgArEA/8djDalQoEb/F02aByxk1HWxTbuTXE6+IVJ6hCpIO98cvAumtLEjtIm/QI+znqJ5Oed+YR5I8Zw3mxrI1ob8BjxDWI+dsmWodGqPlGN4KKuMhCu2idlooRPqIhR/C6j3YFqDmBknKn+O2/YAWd8ULtKuKVvdqWq6+/ZEuy7Kz/4aWYJCWBTNYrTFWDkkojAzzqVGvJppYehqfRFG+G8MB8OVoE8uGg7mF1yeFtBO3dMAWacj8ItSvjBWXS5HXYlFUiai/2OQM3w3SBchl+cI7adojBJsvck+3IU+ilwPlmIVqR5h/xEuNDkF0HsN4qKFlbUUB2zR8x6XwCQeAXw==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1646760980
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+
+%PROVIDES%
+obs-studio=27.2.0.r80.g4afafaac6
+
+%DEPENDS%
+at-spi2-atk
+ffmpeg
+jansson
+libxinerama
+qt5-x11extras
+mbedtls
+libxrandr
+nss
+libxss
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libxcomposite: XComposite capture support
+jack: JACK Support
+vlc-luajit: VLC Media Source
+swig: Scripting
+luajit: Lua scripting
+python: Python scripting
+qt5-svg: svg support
+
+%MAKEDEPENDS%
+cmake
+git
+x264
+jack
+vlc-luajit
+swig
+cef-minimal
+pipewire
+
