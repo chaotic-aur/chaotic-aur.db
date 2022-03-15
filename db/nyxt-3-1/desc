@@ -1,0 +1,73 @@
+%FILENAME%
+nyxt-3-1-x86_64.pkg.tar.zst
+
+%NAME%
+nyxt
+
+%BASE%
+nyxt
+
+%VERSION%
+3-1
+
+%DESC%
+A keyboard-oriented, infinitely extensible web browser designed for power users
+
+%CSIZE%
+29019685
+
+%ISIZE%
+142013187
+
+%MD5SUM%
+37c19f9ef005e57395476e09a2462e58
+
+%SHA256SUM%
+5b7f396187c7a3aaaa20124497b31403466931dd0eed8fafd9f824d86f79a42c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIwttIACgkQOkDLXn5cvDAvhAgAlH2zG7tPqT8Xfm6rF9YFtwJKDXKmcJYdMxm0Pbf4gNRj9Fu7jlHh6oAMCuTDBQSd+q7akVAx3IgTm7vh0EuM7r8Fh2hBxx8cI7XMUGKG9tRuanmK3nYGoN+MBKlUJLLJEbKoIRVEFlL2SD/77aQ7Gaud65akSE6Fk1kWBjlKGYj8eIv88dwpnYtfcDwGaMdbXOkOmZKh99xFYUi6Rj+iDFZQy9WMwc4Gs49lJW3GlAQRDkWkpZzfHoBNCYSXw2JhmWuh3GhXKKYWhHMIaiBlJIzPS49/l93FAGjeBmzUuseOJ02ENNuvTnvYdt6JFw6EL/9cAyOYQUPo4kS5NgtCWg==
+
+%URL%
+https://github.com/atlas-engineer/nyxt
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1647359159
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+nyxt-browser
+
+%PROVIDES%
+nyxt-browser
+next-browser
+
+%DEPENDS%
+enchant
+glib-networking
+gobject-introspection-runtime
+gsettings-desktop-schemas
+libfixposix
+webkit2gtk
+
+%OPTDEPENDS%
+gstreamer: for HTML5 audio/video
+gst-plugins-base: for HTML5 audio/video
+gst-plugins-good: for HTML5 audio/video
+gst-plugins-bad: for HTML5 audio/video
+gst-plugins-ugly: for HTML5 audio/video
+
+%MAKEDEPENDS%
+cl-asdf
+git
+gobject-introspection-runtime
+sbcl
+
