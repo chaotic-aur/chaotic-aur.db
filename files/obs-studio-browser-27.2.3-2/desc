@@ -1,0 +1,90 @@
+%FILENAME%
+obs-studio-browser-27.2.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-browser
+
+%BASE%
+obs-studio-browser
+
+%VERSION%
+27.2.3-2
+
+%DESC%
+Free and open source software for video recording and live streaming. Built with browser, vst plugins.
+
+%CSIZE%
+103592173
+
+%ISIZE%
+266496808
+
+%MD5SUM%
+92851e2e65bf79ca26c6320fcec879c2
+
+%SHA256SUM%
+8464b2e129b25cc2c88c1dc5e7502e573954cf4fd8ae6b0b3a8078a263e49233
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmIwwe4ACgkQOkDLXn5cvDB4yAf8CHbD0Eq1vhTuJ9yA98+LOSzwql7hyw2f8jKZpcvYS0F5qjgQrgx/zhL7xW/br1gS89me9OcetaA4lI0cVG+KmWmi6DVj4dI0XA4YhXUKBnEwyH9LriAO+y0tWaZsG2As7KlXg4aKvq0GrwBIv94AA3C6qe1R+werRQs2Xjqt7cEGY7zZI9TxgZdUm45r4qwfcAw/OUiMSAPO1lVyCL1IVcPFsMN3PPi2M9BOB7ACJFZJQ7PSiVmDkI/sMEWq1XkA6M2P1+UEMS4CQcRe/jIj58LlZN66NXyALJ5aTPzy6lnQy2C58gQ+1WAtVakVlfHjIq+FpNX3lZvHJNyP1zet0A==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1647362397
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-linuxbrowser
+
+%PROVIDES%
+obs-studio=27.2.3
+
+%DEPENDS%
+ffmpeg
+pciutils
+jansson
+libxinerama
+qt5-svg
+qt5-x11extras
+curl
+gtk-update-icon-cache
+mbedtls
+pipewire
+libxcomposite
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: Hardware encoding
+libva-mesa-driver: Hardware encoding
+vlc-luajit: VLC Media Source
+luajit: Lua scripting
+xdg-desktop-portal: Pipewire capture
+python: Python scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+x264
+vlc-luajit
+swig
+luajit
+python
+cef-minimal-obs
+wayland
+qt5-wayland
+sndio
+
