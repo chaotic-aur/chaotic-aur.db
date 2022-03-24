@@ -1,0 +1,113 @@
+%FILENAME%
+matrix-synapse-git-1.55.1.r0.ge689cae47d-1-any.pkg.tar.zst
+
+%NAME%
+matrix-synapse-git
+
+%BASE%
+matrix-synapse-git
+
+%VERSION%
+1.55.1.r0.ge689cae47d-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3234515
+
+%ISIZE%
+16293927
+
+%MD5SUM%
+d2818c47f675c87baa53f7089904ada6
+
+%SHA256SUM%
+fedf1097463564777a5eadefebdd97fb296b6544e46ceef7d536b8ca5d77945e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmI8uFIACgkQOkDLXn5cvDCmagf9Hbrgca+legxbNfcbjeGm/4BLy5rs3UcHgeDDQAWon2Dgfsi7wZoHyPRKvdC5rZhENk9QNUb8V2mn5POdZ+5HL3ErJfsjl70oM4kJv0/mnPTRf50E3iKboTfT5y0dQelqiMG6zOCDTld7E+tMfpRyg2YL0Uf5p8E3jpmI+zQefFUQ6BCkZqaT1HbRu5XvY9SlPmz9KJQXF1TJxCsPqCBo5Jxb6RdgueCUzl1C0jLrqIf2XAYjIsgAWhwRpC1ulCKduAItDChYwn6uJN8FqyZTujdTgQCGLW/KI9HqqTG0+cROxAk/oDEavQioTAiiyKcx0t8BH6x/3qqJeUDL93Pk0Q==
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1648146462
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+matrix-synapse-py3-git
+
+%CONFLICTS%
+matrix-synapse
+
+%PROVIDES%
+matrix-synapse
+
+%DEPENDS%
+libwebp
+python-jsonschema
+python-frozendict
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pynacl
+python-idna
+python-service-identity
+python-twisted
+python-treq
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pyasn1-modules
+python-bcrypt
+python-pillow
+python-sortedcontainers
+python-pymacaroons
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-jinja
+python-bleach
+python-typing_extensions
+python-cryptography
+python-ijson
+python-systemd
+python-matrix-common
+systemd
+
+%OPTDEPENDS%
+python-psycopg2: PostgreSQL support
+python-pysaml2: SAML2 support
+python-authlib: OIDC support
+python-lxml: URL previewing
+python-sentry_sdk: Sentry support
+python-jaeger-client: tracing support
+python-opentracing: tracing support
+python-pyjwt: JWT support
+python-txredisapi: worker communication via Redis
+python-hiredis: faster worker communication via Redis
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-mock
+python-parameterized
+python-lxml
+python-authlib
+python-pyjwt
+python-txredisapi
+python-hiredis
+
