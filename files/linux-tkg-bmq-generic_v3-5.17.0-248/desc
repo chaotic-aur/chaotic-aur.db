@@ -1,0 +1,91 @@
+%FILENAME%
+linux-tkg-bmq-generic_v3-5.17.0-248-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-bmq-generic_v3
+
+%BASE%
+linux-tkg-bmq-generic_v3
+
+%VERSION%
+5.17.0-248
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+167081820
+
+%ISIZE%
+166406867
+
+%MD5SUM%
+fd026b1a1bb0c69808d98809a0b0bf71
+
+%SHA256SUM%
+d846cae780f9f3315486a2c21f2ed6d3cc5e2f4726c859d02cb59662a189cf13
+
+%PGPSIG%
+iQIzBAABCAAdFiEEHwcW3JQBXKx3+mW2GaIoKvyoqB4FAmI9+bMACgkQGaIoKvyoqB6nkQ//VbS3aiNEtNCvbDmQhSki9pTIREqHpbiiEG18SOOk4a24d+Gi0+1Lq0Wvb9RdMEjopR8/qj/vK1umVOLeOo749t7BAJcp+Mi2eKs6/vG8sW5id1mdZEcFsvBiLgPgQ1iK/Z5hPrlgLU1NYjIxHtCi3xewQpz8gpNuCKB8cCJL35xSJ/poH3+LSCM8xDiOnxxJUKSYXGjHWxJg3UQ7wSeSUHQylKCLEsWBhA+Bi1aZK/iMmNi3/pXqjIz7aHMgmrz8/N/KtBYCpHPICk3yOhp7YAsQvprQ8F40vybzqXpJ44kGGoM+0VC78gGFzS8c5PjQqMwN2Nz7eq+/vHL2DwQtJQ6JQVSS7X+xdR6kG2PziOGY0GGp2uEo7FazgiEE9iPioNMOvva7uHoiDY4+A8QfcKjKrKTASYf5LE6FX+fb3YJGYc+XLPAk0hVp+0FRyJeGp/dvwqkAKdzw/2eT0zpEWbn7/HZ6qKxzTg7bKCvMxHo+h3fcFJ9yyXmZ+9kV9VxylyACXBnRruYu4giNkdtEsESsqcEQinbkDRgyMsPRKfCD1W1VBXwYMaCEiVOOicuTYaqfc+WCD7L50hXWbupWscFdBXk9/LJq56xmZBwTKjGG3kvdROqJuJZy5fwmgh7u3Di8i1VnzpZTb44uuXNuCuDvkID6Bm7VL1AJgFSyBfg=
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648227423
+
+%PACKAGER%
+Eduard Tolosa <edu4rdshl@protonmail.com>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.17.0
+linux-tkg-bmq-generic_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+kmod
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
