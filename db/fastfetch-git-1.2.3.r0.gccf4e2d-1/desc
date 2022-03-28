@@ -1,0 +1,76 @@
+%FILENAME%
+fastfetch-git-1.2.3.r0.gccf4e2d-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.2.3.r0.gccf4e2d-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+107067
+
+%ISIZE%
+245490
+
+%MD5SUM%
+bb674bf0f5e8e5f41173c780894dee4f
+
+%SHA256SUM%
+564cbfa1175e44ae6b81a34b64ea3141a3a34f810d9c8ee74b35862dc5d5107a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJBlagACgkQBwa5DTfZuIHy9g/+MUppHRsTyvMi5d0gPf96TXZj5LeEJQ0ZdR0pmNbuovuf+MSGRcdug03jsUb5D1sc7YiaQDnXMZUUDxplmn0qwDV+GM+3J7t0HsUgMCkzL7WkOqvU/Mw4zWCvMXdzO2d7i78ko1Ya2xevhwNAZVFHEji9q3G6sBcgeQa39iScA2Ho2hbI51ZkL1FMLpJt8e1CjZ6xb0G0ACWbMhcShS/0Q4GpNelPEIDJXpTu3mElQaPvJVU8sS9tYBsAc8V43y3QUac0IsZ98ezJQV8VZO11ReVbfk/TptLud+59bG0+3UZV+WKqIbmmOqCFEOxcGdKnzx61SlbH59vl/1pR7l5GybCu+5rRzpzAFEETT/rFQcQ8xzAVp2E1YKWsbyVauNGBO+mcVDT2EmYW9JMgUkQkqAyZfebYxTej7r0ZKWsm5McbY2v+DhWzzlQuNNR2XoL73dbTtoUI5h8aI84x38hVt5CqRtWpMsKVyy3NEoJbwCtHaQSYDmMl8MiLFKA5UxV+5IC97klD1Ym3/AmLmhYvIYznNjsY+qwxv7zoknRempAFBvu5A4GIwpPol/QOzDS1k1ZKSTHRpCdKweIHZ5UynuVqujDS6fKOLUXljZXgtbUPBkYcziMCCwJM0fUfjXoZR07iP+jpTb8oOoe5UvSVVj3Wtvif/9LYBcQEgqdvWN0=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648465291
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+dbus
+xfconf
+
