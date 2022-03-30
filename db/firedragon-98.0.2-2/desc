@@ -1,0 +1,114 @@
+%FILENAME%
+firedragon-98.0.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+98.0.2-2
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+76365336
+
+%ISIZE%
+219929814
+
+%MD5SUM%
+39983f6b06881c13cad56efa25308bdd
+
+%SHA256SUM%
+128a463c7256513c267b93c886f9579e147a9af0780e97d827ce7ab7b574ed9e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJEk0oACgkQBwa5DTfZuIHWshAAkIAaM98hqH52eJ88tC6NKBD00R8vUtIGxLvgCrGpS+rJVwiWnlr+3GZ7VK7rROR12PegdWCGnmzVncQAQ2Aqe4TJ4wfvF9qEXA6vADBW61uLAME2C5c9fhr2waqQzOWVD182T8vdacYSchqq6pI4hzmBsHj6JE43xA8Q2zrVI8Ue+f7n75G2JwXi139fvUH/UpfcDU/QxPSvOU0Dvd6PyGHAI1dYyWN8IAm+XM+3XyN6H+FjnRiqDiNTAIDmTwU0FIHpPo9zuRTyZ2v4qBMvDxCsWfilzVgszvcaxSBefE1LfHOIdCYovUIPRuOWupGzl/RT2xg/jkAREnJZnZCboN9+c0AQE2OmUvkjm8EK9I0Gb8MoV4+Np++j8HGFnI5UND/7gouQTV0N9tOG5s26ozIIR1S1YRPvrw3jZ6hlOFnP/6vyZpZhv3c2SKue211ZBw0KUhyBFerx7pDqxMN4Zv64+QvRzvlBKJstn6XADdPJkqOfUVqunfCYz9kk+QFpSd3wfQGfs/3Bh4wTQzamp2+jtq+D6uM2UjUMuF7+PzrPUaIgNSOQWkO0l8pbMtVOTS6f2ENble4s8dznw4xgcek0FE9Sutxeda8RIZuoRaYCtul7sECcxlVHggAQxaFW3/H7dZ4G3DOxVXJLJRAWxLpH4BEbe+qSsdliLqDLPAI=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648656206
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+firedragon-hg
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg4.4
+nss
+ttf-font
+libpulse
+aom
+harfbuzz
+libvpx
+libjpeg
+zlib
+icu
+libevent
+pipewire
+kfiredragonhelper
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+rust
+xorg-server-xwayland
+xorg-server-xvfb
+ccache
+autoconf2.13
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+
