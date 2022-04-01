@@ -1,0 +1,78 @@
+%FILENAME%
+kdenlive-stabledeps-git-22.07.70.r15925-1-x86_64.pkg.tar.zst
+
+%NAME%
+kdenlive-stabledeps-git
+
+%BASE%
+kdenlive-stabledeps-git
+
+%VERSION%
+22.07.70.r15925-1
+
+%DESC%
+A non-linear video editor for Linux using the MLT video framework
+
+%CSIZE%
+15395929
+
+%ISIZE%
+62842201
+
+%MD5SUM%
+c6e84665d1969d07e583b721949ae260
+
+%SHA256SUM%
+60a0c545cadf72dc27114dc40fa5caa78bffe3e8ddf03912609462e19ccf143b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJHXjsACgkQBwa5DTfZuIHRwA//WnZktrhWj7V3yEFJA/knxjpyDFZjH704+2vEsUSFI+ReRqcS8CEDPdcrifAJZjft/4OjcBgVcALECxGoDYPoc/2HPPs4hDm57xPzGoYQvfnNAUOwd1ilnnePWxmg1Jiztfki2w93PT4JDQu94s7K6MnNLsYRZFRjO+lU1ogegbE0m2Xnwi5DJnq6oUXJk3pxpkSvEZ10QBh8lPwG4A/1oH5Xj3UHkQ5Gc+weYlwwW2/YQUsnw9KhVPY4CPTGgLQhBme95FOyvZ+j0yUTM0whvuePuS2TFgMdHCMNuz/gcI0k8gQEBVSaCEqup7t+Sqm/g4v3ccqEG6IMqYAiwnQpJNEDYZff9W8HzMfgdMc8VC6bO7cMBDVltI3TiVHUIcV1KK0291Fz5p8Zcsk8NsArMRj7lBwIVk6Or3prLqpx2qeGEkbhNvVZybn6CQTt9RF3RmLE04uQPq8LiYXfqT8yKOqhvUj5bz1YDpiaThZi0mjLq8ZGHIuc4AgSAAgeZ81bjLcckTka7o5d41Vxgc4E+W0fQdwHtS9tziASOEb86XlVdDVe9cxZuPOgfGtKcPF3pHcGc7L4iHCDA70qE2fNpKN8LsoP4PubTSmFuL/ER9vqdUzXLViC53vqiRtJ+Wi8jN2iZmzHjNoTTxqD2fVLa7FQ0PRQ3kuVoMXj9X8huW8=
+
+%URL%
+https://apps.kde.org/kdenlive/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648843715
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+kdenlive
+kdenlive-git
+
+%PROVIDES%
+kdenlive
+kdenlive-git
+
+%DEPENDS%
+qt5-networkauth
+knewstuff
+knotifyconfig
+kfilemetadata
+purpose
+mlt
+breeze-icons
+frei0r-plugins
+
+%OPTDEPENDS%
+ffmpeg: for FFmpeg plugin
+dvgrab: for firewire capture
+recordmydesktop: for screen capture
+opencv: for motion tracking
+plasma-desktop-git: theme configuration
+opentimelineio: timeline export/import
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+v4l-utils
+doxygen
+qt5-tools
+
