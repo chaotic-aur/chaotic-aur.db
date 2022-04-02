@@ -1,0 +1,109 @@
+%FILENAME%
+qtile-git-0.21.0.r8.gea4462b0-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile-git
+
+%BASE%
+qtile-git
+
+%VERSION%
+0.21.0.r8.gea4462b0-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager. (git version)
+
+%CSIZE%
+883908
+
+%ISIZE%
+4088370
+
+%MD5SUM%
+d4a8ca916d75498cce13c67b08454f65
+
+%SHA256SUM%
+9a91303225e9a2a35ade4b90977d62fd6838ec3395564d296818597100fed3cc
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmJIyXoACgkQOkDLXn5cvDDY1Af/VnFGpo9VuGBwS4QiUC9YZPV3JTYSvnDtxYJoTpwvkNf4U8frnxzL2d0c22abMdBGoeMgf5tenXncBdrDV+myhNWTYND8v9Q3LD/vVGtoEXzsyPhoD4+3ZT7oYfpsDQFStaQljPrahZmQyv+VUfkSPxP7UEWt21pMmaQabDDOM4T+f+Ao/nm6ome1xxJnBJ9/kxXlujp1xtMQqmDTFG6eu1uubAMSESHQAXoPh6f9Wul2u3H0r0QfxwIhZHEoV4tFPl2jYr7Kyu0XRL20tW+tv1wonKFk82UOMXBBQ7FatoJp4ltVQY/vet0FYWVpMggIRZwgoMbcZAgWr9cP0gt6BA==
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1648937285
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+qtile
+
+%PROVIDES%
+qtile
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+pango
+python-cairocffi
+python-cffi
+python-xcffib
+
+%OPTDEPENDS%
+alsa-utils: volume widget
+canto-daemon: canto widget
+cmus: cmus widget
+jupyter_console: interaction with qtile via Jupyter
+khal: khal_calendar widget
+libpulse: for pulse_volume and pulseaudio_ffi widget
+librsvg: for SVG support in some widgets widgets or wallpapers
+lm_sensors: sensors widget
+moc: moc widget
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: wlan widget
+python-keyring: imapwidget widget
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywlroots: Wayland backend
+xorg-xwayland: Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+
+%MAKEDEPENDS%
+git
+python-setuptools
+python-setuptools-scm
+libpulse
+python-pywlroots>=0.15.9
+python-pywlroots<0.16.0
+python-pip
+
+%CHECKDEPENDS%
+dbus
+graphviz
+gtk3
+imagemagick
+libnotify
+librsvg
+mypy
+python-bowler
+python-dbus-next
+python-gobject
+python-pytest
+python-pywlroots>=0.15.9
+python-pywlroots<0.16.0
+python-xdg
+python-xvfbwrapper
+wlroots
+xorg-server-xephyr
+xorg-xrandr
+xorg-xwayland
+
