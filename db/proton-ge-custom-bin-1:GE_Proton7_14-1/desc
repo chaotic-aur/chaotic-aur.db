@@ -1,0 +1,86 @@
+%FILENAME%
+proton-ge-custom-bin-1:GE_Proton7_14-1-x86_64.pkg.tar.zst
+
+%NAME%
+proton-ge-custom-bin
+
+%BASE%
+proton-ge-custom-bin
+
+%VERSION%
+1:GE_Proton7_14-1
+
+%DESC%
+A fancy custom distribution of Valves Proton with various patches
+
+%CSIZE%
+376213836
+
+%ISIZE%
+1144336360
+
+%MD5SUM%
+5b643c7d4bacbdb24a6659d5a50383d6
+
+%SHA256SUM%
+3c1136a6c1cf0158b964697956b0c148e4da3202eb1e894578f4fd35f525aa82
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJObGEACgkQBwa5DTfZuIErmBAAlVWIPvLl1OEahCQisYpkJtgTl2xCylIIjw6VhYTh/5GWa7N6M5hABhpl28H7eX/w6fn5kTx/4S4hcaiB9zc1VZLOsUXBQ5+B96ay4hPQT1NSQMuwB4l68Oq73a1GYbz6FMUKSYumZBWoy+1Fkd78bWJQ30TjXceTduyGZboBeH7CPnsQGx9NBP2/JHmL/VUWNdCKOzeOps+MJX8MdGulZFcGDrAhaO1L9AkxstJJL+okbAaD6vUyXDiEPPYEe6XvD5rFVtjeTHfUF5BByvaeLzg8QS+Wmw7fs4YbxZD6vamSMjiCf+d5HkDMIx7kyChhVeh+w9SnY1B1Thj3Sw/tiMtuk82lyiMM757A/RiZG1GKER0cQ5Nx8wScB+CTsW0AITPA9gi9l5c9GxC6Bz21CoMf/zUKHGTgDIfVhzKm4dntQkQVfz007LE5VK1zNwXhyPhiYvZPypfkkudmOIeVKGyleH/6Xy2mnGUrlgaB7bHRTIIMMB5WTMtIg5e+YEO43zeMaHxhTpQ5SYulWGI7pQA0SJD/9DWiECiWZVBieEUBo2iFCCv5HchPu47sZjeYJ2YeXrEzIRJjG2u9YLkmutGdxHvhyUsvQIxrVkJn2IOqImiWpHMZhAwIeXY+S21CFJYq4E1JNlloKn7shmbLIdjV8sJASMJDXj18C/43WwI=
+
+%URL%
+https://github.com/GloriousEggroll/proton-ge-custom
+
+%LICENSE%
+BSD
+LGPL
+zlib
+MIT
+MPL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1649306643
+
+%PACKAGER%
+Chaotic-AUR Temeraire node <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+proton-ge-custom
+
+%PROVIDES%
+proton
+proton-ge-custom=GE.Proton7_14
+
+%DEPENDS%
+python
+vulkan-icd-loader
+lib32-openal
+lib32-libva
+ffmpeg4.4
+lib32-speex
+lib32-libtheora
+lib32-libvdpau
+gst-plugins-bad-libs
+lib32-gst-plugins-base-libs
+libjpeg6-turbo
+lib32-libjpeg6-turbo
+lib32-libgudev
+lib32-flac
+lib32-mpg123
+
+%OPTDEPENDS%
+kdialog: KDE splash dialog support
+zenity: GNOME splash dialog support
+python-kivy: splash dialog support (big picture mode)
+steam: use proton with steam like intended
+lib32-vulkan-icd-loader: dxvk dependency for 32bit prefixes
+vulkan-driver: driver to be used by dxvk
+winetricks: protonfixes backend - highly recommended
+wine: support for 32bit prefixes
+xboxdrv: gamepad driver service
+lib32-libusb: wine usb support
+
