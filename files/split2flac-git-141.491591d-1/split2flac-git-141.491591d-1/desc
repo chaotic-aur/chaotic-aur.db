@@ -1,0 +1,75 @@
+%FILENAME%
+split2flac-git-141.491591d-1-any.pkg.tar.zst
+
+%NAME%
+split2flac-git
+
+%BASE%
+split2flac-git
+
+%VERSION%
+141.491591d-1
+
+%DESC%
+Split flac/ape/wv/wav + cue sheet into separate tracks. Git version.
+
+%CSIZE%
+12524
+
+%ISIZE%
+25389
+
+%MD5SUM%
+b0963db70c996d61fbac1df8aa4598b7
+
+%SHA256SUM%
+451fd063ce71c28e897a2c1c9c4fb3f97e39e8506af786ba3179e48c4dbb4cda
+
+%PGPSIG%
+iQIzBAABCAAdFiEEGnkDdTOhECha6S70+vSUbo1g0HQFAmIRGZ4ACgkQ+vSUbo1g0HRjFhAApzi52QjaUT0x1ajoeuVmyRw1hkhsWyMT/JKmcOF3JAZRO8LPHF64qaRCQWkRt6cGPtdGlNt81eBle5bYZS2C2Uhs4Q9gh2skujXCkJ6alL71zzSUxQhOxPGYfww1a+RNN+AXk9oyy85obGAw1FfgpWKm2MEIkpXC7phsLnmnMjvYirVnvULKexymuII+wV0m3oJ7lR6AnUMqzgrW/DaWW2x2IzZzR777vZmTjkvgW2Ocl8bo6mVirqXPK9C/x8sNtCv73ET2eePltCknfXNYs8jLYAzg7WlFA550JxciXBWS2KxzoZIJMb8qnsJdG/ndVD7FguMPJfiuBsQd/IcMKMF+97HfkUj4gNU0jMf2oFVb+9yzleg4CrmsckMXgiVVdg8b+QAWcwT23o4Q6bBzrdAGufPxuEb5awt1eIEQ9ptaiTZ7aN9JC2r+XfI7jR2SdREXlluJfxXI4EbeIhBj3dOOzO2XZBKMFDCQBQdGpA8fL3v+HDqQoFR86UDpXN0UWpo5kzJGPGUXNiqRaOV8j9dDuJuIRLc4nvLbGqxofanRuy+vUPvs2wTIZxSyLS5/wXqr1IJ6zfJviBsvxHufhBV+9f9rEJyO/mFrVYxWFVcPxRLkxZRyDeKwnx+n1zuUcFUQa2NRAB6oAMMzS13seB6UbLrgyDvCA0h+OCAsJT8=
+
+%URL%
+https://github.com/ftrvxmtrx/split2flac
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645287834
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+split2flac
+
+%DEPENDS%
+cuetools
+shntool
+flac
+
+%OPTDEPENDS%
+aacgain: to adjust gain in m4a
+enca: to automatically detect charset if not UTF8
+faac: to split into m4a
+flac: for flac replay gain support
+flake: faster FLAC encoding
+mac: to split APE format
+id3lib: to set tags in mp3 (unicode not supported)
+imagemagick: to convert/resize album cover images
+lame: to split into mp3
+mutagen: to split into mp3
+libmp4v2: to split into m4a
+mp3gain: mp3 volume normalization
+mutagen: to set tags in mp3 (with unicode support)
+ttaenc: to convert to TrueAudio
+vorbis-tools: to split into ogg vorbis
+vorbisgain: ogg vorbis volume normalization
+wavpack: to split WV
+
+%MAKEDEPENDS%
+git
+

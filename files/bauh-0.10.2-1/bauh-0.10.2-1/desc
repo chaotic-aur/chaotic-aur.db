@@ -1,0 +1,93 @@
+%FILENAME%
+bauh-0.10.2-1-any.pkg.tar.zst
+
+%NAME%
+bauh
+
+%BASE%
+bauh
+
+%VERSION%
+0.10.2-1
+
+%DESC%
+Graphical interface for managing your applications (AppImage, Flatpak, Snap, Arch/AUR, Web)
+
+%CSIZE%
+920243
+
+%ISIZE%
+4407700
+
+%MD5SUM%
+b005c68b16bb9136de9e35c6999c5a80
+
+%SHA256SUM%
+43536029dbfb8ae5a51e75ac3aadb0b14ce2871419195c2e0ad53685f6390760
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJawDAACgkQBwa5DTfZuIEyTA/+P4fbSScX8bfnIoHSEZSRtchHOBK9EE8G76bqZnvE2alq8i3lsTR1XFM8OkZdqU4fVeNsHjhf+uldkXnDVpm2jqh8dgrnFSpScXydXjYUIwDiadzVHjDWxdDE+l3CWEIzoGwgWI0hIM9gN84UMLEIyVM4oznyuZBuUG1uUSgdt0xForP+LjUq/IXzbf1WuZpIZQKO6TanKJmrSPOjc8q7cIrmoGdz0OCKkMrWeHPDM9wfgf0cHlV8kBqx/zsUOOKV1rRp8WTOueca4kVoJhaj7N03RxDGQQJyvI9S62yAG68M11AFSUKGU0XKi3KCQM9W8CjgzQ1fwIN2UA0zz39l/eHTJ//BwUhofkZjcFjVRDAxjziP7d/XSwB/iuTWC9LD0g10OgRMwn4PN79zdAml+ZsMoNrvvl4Opx+iN+8LWk6BK7f681lo/5J9XnSNtJHOclXbhQGHm9WbqcTfLPzDxnNSxABMCBK0TeyYAEp97yOkCizWrYGBw/0pPZktOvArYcye0rZuZoYea9ogHHKHSlZZ3uNuTVu02ekBQIm1GJH0CMfMxtFA0qW7VSfzCFBwyQOjNNseKoI6gTG4RZJ5xfsk8GM2ULIQbhcePFoZsUricq4MjQwxj3ZtMd8HdsRV1EnFXy4atQ9NiX+aOIUn6x7eVpPsT0PpK1lOnui0hNw=
+
+%URL%
+https://github.com/vinifmor/bauh
+
+%LICENSE%
+zlib/libpng
+
+%ARCH%
+any
+
+%BUILDDATE%
+1650114236
+
+%PACKAGER%
+Chaotic-AUR Temeraire node <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+python
+python-pyqt5
+python-pyqt5-sip
+python-requests
+python-colorama
+python-pyaml
+qt5-svg
+python-dateutil
+python-packaging
+
+%OPTDEPENDS%
+flatpak: required for Flatpak support
+snapd: required for Snap support
+python-beautifulsoup4: for Native Web applications support
+python-lxml: for Native Web applications support
+sqlite3: required for AppImage support
+wget: required for AppImage and AUR support
+fuse2: may be required for AppImage support
+fuse3: may be required for AppImage support
+pacman: required for AUR support
+binutils: required for AUR support
+git: required for AUR support
+rebuild-detector: enables rebuild checking for AUR packages (optional)
+autoconf: may be required to compile some AUR packages
+automake: may be required to compile some AUR packages
+bison: may be required to compile some AUR packages
+fakeroot: may be required to compile some AUR packages
+flex: may be required to compile some AUR packages
+gcc: may be required to compile some AUR packages
+m4: may be required to compile some AUR packages
+lib32-fakeroot: may be required to compile some AUR packages
+make: may be required to compile some AUR packages
+patch: may be required to compile some AUR packages
+pkgconf: may be required to compile some AUR packages
+ccache: can improve AUR packages compilation speed
+aria2: multi-threaded downloading support
+breeze: KDE Plasma main theme
+axel: multi-threaded downloading support
+shadow: to install AUR packages as the root user
+util-linux: to install AUR packages as the root user
+
+%MAKEDEPENDS%
+git
+python
+python-pip
+python-setuptools
+
