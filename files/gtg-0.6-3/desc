@@ -1,0 +1,71 @@
+%FILENAME%
+gtg-0.6-3-any.pkg.tar.zst
+
+%NAME%
+gtg
+
+%BASE%
+gtg
+
+%VERSION%
+0.6-3
+
+%DESC%
+Personal GTD like organizer for the GNOME desktop environment
+
+%CSIZE%
+1011481
+
+%ISIZE%
+2503303
+
+%MD5SUM%
+113f1e52754dcd630b5dbe3ec0484e3e
+
+%SHA256SUM%
+24a51958d33addfbe9737fd84b2c05dddd40d920241c8720d2ea20aaa72eb7f4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJkBfAACgkQBwa5DTfZuIG2jg/+K5gOGVXaDUsrc8RR+XA2qKtWyVevyEBvC5WHYU6poAy/fKYKsZdjtzxOVFxy1g+fm2SYjGgTi3ojBME5XfYhfdaaLEeH0yoj0cjGRwnRup5q2QR8eh25hC16D1yTG7dlf1MEL7CSj9M/wru6NmhjC7gb7v1IGyLjQb8SwVOWLG1X2TNAPg7uF6YLQGhEG4Mlo74o6KOc0tNunXcs0soI7VyF3JWUBB6Km6RudtwcbJfiW8O8lO7zBasWBqrhXl4UIqErh9MKwBtsj5b4eXq4aFiyh1nFuQrBr+HRsARNcwnzgp/mPsuWiEXD/AKAJc+IvhHBzFligytKsOQglD3UTNtf1jGBVMwsMuZtFCC+MKMjivC+7rjIAYjzqKVIjQXBN+bP1YaWUJ5aiWSv6dUDetSdGBgLggtQdLOr8b5QxRlmUT2wbWTTStxqDZig34CdhXBDr/FaHIEj/d0vK3YqK9LL0u+QaKcvSB9idNbIr7yPy9Qhv6nxw3YZnptRkvnDWLtitBll1ZdHdXMq77LrfYA++1qlPUz51/HXI8k5IsulqoCNv4WcRNxRvmFHHqkjaeBptJFgzwzHUDyqOskch3BHazYySGRjkxVEgmqZ5W95tTf9JCMxtTw185SJNyqSQruC4m7n1ykoJvcju6ZkX2zfvnU7Kw9/0Y5mTihaTZQ=
+
+%URL%
+https://wiki.gnome.org/Apps/GTG
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1650722276
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtksourceview4
+hicolor-icon-theme
+python-cairo
+python-caldav
+python-dbus
+python-gobject
+python-liblarch>=3.2
+python-lxml
+
+%OPTDEPENDS%
+pdftk: for the export and print plugin
+python-cheetah3: for the export and print plugin
+texlive-bin: for pdflatex, needed by the export and print plugin
+texlive-core: for pdfjam, needed by the export and print plugin
+
+%MAKEDEPENDS%
+meson
+ninja
+itstool
+
+%CHECKDEPENDS%
+python-mock
+python-nose
+python-pytest
+
