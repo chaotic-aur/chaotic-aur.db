@@ -1,0 +1,80 @@
+%FILENAME%
+fastfetch-git-1.3.4.r2.g3b6855b-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.3.4.r2.g3b6855b-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+139156
+
+%ISIZE%
+440823
+
+%MD5SUM%
+cd8176ed820932d4706489bafb11611c
+
+%SHA256SUM%
+ee73300129c27370560924304dd399a7a841e03bb89abcdc1dd413a9d0006db9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJq1ooACgkQBwa5DTfZuIFWwBAAoPF9wztsx1fFDYfSb8PfxHAV2AdZAzJltjGdWysYDRqp6j1VrWvAhLhR2DJSTfMosOPZsjjKAAi1hvTEQVtBbL3+7NEAj7Nhco0gRE8GavMD5M21jMOezpc9+x9eGLL2GVi9q8dykkPK0iwcdNpC5SDX6mwlS0NmC5RcT+YWK2Tnl0Lk7IzG7qjvSoPkh/4PDbTOe89Um37lbpL8I7PPq5lwAegU4sq98oE/6xfGIm7wwUlfV8NcALfJ6MwVyx41bpHn7+By/Toj1i6sO0ToEljepCGxiayE/4G+CJNZU+Xamft0tVKXrQ1zEtZphsJDJPKVplKi5puGH/MVIh6wlq+4eFJCINjvHQ8LKvlRw4YL2YvdXQt+HlptbSvWEK4kIbDWhJWkGkre9XnAOZhOvHh7Y0M0dAEJZ4hZ/15prS0kDm/HWBrgKBeEr8pcNozfUPXnslzb91QJ++0ELGiGGGvGbygS+ydrA2gxudpksqIjUO0MPhYhgr+epZhXxUs++c9S3TFimR19uracAWKUtMRW6wuB7sVlhU+WvilT/xmsU9npweY6Kzd/W6XmPgigbp+Zas8l//FkQbLFoq3xmDVzc49QSvLp6KcTc3o2I/WcaJTYE39nboaMUONHhKdhMP4UZDV4zPJqKkNQIOvWDamNmwpDpWGrKS/PClJvu6Q=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651168874
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+zlib
+dbus
+xfconf
+
