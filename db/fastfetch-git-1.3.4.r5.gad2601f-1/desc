@@ -1,0 +1,82 @@
+%FILENAME%
+fastfetch-git-1.3.4.r5.gad2601f-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.3.4.r5.gad2601f-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+139707
+
+%ISIZE%
+444919
+
+%MD5SUM%
+8c69ff6403702ada41e097cdee77c3e4
+
+%SHA256SUM%
+b2af45a5b878a201418a1dda63c8b9ae978d20e2fe068f152c6020da226ad185
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJr06gACgkQBwa5DTfZuIEx1w//cgttsdWcVl/+qrKnSND1RA/lJKeTtq2jzqpdyCMPOnV93G3Ns4F6DQFBTkfHs9g1BEV1BHIQF6jEKDj5f9D2XxtvGyC/F0Q/jb1lvyqhzxj194kAMLcb9AsrLcgaeOQmmYw9HP9JwgEYQ/S42PlN3VBppH5A5fgSX3hs93eDG6MLcmKUccggadLGiZytN6jGrZ1B7lLcoS3AOBcEIovatBCnOuBZpZpL8uWZDv0qCAr4T47CPaNwUa4VXfFAo46DTdqgqlp8nDrWDC8TqhQ+rArsAxYsTyU10fNz0/XqaT37d9b8KqSeSGfqYfpAa7zK4pg83j5a6J19mLZ61TC0jGMKIjw6Nb74mlf/+cKMnhV9EG5USF5iltemUopTcpGhaI2nfYCOwu8f6rcgZ2/6f7fro0kxDq4UGNrwuZ6xEs/Fb/qgt2GrfUHDr0odcD8hlUkXFUyg37FS57W/olbMVkztotqeuDyIEYP683ex2otU0jx4skue42FVxyoSJ5dc6vQiRiOYsI17hD4DwGNmf1J/iImL1nHuea5KGUoYEapmQmg434xDXH2IcgUpO1w3Xhwev1KpPMnHlZLuuX4eoHB7svrHPjnz4fP31ADMjvl/bWXk4KAFlz90V4QXGw+rDaBxtZ+wNvV8zIj4zIp0qeheB+UkHa2DZAQycZLLVHQ=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1651233677
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+chafa: Image output as ascii art
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+chafa
+zlib
+dbus
+xfconf
+
