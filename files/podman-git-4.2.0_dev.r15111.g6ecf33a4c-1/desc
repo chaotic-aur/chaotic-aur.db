@@ -1,0 +1,77 @@
+%FILENAME%
+podman-git-4.2.0_dev.r15111.g6ecf33a4c-1-any.pkg.tar.zst
+
+%NAME%
+podman-git
+
+%BASE%
+podman-git
+
+%VERSION%
+4.2.0_dev.r15111.g6ecf33a4c-1
+
+%DESC%
+Tool and library for running OCI-based containers in pods (git)
+
+%CSIZE%
+23604052
+
+%ISIZE%
+66020710
+
+%MD5SUM%
+3942233e01a814093d1c7f348c2df98a
+
+%SHA256SUM%
+95e57db247afad51001e16a60f2e96ec214ef44576272a11ee7b902f1f84e56a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJ+ICIACgkQBwa5DTfZuIHyDBAAgCzakTCCI5o602/twb4n8qOqhm/nqLNWDrZyga8EEQ5goZzQ68WXSF7N31MOtQytownYVoS+ynHJ7DUHhlls+8aBn90WYwnN+BKwNl2B7px2nZzAhEJmgaRgdAvu5zojsD78i2Dx/nmAo8aY65JUEwR/pm0VJ+TGr/88U5vyjAuzpWIMaykJk9/4WyeROfBXiPbljj8e2upvALW0SZptTzJwPNxiCDkxe+2AX3zYV1CYFoueyYl2K2uYhxFZjPwFSwLOL6V9aYYUSaHsB7OVfaVvY3izeYeYr3iOSwWl4E5dsCKu8dIi9IbZ78O8vSVUdhgODeIJnqGUzyAqJfXwArrNN1i3RoJn4bh70JEzDaRAdk0e1oq9UmPB3YZomxUog7sijln7J8vDP7CtW0aQEBAnC1V5uMMuT12HpKF3oJDPgXvKzUZSvq/gflrsbjUmhSUXEv4xjW0JMcHhPnJ6mAs9cuMCIclY/lZjB18L2wyrv+YPUvz6kZ40hbq+mzH0ybBDB4JIHtd4/H5af6L2feidiH2WSno3yn72h3Rh+WQEJkMBdDnCEdScPME7b8GSgdFn+eeFthAWzbqtpg1bYVGeBQTWOp/fzRi/Qxt77eYEHqtVU3cvnAGrEMuD9No0bpoUcy3N1FehVHOV+9waSwTXK2JPGSaTcqACibnjFr4=
+
+%URL%
+https://github.com/containers/podman.git
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1652432833
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+podman
+
+%PROVIDES%
+podman
+
+%DEPENDS%
+cni-plugins
+conmon
+containers-common
+device-mapper
+iptables
+runc
+slirp4netns
+libsystemd
+fuse-overlayfs
+libseccomp.so=2-64
+libgpgme.so=11-64
+
+%OPTDEPENDS%
+podman-docker: for Docker-compatible CLI
+libapparmor.so: support for apparmor
+libselinux: support for selinux
+btrfs-progs: support btrfs backend devices
+catatonit: --init flag support
+crun: support for unified cgroupsv2
+
+%MAKEDEPENDS%
+go
+go-md2man
+git
+
