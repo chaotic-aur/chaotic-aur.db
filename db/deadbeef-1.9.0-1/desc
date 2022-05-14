@@ -1,0 +1,105 @@
+%FILENAME%
+deadbeef-1.9.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+deadbeef
+
+%BASE%
+deadbeef
+
+%VERSION%
+1.9.0-1
+
+%DESC%
+Modular GTK audio player for GNU/Linux
+
+%CSIZE%
+4352567
+
+%ISIZE%
+11633981
+
+%MD5SUM%
+70edcbe03eff03de055dd3bc4e932ce3
+
+%SHA256SUM%
+9c3bcae4a5eaf6d30fb1ed20d1336bcfaed60a51351d87fdd087e39c86cc01cd
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmJ/zk8ACgkQOkDLXn5cvDD5HQf+NPXJKXflObFJlZro/KqO3cN2SAuBmdTNwva8cSalk2trcGGU16Gts2PbVdwUXsQowOQ1nq4dnYJHrSN9C3STep2L5fJxomsAPlxVFVDtKNUtznv+7PzPEMiiDnfof76UEozpTi6kG1ySMy0FYgvDo5Q2HO8wnZVlciNKAQiqVMSRMEHGAwX/p/72JWF3vP7dr1l/JVVu7jIGCbCpMorquy93ETCog4oIrqLdTiWwJgjPDV0mnPOGqzeKvCGIKVWGsa6zU4l9yCg4CaGg1Neh5coP5b+a9jJqNOmI14DODaAGVOWwu1FH7MEkOdF4XsyDj6CDmCr+cvncvkFdrUw7GQ==
+
+%URL%
+https://deadbeef.sourceforge.io/
+
+%LICENSE%
+GPL2
+LGPL2.1
+ZLIB
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1652542916
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+gtk3
+alsa-lib
+jansson
+libdispatch
+
+%OPTDEPENDS%
+alsa-oss: for OSS output plugin
+cdparanoia: for cd audio plugin
+curl: for last.fm, vfs_curl (shoutcast/icecast), artwork plugins
+dbus: for notification daemon support (OSD current song notifications)
+faad2: for AAC plugin
+ffmpeg4.4: for ffmpeg plugin
+flac: for flac plugin
+imlib2: for artwork plugin
+libcddb: for cd audio plugin
+libcdio: for cd audio plugin
+libice: optional dependency for gtkui session client support
+libmad: for mp3 plugin (mpeg1,2 layers1,2,3)
+libogg: for ogg vorbis plugin
+libsamplerate: for dsp_libsrc plugin (resampler)
+libsidplay: for SID player plugin
+libsm: optional dependency for gtkui session client support
+libsndfile: for sndfile plugin
+libvorbis: for ogg vorbis plugin
+libx11: for global hotkeys plugin
+libzip: for vfs_zip plugin
+mpg123: for MP1/MP2/MP3 playback
+opusfile: for opus plugin
+pulseaudio: for PulseAudio output plugin
+wavpack: for wavpack plugin
+yasm: required to build assembly portions of ffap plugin
+zlib: for Audio Overload plugin (psf, psf2, etc), GME (for vgz)
+
+%MAKEDEPENDS%
+libvorbis
+libmad
+flac
+curl
+imlib2
+wavpack
+libsndfile
+libcdio
+libcddb
+libx11
+faad2
+zlib
+intltool
+pkgconfig
+libpulse
+libzip
+libsamplerate
+yasm
+ffmpeg4.4
+clang
+opusfile
+mpg123
+
