@@ -1,0 +1,98 @@
+%FILENAME%
+gajim-git-1:r19650.325198e73-1-any.pkg.tar.zst
+
+%NAME%
+gajim-git
+
+%BASE%
+gajim-git
+
+%VERSION%
+1:r19650.325198e73-1
+
+%DESC%
+Jabber/XMPP instant messenger client written in Python with GTK+
+
+%CSIZE%
+7437861
+
+%ISIZE%
+21168192
+
+%MD5SUM%
+5c1493819a1343c2bb13eb5b53d51272
+
+%SHA256SUM%
+bbc1dee5abc673002c6d5a669fe84ff64710791ecd5f2bbfd18b2e60fae8bb93
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmKA8BAACgkQOkDLXn5cvDDXQwf/TMCg8bbMANBV5DQ0YO00p5615UqG3AaxWA/2qGfvyjCcS7DTL5bq4B3Lg1NwD6FyEI1eh9UOthUaU/j4vWYoC/Qut2UwIZt25ydrZ9rMouC3CUj851LAt9B4jtnuh9MmlZVKl2bwHN4Qu3q8o8NGXtf98lzFJYvZU+/oyuJGPXCoWL0BYVvy4gQMbdFIzBC3dJvAKEow6Y1XxLJ/CfE0etim9BrnwaPMlr4bLcHJQxw318hvgfJ7U+M4FXnpT9UJOFoFDHd7GAFrInFEtkw9akDN9qDKAJ0bHqEaFvn45MuXxcMkbKs8WgOVOrJfJWhoqwtEeeuHD+wsKVzpcOj3TA==
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1652617194
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+gajim-hg
+gajim-svn
+
+%CONFLICTS%
+gajim
+gajim-hg
+gajim-svn
+
+%PROVIDES%
+gajim
+
+%DEPENDS%
+gtk3
+libsoup
+python-gobject
+python-pyopenssl
+hicolor-icon-theme
+python-pyasn1
+python-nbxmpp-git
+python-cairo
+python-keyring
+python-distro
+python-css-parser
+python-precis_i18n
+python-pillow
+gtksourceview4
+
+%OPTDEPENDS%
+python-dbus: for gajim-remote and zeroconf support
+farstream: for video/voice support
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gst-plugin-gtk: for video support
+gsound: for notification sounds
+gspell: for spell checking support
+libxss: for idle time checking on X11
+libappindicator-gtk3: to get a tray icon on some desktop environments
+notification-daemon: for desktop notifications
+gnome-keyring: store passwords encrypted in GNOME Keyring
+kded: store passwords encrypted in KSecretService
+python-crypto: support for E2E encryption
+python-docutils: for RST generator support
+gupnp-igd: for UPnP-IGD support
+geoclue2: for sharing your location
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
