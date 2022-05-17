@@ -1,0 +1,98 @@
+%FILENAME%
+deluge-git-1:2.1.0.dev121.gd7c520c85-1-any.pkg.tar.zst
+
+%NAME%
+deluge-git
+
+%BASE%
+deluge-git
+
+%VERSION%
+1:2.1.0.dev121.gd7c520c85-1
+
+%DESC%
+A BitTorrent client with multiple user interfaces in a client/server model (git version, 'develop' branch)
+
+%CSIZE%
+3054915
+
+%ISIZE%
+11703584
+
+%MD5SUM%
+ab22fb8133deeb64bb871f97220629c5
+
+%SHA256SUM%
+748bbc985f755437dca6296e038d1d02fcb4fda201100846342483cc1d5c022a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKEHdgACgkQBwa5DTfZuIFZbg/9GwGzNl8prytqZ94eIBFMuAdYJs2QAIRvj8GygoeUWSJYEH0K/VR8aIqQaBhY/VFsko0pZEZtAlntHWKZ4X1Qjw//gje57qiwTRQvLHEffzP+CYH1t+nALPXFkaOD2rcML/B2YmX9VSR2fm8mRnoxddrh+kYT2AqdseYmojMLYas5rA7LbmlPGU0K8gRmcV7CpuwR7d9Hp6z//9NyNtZ51n1Balypkk5HcvhOuzwJWJ39LQJ7AsJXachqHb9vabV+mD+l7Oo3HMVAPjzJrk0otboCpURhVEeVSxq0gb/vlQ7Zf3o8bEuS+IQbYMJ3/WJfhchmhx5JDAcyiaD1ZnXdWX11LTzORGcztR/NspN7qteS7BTFzwRdDJN/vB+3gvIjM3HS/+VzR8zsPPLCLi5jRBpr26nsVI2vVu3fPa30Kl6D8eFjeI+aia3C+su2hY2PmQvb+bqQ32yw4aNf4MiyojsRWs4Apubbuwi9WrBL+aL6F9q2MeNY0C5j+L/6EfmIcN05/BSz5mERdFsyTVWj7PvaKu0kEbWeOxjq+y+mAEJfqhc1R7MYQzDngjI1K8KF9epUd9MJvOGeMd5tm4z7RPSUtf2R2nqpMLCp8hpoRf6ZktJIqp5V9iCvxKB0fIyY5+1zepA45253jiPsY18mxwhb9Qmww0D+QbW8xjnD/M0=
+
+%URL%
+https://deluge-torrent.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1652825500
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+deluge
+
+%PROVIDES%
+deluge
+
+%DEPENDS%
+python-twisted
+python-pyopenssl
+python-rencode
+python-xdg
+python-six
+python-zope-interface
+python-chardet
+python-setproctitle
+python-pillow
+python-pyasn1
+python-mako
+python-service-identity
+python-setuptools
+xdg-utils
+libtorrent-rasterbar
+desktop-file-utils
+hicolor-icon-theme
+
+%OPTDEPENDS%
+geoip: for displaying peer locations
+gtk3: for GTK user interface
+python-gobject: for GTK user interface and desktop popup notifications plugin
+python-cairo: for GTK user interface
+librsvg: for GTK user interface
+python-dbus: for showing item location in filemanager
+python-pygame: for sound notifications plugin
+python-distro: for OS platform information
+libnotify: for dektop popup notifications plugin
+
+%MAKEDEPENDS%
+git
+intltool
+librsvg
+python-gobject
+slimit
+python-pip
+
+%CHECKDEPENDS%
+python-pytest-twisted
+python-pytest-cov
+python-hypothesis
+python-mock
+python-cairo
+xorg-server-xvfb
+gtk3
+
