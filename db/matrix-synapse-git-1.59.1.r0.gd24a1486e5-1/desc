@@ -1,5 +1,5 @@
 %FILENAME%
-matrix-synapse-git-1.57.1.r0.gf8f06fc773-1-any.pkg.tar.zst
+matrix-synapse-git-1.59.1.r0.gd24a1486e5-1-any.pkg.tar.zst
 
 %NAME%
 matrix-synapse-git
@@ -8,25 +8,25 @@ matrix-synapse-git
 matrix-synapse-git
 
 %VERSION%
-1.57.1.r0.gf8f06fc773-1
+1.59.1.r0.gd24a1486e5-1
 
 %DESC%
 Matrix reference homeserver
 
 %CSIZE%
-3269861
+3189912
 
 %ISIZE%
-16487389
+16635328
 
 %MD5SUM%
-eb986b3d31caf6ca8b0752b73535ffa3
+39bfc1f51f6a74e030e1e601ad695262
 
 %SHA256SUM%
-0400686bc56bb21cd519bce3f4710d57580cd7c7ae76be02b26cb53f4450d6a4
+68567d67c85f19e5f28799b3470ef24a3706cbe169cdfe2e361e962ff4374a05
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmJi9qsACgkQOkDLXn5cvDBySAf9HrPXGjZpKNNojOqmkvhe2HebTyT1v4bGiDe/18AdMAdNbaeMjixwkiFn3BwL1Hsfjh5sg52hihvr5B1AweTNrsAeqtCOX4bdr0HaalAwDH0MImu5ywbw/soh0aL2Vhi5yD8kWkzAYqDO1kVmx/h80Gj+kjep36YPvPe6LpNQHu3F0jRUiEifPUAmzGVAVgy1pvRkuLKBflleIWrCNrpr27re+WaR0OacNHXGAFZBZh4g40hadL2CV5662K/XkQGivTGiWM61y066xfJco9YkYj85E2lyAdRUDOh+qtevC0+m3V1mvcSgUkI2s7GUapFaMIHt/mKvP5h/4InfyFPEvA==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmKIo1wACgkQOkDLXn5cvDAQXQf+Nh8MtUOrBpRq58V8kyF6nWNdmZ1eqQI0ppc2nkSEMbfSvK89oy6ALV6XJ6UBydZK6kjmPuwCfHMxX9wJZHku3rd77pDIQPbGDl7c6KaYQunNTTTUEl1+qxjYbSVcnqTZ8+7rlGxLIMb6uQ0MlqVdh0yBt9FxnoymobcuN13xBhXIgYRSh4WmII0/KJUpF6SfxfVVlaod9/QiMTzoWQMQfDvVk1T+kdFilMSN8l3vCZ8G2Fum2HhpAXHQXUDf7lC3i3JVW+UDVL6M8H0RhKx2GLVikOTl6OSpzhDZ5IgYyIVoc6n1OP8jMAzBswWyKzQZwruuZXVOTJxKdBk9CgrU4g==
 
 %URL%
 https://github.com/matrix-org/synapse
@@ -38,7 +38,7 @@ Apache
 any
 
 %BUILDDATE%
-1650652813
+1653121830
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -60,7 +60,6 @@ python-unpaddedbase64
 python-canonicaljson
 python-signedjson
 python-pynacl
-python-idna
 python-service-identity
 python-twisted
 python-treq
@@ -84,30 +83,39 @@ python-cryptography
 python-ijson
 python-systemd
 python-matrix-common
+python-packaging
+python-importlib-metadata
 systemd
 
 %OPTDEPENDS%
+perl: sync_room_to_group.pl
 python-psycopg2: PostgreSQL support
 python-pysaml2: SAML2 support
 python-authlib: OIDC support
 python-lxml: URL previewing
 python-sentry_sdk: Sentry support
-python-jaeger-client: tracing support
 python-opentracing: tracing support
+python-jaeger-client: tracing support
 python-pyjwt: JWT support
 python-txredisapi: worker communication via Redis
 python-hiredis: faster worker communication via Redis
+python-pympler: experimental `caches.track_memory_usage` config option
+python-matrix-synapse-ldap3: LDAP provider
 
 %MAKEDEPENDS%
 git
-python-setuptools
+python-build
+python-installer
+python-wheel
+python-poetry
 
 %CHECKDEPENDS%
-python-mock
-python-parameterized
-python-lxml
+python-pip
 python-authlib
+python-lxml
 python-pyjwt
 python-txredisapi
 python-hiredis
+python-parameterized
+python-idna
 
