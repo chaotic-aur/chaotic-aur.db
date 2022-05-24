@@ -1,0 +1,75 @@
+%FILENAME%
+fastfetch-1.4.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+1.4.3-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+136885
+
+%ISIZE%
+433167
+
+%MD5SUM%
+9b61a615c7c53f8100182ac5eddabbae
+
+%SHA256SUM%
+81b6d16c952d7d369c7df75b22eaa3eb15c57c190dd2d7d3e190de0715fb2d88
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKND3sACgkQBwa5DTfZuIE1Xw/9GuintXx/J6Hbvw4I1/ATrE+IWaMROBV94nahlLgTtu+o/0OZTtA6yRQL9tafJOwjvDcCniwKYU51t/xQNI6cYpKKgI3ROCweT1heTZaik5XAdJTWr1xHDafqpR0Z0twqk0GR7AU1ndxdVZ2t8igmbstsBUcYZvykZtaPVfhGt0w3TOwR3DHGEnBFqqfxIpTaCUJ9K+mM6eVpRYfWltWVYskQrq6UTAMxX3gUEZP3cGJAnoRvHFQtzYuEUR+v+O4IfaU6G6j5a3aTASEbYMwsk1c3xqVyAHxeaH9KjaUIXEo6YnV/4ujTfduHY1hUgPIc+tevRRQE6mgJWTBT+kwtZEafm1FCEPrnfSTRs40jNCQJVhNKBj8FHgtZf9aAZqauMiONRToeKAzRNRXNA5Zn2nl+JuXJLgTTCaIVFugsR1wzT5+z1OpzTltmUN7h6sLLxvKT6ZXMr3xhSFb//D6Hfr9vEoQbWF5VRecAASgV9dpIYK47Ipl6NS8jvqLMSWDlFiKGgWGLoVKlcpD1St7OBQ/MpVYEjwvptpFBMJknUmLkJ2pcIGniYuOnE2ig/iKtrR51Oi8MRsiZqp+fadRWfVoUXub0trK0qdUSn5iKwAAxEA1fo0gnDjCuwtwL1Y5cIyvORgIukohiwrWg4ROBLlSqI3Sz0/u7du7ijc9bjgU=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1653411688
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Needed for detecting current media player and song
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+libxrandr: Multi monitor support
+pciutils: GPU output
+vulkan-icd-loader: Fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+imagemagick
+pciutils
+libxcb
+libxrandr
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
