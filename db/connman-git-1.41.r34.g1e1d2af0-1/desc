@@ -1,0 +1,75 @@
+%FILENAME%
+connman-git-1.41.r34.g1e1d2af0-1-x86_64.pkg.tar.zst
+
+%NAME%
+connman-git
+
+%BASE%
+connman-git
+
+%VERSION%
+1.41.r34.g1e1d2af0-1
+
+%DESC%
+Intel's modular network connection manager. Git version.
+
+%CSIZE%
+671973
+
+%ISIZE%
+1772111
+
+%MD5SUM%
+d0563547647e415f4abd1be79d86c565
+
+%SHA256SUM%
+ffe2632b8de5fef7240e6abb1a6e62b22416be366a895603158359c804e5e283
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKN2E8ACgkQBwa5DTfZuIFrLw//TEdzztKMSiAfO+04gRGjsqoKEjlXmiUqy66g2WnzHHVRX4QQEuzpMaLqyMGF1ctnYjvIzauCksTu9D9fbnovt4zZ/kHAkC+MAR3aGkASNOSyqR1jeuVYYRxAql3ODWlVvfPedAJKFqFF+3Q5Zcp+8vSzlyU1VevQlvRAvLgd0/DlQNwqPWZKx3NtnBxx9GMHt0hsJnktd8GZJdwlzEuTki9Hvw8L1PlSTLuZ03n3P2mq3IImNbV58Bh5f99z+xAJBmrLGuC2aumTFeHnu8A9I87puZsSf5ry8YuGuyYMk3KCnz7hKtT6avYfoEmOU++bHk1dHQAQ7IomWFmADcP8Qektaucjqnr52mxDEpao2bxhM0LWVCIfPa72nZIMi//SXDzD2hQtJGsXducXoKTRJ0uu/ZeHnd9uBuy0/t8ypdbQoPwhYFNJYO/h25UxzeeEsIQLgSRwXT3GRDjNBzA4VId3PyJpczRh6WIZXPgi9INmsH24vSbk05ukmkxYfVHroBtEsZLwZVIGSyNhg5b94JVll4zNRji7UVeHHQp04Jd6DUG+Z0f1ZAMZBiy/gxrdaWElNa93bvRTW0wNCNqdZlxBHv8wF0rlCL7BG3DcfPnzYZBs6NrUHTncdtxxAJQqntHVwj6KwdMADY1FUxnT+z0rQGqDzD17Deyvgw602ck=
+
+%URL%
+https://01.org/connman
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1653462893
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+connman
+
+%CONFLICTS%
+connman
+
+%PROVIDES%
+connman=1.41.r34.g1e1d2af0
+
+%DEPENDS%
+dbus
+iptables
+gnutls
+glib2
+
+%OPTDEPENDS%
+bluez: Support for Bluetooth devices
+wpa_supplicant: for WiFi devices
+pptpclient: for ppp support
+openvpn: for VPN Support
+iwd: for WiFi devices
+
+%MAKEDEPENDS%
+bluez
+wpa_supplicant
+openconnect
+openvpn
+ppp
+iwd
+
