@@ -1,0 +1,71 @@
+%FILENAME%
+tomb-git-2.9.r34.g3b44a6b-1-any.pkg.tar.zst
+
+%NAME%
+tomb-git
+
+%BASE%
+tomb-git
+
+%VERSION%
+2.9.r34.g3b44a6b-1
+
+%DESC%
+simple tool to manage encrypted storage
+
+%CSIZE%
+100799
+
+%ISIZE%
+335074
+
+%MD5SUM%
+766a15df75cfd55456925931fba141ee
+
+%SHA256SUM%
+95b814da5da439b02628c3c64760b2c7385944ed306a895f74a5decff15fd4b3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKPoRsACgkQBwa5DTfZuIEbixAAlzpKnMv4v8wYDACNabPIEw0W406zoOm0AaK2nm+gm8Aw0uqfH2qldrI17z2Z9LMaZmyc5qtE5DrmQpZ2kKqOm6tzJP9jggUfQaUi2ZzDvQYLXQSeQmN6GQJlX0v7qEoTjgzTvhqxwzSrwgumYMFTLz2PNucgispfxxE3Ba6vzh9CRwR6M11F+udZLbrFypLKxvIjAHxUQhRcoXaDLssFTbwGaStVvBnUOafmKrqVGNXnTwICxUrJbJ22t4hDXKwvEosicyBdRVo45SJP1o1ld21biOhMaS5PKo3+JABjlOkMAaqsh2FxzbX3VQmT76ImhOeCv9ZBEA425gbN/f3dsAUmfh/u41ZqKEh8yZGijC8aGMdtXJV9HgtKRDXBXmBqdpHghqLFqg8xdUMeJE9i/x4YKlIE+ejtf0vwKgq3Jo0DM6dHnxmGvqATvDZI8RAHbMtRfiUtzWhertymDOV5MBsAuUIckY8WoNidiWez0XyZLipVS47mZvOBYPPtMs5QDLBmqrkzhavFJPEYsInHibyvmGrZqTrorJAp/xIppRcSWRaRUvBZbX60EIRGtWHiJI66MEFYaH5FpaGrVKdLEUryQHfBWpTnOu9MzQ7CPZIy1jOG/yw4bWZ8eY5IvCCRvlcwgKWWeQdtnIFJsZxOuj9tdQrAmcSTxunhWzVpy5k=
+
+%URL%
+https://www.dyne.org/software/tomb/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1653580035
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+tomb
+
+%PROVIDES%
+tomb
+
+%DEPENDS%
+cryptsetup
+gnupg
+inetutils
+sudo
+zsh
+e2fsprogs
+
+%OPTDEPENDS%
+lsof: allows the operation slam
+steghide: steganography
+dcfldd: show nice progress during massive I/O
+qrencode: for paper backups of keys
+swish-e: file content indexer
+argon2: support for argon2 KDF
+
+%MAKEDEPENDS%
+git
+libgcrypt
+
