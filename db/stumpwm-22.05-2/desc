@@ -1,0 +1,61 @@
+%FILENAME%
+stumpwm-22.05-2-x86_64.pkg.tar.zst
+
+%NAME%
+stumpwm
+
+%BASE%
+stumpwm
+
+%VERSION%
+22.05-2
+
+%DESC%
+Tiling, keyboard-driven window manager written in Common Lisp
+
+%CSIZE%
+13979730
+
+%ISIZE%
+55353062
+
+%MD5SUM%
+0b076199e1eff4003c6965f707b78583
+
+%SHA256SUM%
+d18122d9619da79f9deec437aadc7cfc70c8bc3cc597031f6c86a49ed1e61240
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKSJnkACgkQBwa5DTfZuIHArhAAjzuge2B7YemeZCIpcQy7DydGWZb1A89LeDqwMRZqH6Z5KwYaOyD0jUpHCS3/dkWXGROGVUzCEpN4I/BBykwmzY13Pyovzpoxe6YLQeidVpO/xkt+ppmcz/0tu8D6fJUYFxaQSdW340IIhxVNisMgyk7I41NnMs/Zrqjc3TqTl6iZCdUpEi4Mz2kqaTiA2Bz4dl3agt1hX5mIQH7eIF/1DliVbv71tcmpkwVEI1c6yqWosSVCfHYpp7KL20GftCgADFippGArLwcNIjQAjZbJWODFUM1LxCa51zfZAjMaoR+zNNj2DahM9Hb+vmuoOvVf70/b5YU0ExLySlPGPJZY5swT7Pv0/o0DD85A+WIi4yG9K8j4RBQVFILW+eHezj54EuyKTME1cIIlvFYVwdfnEu3X1JnETAYeed0t/QFBdskCqlh/rKY16254g/ndTu7anCJvQsJlImbYjmdF+gXpy9fLw4MgSTIrxOy6yqM9KfmyS4/tk+G7r/2Mn8xCwq2gxWdmKzKiil2s9eFW90XY0/FrtC+jy1QD38nzdSAyvNaYZ64JgCA8ao/o+Bt0UvX9OG/NtnbdxQVUKxhVRwzpOLpIv7AU5F8PuXEkoeCFi4uKC/ykAmeSf8FzifyaPHbySz0QxABfu8G+3ZRmpaHHtdpekVzKY8wk42jlsTo43VA=
+
+%URL%
+https://stumpwm.github.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1653745256
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%OPTDEPENDS%
+xorg-xprop: for stumpish, the StumpWM Interactive Shell
+rlwrap: command completion and history in stumpish
+emacs: edit and eval stumpwm code with M-x stumpwm-mode
+alsa-utils: control the volume with amixer.lisp
+aumix: control the volume with aumix.lisp
+mpd: control mpd with mpd.lisp
+surfraw: surf the internet with surfraw.lisp
+
+%MAKEDEPENDS%
+cl-asdf
+cl-ppcre
+clx-git
+common-lisp
+cl-alexandria-git
+
