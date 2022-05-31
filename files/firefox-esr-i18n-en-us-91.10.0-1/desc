@@ -1,0 +1,81 @@
+%FILENAME%
+firefox-esr-i18n-en-us-91.10.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+firefox-esr-i18n-en-us
+
+%BASE%
+firefox-esr
+
+%VERSION%
+91.10.0-1
+
+%DESC%
+English (US) language pack for Firefox ESR
+
+%CSIZE%
+433181
+
+%ISIZE%
+489851
+
+%MD5SUM%
+ebbe7e46423f1512a281500353dedf4e
+
+%SHA256SUM%
+f8e58b447f880456cb0bf750f4b8028bac058e6a53902107a5d28b6e3d00af46
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKWNJgACgkQBwa5DTfZuIHW0hAAoFJExrGnbZGCJRfCxlPaEddAHGCOb+kB+9GcxL9bCNHEaNJjXRYVQ0zagy2UT13notyq00EgYqlCz+fUDa4Dupu1QD6d2pEljxGPR9X5ruP+GPOnEEYR9pIPwaEPYrI6CPsZKSp1F/0rFc1D2ZUPMdSDT1zXQtJPATTydxifDLqto1M/49tApN+HpjKYryYDbkift+u/6+ZRpxpg7folXWjvYQHZoheKW0qa12d7a7upIqNIoL75A+IYyjdLi/3KIYnkYUallns+ESTpyIj2Wxa4LC9onjo0b88S0tlCX1sWNtzQw/ronvz40/cFFRWhlunBKyXt3Hv+IP80O/y4lCm5uLpdlO71cBblUBj8SIiKIZciJR/TiTkG+7ZDAuFp8Sz4tWKgWeRLq/fymU59aE8RRUhLlfAemqhrfn1CprCo+nwlfjzc1LRbPRVXEo7+c42UOWvwDFi1ZRkyXBE/H1ztb0hxgAaatOOxrazgzU/JnI/aBIwtAuU8CFZ/+6BbeBJvFUwZFUlEZWQryCIu8xqtzFXhOqprhtdnJvEq0b/GOdBbl5TJJGCbE6sIOYECKe83opdbi6uTgujhLJYp3px2CxtX4NPuH0doFl6EhPkLFIfNdnQlDypMCxlWUYqmGGx4NZ3VuyxvT5+G6ffKWrbITXz7KZSaoxHqTKDYp8k=
+
+%URL%
+https://www.mozilla.org/en-US/firefox/enterprise/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654002314
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+firefox-esr>=91.10.0
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+xdg-desktop-portal: Screensharing with Wayland
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+lld
+dump_syms
+
