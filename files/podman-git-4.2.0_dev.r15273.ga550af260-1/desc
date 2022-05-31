@@ -1,5 +1,5 @@
 %FILENAME%
-podman-git-4.2.0_dev.r15273.ga550af260-1-any.pkg.tar.zst
+podman-git-4.2.0_dev.r15273.ga550af260-1-x86_64.pkg.tar.zst
 
 %NAME%
 podman-git
@@ -14,19 +14,19 @@ podman-git
 Tool and library for running OCI-based containers in pods (git)
 
 %CSIZE%
-23631624
+23665592
 
 %ISIZE%
-66080526
+66150606
 
 %MD5SUM%
-b2c565da38eb4074991e8005136fb8b2
+58fc36446ed2741fe91905f80b6786e4
 
 %SHA256SUM%
-ecb1f8291390d03610ed5bf67fc90f3c818f202cda56328d5bbcbd1d473a9c52
+9f2d74ffaf8012743183eb16e784586e90740c39c2c6cb8356df86422fac7dc8
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKQ6SsACgkQBwa5DTfZuIEWJg//bSD4w4pX+8OgUpZz0OqsEyPb1JAH7VSG4hihnaNGHNJT+tc3Xe41fkNv4QAjagZjy+fjt+VtOwHty/fslqQyCeKM5EiTm49tkfb0RK/hX1rdLl/hAhJ/TH0PXQ5yeC7P6iQoAeMueuZ7vbIg/DtTOmy4cjAQREENbzgQBqUHvBxAuIWU1WxIl2XxctKdAlV6xsFFMrmykxCxBmeUs8TDDSJTy0qY4Pq2zT7Mz1/zTZAIY1lWmdKTDOfX4aC6JqSA5s++VfZV1ZadJAdYLDqtl+Cb18odn+S3yayv2AUf2fHuY24K/gFGCU5TAQd045BIzxd22fg7c9n+vC+ZWHlq+cgCfNXLTfxsJNGoKIFuOmSGsHNeEjG3lzr4l7I5691fAgzRNct3ccXfoWG6Hy/qoHWIE5uD7Qs/ULtajcFGgqmV6wDHPw+8FRjLIwt0wlQ34/DcHnXJADP13MgLUucBT240neb7TTiQhHekEK4t+WG/I94iwwHS/LUeWNJdpVjDBj78pbmifWZhfY9V9Qc3utEJBPEOPbjLqdI62fcKpACdTuvyv19ps3vCX0cXbKj6Dpd9wk3fUt40oKkr0n9bstrryRXFJc4Dt1sK3X6MG+oAP6c6VTj4G99PzYZyMMH7sIJ5oFmuvpfBC1L2vzvH77sbdDLKKckc3VM9TJV6eJg=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKVhoMACgkQBwa5DTfZuIFNAA//T8zIy2uhWxQkvLLQgxuXCMJwEpKh3DoseygzPlTB8ofg5jGYjx95ybZl0mZlR0lgxpU3LGwE08t4yuhmr4l7f34Di696NSYqF503/G7EafuqnhjQa45xyQIBw8DSxGquOWORlegv/oimDXMwporbBzJ5O/LfKAWf2pvZrUDUKvVEdA6fKezM+O0yzP2JxE6VuNe+pAubxcSpKecNja/WcRqqMYGZmg+LYHIjdmruTCGXJgg6RVxzKvVhe1z97j6Imjzoi/v4E/Ok66Huz7qypgYrCx8JgBK9etgMEeqNNyRzlI64Tbb7x3JhFwpcW2VP8QM/B3SnGo/iQr70ZYvtP6MqxDVW+VQWZsTjEYAy3Nry9GBxYIFu6tmnWorVaM5ce7aU/jlm+X7SKLcXnnbKofKzZ6JKDJW5+9SHHFfJWIEktvuqutK2feVW1tl8QARFDeSD8iZTJYMLToPkC5scCruvhM22mTieckEyfj7OrKUEayu/een5V1VqCoVx9j8a4CTHy26wY4q/5tyd3C5mvAmus4mIaRuXA62ZHdkXhbdT+T6lQcU/vrpV2AXC7tYqJ7jo8PklZvtFky6f9Omzg4CuaEgsAr3haRqmG0zS5YyhhXjJtucPH6HMKaLBqMAO9eoKzWpeffCTT1DtUGbAk9Gf45S5UO2YqsH/FMt6klA=
 
 %URL%
 https://github.com/containers/podman.git
@@ -35,43 +35,54 @@ https://github.com/containers/podman.git
 Apache
 
 %ARCH%
-any
+x86_64
 
 %BUILDDATE%
-1653663830
+1653966255
 
 %PACKAGER%
 Nico Jensch <dr460nf1r3@chaotic.cx>
 
 %CONFLICTS%
 podman
+podman-remote
 
 %PROVIDES%
 podman
+podman-remote
 
 %DEPENDS%
-cni-plugins
+catatonit
 conmon
 containers-common
-device-mapper
+crun
 iptables
-runc
-slirp4netns
-libsystemd
-fuse-overlayfs
-libseccomp.so=2-64
+libdevmapper.so
 libgpgme.so=11-64
+libseccomp.so=2-64
+libsystemd
+slirp4netns
+netavark
+aardvark-dns
 
 %OPTDEPENDS%
-podman-docker: for Docker-compatible CLI
 libapparmor.so: support for apparmor
 libselinux: support for selinux
 btrfs-progs: support btrfs backend devices
-catatonit: --init flag support
-crun: support for unified cgroupsv2
+cni-plugins: for the old cni networking implementation
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
 
 %MAKEDEPENDS%
 go
 go-md2man
 git
+gcc
+btrfs-progs
+catatonit
+libapparmor.so
+libdevmapper.so
+libgpgme.so
+libseccomp.so
+libsystemd
 
