@@ -1,0 +1,68 @@
+%FILENAME%
+opensnitch-1.5.1-1.1-x86_64.pkg.tar.zst
+
+%NAME%
+opensnitch
+
+%BASE%
+opensnitch
+
+%VERSION%
+1.5.1-1.1
+
+%DESC%
+GNU/Linux port of the Little Snitch application firewall
+
+%CSIZE%
+4715473
+
+%ISIZE%
+13678694
+
+%MD5SUM%
+6770d27cc8220b0fbbe642027673982a
+
+%SHA256SUM%
+ede07b135bac556409ff295fe62b8b750b4d0700b02ca160ba6eca1f4fc5eee4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKXZTYACgkQBwa5DTfZuIFHtA/+N+6mkSWnvM6g6+W0IzEBnFXQZCzWaodc0StHwOnaDEcC7qrE0rhg6isRRJOCFHmkGPZsatqN65JpbOa4pXn3RSBM3fjEQfqtH4LP2UikHG67zm20GfZzlywrRgQbFKwgfdLxt/1f4JV5SL9svpePhxlnLSCVoHEUXeJ9pAmc0Qf0e/7SJLhEA/K4+7tpwFEgw3VAS+pjMiGaugToP4k5oE5N+BNjEfJdp1CPCfDvmVqz3wU6/Q5khKzW4MI5rv9FZsSOLGpLb5kBDU3yw6NiclG9sbi2fWJeP9yeBu7FX4eChzSlMC/DI69lZ3pFkJ/C+KwUP1nLPtsNYW6dRdlnC+hW8Sea+CRSbeKVef0zhyfDJwqmJeNhgxTnxTFPpbA8vYRNujSS7LAO/pJce5sBwjWuri5m/70hOWPRYMfEdCBe8omrI6R/KMdyOx5Zwy+VScx7afgcL/h4a/sma8inukKvhjbZ4bt1gsRNLfljnGj0Wz6RlZaRmu1uw8JJ3hmBZaWZJu57i5z/8gAP2IsTA7+gXOll419Azv179aeDolM2owSgXtE5X8YhvNA86JWXxFKk1g/07J/50VvVzPbOLj3tfhYfsMxNAaztGTDY0nWi31b7Kkq3YQn40HR09X8YkBNUp/AMl/r8PlNbGwaAjs/jmWoLqElpEPU7okVhYRQ=
+
+%URL%
+https://github.com/evilsocket/opensnitch
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654088907
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+libnetfilter_queue
+libpcap
+python-grpcio
+python-protobuf
+python-slugify
+python-pyqt5
+abseil-cpp
+python-pyinotify
+python-notify2
+
+%OPTDEPENDS%
+logrotate: for logfile rotation support
+hicolor-icon-theme: for gui
+python-qt-material: for gui
+python-pyasn: display IP's network name
+
+%MAKEDEPENDS%
+go
+python-grpcio-tools
+python-setuptools
+qt5-tools
+
