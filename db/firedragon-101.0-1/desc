@@ -1,0 +1,101 @@
+%FILENAME%
+firedragon-101.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+101.0-1
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+83284642
+
+%ISIZE%
+240643348
+
+%MD5SUM%
+2b85858feb8f557f09923a2c57f36a10
+
+%SHA256SUM%
+45882505be885429a1b7188dd721ed3897df71d8f27655457135694d4767b0dc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKX998ACgkQBwa5DTfZuIGfew/+JD3nni6jC+8OIRsS3mC4GxiwsO6HIJg6WfiGvtNN3ZACHerXL1whQISI2m3yNCEav+Je41ewU0T6+MJl34MzDUEx0DtQqbr0boNjb4psBh94moASxwdYyj1TbkdHNsEs8qY3zTTcpebx/Vv60qehbj8J60zWmpwKBsYrYlPBXJS4AJH+bsNtv0+4fGpWKuZoCvuoxtGPM4igji/fwZ+bVDFjdzaJTgQ2PnndKjvrk0N8tGO8x7ukGyKoBrUW57o8RCDgYB484EFCYfd/ucKtJqWrlyBiIjDfJDSljqi6N6Ocfn+aH+ahco2ym2WOGbGcDYYqA0sse1dGUM7rLy/ZilRhX9ezF/etCAkBsg9IrLpqN7imHMgSW7hdwjSXBcVq0t70pKh416e5U2RlsJbueqAowKj5RJLcaILFnTIgEDtJBbOndzu4otH7LA/05lWDh6D46LyBmpTxWuGKJQgWGufarKRfUlkMemxLYosQ11AqI+6TeL98uGw0NXPfRSiVkoRP9jQF+rz2p0zgNZ38jzv0/wFogg8hvvOnPN1bVqkt4F4oQWMgPLRhItaZUs71q76oEIIeChqV8poSzOcO8QwJYUuN01qmS2lFF5m3DlxachCdR41d+0gpFJzV9Ea4I2sIN0cJa96tzZBK6feWL8omHMVWao8QebZEKTANk/U=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654114610
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+nss
+ttf-font
+libpulse
+ffmpeg
+kfiredragonhelper
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+pciutils
+
