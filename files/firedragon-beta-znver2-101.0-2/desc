@@ -1,0 +1,117 @@
+%FILENAME%
+firedragon-beta-znver2-101.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon-beta-znver2
+
+%BASE%
+firedragon-beta-znver2
+
+%VERSION%
+101.0-2
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+75500619
+
+%ISIZE%
+218009520
+
+%MD5SUM%
+e2bec332dab335f7ddb9c879fb8a3852
+
+%SHA256SUM%
+2acfeda45447a1f224492cb42b6a98b19921869020c0fcf243c65caab7a9919e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKbuXkACgkQBwa5DTfZuIEQaA//bwGcRBt/h55m1ZR2HOfogxQyPe3fMK0Rna5SH9LLh0OocbAZuroPSsGIoDJgc5nKt6uXiYC2vibwn0nWhLmLZmHs1LLGTQNyuaibtsfUci7hRWdrqwRiEyTeYMjg7E655I7sQCuIWRlykXN/cIh9pf68xkJOf2bBl8Mlts9JyIxN0ixauVXTu7U3jqCQ2pNFZuDmSi+8+eOYBTrUe5Xjf+upS5uT96pANfdt1FkseqIE6FtYBxM9PT4BTmx4RCpECEYIDlHuzv+YajRp0o4Ml1GwYCiJDVacRGMDTSUQ6xtu6C0rzh+ywGSAW/EE5+1GIfRGBgmZdggxIBbe3LQgdytbXzBBwX2x0KfW2ZterAdbcsdyPd+LUIXjnuUdgdScuwzO51ZGQ7/nZEcONkr3GHMXmjZrUH8dhE/wtVoOFyJrYrbGEB0jZqCnvtRtjOgv/f9zQneieSrGYo1gosi6V7VSfRXLRiQT5mRJvvCTEDHRdZH64vkIvH4ZXcHXsSvHIry7Y6LwzGjmhSVUbmgG0wH0o8pLA01K75zuygqb5bALurkHiB6d/uOv+OV7MiwClcW2kVhVyRxo6Eh8aOJbCQJdmQUmL6C6ccimGkV50Vat6VCXaEaTzCdefePFo3CFh+sSwFhoZdcQqAzxi8WC6GqDntbCzroyYMsvnWagYLw=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654367711
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+firedragon
+
+%PROVIDES%
+firedragon
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss
+ttf-font
+libpulse
+kfiredragonhelper
+aom
+harfbuzz
+graphite
+libvpx
+libjpeg
+zlib
+icu
+libevent
+pipewire
+dav1d
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+rust
+xorg-server-xwayland
+xorg-server-xvfb
+autoconf2.13
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+
