@@ -1,0 +1,84 @@
+%FILENAME%
+fastfetch-git-1.4.3.r16.g3daede5-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.4.3.r16.g3daede5-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+149085
+
+%ISIZE%
+466269
+
+%MD5SUM%
+0f2b6b5c3c604c37f8afcad51f2ac7ed
+
+%SHA256SUM%
+55affacd054b652e1516d6328cad025f6a91811a807f2481de8d0ef2e9ca90ca
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKbyLMACgkQBwa5DTfZuIGoFw//U1w8WprGZ+R8oSdEroomVtCSXqxAIDOzZZC6BuMZxNkpRUCgFn5ncPSuVZxuOnehdAcyW6m1XlHf7rdGY/Z1UqlyTPc0yIj6hDVP+BsY6KBTHPZZ9LyE9fFyvG1E+Rf73RMmoMg8/B5aaz+PEwdmMLZES+puWaehnrh53BzEEtB01BJJZonQwSwsMycUV+qll0QxmTfUGxUzUvFRcGqVV8qoH+VO1r3MMNMbhL6/6ZkiUBeH+ue3F2blemBVDH6e2s5u88MHCVIZONUxEwaNG+dtwWkv/7d/ozu2VM5YKg+/3YGhGhALSlkmlU3XCNj2VO3WWaTddp5iUYMO0jddGl3mbi1iSNlzzeK9cIWPA31gNbgj1eGoiTth/ReRrU+aVjQidSi5ljGOvhWIBRQgwONrhmbrzQVeXCzTBnaMu7gvYKQ+MS5eTtqNFNTocefU26Bv37sL7HFLwa6JacokIxBszu3GYRI3XQ/yD8Xu/7HxQxRXHa57E2uou6hkzeYrpfmrgFy51aZyuOjOZ8I2UNsdXKqky7Aw2s1hUE7MEss1zmLPi3E00ixRQfwH5jlW4ldpGE0AzXndHxwCnWLer2JiICDFNqB7MI8xtZ//AdiM5Vtv9Ue45zJ2bhykYTK43jLmkqQBv+pnlkkOoXlg133GHweRDsaQnakFJKa9U8U=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654376467
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+chafa: Image output as ascii art
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+mesa: OpenGL module
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+chafa
+zlib
+dbus
+xfconf
+mesa
+
