@@ -1,0 +1,76 @@
+%FILENAME%
+kpmcore-git-22.07.70.r1285.eb50358-1-x86_64.pkg.tar.zst
+
+%NAME%
+kpmcore-git
+
+%BASE%
+kpmcore-git
+
+%VERSION%
+22.07.70.r1285.eb50358-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+568125
+
+%ISIZE%
+1758454
+
+%MD5SUM%
+a9208790053b5ba4962126d2ad920199
+
+%SHA256SUM%
+8a9696ed8452f480f1315c6e3de8a644f7cd0a0cabaa14c351d660fc03842b61
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKiQj4ACgkQBwa5DTfZuIGNBBAAjCHfqMel4GlT90FuxuJNMjZXrsB4i+BNM7TbWB1YXl5eefrLOnFgoytNTeYyxDbMlMRdopK/p93q4UkshceeF7CgBa2XFrdGe4ff44Dnk8U1inxdwuaV17dq5oMqIvBLsZhOO5TBRs2rZfjkeE5+en/QrM1Ab3Wqojy369ecVJad+BQpFYtiS5IIG04hryG6/+MgXdGE2uehm/c5OFGcFV5Nnk6H11egv4GpUVOA7Lfp2jrZdBcDwsp44m+aN3IKFM1BU9lpsX66vCGbkPXg8+UAiJn916LnChon/su52mK+xK6iJw/8nxdD+7m8LlfeE1zdziFOGNaGTc8afyfaQNd32IjBBxZmvki2TwRv71QalJQ6s7UK9VfsQBixXwtvVHlc/CqE3Y/8zZRfHSvHrpLkwbDTp1Fj26gKjSx1UY04U8u04w/tcoUJM/dXJw+jozYG5hB+ZTS+Vxj93eVfJpPl+eImC8p9dk+P2gTJNVXODz3YhaKXM1Rf1cQQdbHmZZAb6YgIcnBOfno0cfXIeuTEHTrw50kg91eXJyBlL2dxDdJrAIFxZh0hAcohZInh+60pprwpRgqkHY0lYTvreLR7bp59RECSh27QJ0+36/qZZdjlXHCh3BokUJOrBR/r/mEtoAQgMRiCj3326VMebyFXs27bZH6/2e9Iv2cKU1k=
+
+%URL%
+https://www.kde.org/applications/system/kdepartitionmanager/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654800911
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+kpmcore
+
+%PROVIDES%
+kpmcore
+
+%DEPENDS%
+smartmontools
+kcoreaddons-git
+kwidgetsaddons-git
+ki18n-git
+polkit-qt5
+qca-qt5-git
+
+%OPTDEPENDS%
+e2fsprogs: ext2/3/4 support
+xfsprogs: XFS support
+jfsutils: JFS support
+reiserfsprogs: Reiser support
+ntfs-3g: NTFS support
+dosfstools: FAT32 support
+fatresize: FAT resize support
+f2fs-tools: F2FS support
+exfat-utils: exFAT support
+nilfs-utils: nilfs support
+udftools: UDF support
+
+%MAKEDEPENDS%
+extra-cmake-modules-git
+git
+
