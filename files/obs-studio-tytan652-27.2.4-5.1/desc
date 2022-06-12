@@ -1,0 +1,100 @@
+%FILENAME%
+obs-studio-tytan652-27.2.4-5.1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-tytan652
+
+%BASE%
+obs-studio-tytan652
+
+%VERSION%
+27.2.4-5.1
+
+%DESC%
+Free and open source software for video recording and live streaming. With Browser dock and sources, VST 2 filter, FTL protocol, VLC sources, V4L2 devices by paths, my bind interface PR, and sometimes backported fixes.
+
+%CSIZE%
+105884406
+
+%ISIZE%
+273427658
+
+%MD5SUM%
+360b60b01bcb477721e1fc90f7efa7c8
+
+%SHA256SUM%
+6b258d102824e14006c3a65195575bccb75986d5443302ab1604d7cd757bf4b1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKmSzwACgkQBwa5DTfZuIGXwxAAmIm8IXzyXiMKSd++R0s3OuwPWHDSs4QPU4sCPP2UWQ2h72HEzkJIgiX4gjrRtek/GZf9XBcensh7c5sKqnjRyOBefImHRWVMCDTWj/4ZMBmf/ycmPBpB8w/n6ex6hsrBbELMwjLXyib8DwPeqf7MEc4/qaZhhBgJffJgKnDjJZ8YhN9GxJu02hpG+l549YM+vGZ09Na7VlbYrX9hcxnxN29iYUWiVXK+aAfG/eufK/CEBOjAR7SVgEavXsryQJNKlzTiNsSkEvJQXurRJHSOXTaawF7y0AWtn5u8mYM0l8QlJLs+S/HQm3GnhKTwefk9aM0UMLT6s1wCmA2Lc7QX2Pur9Xb44VMtwCtWXHB89s/X9YsyQeSB+QPkbvrDhTGNVQ/a4qEIzywyipy9SlDljUC69lzXZvbe085bwkr/Y1Jr/KqMAFdHF18p5tmjbduaDYDMpsRlpInvGl6QYRczKgUK5IDKujJOKIbcquFYr6U9LyZuW/rPnXZwCxbi9kH2yPemgt3Q4oV2ktqqmqwpMvgb0A0f6BPsxrGoek87lBsFGsMEFxJE4SwJH5MaxSolkIJpxXb1aC2T/LOO+9GKvva3uneYp2fsaMhejBF5ftsV842yLJsAq8KTdr7MUSBoD8jkOr4PTjDgqY4Ij+08jyDouLgBBKnnhOwNJtHRtfQ=
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655064908
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=27.2.4
+obs-vst
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt5-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+libajantv2
+python>=3.10
+cef-minimal-obs=95.0.0_MediaHandler.2462+g95e19b8+chromium_95.0.4638.69_3
+
