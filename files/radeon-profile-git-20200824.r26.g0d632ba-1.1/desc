@@ -1,0 +1,71 @@
+%FILENAME%
+radeon-profile-git-20200824.r26.g0d632ba-1.1-x86_64.pkg.tar.zst
+
+%NAME%
+radeon-profile-git
+
+%BASE%
+radeon-profile-git
+
+%VERSION%
+20200824.r26.g0d632ba-1.1
+
+%DESC%
+App for display info about radeon card
+
+%CSIZE%
+569269
+
+%ISIZE%
+1291867
+
+%MD5SUM%
+bc1857d3fb6c17116a97e28f1a73d026
+
+%SHA256SUM%
+30b5edad6c075351a890130f8b8c24ad694f4e82433960e4765b7caf47b90480
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKnoogACgkQBwa5DTfZuIHDfg//evngTIRNj5ewkcc3gRVVNvhWfuddBlJzU8cZnShZr2FEOmlTpdhQ0PVn2V555pZJ26pIJR4X3BmJteNfnMWCqeN7/A85eiK/ojtL6GJwXekR6QWQT6L4BVVTKg0XuKdm6TxHYcCiZ0wmsd/oYPfXDXMNtXZ4G5A3CzS8vwZCQX3Dt7EKebr2vOJTLm081ZqdmVkP5+7h5PyYWCLYpHj1JBirnlfiIUS9ybZuUipcwbiW2D+vt1kyUl6eUBkg4QaXOJSDPCVpOM//favImPeLVWUDB7za2ACH61Y2+octKg+6G5WhULIBzNXIByz34nQe/ObCq2JgGY/d+nr1tcGoulRh47zZNDDUIhbmAXDWJYuO/X8s5oAd1Z1NDifOLH8nlfeEJs3MazbFwQyu2bS34xvUbmcsGVf2vrFxiZMftbOO5j+CI3kxdEe+oYq3u+b0yE20B5Bn8/5DzDlOq9DZ4O3vgVb82Or4St/S1YlMxwIiNjyx6hY0AJfZx9b2DBj8l+tPfyNZwuBBb2ahjfzHoPSHvFUF8IAATCYIKVX7xZFZCoabaLlcNbvH/VX92NGavqH/X9ruupQBezMms/39DY4oM9dtdAyYUBkyHigReLo2WPzqhmXAxS0hkCvWx35XrwZ+Yl5hzy6SIhRAquOJXGcESPpqmi07/M491+AF4bM=
+
+%URL%
+http://github.com/emerge-e-world/radeon-profile
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655153240
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+radeon-profile
+
+%PROVIDES%
+radeon-profile
+
+%DEPENDS%
+qt5-base
+qt5-charts
+libxkbcommon-x11
+libxrandr
+libjxl
+
+%OPTDEPENDS%
+radeon-profile-daemon: system daemon for reading card info
+sudo: start with root privilages without password
+mesa-demos: for glxinfo
+xorg-xdriinfo: display driver name
+xorg-xrandr: show card connected outputs
+xf86-video-ati: radeon open source driver
+xf86-video-amdgpu: amdgpu open source driver
+
+%MAKEDEPENDS%
+qt5-tools
+git
+

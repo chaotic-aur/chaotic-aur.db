@@ -1,0 +1,88 @@
+%FILENAME%
+podman-git-4.2.0_dev.r15413.g9fac1b335-1-x86_64.pkg.tar.zst
+
+%NAME%
+podman-git
+
+%BASE%
+podman-git
+
+%VERSION%
+4.2.0_dev.r15413.g9fac1b335-1
+
+%DESC%
+Tool and library for running OCI-based containers in pods (git)
+
+%CSIZE%
+23681495
+
+%ISIZE%
+66205524
+
+%MD5SUM%
+602f5137f5f2377a20b0802c54fddc77
+
+%SHA256SUM%
+118352f70f17899e60d0228677db86bdfce229e7ee2fdda1590bf08bc5086139
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKnmP0ACgkQBwa5DTfZuIFhyQ/+IfU4AGzl8+g4tpkxrvbtV7OMkjPLnD7bISBPf4cm0VMe/IKGasB1sFVW9kZ6gSk5X2IE7GEd6Ilh4LGWLWeWk5J7OmdVA35wsPX2ElWMZIzQkcFENSNn68eYnp8x0+MyMq2J44sAh1v0xHTv0ieG9dZAjcA8+R5ppaSopwVfa2s2q+3wW3KbVQHwKkexFf0hh4FRJDXqFnUoMtxq77bQJrF8MhfgJKEFTJwonp/B4Po3hBS3AqSp5BSwLWKNe44d1xS2izctO7DtV7EdHBFeBgjA1eXkeb7ymieAa+Tym+2n764IX88fcxXpw2eUOKl2zfAc3iHdIsNyGYLMIdKz8EkhWiXMJG4O8O7dPwMEsv/5/FK9D/qn8ek5HHDaT4E1WqQeJBb5id6EQ+efZKElrMPP3NB9q07oOneqtMootqEf9SmGYEAqLMqHEsugOnUSAYWZ2vY9s5+KtCLgZlqtcOU0rcf47yS2gqRSgyZH2O9HL3ku1yhYr034AiajwTS89sHQqkWcfmIJNH/Ey08hxvtrW48Q8l+lneKOJQ+/0siUzQYUXkTBbakKIS53+pN/FKb62FzTGDZd2m3Q9Hte7Ktu8SAhdJf8cjh4fzWIY8k1Jb3+kFmi8mP9S6iMpk7rD7ZKaM8PokVtZCjE2CdMJ9POwEbhruO1hn/OHgzT7bE=
+
+%URL%
+https://github.com/containers/podman.git
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655150710
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+podman
+podman-remote
+
+%PROVIDES%
+podman
+podman-remote
+
+%DEPENDS%
+catatonit
+conmon
+containers-common
+crun
+iptables
+libdevmapper.so
+libgpgme.so=11-64
+libseccomp.so=2-64
+libsystemd
+slirp4netns
+netavark
+aardvark-dns
+
+%OPTDEPENDS%
+libapparmor.so: support for apparmor
+libselinux: support for selinux
+btrfs-progs: support btrfs backend devices
+cni-plugins: for the old cni networking implementation
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+go
+go-md2man
+git
+gcc
+btrfs-progs
+catatonit
+libapparmor.so
+libdevmapper.so
+libgpgme.so
+libseccomp.so
+libsystemd
+
