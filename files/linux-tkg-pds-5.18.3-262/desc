@@ -1,0 +1,90 @@
+%FILENAME%
+linux-tkg-pds-5.18.3-262-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-pds
+
+%BASE%
+linux-tkg-pds
+
+%VERSION%
+5.18.3-262
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+182559454
+
+%ISIZE%
+181806095
+
+%MD5SUM%
+61eba7a69acd9d52cf3e6961e12e1059
+
+%SHA256SUM%
+4bb6003ed8e1bb9b0cccb84c397c156b49ef02bf4933af0a9f974352496f8709
+
+%PGPSIG%
+iQIzBAABCAAdFiEEHwcW3JQBXKx3+mW2GaIoKvyoqB4FAmKnhyQACgkQGaIoKvyoqB7SSxAAh4PonZQW1NdbB/3A+5j95RkKIXg8xxprn4G68rOo//D2pZF1eUx+nB+ViGyemTEE1DQ4gKpV4wvesTk2Th3ut2X9lGmAkDg+h7twdx1cvloYcdUol2sIFSbpmvdXv1C2S0XzorXIBV9kd6qS8LQtD0lIdMF435qJlVLvUDy7u03P7R9Tftd1zTVZKqS5dirYEJRybJMc+74+KSQblWOFeD+O8Pp9SfiZo6adBZFWmK57M5lY11/7y/nPfY4ahBpqdifpXmRxfiBVdyvRme6Ha+9rV0BFLWZ74A40pPx5OUiYCfkybvPPxXBN60KCvMO8U8mtdUnV10Bi/7Du1is6uF6FHYJFpRAUO0UA+djedFG8B5RXLyGuWIsEttcsOhgDl9GgvQjyzaboyWw14FBPx4JndvvD0Gvsbbc3rUyibpec01kiFWKppRy64lMm9QHVEaw4w/Xk4TjhMye5UtY9hfj+9zT44sf6arQcpv1HuSb+4sk8FBDX479vg1yNz4Z7u8AvNxI9FO6quK2eK+PQCX/2orU2BSDEaQvbn50JkBUkJWt5F+c62CcRd1BrnNqBJzT5OEwKmP65W2LTatMgx3M1w5K937LZGYfskCe3bBqA03lM1dssVoroQjx596TWDqq6Jcd1K2VAO4rJhOZdZUNSdNKXYvWei6tXz42ISuM=
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655143830
+
+%PACKAGER%
+Eduard Tolosa <edu4rdshl@protonmail.com>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.18.3
+linux-tkg-pds
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+
