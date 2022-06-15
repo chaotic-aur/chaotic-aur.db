@@ -1,0 +1,74 @@
+%FILENAME%
+fish-git-2:3.4.1.r425.g8d7970bcb-1-x86_64.pkg.tar.zst
+
+%NAME%
+fish-git
+
+%BASE%
+fish-git
+
+%VERSION%
+2:3.4.1.r425.g8d7970bcb-1
+
+%DESC%
+User friendly shell intended mostly for interactive use.
+
+%CSIZE%
+4276260
+
+%ISIZE%
+17590941
+
+%MD5SUM%
+bc79a7363578fdf2291ac4c5ced48542
+
+%SHA256SUM%
+307a6cce450c2bf06f31a0c0859fd08368c50668a04c7a84a8581ce681020b62
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKp2M4ACgkQBwa5DTfZuIGJDQ/+KVJ1MKxKNF7HGAaBvrqeygvm6u4TOoRQ1mtpQ3Y8RitVcc1kXNbFs0FnKOM1U8ahSKhNuZ5nBi4i1NLcvs8//72lyieXI8aC5PpZWpPZoefi/EJIEDMK381SdATvPVQsQQ7hXsG0aLUwrqqDfen80uWJYRMqdXxjwgOcfnO6C8yvVpIUVK68K7Qb9N7WA2R/klaOlox/bCQSATjkNTiTgiy1lvd7JXfIUaZSjYm9L8+Qrx8W4YbkGQrDQpPSJQO93/kfoF+mJBXfBLVAeQ4rb6iXwjwmcmhbhH3kZoJt9hZAr8uGdGsj/MMlyQBFvDAOe4ReUlRmWYsJ9uFOL7VFHWFd2ORQRZLXWzn9o+deglwgBJhvXGne2HMeARcq5EAk2GirT2B0g/9EIbPRyv0bdQA94y3YCaii4QSFpQfzQNKaawT3ZQqaqv+Nha0+7HuXS1sWH8tH7/lMsYK0pifwCioiXegrvmi/lsIjagR3MMnjtwhcNhrsAobyVKkB8NTFf+yypioGf4qJpZy+/HhhySJ48GHY8D6gwmyfBMhoh16akUuBhxrnV2Wpq867BbMmIg5JMAh7D/oUxdNlcM82qUJeCmBmNoEXlS3hNhcvoQEMBPDMqddW92maMkvCOUXM0QpO4Ch2Oz9PI7zo2TtVxseVBZly2PBefyG6jtDe0/A=
+
+%URL%
+http://fishshell.com
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655298076
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fish
+fish-shell
+
+%PROVIDES%
+fish
+fish-shell
+
+%DEPENDS%
+glibc
+gcc-libs
+ncurses
+pcre2
+
+%OPTDEPENDS%
+python: man page completion parser / web config tool
+pkgfile: command-not-found hook
+wl-clipboard: clipboard integration
+xsel: clipboard integration
+xclip: clipboard integration
+
+%MAKEDEPENDS%
+cmake
+python-sphinx
+git
+
+%CHECKDEPENDS%
+expect
+
