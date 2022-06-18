@@ -1,0 +1,95 @@
+%FILENAME%
+obs-studio-git-27.2.0.503-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-git
+
+%BASE%
+obs-studio-git
+
+%VERSION%
+27.2.0.503-1
+
+%DESC%
+Free and open source software for video recording and live streaming.
+
+%CSIZE%
+105972663
+
+%ISIZE%
+273503961
+
+%MD5SUM%
+7ce78d64526aa6695bcb0b793d73d71e
+
+%SHA256SUM%
+d4946662f85f5147ed84eea3604e255b8ab099b2aaaf52759b3cdc3bf6bafb25
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKt3LsACgkQBwa5DTfZuIEjgw/+JopiktGOXLLeGQ2025oRMdTAEvk3xam3N7cXNwGdI4TjbqCBBfaAf93YuIgQdshnUMHieQ0kFlfE7vEkVw5qtv0lo/v7E/2cOaQtc71TAlxdi+b2O7JhyxK+oflolEotpgY7kaHyrsSNR9HWBnQFry4dz+YbiFyfkM2dZKq4L0pv0GAi22MwgsPTu+OEMx6boRkayKER7TjU3Sz26viHZDPR0U2FB9Bh4pXDGzSPdXhSntKqE+I4rR/wsQDhK3/RTYZjBm2z3rPNsNmyo7tSV+toKYYGTzTfm1eXzVrXyxKyDKjODL1LBJZYft8HiMLxhLh/okXzvYGbPYmAeHV+68BTkB2M5TqTF0BVD/cYS+qakOoWbkJvJQdxvAynmpVTM0Oyg8W/vkW9DpA/J54rjtZxkrolLVGEXgP6nCp/oevWiPNPV+2ShzM01CnaRc6HEbqP8c1ZB9DccLKZ2/Sa7qx+6QP5MTNSpeD05GuMEvnQLrD41LdOkc8dgl8Hh9z+cT9NO/yuC/aTxCPbMxlutCeq9NyWLanhcY2LVfFY2gjFozf2D7RWE6q3DDjB0U49qslDY3CuomCxOEixHbfjdj4yo2oRurZ6Xpktm/56GIj5TbiHSiivgymFt+B5mQm4G3oJQcwoU9Q0dB7cjDm0Nb1uMzCcOBnQSFvOynUsmnY=
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655560974
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+
+%PROVIDES%
+obs-studio=27.2.0.503
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+qt5-svg
+qt5-x11extras
+curl
+jack
+gtk-update-icon-cache
+speexdsp
+pciutils
+libajantv2
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libxcomposite: XComposite capture support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+vlc: VLC Media Source
+luajit: Lua scripting
+python: Python scripting
+v4l2loopback-dkms: Virtual webcam
+pipewire: Pipewire capture
+pipewire-media-session: Pipewire capture
+xdg-desktop-portal: Pipewire capture
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+libxcomposite
+x264
+vlc
+swig
+luajit
+python
+cef-minimal-obs-bin
+wayland
+qt5-wayland
+pipewire
+xdg-desktop-portal
+
