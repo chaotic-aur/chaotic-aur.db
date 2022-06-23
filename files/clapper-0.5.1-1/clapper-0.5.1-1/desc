@@ -1,0 +1,76 @@
+%FILENAME%
+clapper-0.5.1-1-any.pkg.tar.zst
+
+%NAME%
+clapper
+
+%BASE%
+clapper
+
+%VERSION%
+0.5.1-1
+
+%DESC%
+A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
+
+%CSIZE%
+236102
+
+%ISIZE%
+968985
+
+%MD5SUM%
+308fb5f2733e96e00e186ad27389f084
+
+%SHA256SUM%
+8dced515433493d29a0a64b2c63ed9e48b34e54cf5cd6da9021d88afb2e56d3c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmKTcyEACgkQOkDLXn5cvDC0kQf+KVJbrnzfoEiuWYxuXiBewmQv/PZM/ntqarynH8h69W/NDyV8kdA8J8RAKsZQYv01xMuo/8xTy4Xo9HaaYHMJ7jH3u56yPViwjKAV76v4JqMDJGvlk2GFcnaF/LAK1tsck2lgynpoiCMLElLIBeuHJtv2C7G2PerJ+Q4XEv8W4QgM94tedT70+ophzjGJ62+Lxths6fXRhvUUghAupEbwUsN0Jsdne3eMsNKGUUxksaylkE81dNkjBUNs+0BbQyXwBaeU/Ptp+Htm2RWQrfYKdvxtcFPkPGSxBlKB5u8pp+3yp7oOy0Fysdm9XI3qPIxU4LIHvtPL8U3kqPR1cV/v7Q==
+
+%URL%
+https://github.com/Rafostar/clapper
+
+%LICENSE%
+GPL-3.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1653830412
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+clapper
+
+%PROVIDES%
+clapper
+libgstclapper-1.0
+
+%DEPENDS%
+gtk4
+gjs
+glib2>=2.68.0
+wayland-protocols
+hicolor-icon-theme
+gstreamer>=1.20.0
+gst-plugins-base>=1.20.0
+gst-plugins-good>=1.20.0
+gst-plugins-bad>=1.20.0
+libadwaita
+libsoup3
+
+%OPTDEPENDS%
+gst-libav>=1.20.0: Popular video decoders
+gstreamer-vaapi>=1.20.0: Intel/AMD video acceleration
+gst-plugins-ugly>=1.20.0: CD/DVD playback
+gst-plugin-va>=1.20.0: Intel/AMD video acceleration (experimental)
+
+%MAKEDEPENDS%
+meson>=0.50
+git
+gobject-introspection
+

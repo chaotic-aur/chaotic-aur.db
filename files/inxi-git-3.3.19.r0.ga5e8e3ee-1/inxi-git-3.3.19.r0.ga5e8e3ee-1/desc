@@ -1,0 +1,88 @@
+%FILENAME%
+inxi-git-3.3.19.r0.ga5e8e3ee-1-any.pkg.tar.zst
+
+%NAME%
+inxi-git
+
+%BASE%
+inxi-git
+
+%VERSION%
+3.3.19.r0.ga5e8e3ee-1
+
+%DESC%
+Full featured CLI system information tool
+
+%CSIZE%
+361971
+
+%ISIZE%
+1165551
+
+%MD5SUM%
+967e52ed98166d29e15e72e5a8acd8cd
+
+%SHA256SUM%
+1d6e4389330a96f0b28661a3c07a952c03808f8b8c54d0d0bf4ca5fa6ec89169
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmKr/K4ACgkQBwa5DTfZuIGjrQ/9HdBPYDvDo5b2xo1dOhK7s31sp1jykSUK0J3tzcrhrDnO4HztDWuQICWYCvYsuLinXlUWwz/rrW6AaOUz4ShJT+lT+NnMjHm5mqIklorPHqb6jj1e51T0USz5NQ7v29V/I2R3jjlinPFUwZ+0Uv/6NAsGjgjEJMOGW1s43QzzaIgjx0hE+cIqerCi4+Evy3coQlsgd0EEMi0VMk+VEwh93aRIU2j83fA2MhJURTv84x62ePewIoSSNh8UfP/7KdmwwWOt6L8hy9unCTOkN+Oiu1HHFIX5VjOsH8rx6p+816AbUCYgqSNlLHRXeUJNe/6R4/98PM1iGrALcBPqWBfgOwdiZKscUZQahOWRdx+3bwlkPcE3ao+IkirsAzLfM3qHFmLPy2fb9eywYlbGujpzmHFZolb5v+87REepcgXZ5s4Gzkq/DQL4WWVuTv5mpX2fC8vgRuSp5RpFxPS411FxqxspGZ9jEqA18P2v4q9a+qcmT/K8hd6KZJH02Q1/RPgdSJoEyj+GzhyuoN9SCdaerWRHA1bIddA/hbP7ttjvY7N4AVs0PYFcsK3nA5/KNfrBklfXBXVpH8vrv/bpEU3ifjUyOZ3LeRcOZ2OFDjDufv8LZAjU/O2I1DQo/RfTyiYvOPH+0ij4GWAWlspCofaPpWGTdvBnQfjSe+OGXIWAXJU=
+
+%URL%
+https://smxi.org/docs/inxi.htm
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1655438486
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+inxi
+
+%PROVIDES%
+inxi
+
+%DEPENDS%
+coreutils
+pciutils
+perl
+procps-ng
+
+%OPTDEPENDS%
+bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig)
+bluez-utils-compat: hciconfig: -E bluetooth HCI data
+bind: -i wlan IP
+dmidecode: inxi -M if no sys machine data
+file: inxi -o unmounted file system
+freeipmi: ipmi-sensors: -s IPMI sensors
+hddtemp: inxi -Dx show hdd temp
+iproute2: inxi -i ip lan
+ipmitool: -s IPMI sensors
+kmod: inxi -Ax,-Nx module version
+lm_sensors: inxi -s sensors output
+mesa-utils: inxi -G glx info
+net-tools: inxi -i ip lan-deprecated
+perl-io-socket-ssl: -U; -w,-W; -i (if dig not installed)
+perl-cpanel-json-xs: --output json - required for export
+perl-json-xs: --output json - required for export (legacy)
+perl-xml-dumper: --output xml - Crude and raw
+systemd-sysvcompat: inxi -I runlevel
+sudo: inxi -Dx hddtemp-user;-o file-user
+tree: --debugger 20,21 /sys tree
+upower: -sx attached device battery info
+usbutils: inxi -A usb audio;-N usb networking
+wmctrl: -S active window manager (not all wm)
+xorg-xdpyinfo: inxi -G multi screen resolution
+xorg-xprop: inxi -S desktop data
+xorg-xrandr: inxi -G single screen resolution
+
+%MAKEDEPENDS%
+git
+

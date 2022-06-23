@@ -1,0 +1,66 @@
+%FILENAME%
+linux-next-git-20220623.r0.g08897940f458-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-next-git
+
+%BASE%
+linux-next-git
+
+%VERSION%
+20220623.r0.g08897940f458-1
+
+%DESC%
+The Linux NEXT kernel and modules
+
+%CSIZE%
+70549504
+
+%ISIZE%
+182819283
+
+%MD5SUM%
+c7193fdf6de0d08024ac9dc13e411d58
+
+%SHA256SUM%
+f6be4949d279a1f294255e40e3670b19fd8d8bd684288915ea07367d85231976
+
+%URL%
+http://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655987663
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed - useful for those of us who make localmodconfig
+
+%MAKEDEPENDS%
+bc
+libelf
+git
+pahole
+cpio
+perl
+tar
+xz
+
