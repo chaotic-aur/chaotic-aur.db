@@ -1,0 +1,90 @@
+%FILENAME%
+fastfetch-git-1.5.4.r10.g3ba486a-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.5.4.r10.g3ba486a-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+194961
+
+%ISIZE%
+513052
+
+%MD5SUM%
+a4a8af910b3929a4e4a23a2115bce03d
+
+%SHA256SUM%
+4690c97d23c7d6d66362f0037c64c20db81c0537b581ecfab1f3dc5763ffa9a9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmK0c0oACgkQBwa5DTfZuIHIIg//cv/Mjqsgp0LFSmJgTSDGizbDtlZ+ZfXFndDd1DxkePz/u+Iu9elOuYpFeUHdfskkNbCcmaLTPyHziDtntHpgyTl1fTzMnjfANP0YQR8ITOo2Nhc17lpoGEk9QJEFh1PNt0SXmY8WIupg0b0FwxS2575/RV1AYYvwgZH8MN2cr4eTxslRpnP3SyoC4+KIveTPCUt2b7ZPL2kG5yqJGhOA06pJqXBFpmFWip/1qpFXm2AfA2PCCzfuTS/cnhCzhEj5uaHvHpSjjdo4vVcKBY5M2VvuQD3HsWkvFWb37AwjNdIb20POxPqwfKkUEymrvTEn+7L1fZF+S+lTZj2q3pa8mbrMHCSoNjYgs/due5iDJTZGzEPRj38mcbczQnolqhHwt2aga42McvHfo5bfskBj2toryGOtXujJIIatKciiq0vendLgVY8ataJjsrd35wLSyVCdTdEeWzy3gQjHuN+3uyysoc44gf3igq4zrz0q8P2RAAwMyBqnk3Nv2lZQh+uc99ueT9mecWaNZLpGoiacjG7LmcUB4McM+g9vwhzoY1byMDVvNm162HKdn/NgJWosAWfN5XdaPkPrA5IENTrUdFU4m8jnCDgL0UWNDf2bF4fnueDNf2unAeRxB1+JZL3XhWjOionjcVKXR1L3uO3x+d6NUPhwVGekDEQA7DK6PLQ=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655993125
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+chafa: Image output as ascii art
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+mesa: OpenGL module
+ocl-icd: OpenCL module
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+chafa
+zlib
+dbus
+xfconf
+mesa
+opencl-headers
+ocl-icd
+
