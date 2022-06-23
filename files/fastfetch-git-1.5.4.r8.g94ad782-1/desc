@@ -1,0 +1,90 @@
+%FILENAME%
+fastfetch-git-1.5.4.r8.g94ad782-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch-git
+
+%BASE%
+fastfetch-git
+
+%VERSION%
+1.5.4.r8.g94ad782-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+195042
+
+%ISIZE%
+513052
+
+%MD5SUM%
+ee48605827b0d4bbd97ddf2475fd76a0
+
+%SHA256SUM%
+5c0cfd7a0cb945856057b128544708122e343411d70ee884d31af8d6717abbfa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmK0K/cACgkQBwa5DTfZuIFUCg/8DSqirTbCSCJJowLxamZx+W4+21aUG3V81JTMWMhdcC5/vt3oC3sMWJsW5YRDi0aQxIgxY37Q3wKA4oiaHsFF2ICmhg1KmBhBg4/tMfw07R3qo84ZaqZFt75SkAkbpoT1VLcjzaeqyN9sh35fQ17HDMkYE0jtwwUD65k5tEPrrm6pVDOw+MscX3QLW03BoJBLTzdw7vvjolJk7jvPItSLnrF67d3R+wHBivKJSBFxQFGwKjV5YOOW8QJrgVZTEVaVrUgOE4wUV/ait+Wy+alu8Jy9eiXk1eTT89S+Z2BEvNdEZA95/Kd+7U1vHyHaCwAfjJeE5DHPQb1MjOOBrjQ0CLdN7vQKwbcXyklQIXgbiWNXGcNstIxJs8ytoZFVdNQ+RQP/eKR8PgDI3R4sis7CDsQw+Lam2p9xxBP8Vimm/xCt0pPoPyXksJ00XkOvZG2jsCHAfh4fDdQiy9cH9oOYkPuLs8VAL1vTjvTUNyHRM5IP5sHUIvcmJRzusTim4/J+CaICD+a1quCLlbmQ6mTgiSfNEviZroG+HhixqQybBdp4u1sBls2sx6kXf8o+PAQipD5QAVwlS66Z7lUa1fFJ/TIX0zbjuL6ZXZh+JHLH1LOWtFA/LeTDpac6m2qmTJdb00hPIeY/CocIo2gB5p7rD86B+JjbiHf1iP8dfKU8aO8=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655974874
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+chafa: Image output as ascii art
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+mesa: OpenGL module
+ocl-icd: OpenCL module
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+chafa
+zlib
+dbus
+xfconf
+mesa
+opencl-headers
+ocl-icd
+
