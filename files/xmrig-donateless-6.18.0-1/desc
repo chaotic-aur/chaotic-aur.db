@@ -1,0 +1,65 @@
+%FILENAME%
+xmrig-donateless-6.18.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+xmrig-donateless
+
+%BASE%
+xmrig-donateless
+
+%VERSION%
+6.18.0-1
+
+%DESC%
+High Perf CryptoNote CPU and GPU (OpenCL, CUDA) miner - No Donate Version
+
+%CSIZE%
+2155440
+
+%ISIZE%
+5998054
+
+%MD5SUM%
+12afe075657d467a56358384010a9eed
+
+%SHA256SUM%
+ee780e28c8234804f49cad9b2bba8f776f319c5addef962b0977ba9d726d45b7
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmK6EusACgkQOkDLXn5cvDBmFwf+OeI2zI1Tzm52FB/Ha8liwXsOX4miqgfs0XV+5DdOrloxym6FT7+hVfEj+hOiwpRnRnRi+GF21Zu5IPzuSXA0zQuaoQU7X42gQDg/OReKRz1Z1uUAHNhOi7CChrB/Mcmz/qOVuVZxo2NzOR0ON+FYfmVEf/LthBP+wiMJzBndBMAf/l58Zg5X9Re0QUyuGUE7bDcAUbsSvLDpxu2KiQS7KvJxD5Uim8yjZC6IwskzxSdRQOsMboPrMzTQgvnlvmsXh6prDrbn5WMx/yNt8AKZ1iBlGSJKygfuniHoY0Tx/EF+LIQtHGfgV2emZAcUtzpDOPoHLKpxVc34liHViPRk3g==
+
+%URL%
+https://github.com/xmrig/xmrig
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1656361498
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+xmrig
+
+%PROVIDES%
+xmrig=6.18.0
+
+%DEPENDS%
+libuv
+libmicrohttpd
+openssl
+hwloc
+
+%OPTDEPENDS%
+ocl-icd: AMD GPU mining
+opencl-headers: AMD GPU mining
+cuda: Nvidia GPU mining
+
+%MAKEDEPENDS%
+cmake>=2.8
+
