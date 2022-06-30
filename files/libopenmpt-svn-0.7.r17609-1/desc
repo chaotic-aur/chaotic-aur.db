@@ -1,0 +1,79 @@
+%FILENAME%
+libopenmpt-svn-0.7.r17609-1-x86_64.pkg.tar.zst
+
+%NAME%
+libopenmpt-svn
+
+%BASE%
+libopenmpt-svn
+
+%VERSION%
+0.7.r17609-1
+
+%DESC%
+Library to decode tracked music files (modules) into a raw PCM audio stream (svn version)
+
+%CSIZE%
+957314
+
+%ISIZE%
+2235425
+
+%MD5SUM%
+249154794dd9bb919a0e29f42cb98b7d
+
+%SHA256SUM%
+4d4a6a0c6a889b4f90e42e9ce34227892f6729433c68e2112d442c23a96fee91
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmK94OUACgkQOkDLXn5cvDBttAgAq5hrBfK168vlD8O1LLFkRzKgc4LjnN01Wb0+wxlhHirdMKc8/y128dc1PDfgbNf1n+EsFR/ArmOyTh2ISjZXi1jfWEUGTEX/DcUXE+I0fP3TNf0ZXDlsptdO3IHrwbkE6m+Pkew2jTqh+asgxcnvHCJqv/VbfhlLNE4xOYXupZUrRaIXMCIEx/HunQiW2kIJsaLsGnO5+GntMlkvPMWIrwWlHQodoVYHPNsTCzto5SF6y5bp+ae3WykdKjyk4TIPRFlXiINUz6NL4hENGJZYcgHRhScrQLS2HMsp9wEu6+3DCCxk4R142nCYMA5eAToENnpseR+xIZs6eTNCIIHZqg==
+
+%URL%
+https://lib.openmpt.org/libopenmpt/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1656610763
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+libopenmpt
+openmpt123
+
+%PROVIDES%
+libopenmpt
+openmpt123
+openmpt123-svn
+
+%DEPENDS%
+libvorbis
+mpg123
+zlib
+
+%OPTDEPENDS%
+flac: for openmpt123 player
+libpulse: for openmpt123 player
+libsndfile: for openmpt123 player
+portaudio: for openmpt123 player
+sdl2: for openmpt123 player
+
+%MAKEDEPENDS%
+subversion
+doxygen
+flac
+help2man
+libpulse
+libsndfile
+libvorbis
+mpg123
+portaudio
+sdl2
+zlib
+
