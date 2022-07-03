@@ -1,0 +1,93 @@
+%FILENAME%
+gegl-git-0.4.37.r10441.5f1700fd9-1-x86_64.pkg.tar.zst
+
+%NAME%
+gegl-git
+
+%BASE%
+gegl-git
+
+%VERSION%
+0.4.37.r10441.5f1700fd9-1
+
+%DESC%
+Graph based image processing framework
+
+%CSIZE%
+4940151
+
+%ISIZE%
+16672122
+
+%MD5SUM%
+93164d04972f6d3e965ac62dc9278568
+
+%SHA256SUM%
+c3bb64f667d30799e7944dfdaaea1c61e5c52fbc45436e66f51b9c1674213ad7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLBd7AACgkQBwa5DTfZuIFbCg/9ENYZkW0v5nP+/ObjFBKJERcLEMcDI+PzxRRSHgxe9jxpL5ccVsJ1O7WyVtPNUTLKucL6zVirhm3l7laBAjtjgc/fuHxgeUQUbAePCr98tlWNt0G/o+4qTINJk7mX2HWYnGa3vp/IveSthztHAjSMceQGGNGn7UC4DX9q9ct3DAYTFoPa+gaPCqNWLDjCIk3woUvvnvF8wCrRbti55vxkzozTWTtF9mDXNE79DRck40KuuihQDxFSr2WZ0TshEKYCNBsVNZL+s9vBZPLBrQ0ginqWcvbUzc8syk144qFt95r18b/46RjU3r+eKjoxbF2/VWn1UkMGcyKvJ78OnLjDa9qduWCxbhQt4o7ftqwbAMBI7CquqUIJQ1M/rzsr6ZROy9Syu+9EO3RTixUSRn3OvpdErIKsHXuLMxDkrlUVJd+pIT36L/d2lRBjT7JZb6ns0Dvgmp/JLlEC2LW+kNRJXsS0upAfIyovMGxZkh0OlMQKO/uF05ktUxdiwf8CqG2rRUAhu/BEltd4gytSeorrjkgWjP1wf0DX4fMpR8WLw5cqGzCy1XSdNytSr9NzBqKW5tv4tnFuKj4M9E/XdMCXBo0GYd7DfQUOZpC2wM+aQEr5sJ1ZLY0tmnxFMRqiH7Artckzy8Djls7XI6AJENEla5VXWx4dMJj6OOWQRjFRWa8=
+
+%URL%
+https://www.gegl.org
+
+%LICENSE%
+GPL3
+LGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1656846091
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+gegl
+
+%PROVIDES%
+gegl=0.4.37
+
+%DEPENDS%
+babl>=0.1.78
+libspiro
+json-glib
+sdl2
+
+%OPTDEPENDS%
+openexr: for using the openexr plugin
+ffmpeg: for using the ffmpeg plugin
+librsvg: for using the svg plugin
+libtiff: tiff plugin
+jasper: for using the jasper plugin
+libraw: raw plugin
+suitesparse: matting-levin plugin
+luajit: lua plugin
+libgexiv2: for image metadata
+lensfun: for lens distortion
+libnsgif: gif plugin
+
+%MAKEDEPENDS%
+git
+meson
+intltool
+python
+ruby
+luajit
+libraw
+openexr
+ffmpeg
+librsvg
+jasper
+libtiff
+libnsgif
+exiv2
+libgexiv2
+lensfun
+vala
+python-gobject
+suitesparse
+gobject-introspection
+
