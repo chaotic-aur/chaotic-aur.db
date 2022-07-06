@@ -1,0 +1,90 @@
+%FILENAME%
+garuda-fastfetch-git-1.5.5.r16.g8c3052a-1-x86_64.pkg.tar.zst
+
+%NAME%
+garuda-fastfetch-git
+
+%BASE%
+garuda-fastfetch-git
+
+%VERSION%
+1.5.5.r16.g8c3052a-1
+
+%DESC%
+Like neofetch, but much faster because written in c
+
+%CSIZE%
+195670
+
+%ISIZE%
+517356
+
+%MD5SUM%
+04ab6a089de115910800a3142bc914e7
+
+%SHA256SUM%
+ab71cb139fe720d5898d8aa934933cf47094e4f071841c1900aae06114758465
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLFxlMACgkQBwa5DTfZuIGPpxAAimrqo2cYu9/JOzHbDr5y0HUr/V0jdSXLzzYC1Us6b45d1A53yLzKHJXnfmofUYN0GRLrw3v/41NeY44lpMmi/G3cIbdZapShJH1BOVkcQ0IjmTNIM/BeBB461/YTZ9SfGPOQ4POfoKOkSm36nNMCvWMMPKlaDMlpfq0kcW6OmCTsuFwCv/Vsh8Jbr6NkyPSplpWD6TUoIF7MlEp8Uprs7Qna+OmqJoecjHwKson6qSbcwElxx8NgQLBX14Vw8CqY//E9f8plpOr6R0YO4OhHH+INQTxiveehSL1OpXn1HKo5tuLWo650r7va91kLKEVXNU32sPlQfmzoBRHmVO9awKscN+YGBWnbg/E0zBQ7LnNYMjHXUpbUfsfwu8fiQsCxpA4tB0CBbweHTVXEneMYicww0QygYZ2CZdP8mSjPnxOuNY6hba6hKj+8pHL3/u51UAdFsusO6J6prt+XMr/Yy3UvZf9NylSi4do1o0+z9Fn/1XvSFnazxBfi33RCyzf1d/RbuCh4pbnmt6C0ECgdSpSX3Z8LkxW1bk//hBhMDCrPb473A9mzKnKviwh2uXTBOY+4k2JD05AnrWvRcaausPqFAjA3FtF2Psms0rnn9/aQKHsY/lISR30OM5ulFYrhrOq43t1GGORMVvJynZO7zXpXnsiB0rQ4EnYsPao+hSo=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1657128508
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+fastfetch
+
+%PROVIDES%
+fastfetch
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+pciutils: GPU output
+vulkan-icd-loader: GPU fallback
+wayland: Improved Wayland support (resolution + multi monitor)
+libxcb: Improved X11 support (resolution + multi monitor)
+libx11: Improved X11 support (resolution)
+libxrandr: Improved X11 support (resolution + multi monitor)
+glib2: Output for values that are only stored in GSettings
+dconf: Output for values that are only stored in DConf
+dbus: Media player and song output
+imagemagick: Image output using sixel or kitty graphics protocol
+chafa: Image output as ascii art
+zlib: Faster image output when using kitty graphics protocol
+xfconf: XFWM theme + xfce-terminal font
+mesa: OpenGL module
+ocl-icd: OpenCL module
+
+%MAKEDEPENDS%
+git
+cmake
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+libxcb
+libxrandr
+dconf
+imagemagick
+chafa
+zlib
+dbus
+xfconf
+mesa
+opencl-headers
+ocl-icd
+
