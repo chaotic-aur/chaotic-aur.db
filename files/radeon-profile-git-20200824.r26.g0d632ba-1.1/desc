@@ -1,0 +1,71 @@
+%FILENAME%
+radeon-profile-git-20200824.r26.g0d632ba-1.1-x86_64.pkg.tar.zst
+
+%NAME%
+radeon-profile-git
+
+%BASE%
+radeon-profile-git
+
+%VERSION%
+20200824.r26.g0d632ba-1.1
+
+%DESC%
+App for display info about radeon card
+
+%CSIZE%
+569176
+
+%ISIZE%
+1291867
+
+%MD5SUM%
+89fb08573be79ca41933f8cab1c79746
+
+%SHA256SUM%
+87356a54367f96246f5038d854eca6ae2475e50dc1458b0fe764958c627264e4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLHFKkACgkQOkDLXn5cvDDbegf/d1UMHG/wq7M06v43BzfC7nhhIsDDksoR7NKK3Is8RGKnQtO4XA1kTGPobEB9wz/Y3huj3ILiUYwVJ1NcQQv38IOjs14UY4YzHEZv8FGDR2btvougwnqIVr/mHkkKOADiBVKPgI+5ILijZHywUpoJZVUC2RIeyNi8YxS99biTC4LFNAwvORolEWs4aAq17BFs4y+k6yUuygbRpj7mbAxP8EFhh6UOj1XSWaR9XItSklnpKy3KTkKeCpp0FSjDLI71aF9jPZkCDC0Phz1jhP0oyG2UMVbd0gBOu3mr9U/cqJrBQFM2+f/5y7iQNiKWj0blpS/xVDFaLWmCukOKLeVyWg==
+
+%URL%
+http://github.com/emerge-e-world/radeon-profile
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1657214091
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+radeon-profile
+
+%PROVIDES%
+radeon-profile
+
+%DEPENDS%
+qt5-base
+qt5-charts
+libxkbcommon-x11
+libxrandr
+libjxl
+
+%OPTDEPENDS%
+radeon-profile-daemon: system daemon for reading card info
+sudo: start with root privilages without password
+mesa-demos: for glxinfo
+xorg-xdriinfo: display driver name
+xorg-xrandr: show card connected outputs
+xf86-video-ati: radeon open source driver
+xf86-video-amdgpu: amdgpu open source driver
+
+%MAKEDEPENDS%
+qt5-tools
+git
+

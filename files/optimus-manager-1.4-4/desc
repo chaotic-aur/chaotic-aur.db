@@ -1,0 +1,67 @@
+%FILENAME%
+optimus-manager-1.4-4-any.pkg.tar.zst
+
+%NAME%
+optimus-manager
+
+%BASE%
+optimus-manager
+
+%VERSION%
+1.4-4
+
+%DESC%
+Management utility to handle GPU switching for Optimus laptops
+
+%CSIZE%
+77429
+
+%ISIZE%
+282493
+
+%MD5SUM%
+e5d1227b2a4d5a4a2bf07d99d29f1c33
+
+%SHA256SUM%
+e902b8d88cb70ed022239cd691261a3862d3ca09e583c30c8c8aff4dc105240b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmIVygQACgkQBwa5DTfZuIHBsA//er7Qmky3C2hpSL0cdf3HlzVmWjlNhMPjSrh0zGlnXtHDmSZ60Um/1u+rD/IwbpVexHsTDC4pm6bctVYvOTNhh2u10zNY8CNqISC3n9FrAz4yhwxNxxWTCmYJiyqTGvDfUuZEuQLDFCMAM8LmnH3d0UPe0agjBii3QjZpmBeNwyWZ9VgHV/6UXuL+Tri4/KJkgpvu/CHcT87iOD7aivB3c5FJirUslopLMobrz+9lKbZoN8ca19jIYT5WjjKa+asC1WjmtAW9Hpn7zj58ITAApxVGulI/XG8iLW3AC30lCfNAq0e5bu1eL9ndFbCgq/iGZ7cvlCHoP41c1FF07+JE5W7HDBBwfQRPH4gEOACSr3vVcYGP/tbgzICJD7n95OKaxmXU2UjRcs3tUyup0h9Gl92zcFNnAhqwNWzRdrodbvhGGHRMdrXfoiQnEKlDtLHIK+qvAD3KG4K04dK9LWtUhKwZu/aWdHR3zHneg/cCwpkxm3mQi4nx9teMu4eDV5Z6qWwjpo20/RwW24jQf4OIZcl+bXZKU3EHsJ7Et/LycwI43L4UtBpl6w5FZchaNQbA/cSfEsHSR+77P6aqKzjwXzUZkPF2qPg5qTAWHdwbQFkmgL0cMtHYfRTW1y27XhM1mnAZfcPU1oOMd6MwgEN6FgUdYwuTGJGKlOTP9Tbsg18=
+
+%URL%
+https://github.com/Askannz/optimus-manager
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1645595116
+
+%PACKAGER%
+Chaotic-AUR Wild Bear Node <wildbear.node@chaotic.cx>
+
+%CONFLICTS%
+optimus-manager-git
+
+%PROVIDES%
+optimus-manager=1.4
+
+%DEPENDS%
+python3
+python-setuptools
+python-dbus
+glxinfo
+xorg-xrandr
+
+%OPTDEPENDS%
+bbswitch: alternative power switching method
+acpi_call: alternative power switching method
+xf86-video-intel: provides the Xorg intel driver
+
+%MAKEDEPENDS%
+python-setuptools
+git
+

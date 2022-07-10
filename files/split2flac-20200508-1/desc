@@ -1,0 +1,69 @@
+%FILENAME%
+split2flac-20200508-1-any.pkg.tar.zst
+
+%NAME%
+split2flac
+
+%BASE%
+split2flac
+
+%VERSION%
+20200508-1
+
+%DESC%
+Split flac/ape/wv/wav + cue sheet into separate tracks.
+
+%CSIZE%
+12447
+
+%ISIZE%
+25389
+
+%MD5SUM%
+ef29953144ede34dbea589f74f075868
+
+%SHA256SUM%
+ec5a3bee185921c7ccb3a599edcaaf74a288a2a0d0f432f8f86df4cb2b6032d5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmJkBLEACgkQBwa5DTfZuIEBEQ/8Dykwj+08Co60aqdRpOVSIYO+tTVo/uvtUPZq8nOhle140mgjhNQ50jqQQjBukfyw7uMVbilCCKgE657NIUDfFtu5kP1oAkjHqs18pZjYV0gHsvg93jpRemLEeiAxvMbn3CvsjnjbDMy14YWiZTmTbUZKrWwdqVQQ4N1Iu9tg1Zqd0tauMVQIp5RVKh+iSwlMMXoSGXd+NHKXf0aSOmXalAFgYO10QDZzPFHMlrIN/n9buP0yL4XEWxNv3TXRGDyGWGVBlOyNrROg8NYEzfUwVXNvRHcu0jKYQ1hV2W1LklqZgnlLyXZkKbjC0K8OLTLrgTqYtaWlmgsFURVyRV8NFMj6UupkxWip01e/YAipECUyZj7JBdULc5dpc6FrfnUjJ3iBGhubFbNy7+vPWbmH5iEfvPAVvo8QlJVxqY6MWK/J3NkE4q/Zz86xtS2J8FEEO6FglvmWHrJKysXHbDQ08bWZy3vZNr6U19OftTiY0wG/tccG02NJdwAWkWZWdsNwUn8zUUhFkZsNQgi7C+IX5+vYea8II9BClZ6hMl2uvcwX+reUwgRJcHNHlHwWeIWXnSkCM9f0gW/0b3EZrPSoa/A3EDjRtTagheJZcu9BUzalztOqf5rsJVzJGuyq4yO7WkMsiiDyl0UMuxMBjPwIb9fFap8pY1g1dpdYr9+I95s=
+
+%URL%
+https://github.com/ftrvxmtrx/split2flac
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1650721963
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+split2flac-git
+
+%DEPENDS%
+cuetools
+shntool
+flac
+
+%OPTDEPENDS%
+aacgain-cvs: to adjust gain in m4a
+enca: to automatically detect charset if not UTF8
+faac: to split into m4a
+flac: for flac replay gain support
+mac: to split APE format
+id3lib: to set tags in mp3 unicode not supported
+imagemagick: to convert/resize album cover images
+lame: to split into mp3
+libmp4v2: to split into m4a
+mp3gain: mp3 volume normalization
+python-mutagen: mp3 with unicode support within tags
+vorbis-tools: to split into ogg vorbis
+vorbisgain: ogg vorbis volume normalization
+wavpack: to split WV
+

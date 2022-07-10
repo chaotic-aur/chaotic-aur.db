@@ -1,0 +1,88 @@
+%FILENAME%
+firefox-esr-91.11.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+firefox-esr
+
+%BASE%
+firefox-esr
+
+%VERSION%
+91.11.0-2
+
+%DESC%
+Standalone web browser from mozilla.org, Extended Support Release
+
+%CSIZE%
+82048625
+
+%ISIZE%
+234190897
+
+%MD5SUM%
+01ac3b8094aab1121ecd57d203775cb8
+
+%SHA256SUM%
+91fb6d33727c0bfb121d3f1377bff1f6dda934f2959e30da44b99f7285e89a12
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmK8T+UACgkQBwa5DTfZuIEoog//UgjLftfEEP5xjvqEzbw436KDb9bwjT17fHvYTpqaEgtioFtkC4+m8LoN5N1w0O7zaJBYNbRmfTlhXk3cxnv1bmxSfA6j7+IRp5/+yfS2Bxt3Py0EGpKVY85/ugTCvHgSSK4ATidOcZdqFPI1YKc3iG8Twoqy9bZ7i9icuiZa/Pe+yZ4uCidFwpLOCA2zSa2wXWDPam/UCigygHH6McP2wg04W8Kevvc0UYhAz7Bq62t5saXydnlvzVpbABwuBQKhExV+cz2j5mpwuDLGAN7xP2NIjZ6BH1ImCqhCdduDWu0PY2vwmX6roAU76oPCZZy5ze6xQqzOaVUgkBXlGD882GqnHNT9tt3Qcgr8kH7WNo9IBxt/Uk9Yo9iToOCgs5EKbyv80YLzp+YbPxlRnTJKFvG7iQbgD2vECGWEPa6b6mmzr/pBuQEWyqbGzkdvp+z4VwbgUesyZtCyfp3wYPYyW8x6TeEEj/P/55/RwMzhS5yN/xyuM784YcK+CwQ6RrODC8yrgive1O8u+Z8PGWldFFPx9XuRX/PChLN9N/p0mhXkutP2PzG/LeseHA+G8kuFVlWML5iV0c/beXdwRyJdvEEGIYg1juqP4W3u9wMKYKacDaeMcb1hfubxGPh/MiW8+a2ngG4+/qPwHR4wTd58wRklPWssih7W+pBurYSU7RM=
+
+%URL%
+https://www.mozilla.org/en-US/firefox/enterprise/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1656500490
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg4.4
+nss
+ttf-font
+libpulse
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+xdg-desktop-portal: Screensharing with Wayland
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-psutil
+python-zstandard
+lld
+dump_syms
+
