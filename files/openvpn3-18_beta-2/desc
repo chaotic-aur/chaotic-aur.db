@@ -1,0 +1,72 @@
+%FILENAME%
+openvpn3-18_beta-2-any.pkg.tar.zst
+
+%NAME%
+openvpn3
+
+%BASE%
+openvpn3
+
+%VERSION%
+18_beta-2
+
+%DESC%
+OpenVPN 3 Linux client
+
+%CSIZE%
+2544811
+
+%ISIZE%
+7153352
+
+%MD5SUM%
+8da2d874dc566676b0e4914b615a8306
+
+%SHA256SUM%
+f226064e027828ec5dea886c43a31eeb225febf5f5e393d166c4ab742ef7e1fa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLOVykACgkQBwa5DTfZuIH4wg//VItR86YrEXQ8xcbw/rOFPdm3EsSoW8EPnHPPA4tisOh4NHOTiAJ5b9dNV6IY+IDWP14S+t72HwvmfvFSR0josQiIIctowUNrhNKL+9qmx7DIpqR7GYApTvriKNQVwMsa8tW6N8iGO1H+skIUdwZy/W0Q0XK20UFzXUr3zumwZH8mR30lyOBUXuHPscqQ3XR7hhMTr4UIUwbxad/iFFoFR7WAhBoo5qTdVixFifdPAQgTvKwz+klI7sFU2b4x076cQ93hZUYCFBOwKjlAAYGMukFXsFiyGOxVCYvh6hreeTMjh8gI8GiCg9gPZK7V78FnUlfD5pbQIYLr0Q3YrfcfCJEs0g8ii9VNOkXmdrQYVLpSPz5rDsg0OtgLIK8FInh4iGtDqmJhkVZa1DIOeudIZngzzBFU410cLdyPA2bR4oWToqNDCHAVNR2jgxuAAwZy6+30aGVwWFiudAXfq0txJPCoaVJfVpR4sdC5cLU5hbPkYHTapxrPFHxeEYtnyvWEIyY89lLzGkO/Yg3Q2yMoepR/Carl7D96sJLHWzLu6k8RnbnW7wmofOcxe2hcBDGDpmQkd4TwY7B87p8rZfzNMmWkhsd80nLNtORHFlXt7M7spvddMUV8U8HFIGuzMCVsvti4TYb8BSgvC0HQ+DcEY8p9xo6S3z85flrwIRImksM=
+
+%URL%
+https://github.com/OpenVPN/openvpn3-linux
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1657689019
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+glib2>=2.50
+jsoncpp>=0.10.5
+libcap-ng>=0.7.5
+lz4>=1.7.3
+util-linux-libs>=2.23.2
+protobuf>=2.4.0
+python-dbus
+python-gobject
+python-systemd
+tinyxml2>=2.1.0
+libnl>=3.2.29
+
+%OPTDEPENDS%
+openssl: OpenSSL version
+mbedtls: mbed TLS version
+polkit>=0.105: for systemd-resolved integration
+repkg: Automatically rebuild the package on dependency updates
+
+%MAKEDEPENDS%
+autoconf-archive
+git
+python-docutils
+python-jinja
+bash
+python-dbus
+
