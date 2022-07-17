@@ -1,0 +1,72 @@
+%FILENAME%
+soapysdr-git-3:0.8.1.r40.g4e71a35-1-x86_64.pkg.tar.zst
+
+%NAME%
+soapysdr-git
+
+%BASE%
+soapysdr-git
+
+%VERSION%
+3:0.8.1.r40.g4e71a35-1
+
+%DESC%
+Vendor and platform neutral SDR support library
+
+%CSIZE%
+1076198
+
+%ISIZE%
+5404797
+
+%MD5SUM%
+53a43ba9483e71a85cd649144bc3caa8
+
+%SHA256SUM%
+857e07123003d6b893f5b3238c88d8e49ce3601cdc2194c67c23cb6075567a21
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLUeXgACgkQOkDLXn5cvDAyYwf+LpLQ1g9iLwqhIfOBImRGw/dAnXQE6Cfj/g4oOD7ETXojTTGC1zoJMc0ZwNb38lqz3c1i9fewwSd/y9/j1eTHHnlFv/8L/9PKjBFs1U7fA0hacZamCsVumdOzUkaEE5pgCMLwZi6DY+yi7Ep3ve+1YDu6Y9xmuz/aQJ7sWRBTNcoFHxG4qNDUfkBuvCGzdaO4f2b8GxNiJDsSfjkBFgV8uiiDbvO4xuaw7PojlYdZcPjlniPiJpGcPPEz08hoG4HXpbyhVscOVjgYlV7KMrrpCG/l8leXbGBFvZqBtlmpc5+lUSB1/aRk02OkNd6C3uLlo1oTPlbPjD5jboUGqoKxag==
+
+%URL%
+https://github.com/pothosware/SoapySDR
+
+%LICENSE%
+Boost
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1658091792
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+soapysdr
+
+%PROVIDES%
+soapysdr=0.8.1.r40.g4e71a35
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+soapyairspy: Airspy backend
+soapyaudio: Audio devices backend
+soapybladerf: BladeRF backend
+soapyhackrf: HackRF backend
+soapynetsdr: NetSDR backend
+soapyosmo: OsmoSDR backend
+soapyremote: SoapySDR remote support
+soapyrtlsdr: rtl-sdr backend
+soapyuhd: UHD backend
+
+%MAKEDEPENDS%
+git
+cmake
+swig
+doxygen
+graphviz
+
