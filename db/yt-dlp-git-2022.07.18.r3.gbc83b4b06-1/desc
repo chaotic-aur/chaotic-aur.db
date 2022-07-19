@@ -1,0 +1,74 @@
+%FILENAME%
+yt-dlp-git-2022.07.18.r3.gbc83b4b06-1-any.pkg.tar.zst
+
+%NAME%
+yt-dlp-git
+
+%BASE%
+yt-dlp-git
+
+%VERSION%
+2022.07.18.r3.gbc83b4b06-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes (git)
+
+%CSIZE%
+4698188
+
+%ISIZE%
+19238405
+
+%MD5SUM%
+e2bbb47f9f8ea12b6246819edc0f9954
+
+%SHA256SUM%
+2f4bb3b0fec0dceb0d6cae38e84712af83e41c069aa061ca448c3c8a88a01e6c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLV8OkACgkQBwa5DTfZuIHnTg//ZIuERvY7nCieswboSmBArkHg8P3gFr7407qArynD3LW2Xq0ILD0/hyNiuxn1B+K71itg7jqH4LCyE+BVNJy0LD6wD2SXqRKV0j+1fSIIsJ9grdEbHLw++aemoiGHepklBlhsT1Aadp0oBXbiyzckj2+TEaUAJ3vU0J7de1xD7PaUhY7xV7TB/dc+PbkFWk1E3uWGQbM7aU3BziOfNLBPrq1Hg3XnmaG9TNUyYJ6IRQSshYrvcWlmQwBzXH+/+OCOnKB1V66hYPm4ap9P5Vj9FoBBnK9NBs3treZJtRrVRA9Sozk7jqW1Z9n67pEUB8Uasc1CYCTbIZKR8h8K3MWanLDNVjYTQhbPgk7lKVAV50rzjVrH76YSZ/CxLeJfjeB6EFZQ3B90Cn6G2dq7r8olCUP90A6ym8MXSqpcv2l+jmYFO5bgrzzZapuqf7VIDb+JoWLiEWspmojfWCb3yeg6OMYxtCCjjAB4j5m+LWr9U2PFH2rpKRPyQDsYnDOtVJCMKQ0rADSG7NIN4V8hkZJswW0kSUX1+avqqYHFn1c1bmhxX5ck7zfV2HmTxFNSa+3YUnDne3hN33W6cAB8aZYBX0UM6gyO9CiGbCQ+XGtw8tRTo9W6+C1wqe6dYvic/rS+THcd8zf2u10SR5DMeWTCW2OkS4DS0WiJn4jTvhW3pmM=
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1658187895
+
+%PACKAGER%
+Chaotic-AUR Team <team@chaotic.cx>
+
+%CONFLICTS%
+yt-dlp
+
+%PROVIDES%
+yt-dlp
+
+%DEPENDS%
+python-certifi
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: For embedding thumbnail in certain formats
+python-pycryptodomex: For decrypting AES-128 HLS streams and various other data
+python-websockets: For downloading over websocket
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+pandoc
+git
+
+%CHECKDEPENDS%
+python-pytest
+
