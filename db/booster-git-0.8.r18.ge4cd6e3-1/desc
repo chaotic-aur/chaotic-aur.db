@@ -1,0 +1,65 @@
+%FILENAME%
+booster-git-0.8.r18.ge4cd6e3-1-x86_64.pkg.tar.zst
+
+%NAME%
+booster-git
+
+%BASE%
+booster-git
+
+%VERSION%
+0.8.r18.ge4cd6e3-1
+
+%DESC%
+Fast and secure initramfs generator
+
+%CSIZE%
+4665778
+
+%ISIZE%
+11141289
+
+%MD5SUM%
+afd8091626384bd3a8724151825a947d
+
+%SHA256SUM%
+64f024e1c64bf146d2cd58345bcbd418fb21fd0b18027662d46869f5fba828c5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLYyKIACgkQOkDLXn5cvDA3jAf7BLop9ee8tE4tNLBqhVwOpVAazoevnjJEUYbBgXwNYtBGloEYrkXwx6zHWh4ZYOVIp2o7RyQv+Vp+C7nCvGsm2NfpfDr+jYrVCQDYRfrg95pxmbFRLaA565SbP1NU35+tEczsM31Y5YabRArZ17KU1SE+jvzsGf3YJKcMVjnml2VoHVuYXxs2LBHwQ5HDhCI2ZBaH90qaf0qN2rOIGVlgH6+blLVeWInLy0DavjGRn4VqnS2BVY9/xFqa++wxv1q2jl3kLE5Q7SHujpSwTl+mdsUasY5NoCan79XUDgbZZRg9dbI0nAZIDxnwIaK4IlnohnQ05Ftern5pPSALKwqj4g==
+
+%URL%
+https://github.com/anatol/booster
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1658374237
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+booster
+
+%PROVIDES%
+booster
+initramfs
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+busybox: to enable emergency shell at the boot time
+yubikey-personalization: for clevis Yubikey challenge-response support
+libfido2: for systemd-enroll with FIDO2
+
+%MAKEDEPENDS%
+git
+go
+ruby-ronn-ng
+
