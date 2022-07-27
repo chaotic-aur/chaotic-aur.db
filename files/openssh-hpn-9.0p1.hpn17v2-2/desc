@@ -1,0 +1,63 @@
+%FILENAME%
+openssh-hpn-9.0p1.hpn17v2-2-x86_64.pkg.tar.zst
+
+%NAME%
+openssh-hpn
+
+%BASE%
+openssh-hpn
+
+%VERSION%
+9.0p1.hpn17v2-2
+
+%DESC%
+A Secure SHell server/client fork with High Performance patches included
+
+%CSIZE%
+1584915
+
+%ISIZE%
+7548949
+
+%MD5SUM%
+de8a3522267df702eaf5b0b26fbb02a6
+
+%SHA256SUM%
+46ec5131b3c3354cdd80a878dbd27172ca20ec755e26779828f7adce5fac063c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLhAVoACgkQOkDLXn5cvDDUWQf9GglT8UVF23D06fQoBKBWlI6iATPJE86zCl+9RheqYlOlS2LNTnuJdAkcF+IOkYw8kV54nLeEoegds0kCXBhA4WV03ncUkHUUduj7uaZlqnJghI/uAD7o/rgq9L9KLsRHxQ6QOq+0l0AzakVE8fJwU29hHochVRzUPT2uR0dVkBoj9RzU9Kr4Iz+tLEEf3X2jb2M95mKQM1qIeviVzZzuLNYwVTDE/B0pSuLF/xmTJAbbS1Tx+Fq8sGv/mRRY4cklVC2xyZ1n9Nlwiv274XT3fK/ZWKGgFbiYrgF9+YvY+LjavmGnQriz9V54tyNBxV5U28KMpz30rzExWRd2vSHqUQ==
+
+%URL%
+https://www.psc.edu/index.php/hpn-ssh/
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1658913032
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+openssh-hpn-git
+
+%DEPENDS%
+krb5
+ldns
+libedit
+openssl
+
+%OPTDEPENDS%
+xorg-xauth: X11 forwarding
+x11-ssh-askpass: input passphrase in X
+libfido2: FIDO/U2F support
+
+%MAKEDEPENDS%
+git
+libfido2
+
