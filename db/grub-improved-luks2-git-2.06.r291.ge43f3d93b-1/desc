@@ -1,0 +1,76 @@
+%FILENAME%
+grub-improved-luks2-git-2.06.r291.ge43f3d93b-1-x86_64.pkg.tar.zst
+
+%NAME%
+grub-improved-luks2-git
+
+%BASE%
+grub-improved-luks2-git
+
+%VERSION%
+2.06.r291.ge43f3d93b-1
+
+%DESC%
+GNU GRand Unified Bootloader (2) with Argon2 and better LUKS2 support
+
+%CSIZE%
+7502647
+
+%ISIZE%
+21407941
+
+%MD5SUM%
+572902737b5be9418d4c8b394600cfa2
+
+%SHA256SUM%
+2dd0d4dd3d0abe2b1e42247978caf189736384be9a9305178f63f4c9b6078adf
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLjwDwACgkQBwa5DTfZuIFzYA/+KYw8RlU1v8/p35d2b00577XOact90fOFz+Rx/ZdvuyDKB5yrJK/6ZQqsgEKNigxEieUFNqgeaFF65qwjsdKIa5ox2bVl4kz/reRAGj7k7AAQzw0pF2BuIhurrYo+QoSGBbhmBQBKa9W5aS+mT3EiOr8Wga/Wa1a4WNBDeLgWj67SdgoVpIF9lpN/JGl3ViU1P9B/I4CaMCbcGbv/tdk5aNaiZ+tYQCYi/p0wPftf2URc0PH4N6eDA97k8Xg/Mjsr9J6Nly937XHcMpaD5NXE1+wjAZ7Y/pUMKC/Rr2vZ3Ln8Xffeh6TDMnI62dU5BPfVAwUseZjoGxGHeerET6Oxp72ov+/T3BpgrGAP/H4XUrCoB/d5CKTxyACHSr8XkzzIFMhzH9asx3W4ZbUYON5So4EhccQW1Vbdz9vLs7vjxzLAg3MjZ1PvnOFgsxgDLcCcvMb57s0JDC1AlpqLeoIReSF3weky/BDnbtax7CRJ5ymKf3W1k62j8KgIe2UKaz5pUoREM7p0OlLEocUcMtSQbuG/UxoxWhiVqJ1kkrn+QqYvBTJdVi4PFnSDhl1J6yoCYT5ZpKLFF7I4fqcbxmaFIlbZv14iGYorjkxq/deHgc/bE04LOZ0yQh0Yukd+3UNhUsr0Ji7uQ8XEoMZOLGNNFXOav+xtSc1utpbL6C0oBoI=
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL3,
+CC0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1659092746
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+grub
+
+%PROVIDES%
+grub
+
+%DEPENDS%
+device-mapper
+freetype2
+fuse2
+gettext
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+
+%MAKEDEPENDS%
+autogen
+bdf-unifont
+git
+help2man
+python
+rsync
+texinfo
+ttf-dejavu
+bison
+
