@@ -1,0 +1,114 @@
+%FILENAME%
+firedragon-beta-znver2-103.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon-beta-znver2
+
+%BASE%
+firedragon-beta-znver2
+
+%VERSION%
+103.0-1
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+76450905
+
+%ISIZE%
+220444239
+
+%MD5SUM%
+aabbe7f0233ea84d9dc7395f122e1e3c
+
+%SHA256SUM%
+1802058c8a53fdefbe92f931a3494805d4b693ab6431420d9086e9115c726774
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLlGMIACgkQBwa5DTfZuIFlCQ//S1LrqE7YyWz1ibXzUd5JgEMTXoCWEVj0CEyeBODnTb4QWWSXBAe9ZV9oK6Cwin6WUHoXMP1pmOx0+BGr7Q0HCmff5jdUc0gZAyaZMfJOq5Ch50uuP2n4v8oEnxI3D4v8I1/D6Z5p0ouJRdDocv66xVfqmRRQakOErKrl7tbb1Vi+5lH8ZURspRHEvUplWft4Z1nBFnxWGpnPAWwoytPJT2b0oLdcU4v5vXFnTzl2+8GU4uXM6EknmzJ/b0V2hqGINogcHR9cxADOQDmxt/IVDuWFXwL29mg7/ZjQXnYFyE9d5Hwbvx/i08ekTO6ikOzEUPOs4HyjjKpYMew0ApFC+XAq9KlUh4sWOpdxYZ9ALQOzFKy1maVVNq0LGPS4QYEzLF1HXk5oXlXb7qHXmg1utv52Tle+tE6dmNdZbuBj/j73/0ChqZqSRDFsjZPqgeG7PgPoBYSzwT/qFYz/UfamUdfL1YJ/r/TrYCm5bclqVfGm8NHKjEm/Ns+RwblPoNLkSuH6j2GE1JJqYTkQEwHZjE62o+Xl9SwcNung0T9fgN6dNcmx++IdaVf9yGIF+W8kVKY7162HdsIIQD+qEoNck/mfDzcvj2spDrCW8xNGheJPNL8cnsWjfw9S38nsYYhwzBHqIZcwdesFe3CJeqQRmMh6eOL3zA5AMxoc1/hGePw=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1659175565
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+firedragon
+
+%PROVIDES%
+firedragon
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss
+ttf-font
+libpulse
+kfiredragonhelper
+aom
+icu
+pipewire
+dav1d
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+python-pyqt5
+python-cmd2
+rust
+xorg-server-xwayland
+xorg-server-xvfb
+mold
+autoconf2.13
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+
