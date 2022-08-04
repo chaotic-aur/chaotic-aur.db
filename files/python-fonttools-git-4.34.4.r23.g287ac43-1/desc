@@ -1,0 +1,74 @@
+%FILENAME%
+python-fonttools-git-4.34.4.r23.g287ac43-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-fonttools-git
+
+%BASE%
+python-fonttools-git
+
+%VERSION%
+4.34.4.r23.g287ac43-1
+
+%DESC%
+A library to manipulate font files from Python
+
+%CSIZE%
+2301157
+
+%ISIZE%
+10907442
+
+%MD5SUM%
+85c18364d4aeb0203616ebd677d83375
+
+%SHA256SUM%
+2c755946980e9f768faf92df426c543ed9ea424911a746c868c798195d6dac93
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLsHDEACgkQOkDLXn5cvDANtAf/fBn9oGk70eehoUH4ynvnA3zjFRVPmzSZkm9Z4yyU0i//Jk29vKhk8IUWBnfyf8Pq6CleF5TXT0S3mNb1+Nl9Mcwm7xuYAOjMxzGRGWx4Cp3Ta8TCD8A6Z1TyBef2BghGHJwQtnm5zqmYMSTnFaeo2jczr3v5PW/d6H3nU9zCA+CD19j4+okyMVjyH8FXMMSIZlhFXW4D/vFWz0bpIf97cdLdUI2SdcY+ohxAbJoDVvx4M8G47LoY2N9wrc0sSD1NFyexZCSVDi5z6EgIOZT/AM+K2z76Zf050xYauWPfWLlLDfpWbu47I7hMRGiukL7P9niyzdiYip3xM9aqL4Fd0Q==
+
+%URL%
+https://github.com/fonttools/fonttools
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1659640806
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+python-fonttools
+
+%PROVIDES%
+python-fonttools=4.34.4.r23.g287ac43
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: to compress/decompress WOFF 2.0 web fonts
+python-fs: to read/write UFO source files
+python-lxml: faster backend for XML files reading/writing
+python-lz4: for graphite type tables in ttLib/tables
+python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel
+python-pyqt5: for drawing glyphs with Qt’s QPainterPath
+python-reportlab: to drawing glyphs as PNG images
+python-scipy: for finding wrong contour/component order between different masters
+python-sympy: for symbolic font statistics analysis
+python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx
+python-zopfli: faster backend fom WOFF 1.0 web fonts compression
+
+%MAKEDEPENDS%
+cython
+git
+python-setuptools
+git
+python-setuptools
+
