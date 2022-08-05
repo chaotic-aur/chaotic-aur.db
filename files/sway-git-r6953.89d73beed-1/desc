@@ -1,0 +1,81 @@
+%FILENAME%
+sway-git-r6953.89d73beed-1-x86_64.pkg.tar.zst
+
+%NAME%
+sway-git
+
+%BASE%
+sway-git
+
+%VERSION%
+r6953.89d73beed-1
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5440621
+
+%ISIZE%
+5886804
+
+%MD5SUM%
+3cf706ec1be1266a244c8ca892c87295
+
+%SHA256SUM%
+70fead80b354943f9c14cc918e8afe61eab30387fc10a4a336c98243c2278914
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLtI/8ACgkQOkDLXn5cvDC2FAf/SfiLvUD14ROtkXwR50DaC4hjI1zQllSQ6WSy/r+QgsMWyHbQJbJyTMqoKYKsEnBAaGz6lA7vqg6KzuMThO4XqhAxqKIpTBFRzwFRHyJrdJD8aT1HhAHvaXYmzrNzgZR1PK0trjUpo656wkcF4/r6N26EM7Ivwrc6uk9FxgXTllNLTwKqyAd3jbri+vSbZNueEYqKy95mWdXRiP+tIPW7w8fWI8TUSNgGgBl9W4vEF5Gw40VulvhbEfG3VgoEnNwpQpyUD48UpaKHGvQLNPXaLixsG7pAv4b9W8m2A1mVTH6f/ZLhP8RNCScCiVNpyQv1usuhmusy85HW6ItcJpObTA==
+
+%URL%
+https://swaywm.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1659708372
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+sway
+
+%PROVIDES%
+sway
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+json-c
+pango
+polkit
+pcre2
+swaybg-git
+ttf-font
+wlroots-git
+xorg-server-xwayland
+
+%OPTDEPENDS%
+alacritty: Terminal emulator used by the default config
+dmenu: Application launcher
+grim: Screenshot utility
+i3status: Status line
+mako: Lightweight notification daemon
+slurp: Select a region
+swayidle: Idle management daemon
+swaylock: Screen locker
+wallutils: Timed wallpapers
+waybar: Highly customizable bar
+
+%MAKEDEPENDS%
+git
+meson
+scdoc
+wayland-protocols
+
