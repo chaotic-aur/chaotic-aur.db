@@ -118,7 +118,9 @@ usr/share/vscodium/resources/app/extensions/configuration-editing/package.json
 usr/share/vscodium/resources/app/extensions/configuration-editing/package.nls.json
 usr/share/vscodium/resources/app/extensions/configuration-editing/schemas/
 usr/share/vscodium/resources/app/extensions/configuration-editing/schemas/attachContainer.schema.json
+usr/share/vscodium/resources/app/extensions/configuration-editing/schemas/devContainer.codespaces.schema.json
 usr/share/vscodium/resources/app/extensions/configuration-editing/schemas/devContainer.schema.generated.json
+usr/share/vscodium/resources/app/extensions/configuration-editing/schemas/devContainer.vscode.schema.json
 usr/share/vscodium/resources/app/extensions/cpp/
 usr/share/vscodium/resources/app/extensions/cpp/language-configuration.json
 usr/share/vscodium/resources/app/extensions/cpp/package.json
@@ -254,7 +256,7 @@ usr/share/vscodium/resources/app/extensions/git/
 usr/share/vscodium/resources/app/extensions/git/README.md
 usr/share/vscodium/resources/app/extensions/git/dist/
 usr/share/vscodium/resources/app/extensions/git/dist/164.js
-usr/share/vscodium/resources/app/extensions/git/dist/488.js
+usr/share/vscodium/resources/app/extensions/git/dist/391.js
 usr/share/vscodium/resources/app/extensions/git/dist/939.js
 usr/share/vscodium/resources/app/extensions/git/dist/939.js.LICENSE.txt
 usr/share/vscodium/resources/app/extensions/git/dist/askpass-empty.sh
@@ -295,7 +297,7 @@ usr/share/vscodium/resources/app/extensions/github-authentication/
 usr/share/vscodium/resources/app/extensions/github-authentication/README.md
 usr/share/vscodium/resources/app/extensions/github-authentication/dist/
 usr/share/vscodium/resources/app/extensions/github-authentication/dist/164.js
-usr/share/vscodium/resources/app/extensions/github-authentication/dist/488.js
+usr/share/vscodium/resources/app/extensions/github-authentication/dist/391.js
 usr/share/vscodium/resources/app/extensions/github-authentication/dist/939.js
 usr/share/vscodium/resources/app/extensions/github-authentication/dist/939.js.LICENSE.txt
 usr/share/vscodium/resources/app/extensions/github-authentication/dist/extension.js
@@ -385,10 +387,6 @@ usr/share/vscodium/resources/app/extensions/html-language-features/README.md
 usr/share/vscodium/resources/app/extensions/html-language-features/client/
 usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/
 usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/
-usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/278.htmlClientMain.js
-usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/493.htmlClientMain.js
-usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/493.htmlClientMain.js.LICENSE.txt
-usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/955.htmlClientMain.js
 usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js
 usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/nls.metadata.header.json
 usr/share/vscodium/resources/app/extensions/html-language-features/client/dist/node/nls.metadata.json
@@ -438,6 +436,8 @@ usr/share/vscodium/resources/app/extensions/ipynb/
 usr/share/vscodium/resources/app/extensions/ipynb/README.md
 usr/share/vscodium/resources/app/extensions/ipynb/dist/
 usr/share/vscodium/resources/app/extensions/ipynb/dist/ipynbMain.js
+usr/share/vscodium/resources/app/extensions/ipynb/notebook-out/
+usr/share/vscodium/resources/app/extensions/ipynb/notebook-out/cellAttachmentRenderer.js
 usr/share/vscodium/resources/app/extensions/ipynb/package.json
 usr/share/vscodium/resources/app/extensions/ipynb/package.nls.json
 usr/share/vscodium/resources/app/extensions/jake/
@@ -474,10 +474,10 @@ usr/share/vscodium/resources/app/extensions/json-language-features/README.md
 usr/share/vscodium/resources/app/extensions/json-language-features/client/
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/
+usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/201.jsonClientMain.js
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/278.jsonClientMain.js
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/493.jsonClientMain.js
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/493.jsonClientMain.js.LICENSE.txt
-usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/955.jsonClientMain.js
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/nls.metadata.header.json
 usr/share/vscodium/resources/app/extensions/json-language-features/client/dist/node/nls.metadata.json
@@ -552,14 +552,12 @@ usr/share/vscodium/resources/app/extensions/markdown-language-features/
 usr/share/vscodium/resources/app/extensions/markdown-language-features/README.md
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/164.js
-usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/488.js
+usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/391.js
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/939.js
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/939.js.LICENSE.txt
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/extension.js
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/nls.metadata.header.json
 usr/share/vscodium/resources/app/extensions/markdown-language-features/dist/nls.metadata.json
-usr/share/vscodium/resources/app/extensions/markdown-language-features/esbuild-notebook.js
-usr/share/vscodium/resources/app/extensions/markdown-language-features/esbuild-preview.js
 usr/share/vscodium/resources/app/extensions/markdown-language-features/icon.png
 usr/share/vscodium/resources/app/extensions/markdown-language-features/media/
 usr/share/vscodium/resources/app/extensions/markdown-language-features/media/highlight.css
@@ -574,6 +572,14 @@ usr/share/vscodium/resources/app/extensions/markdown-language-features/package.j
 usr/share/vscodium/resources/app/extensions/markdown-language-features/package.nls.json
 usr/share/vscodium/resources/app/extensions/markdown-language-features/schemas/
 usr/share/vscodium/resources/app/extensions/markdown-language-features/schemas/package.schema.json
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/.npmignore
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/README.md
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/dist/
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/dist/node/
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/dist/node/main.js
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/package.json
+usr/share/vscodium/resources/app/extensions/markdown-language-features/server/yarn.lock
 usr/share/vscodium/resources/app/extensions/markdown-math/
 usr/share/vscodium/resources/app/extensions/markdown-math/README.md
 usr/share/vscodium/resources/app/extensions/markdown-math/dist/
@@ -623,7 +629,7 @@ usr/share/vscodium/resources/app/extensions/microsoft-authentication/
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/README.md
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/164.js
-usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/488.js
+usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/391.js
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/939.js
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/939.js.LICENSE.txt
 usr/share/vscodium/resources/app/extensions/microsoft-authentication/dist/extension.js
@@ -1037,7 +1043,6 @@ usr/share/vscodium/resources/app/extensions/simple-browser/dist/
 usr/share/vscodium/resources/app/extensions/simple-browser/dist/extension.js
 usr/share/vscodium/resources/app/extensions/simple-browser/dist/nls.metadata.header.json
 usr/share/vscodium/resources/app/extensions/simple-browser/dist/nls.metadata.json
-usr/share/vscodium/resources/app/extensions/simple-browser/esbuild-preview.js
 usr/share/vscodium/resources/app/extensions/simple-browser/media/
 usr/share/vscodium/resources/app/extensions/simple-browser/media/codicon.css
 usr/share/vscodium/resources/app/extensions/simple-browser/media/codicon.ttf
@@ -1155,7 +1160,7 @@ usr/share/vscodium/resources/app/extensions/typescript-language-features/
 usr/share/vscodium/resources/app/extensions/typescript-language-features/README.md
 usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/
 usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/164.js
-usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/488.js
+usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/391.js
 usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/939.js
 usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/939.js.LICENSE.txt
 usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js
@@ -1292,9 +1297,6 @@ usr/share/vscodium/resources/app/out/vs/code/electron-browser/sharedProcess/shar
 usr/share/vscodium/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcess.js
 usr/share/vscodium/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js
 usr/share/vscodium/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.nls.js
-usr/share/vscodium/resources/app/out/vs/code/electron-browser/workbench/
-usr/share/vscodium/resources/app/out/vs/code/electron-browser/workbench/workbench.html
-usr/share/vscodium/resources/app/out/vs/code/electron-browser/workbench/workbench.js
 usr/share/vscodium/resources/app/out/vs/code/electron-main/
 usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js
 usr/share/vscodium/resources/app/out/vs/code/electron-main/main.nls.js
@@ -1313,6 +1315,7 @@ usr/share/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/pr
 usr/share/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.nls.js
 usr/share/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/
 usr/share/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
+usr/share/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
 usr/share/vscodium/resources/app/out/vs/code/node/
 usr/share/vscodium/resources/app/out/vs/code/node/cli.js
 usr/share/vscodium/resources/app/out/vs/code/node/cli.nls.js
