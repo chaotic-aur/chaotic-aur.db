@@ -1,0 +1,78 @@
+%FILENAME%
+nicotine-plus-git-3.3.0.dev2.r7849.f7091b99-1-any.pkg.tar.zst
+
+%NAME%
+nicotine-plus-git
+
+%BASE%
+nicotine-plus-git
+
+%VERSION%
+3.3.0.dev2.r7849.f7091b99-1
+
+%DESC%
+A graphical client for the SoulSeek peer-to-peer system
+
+%CSIZE%
+1822379
+
+%ISIZE%
+8201043
+
+%MD5SUM%
+66506a4b9f83344806cc739ff5dc37c8
+
+%SHA256SUM%
+234e4e0cb20e19a3a5507f54b9e3789280a37014b942b5e7ed8b96d31f577aba
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmLynJsACgkQBwa5DTfZuIG+Yg/+PoBWXp1XkMqNqzl/4MwV6Yo57q0nsbupopyzs0B4JYr/yDi9WfL/ovBSIENO741+dT12pCzjrc8mVCny0qv4hVZsZ5FsxcaRSubpmRCd443aO3r1QhqqpS8iovqZ5v/epsRKxrPgptmq+PjND8qpeNE4Ime24qXNDxEh/GG26eE0TfgJ27nBmV9XidsYlteLXP8iN9/bkDrAZwTTCokVkt8UxrqbCcMbq+D1bX7u6LhpURMtXmdgIrIX35Gt96bWbvEMWHlsJzkIVLwIxVyp7wl1RHGif6wdNP/lxWyPIQxyt+K6+25bnFyI0C1DWgt1YqYYnur7A98kUPd4zjMer1AjOKTdOgb3BU+o/FxBMHROrErroDk+gXrQQlMx00jejOdlyOOKL/OHZSA0IzcX+Ep+sAp1RZYZBLRdYkV9yV8LWt8GFjmeWxXHRZyTNMTFVZtFCXNA3l4GF/RyT0a3qNZBYmbMEjyt4XsLJzD42T8/M2ObDLjPJPRgKqk7n9+B5HOTb1jzusdQF4Ls3zUrE6JTuccx8X8yxvyQnsrgNIvNP5drBovapMO12EbaaWEKdvma3t99nS4hAWNWxghBkHX8D8LayuT2Z++ryQ1X8MZ5k63dX1vuWHaqgn/JSUCrXNpCB5dIbqrTmpvQCA1aWa7MdSNuyFRgEBGw5eejJP0=
+
+%URL%
+https://nicotine-plus.org
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1660066926
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+nicotine-plus
+nicotine+
+nicotine
+
+%PROVIDES%
+nicotine-plus
+nicotine+
+nicotine
+
+%DEPENDS%
+python-gobject
+gtk3
+
+%OPTDEPENDS%
+gspell: for spell checking in chat
+libappindicator-gtk3: option for tray icon
+libayatana-appindicator: option for tray icon
+gtk4: test the GTK4 version
+libadwaita: test the Libadwaita version
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+appstream-glib
+desktop-file-utils
+python-pytest-xvfb
+
