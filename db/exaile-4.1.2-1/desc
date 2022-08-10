@@ -1,0 +1,81 @@
+%FILENAME%
+exaile-4.1.2-1-any.pkg.tar.zst
+
+%NAME%
+exaile
+
+%BASE%
+exaile
+
+%VERSION%
+4.1.2-1
+
+%DESC%
+A full-featured Amarok-style media player for GTK+
+
+%CSIZE%
+1916201
+
+%ISIZE%
+7131401
+
+%MD5SUM%
+4c1c9afcc3182f58e12c29655d2f5fa1
+
+%SHA256SUM%
+0a576b9de445a46283c4a324686c9207caed909524ecc6c060d22e8297202546
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmLzRBUACgkQOkDLXn5cvDCFlAf/arTPpeUIusI9zQbnbsTtb5nuCWzSAgI+99MI6XlPUd6PWdxwCH+/1woqOx5oQMnDW+C7fQ0BeMF0jmfZQy5OEYq2a7TvyNB/++OiCSP94sQ0gNRA+wQz/7gk+wacp085JgGlcWpUhoLpjF3K7RhFNdK8LhrDrmZfcB7QOqpN6gQRKzOMS6yOl24oML5okxMufbsgbiMHXupIFr0Vpdv3hT2g/SguMegT/3vXl6j82YBuZjVdE8yGX65xXsjjllyTiMfjNlAWdOFlwgMEbcrOjOP3k4bW3NDNWiYvnPlcKkYPLHByZjKiWC9sj6GKJ1gaoXOPI6BswgJTmpK78azUXg==
+
+%URL%
+https://www.exaile.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1660109805
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+python>=3.6
+python-bsddb
+gtk3>=3.22.0
+gst-python>=1.14.0
+gst-plugins-base>=1.14.0
+gst-plugins-good>=1.14.0
+python-mutagen>=1.38.0
+python-dbus
+python-cairo
+python-gobject
+
+%OPTDEPENDS%
+udisks2: device detection
+spydaap: DAAP server
+python-zeroconf: DAAP plugins (daapserver and daapclient)
+ipython: ipconsole plugin
+python-pylast: Last.FM integration
+python-lxml: lyrics from lyricsmania.com (lyricsmania)
+python-beautifulsoup4: lyrics from lyrics.wikia.com (lyricwiki)
+python-musicbrainzngs: Musicbrainz covers
+python-feedparser: podcast plugin
+webkit2gtk: Wikipedia info
+libkeybinder3: Xlib-based hotkeys
+librsvg: scalable icons
+libnotify: recording streams
+moodbar: moodbar plugin
+gst-plugins-bad: BPM Counter plugin
+
+%MAKEDEPENDS%
+pygobject-devel>=3.22.0
+help2man
+
+%CHECKDEPENDS%
+python-pytest
+
