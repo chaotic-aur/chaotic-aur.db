@@ -1,0 +1,63 @@
+%FILENAME%
+clight-4.8-2-x86_64.pkg.tar.zst
+
+%NAME%
+clight
+
+%BASE%
+clight
+
+%VERSION%
+4.8-2
+
+%DESC%
+A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature, dim your screen and set your dpms.
+
+%CSIZE%
+90953
+
+%ISIZE%
+216088
+
+%MD5SUM%
+fec58f862e5ec72859e40e4f552ec287
+
+%SHA256SUM%
+e60ae60380cf9cc81dbcca7fb8ac87caab5533689b35a5f21dd372efe8d35c70
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL14lAACgkQBwa5DTfZuIHq3Q/+OyC8Zr5B/s3hYtFPToSxv+/T6JoKj6G+68ZF+VfjX4tbUTSGx+djSpTZQCdyB+npH+SQlzA4OVHvARez/jjGpViOH/Cfqnw6Hrt3UFJOA2zk9LsgM571g3mJqKsMyn2npg9aHuvySM0+n1ei1g0VIwhM7lONEReQk/mJ+lTQOmSHVgJcpvF2evdqzPaeRwY8UuIsfAMytEHKvyzp9jrOH0FeEVR28mOmg2VEnRnP1oXQI0XMvGW1jg2ZuXMgqgpz5WU1WJKEb/tQKl0RQ4V4kw6iff6dalpR/GWPPB//9j1LRQwKotx+KSoV/2AERaIqNU5upnFlfTiwTIktiF+nWv/NQsT8mUBuI1tuJL/8zJuRwxvJx3xHLmTjVVOl5Q+FbFrFbuGQZ547Gu+tjkgYClhel9FxMVNbS3UtNY+WH9I4YZYcJpFS13cuxsbZJYYOnicSmn6Sob3q85whvI3RCw5g7xUdxfA/Sc2CStO6GpZpmKXGucJ6Q4m2dgf0aOlvbXp4Rwd70V7tgdXYN13bQLZvhWMhd1NXqQGJlP3ms/cMurh7Y0L5fngoXegtRNGnhnZBDgyAqV7OkHD+mZiITVCnJQktiRHgkYgELBfZbsULW4eXWkSefS3WybCFtGhbeLYR0Zisx87s6TRb/TOL2EYSD78NTmvDB0ecyESvr2Y=
+
+%URL%
+https://github.com/FedeDP/Clight
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1660281414
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+clightd
+gsl
+hicolor-icon-theme
+libconfig
+popt
+
+%OPTDEPENDS%
+geoclue: to retrieve user location through geoclue.
+upower: to save energy by increasing timeouts between captures while on battery and to autocalibrate keyboard backlight.
+bash-completion: to add support for bash automatic completion.
+clight-gui: Clight GUI written in Qt.
+
+%MAKEDEPENDS%
+git
+cmake
+bash-completion
+
