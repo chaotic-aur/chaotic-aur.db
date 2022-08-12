@@ -1,0 +1,80 @@
+%FILENAME%
+fastfetch-1.6.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+1.6.3-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+170250
+
+%ISIZE%
+469374
+
+%MD5SUM%
+8bc93acdfbf60ced55d70cb958ae0ad0
+
+%SHA256SUM%
+07e124eeccb4722f3e5ceac8e6d98448e33616901554ddb11f1cb0fbc701c894
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL2zuUACgkQBwa5DTfZuIFPdg/+IhlHfrTsdSoopWNE37beBol0MMYKrK2AX3k4yZuPK9Pnt1k5tgdeqCBtIegmjnjRzfeG2u57r17gf+8/f9p8KS692Xe0hgVUDbxwn3qyw7VAKl1uZSgYueKbOEWbVSVgAHhc/o9f0eIkrnmyntUXqA9ixcgnxtga400spMAZ2Kb9fpWmIrAgJb5IggSSvJjuMIbkYBQTLIVGdPWYAGVWoY2aDNH/j6WBkMcDqe/ZTJqHoLdjVkUzT5+3W5xzp8GcJPK/jf7JmOxta95IpHAX2VKbzFkF6v6WSBUAI4rGHzz/5LhjdR5vm0N2ClwnfWd08nw7c/UPJhbRsx+plrmI/rfbMUEDtYlHhDEF0ggw8NkoyKEUyQJlfqzZMdVAHgy5L/I7Lc2eFxqlXLzcCt2OX2cJH09kByqwkL7B8EIV2I7XJHS0w9irCPY9GzSsl+8h3lkHYmnkQtbusjq/OMfAEfUChlRnOof1oQwrekBKDNZfPSirfVJ9iTEZ9piOhT4UkyBPKut+4Yt5ZpfMeEnFvDTYo/YgfkHKS1g79Y15htWrnM+7f/vauE3+SUnF6yCuwd9BKK31R+yVq783OA9mJDX/XcKipvWURZP/hkI7TKzckzgISI1Vg+yH0NXOcUdm4p/6lc6cmmzngFghVTbvw/hmaGAcisK7hTzYfy73tgs=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1660341921
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Needed for detecting current media player and song
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+mesa: OpenGL module
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+pciutils: GPU output
+vulkan-icd-loader: Fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+imagemagick
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
