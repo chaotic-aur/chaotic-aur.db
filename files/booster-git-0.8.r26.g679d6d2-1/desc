@@ -1,0 +1,65 @@
+%FILENAME%
+booster-git-0.8.r26.g679d6d2-1-x86_64.pkg.tar.zst
+
+%NAME%
+booster-git
+
+%BASE%
+booster-git
+
+%VERSION%
+0.8.r26.g679d6d2-1
+
+%DESC%
+Fast and secure initramfs generator
+
+%CSIZE%
+4753665
+
+%ISIZE%
+11370693
+
+%MD5SUM%
+b38d9ebb1ba38dc5e41f7a40d15ddfa3
+
+%SHA256SUM%
+4be3bf7d740663f2ea33d56bd45f49c1a3b3de1511d2c38379f1fe07bcb047fb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmL2f/kACgkQOkDLXn5cvDC1SAf9HcZaiR93SsX+GoDB/HiwXtrEtYR/Q5izObajSY6NX2uqoNNDkCFZuRBBmQX4I/ayaYW/cBk/bmXcaSJoaKgz4Qro0XzyEeHNjY05JT02TPiOWdHkjEw/16d9xo0ZKG6f9oaJTgzg3AwGZHHMWdfILxkvTk+pUNQtF/HruC/qAY/fWRaIsY5OAaUZAEDalbe3PL1qU7BoqD85SbUm9yTzHy+5VhpJTC704mDWEF/8GSssK/66ZZgA1JjHG8BPbDSFu4Ebgc+q0m3BkfY7rRpmPRtJjpA4mvr4N2IYGGu37B7lhlLOPyFvC7Iqzj5cnmlUL8uL1euCRPqjy+NgwjGL1g==
+
+%URL%
+https://github.com/anatol/booster
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1660321728
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+booster
+
+%PROVIDES%
+booster
+initramfs
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+busybox: to enable emergency shell at the boot time
+yubikey-personalization: for clevis Yubikey challenge-response support
+libfido2: for systemd-enroll with FIDO2
+
+%MAKEDEPENDS%
+git
+go
+ruby-ronn-ng
+
