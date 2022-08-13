@@ -1,0 +1,74 @@
+%FILENAME%
+yt-dlp-git-2022.08.08.r12.g1cddfdc52-1-any.pkg.tar.zst
+
+%NAME%
+yt-dlp-git
+
+%BASE%
+yt-dlp-git
+
+%VERSION%
+2022.08.08.r12.g1cddfdc52-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes (git)
+
+%CSIZE%
+4741368
+
+%ISIZE%
+19364081
+
+%MD5SUM%
+a2563141bf1f42585ede4ab956278880
+
+%SHA256SUM%
+e24ddc88da3c2b90cbe25300531e201edd273e2a0b92a305c905f36b31477f34
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmL38acACgkQOkDLXn5cvDAY6wgAmXj+fU3Gobbc6EDNRer71meTniw27cy635jsf/b50Ld5RCUShUHygHjUav2wYFNcQaHs9F7FAgP70H6vF9w5rjig1hIOBTOePj2XIZ0YuuylJvu9fg3aLRT7uTUJz3HuP0sFa6JWEa3QiRK8O3W8JuI+uJKjFpNqUUGYNkd3y23dIieG8Gnu4QLFQj7YC6oVamdnqXzMiIoJumC1QSvfpjAcMp3HOY60z4EWgTPda8MeoJYNTMQIp/vwe4dVFPfGmuZuxfola3Vg3osTVKPpNk2gcIWJRnkRtBHA/1cPuG2UuFCgZv1VJF9jXxtYqTUcVTkD5et2xNQKzloB6b3EsQ==
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1660416307
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+yt-dlp
+
+%PROVIDES%
+yt-dlp
+
+%DEPENDS%
+python-certifi
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: For embedding thumbnail in certain formats
+python-pycryptodomex: For decrypting AES-128 HLS streams and various other data
+python-websockets: For downloading over websocket
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+pandoc
+git
+
+%CHECKDEPENDS%
+python-pytest
+
