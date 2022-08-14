@@ -1,0 +1,60 @@
+%FILENAME%
+auto-cpufreq-1.9.5-1-any.pkg.tar.zst
+
+%NAME%
+auto-cpufreq
+
+%BASE%
+auto-cpufreq
+
+%VERSION%
+1.9.5-1
+
+%DESC%
+Automatic CPU speed & power optimizer
+
+%CSIZE%
+45233
+
+%ISIZE%
+181626
+
+%MD5SUM%
+fe2eaaef340ac6bbc84925f18357fdb6
+
+%SHA256SUM%
+92363ec49b1a923762bfd535c6300dc770b48fe085711a784afe922834caad6a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL4dI4ACgkQBwa5DTfZuIFqyA/9H9J7gxIKK1Kc7MDHcg8jngG/e6Fwzk3moLya1GPP5kYW2ylNDK/xLJxVj9vfersuV2x3kBVPZeuLX+BfUlSDsIhqO/AeoIiiDa7ROQw8+4bVyKJcE0bT919hn9QGiGX2cGGhrn2G6AoqJZIivbs7d28JgVq1Gsu0AaVa9t9L2x+oRA7h4tdIlbBMqS5fTvexAFyJ7s/UaMqvoU7jEbG0XJsNcoyrcU+oYteJLS5u+sS0oZIBWHU2Gpkn9AZuVjQOv23nQfEVs8EDoMhKhJbpo17uvDcJ5OWHujFU5g4SKJczos3O+1Pf2omxL6tqVjHoIrZA+fzXGw40XznpGE8TI9inEyakezajeqnYWEjbe1JtMoPRx8TP1mdAQNMwImldTEKvH7uLYa12s4FfgX51NvNdqRnZ7oPBncDOMU247SnecXvY8PHZCZyNwLRO0RpfuTJ0bGYOjS36n9NU9Cxot/bu/CGs0FTouTk9t5DK/rfn9vX7mpXFVvGjaZf4iGJD268HgmZdFXcIPy7ngh/9kvllhigXeMziXqE1ve2+7kWejVKdfBqr105jq74K02Nz4QyKOutFjP69sj034RlX8w4XBdvQraMNTA2CiKlPXakGe4ADAQMNidYbjE4j79+1pL4XsyMDBae2n40z3vh0Lj0lu1LmUEUDpAIgCdEwwiE=
+
+%URL%
+https://github.com/AdnanHodzic/auto-cpufreq
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1660449903
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+python-distro
+python-psutil
+python-click
+dmidecode
+
+%OPTDEPENDS%
+cpufreqctl: CPU Power Manager
+gnome-shell-extension-cpufreq: CPU Power Manager for GNOME Shell
+thermald: recommended to have running alongside by upstream
+
+%MAKEDEPENDS%
+python-setuptools
+python-pip
+
