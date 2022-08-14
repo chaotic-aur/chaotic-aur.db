@@ -1,32 +1,32 @@
 %FILENAME%
-qemu-arch-extra-git-16:7.1.0.rc2.r10.g93f3dd6048-1-x86_64.pkg.tar.zst
+qemu-headless-arch-extra-git-16:7.1.0.rc2.r12.gd102b8162a-1-x86_64.pkg.tar.zst
 
 %NAME%
-qemu-arch-extra-git
+qemu-headless-arch-extra-git
 
 %BASE%
 qemu-git
 
 %VERSION%
-16:7.1.0.rc2.r10.g93f3dd6048-1
+16:7.1.0.rc2.r12.gd102b8162a-1
 
 %DESC%
-QEMU for foreign architectures. Git version.
+QEMU without GUI, for foreign architectures. Git version.
 
 %CSIZE%
-784429418
+784238212
 
 %ISIZE%
-2130058839
+2129027359
 
 %MD5SUM%
-aecbb99da471c097ef4451349f631dcb
+89dfdde74d2f3ac02fe9befb7363dbda
 
 %SHA256SUM%
-dd49083caaa2923be8cd99f2944c9260e1a5065d71811fc0ccd399d8922fe2bc
+dbe0937db9ddd5151d3b44bce3052c4bfcedeea4bcab9f9f85777677d48c94e2
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL21bMACgkQBwa5DTfZuIGzLA//T/fzQVnh8SCGYDcze0jKoGW00W9Coh3AfqS/x3PO9l4qWIJCweKoVs7arZR/mNFlVIek2VK6qydq+ONUKATEkpPd6u+gtiDRX8nXvqpL3WmfUNpHcHqaXgkE3NzqAwAjGoKtMHxtw9YLv4+Q0pI5AoaLzLSAgxBudzRhG8vPtAkwDtas1gp0yuIivnBA1SFeM7EUsLEWeQJSXqO7CE0NtVdrl61Fqrr2RIfDzBlGTPcqFDnpEw57uW3AmqcEDofprGqW8iRURY17vW2j/rMVD4DlyZXKhQbyHCHL83z4/LYbkdZjXrj23T/IDTBkURFyGjioX2vY7LWnnt6P2kjevf7yqESYutGXj8DfaHF9dhsL+oMkIJ7QsN8ks54ORuKlIcwc90a1IFil9YNDNWdtQDdTvbHSJfPZgnLLqMnKqJ0EhUV8u51Voy2eGA/hpPyxi822e4m1X2vFTgGjhUIvqQZrEyQafSxmZX+ALXWmnvzUQl7sxHUCssPF689Xj+JzfRGU3EAR8l5Hq86vqUtNKUVOpTaiINUKav0p5kmhx/HogjA62KHgEHJ4jbeLCeDZW7c/O15xW6hhTXL13M2H+V1T223pIqs9VZMGu6yOOZDTdLedU5hsbeTMguDMlleJ4PPeGdsr6obyW7gRedIF4sSw1bWS4gfEcvCU5kq4Dls=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL5ajEACgkQBwa5DTfZuIG3dBAAhWflThQUpS1T7ZrikzotCULR+jpcahQroYcE97Kc9sy9E/JDDPSn30bFoF9Q66RX9Ad6VQ9UxS0D4ljS6/9SUz3+UE2Xd2+Bx+I+nRKxc3DNSF6A/uhMT1xDgcaY7zuWGb25unTntMreZQD+eC516Qz9PtOH9E/nIJzU+pkK+052KsMf8Brgmz/6MzOYflB31M1u6szL5r5KABfok2HTYLBx+5xTHppN4XW9g4WiPljESLZXI7FY3WmxRu1Q4DhX7BYBaWVpsJdnpdc+UjXcBMpQRRA4WDQSemgvD9BvI6xiwh3XbqQPDuHkYIsw7FlSlTLuIYJQl5QbPsB20xz4Kr3tsViuLG7uPLLLGoY+ZOnNQRQh79JONkVufF5K7dLDAZr15T6auWXD6bNYWSKPhw49sjqOjD5ULjTtcOZmUgr2o3/DiSbcuOT1I0DdQpmcAzAtU0xWmVhuikEd6GX8fEehnJ2BDbzLYksTRxZlltMIs6t1xeHcngpUNgIRt3fwSHWZjxDGdbpPOOWc595S27wWgdhCkXTZDDi5ye4AgTDhGMbucSLNyYXg0Jwh+38CBYMGorfHbqmZrfuc854JNoWumSzbzoNxPqhSJQlT8DLr3fL97WVwfqMf94b/ulIFl8mHLAtpT5o1Nf1pghfndo2JfKKTsdhrutIAIbAPV0Y=
 
 %URL%
 https://wiki.qemu.org/
@@ -39,17 +39,17 @@ LGPL2.1
 x86_64
 
 %BUILDDATE%
-1660341830
+1660511038
 
 %PACKAGER%
 Nico Jensch <dr460nf1r3@chaotic.cx>
 
 %CONFLICTS%
-qemu-arch-extra
+qemu-headless-arch-extra
 qemu-emulators-full
 
 %PROVIDES%
-qemu-arch-extra
+qemu-headless-arch-extra
 
 %DEPENDS%
 dtc
@@ -83,9 +83,9 @@ libpam.so=0-64
 pixman
 libpixman-1.so=0-64
 snappy
+qemu-headless-git
 systemd-libs
 libudev.so=1-64
-qemu-git
 vde2
 zlib
 zstd
