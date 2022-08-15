@@ -1,8 +1,8 @@
 %FILENAME%
-qemu-headless-git-16:7.1.0.rc2.r12.gd102b8162a-1-x86_64.pkg.tar.zst
+qemu-git-16:7.1.0.rc2.r12.gd102b8162a-1-x86_64.pkg.tar.zst
 
 %NAME%
-qemu-headless-git
+qemu-git
 
 %BASE%
 qemu-git
@@ -11,22 +11,22 @@ qemu-git
 16:7.1.0.rc2.r12.gd102b8162a-1
 
 %DESC%
-QEMU without GUI. Git version.
+QEMU Git version.
 
 %CSIZE%
-58179796
+60336807
 
 %ISIZE%
-154160300
+159730904
 
 %MD5SUM%
-b0bbaf08c427d7726f7ea6aed9115ca8
+07813102898e3cb17a255a1e30a16f20
 
 %SHA256SUM%
-50f0d45473333fab547b6b41eac155f1bbc46e93f7ec6d05d49f94e6b7ca7eb0
+c88a5f6182328190a320f226c617da15f2baaefb4e161dbd3b4b85ecb6f5b3b7
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL6IksACgkQBwa5DTfZuIEF1w//Z1lmq/ZtRE35P4xJAJyO50qzHvt2Qe+/9nQro83f3a32th6gmaglHd+uP4rFz5qwGtWfIiHTGubQFpWNYT6N0qYPIZd2ZnVQDxA9izO2qH84L+CwAelsbpadgGAAskRyNHFFJClpzRO8QOK6xdv8Qy2dw6AQO0j3cyY/ZP+AOE5nejcMmMLR+CJhp20OGXJYvtNUc/CPPAbmFsddoEEgEsl1QQVry0LBo47vd610CcSD5GjiBvWsJbygm0lrvh0bGs5pV/eHxJm5otr2+EiGONtBnvd4HGLZwwf8aXaG80nyfeXpI7a4fYw4fFIx2PHYc31Zn154wpYCG4/3ZoxlGOTcKCTVgLYWJSn1dQFqPwGnKDSr/E1s6A7jcup7EjAA4B7nHoXZAt1MjHMbPjmBdHyDIZrGOVQSJrogPgw85zDIpUSmrLHNJEfhz4Lp2q4ggfHtU8XC2y02RC79kcLgKx6/Ceo5J3RefhFTriyTbqTWGFV9JxtBpRo2XmiQN/iSjBu5Sn41vZ/9RVU9NNKlqI6GA44OUlNbV19ANAiSk536hQb6IC+YBKUtnph93asUQvqYoVFEhBZNHS0pUCLZs8zW9IJ7S+UDYte1YsL+vEeLTlescggunjbUIuJ4qN1ORv5uTyzZo+jQzGgi0+R7PtZouv945H04EQEzQdSDFLI=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL6IkkACgkQBwa5DTfZuIHH/Q//YydYQ1N+j0iZvwEiF0H6iB241X1a5NdDP9eEem5c+nyHaloZ/pN7g1O7I5NuRJj8nv2G0ntyJlyaCXNHUDdn0K849FILCqplk/ZJqUf0hgCC/B34g9Zi2IxtVprOxMh8AsWRmYD41sf2nyKBhVBatcpdr8Y4qInvb1xmYbl/YcJXRdb6y6H6c3kJycLLRmtjUhipKDQPtpduXU+0RCsfRNvi1SsGfA2A4uvjoS4I29Ngd/82QWZeY5whoVFZC2bqwmxjWOs7tAtQT8lfaLXOsazGoUNpsaR4rkyrV3KxiGI1vKVp4P0RP1ZKgOv9PXxRVl0LNTiDAUsviPIoDuq+T9a1euLFGKq/V19BIfz1Nhb3gfmdp1aucJDYObr6HP4yZPveOGcEwtIduC6pUP0rQMfWN25hnS+ix3wKqC6pnvjlxl56AMbVwKOP++8qDn55aDtcAexnRH9RwsTeFkG3LEUkYOupqFrSsqFiUbqBq/BzAEKtbvyI7vMdOFtHGk05uL3ElySPZph43tOw9VXwGazU+6yZHre93NkvVDyQzlwAgxfXhMkdwOE7CYhQPpkjGSAw/YG+3nPrJgHrFUcLWZAySNo8xHfSQqlefZE9tBDeGivtjIu+tNdT20W/yti7MvcgZAv5z448dMTyger8Dc95q6oIDe3cStB3xt7rUmY=
 
 %URL%
 https://wiki.qemu.org/
@@ -50,36 +50,49 @@ qemu-kvm
 %CONFLICTS%
 qemu-headless
 qemu
-qemu-base
+qemu-desktop
 
 %PROVIDES%
 qemu-headless
 qemu
 
 %DEPENDS%
+alsa-lib
+libasound.so=2-64
 bzip2
 libbz2.so=1.0-64
+cairo
 curl
 libcurl.so=4-64
 dtc
 fuse3
 gcc-libs
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
 glib2
 libgio-2.0.so=0-64
 libglib-2.0.so=0-64
 libgmodule-2.0.so=0-64
 libgobject-2.0.so=0-64
 gnutls
+gtk3
+libgdk-3.so=0-64
+libgtk-3.so=0-64
+jack
+libjack.so=0-64
 libaio
 libbpf
 libbpf.so=0-64
 libcacard
 libcap-ng
 libcap-ng.so=0-64
+libepoxy
 libjpeg
 libjpeg.so=8-64
 libnfs
 libpng
+libpulse
+libpulse.so=0-64
 libsasl
 libseccomp
 libseccomp.so=2-64
@@ -91,32 +104,40 @@ libusb
 libusb-1.0.so=0-64
 liburing
 liburing.so=2-64
+libx11
 libxkbcommon
 libxkbcommon.so=0-64
 lzo
+mesa
+ncurses
+libncursesw.so=6-64
 ndctl
 numactl
 libnuma.so=1-64
-ncurses
-libncursesw.so=6-64
 pam
 libpam.so=0-64
 pixman
 libpixman-1.so=0-64
 seabios
+sdl2
+sdl2_image
 snappy
 spice
 libspice-server.so=1-64
 systemd-libs
 libudev.so=1-64
 usbredir
+virglrenderer
 vde2
+vte3
+libvte-2.91.so=0-64
 zlib
 zstd
 libzstd.so=1-64
 
 %OPTDEPENDS%
-qemu-headless-arch-extra-git: extra architectures support
+brltty: for braille device support
+qemu-arch-extra-git: extra architectures support
 ovmf: Tianocore UEFI firmware for qemu
 samba: SMB/CIFS server support
 qemu-block-iscsi-git: iSCSI block support
