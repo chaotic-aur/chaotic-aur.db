@@ -1,0 +1,70 @@
+%FILENAME%
+hardcode-tray-4.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+hardcode-tray
+
+%BASE%
+hardcode-tray
+
+%VERSION%
+4.3-3
+
+%DESC%
+Fixes Hardcoded Tray Icons
+
+%CSIZE%
+71121
+
+%ISIZE%
+246072
+
+%MD5SUM%
+e0334993c016e2c64e5d4a5ff4076d88
+
+%SHA256SUM%
+3fcefd7a092292aaab125226cba439c43b25786f5b26a77c2fdbd20b352b79ae
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmL9zR8ACgkQBwa5DTfZuIENrw/+Kg5xoGoKwlk7JLfn3UAZRV4cPtwlpqfDDsPBc6lnH6sb1d1UbBekyKE581xRgoN48m1Xg/H9nIJ6UrtW7Mx2lsq25UKA+S7mUgmSa5zL2AWo1FeYn//sFNLQEMbAsVlZ/FWuK61g/C3/B21wjqE3h87Xi+efdzDM5QFGDilaLDq7FFCYmJcR73p+BojuaSIFKxNVKA8ho0CPI102UUmnoIngrhT/YyIsWyeS7Q8wtuoZV8qJA1WdNg2tzrtJE1ANH85Lxuaj8j9gRcFD5b5o4MF+NWEiL2CANd42Fti8l1CYHr2k2sGN4lFD03zNRDQ64B5DICuQ29OfM8r6On7p3cVaV/H8xgAhvXwGBbO22Dq0QZoqs6wrLWBheAXWGI3UiSkbKJHmJIUAfgAf7s6SqLVoVWF+IJrw78N3IS46lMtFMZRuTP/buF+O94pGqkD5W1ldsgtzdDCRm2ZrtqwrAni+YLt3zIvrrrLHGfz9oZY/PHiXMarv/c7vqaG0VzygGsTE6tMR27yma+PyGKmfkiO/WIj0CDf0CAW9W17NqYODpXEiBp4xAulQQ7AMyLBUcb+m5wMN6BUXsKet1wxZzPZBMoUkJkeLVJLmVFnV2RB2AO1v/3u6Q6H53EagLj6krhy1fy+jCsjSBJSRpoz8vYrp/ThvuKguAzxKeeqAFVU=
+
+%URL%
+https://github.com/bil-elmoussaoui/Hardcode-Tray
+
+%LICENSE%
+GPL-3.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1660800269
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+hardcode-tray-fixer-git
+hardcode-tray-git
+
+%PROVIDES%
+hardcode-tray
+
+%DEPENDS%
+python
+gobject-introspection
+python-gobject
+python-cairosvg
+librsvg
+gtk3
+
+%OPTDEPENDS%
+sni-qt-patched-git: patched qt4 sni plugin to enable icon modification
+inkscape: to convert svg to png with inkscape
+imagemagick: used to convert svg to png
+lib32-sni-qt-patched-git: 32-bit patched qt4 sni plugin to enable icon modification
+
+%MAKEDEPENDS%
+ninja
+meson
+
