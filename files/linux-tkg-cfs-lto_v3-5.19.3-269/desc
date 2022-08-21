@@ -1,0 +1,93 @@
+%FILENAME%
+linux-tkg-cfs-lto_v3-5.19.3-269-x86_64.pkg.tar.zst
+
+%NAME%
+linux-tkg-cfs-lto_v3
+
+%BASE%
+linux-tkg-cfs-lto_v3
+
+%VERSION%
+5.19.3-269
+
+%DESC%
+The Linux-tkg kernel and modules
+
+%CSIZE%
+188362606
+
+%ISIZE%
+187633271
+
+%MD5SUM%
+a6e6d9c15e8bdf0c5d40d08d0793c9d2
+
+%SHA256SUM%
+acc3104fa288383603b2a92f3fa43b957d3adc3213984518484af60cd8cd42c1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEHwcW3JQBXKx3+mW2GaIoKvyoqB4FAmMCt1UACgkQGaIoKvyoqB5Y8Q//S8nRrGi+WumgF5+ANzeFObKPbZMJLOGpqjMB6pIoLFn5MbmRdzVvmPleid6U1yl/nimDGIMHjLJErmlTAxeUPPWNXJRg2w9Ct7/y3N9KZGNIGljHcb5vgSR/oyUYIgivoZRAhK/5LcQ76KMgGJZA9+c1W6YmkNg2lzEE+zAD/hFe2UgpEMLgt0wJfYoulzDlhkUvt5Ac7m/S0mptcGW0xhu/tOvC+6EoBpxK4VsvL6BgMHVWQsDkQncGMYHRHx7ti1zQxOMFzAeKLEyY3z5FTExGrdHQnZHj6PJ//z1+aBLICdOGVASrtQ7wkvSDMKcoP7StL3avcJixn5VEeoRiRCOoCWd5oVxK0uPyWjTKc2WJB+am3fh/4Wtg/d86kt0Vm3uv5XDiSALIEgOsiYS5FQp6f11XV3n7v0fD0rHQ4T5050K7GjXbF0LRzoXqrVM57ZPkQwV6OV+1khWlWGH4PztJCeBi+QHnA8qN0rQIYDH/35YqOmp4+Oc0QDY1feWcGjvsWxYFM3V7RJ59XLAwMxhCoVI3DfMjlMA/AdJkzhdG06t6MkqvuO9ie9LzmSzjPxIu5cwAGpDjfR5TYb2X0BoZhi134X9QZnX0118xxgOSDkvECYoROTSHKxRAeqaIjwbTYchdsH4wc4ya0MfYMSQSfEWUCk+oZWi9bWIriNI=
+
+%URL%
+https://www.kernel.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661120314
+
+%PACKAGER%
+Eduard Tolosa <edu4rdshl@protonmail.com>
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%PROVIDES%
+linux=5.19.3
+linux-tkg-cfs-lto_v3
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+linux-docs: Kernel hackers manual - HTML documentation that comes with the Linux kernel.
+crda: to set the correct wireless channels of your country.
+linux-firmware: Firmware files for Linux
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed. Useful for make localmodconfig.
+nvidia-tkg: NVIDIA drivers for all installed kernels - non-dkms version.
+nvidia-dkms-tkg: NVIDIA drivers for all installed kernels - dkms version.
+update-grub: Simple wrapper around grub-mkconfig.
+
+%MAKEDEPENDS%
+bison
+xmlto
+docbook-xsl
+inetutils
+bc
+libelf
+pahole
+patchutils
+flex
+python-sphinx
+python-sphinx_rtd_theme
+graphviz
+imagemagick
+git
+cpio
+perl
+tar
+xz
+wget
+lld
+clang
+llvm
+
