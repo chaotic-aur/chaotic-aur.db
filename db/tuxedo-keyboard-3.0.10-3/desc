@@ -1,0 +1,65 @@
+%FILENAME%
+tuxedo-keyboard-3.0.10-3-x86_64.pkg.tar.zst
+
+%NAME%
+tuxedo-keyboard
+
+%BASE%
+tuxedo-keyboard
+
+%VERSION%
+3.0.10-3
+
+%DESC%
+Keyboard Backlight Driver from TUXEDO Computers
+
+%CSIZE%
+52335
+
+%ISIZE%
+170009
+
+%MD5SUM%
+dc97b82583d163d30e4171ded05ce844
+
+%SHA256SUM%
+9dff8140b03c14d4259317047c7d7489b8a2c7c48b7e0b4995501a2f297dd1a2
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMFDPoACgkQOkDLXn5cvDAj0QgAnKIDe8uSiRHAKzyelqzikDuybnv5MEY4xDkE2uZ8fv7MnnS8riND7RmIto+JQcRHJdO3qGCoWX903CvRMwrUrFNmy5gbq/AXDTEemJo4hXxNqCM1FGy/Pp+U5K1peFdfBXEiXBnEsbIQucpked1P7nxVCUwP1Vgg6KhPyfiUI0zw0MCL8/hNj1OFUMyDBEmH9WVUSLq8cKeBrCO8fyH7lnLNbHcgsmF6QwUIXJD8000jEVi9NThbY27a6g1h5Vw6CBNUfyebtrolmyRPscV1zIm95p1CdfzERbmcTf9oryltEfxfCqYOP8bwxgS2TCoYFbn6n+lgYH1ccDW1+e1SZw==
+
+%URL%
+https://github.com/tuxedocomputers/tuxedo-keyboard
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661275374
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+tuxedo-cc-wmi
+
+%CONFLICTS%
+tuxedo-cc-wmi
+
+%PROVIDES%
+tuxedo-keyboard
+tuxedo-io
+
+%DEPENDS%
+dkms
+
+%OPTDEPENDS%
+linux-headers: build modules against Arch kernel
+linux-lts-headers: build modules against LTS kernel
+linux-zen-headers: build modules against ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+tuxedo-keyboard-ite: Required for models with per-key keyboard backlight (e.g. Polaris, Stellaris, XUX)
+
