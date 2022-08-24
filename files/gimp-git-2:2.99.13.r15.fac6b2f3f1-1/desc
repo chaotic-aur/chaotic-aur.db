@@ -1,0 +1,115 @@
+%FILENAME%
+gimp-git-2:2.99.13.r15.fac6b2f3f1-1-x86_64.pkg.tar.zst
+
+%NAME%
+gimp-git
+
+%BASE%
+gimp-git
+
+%VERSION%
+2:2.99.13.r15.fac6b2f3f1-1
+
+%DESC%
+GNU Image Manipulation Program
+
+%CSIZE%
+14954819
+
+%ISIZE%
+58858706
+
+%MD5SUM%
+f71350afd2b74e473a65b1cba991be7a
+
+%SHA256SUM%
+6289709fd5dbe14735fae1ed4445e1f79684dba824c0a61e7ffd32de36fe1416
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMGeQsACgkQBwa5DTfZuIG4ahAAhU872YxaOk+oupOQV0z1eZim7XXXhRr5Cq7t7rQkV3+xyJ+ji+X8re2gkmowkONsQHF1Gx74JimLRY0jXTnPTmfK6yEs/iPVABgiki1h9eupU41iIR3GlIGeOj5leo0zVKIX+hwlz87dr8qnEWyS3hAa4tJcQuLgY1FS/bJVMREQaq5WHMXyk5o9JxgTFJudkzMLm9GE2Bk9P+FgCJJBXUaIoNvrllr0Si3ZKW4THp4YFVrIkq1hQYZpKMX9oksYnZDKRCgcSLb0mxqZZZMnD+JNSvG2cNPOLN0e2rI/E6nzk1J81+Wq4uKNSg7mEr6974HNoUA+D1V/du3nDjr9TYu2kh3zT/aBGMWOq16zv3oCSewO3E5eKE0mK+9f1mCYAlJSvMLThcsi7yDPES+NLleABXIsEycVHjjnV4FWpGby/DLi7p3g9pkCzJi5lWSc6awE2m3Ik3tXZaFXWEtIdt1CpAy4Pelqq8IICZsl51pzmvskws42Xb1SHUyOcpAVxpitkjar5L7OmdoemNlkgE4rgivJZjJrw70zo5pQ6hbRYD6tIKKYMm9MwgA31UAGviTNwwFrgDzqKonRfXHyYr/Rh49v5R/otDp4x3UEESqpYGs+035VzdtnyhPLINpDbSpanMeYO7++n8GMWdD8kxZtoE7TDIHbxM20Q2Rf7rc=
+
+%URL%
+https://www.gimp.org
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661367711
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+gimp
+
+%PROVIDES%
+gimp
+
+%DEPENDS%
+lcms2>=2.8
+libwmf>=0.2.8
+icu
+enchant
+libgexiv2>=0.10.6
+librsvg>=2.40.6
+desktop-file-utils
+libexif>=0.6.15
+libart-lgpl>=2.3.19
+dbus-glib
+gtk-doc>=1.0
+poppler-glib>=0.69.0
+poppler-data>=0.4.9
+openexr>=1.6.1
+mypaint-brushes1>=1.3.0
+babl>=0.1.74
+gegl>=0.4.32
+cairo>=1.14.0
+appstream-glib>=0.7.7
+gobject-introspection>=1.32.0
+
+%OPTDEPENDS%
+gutenprint: for sophisticated printing only as gimp has built-in cups print support
+alsa-lib: for MIDI event controller module
+curl: for URI support
+ghostscript: for postscript support
+libxpm: XPM support
+webkit2gtk: HTML renderer and web content engine
+libheif: HEIF support
+libwebp: WebP support
+libmng: MNG support
+iso-codes: Language support
+aalib: ASCII art support
+zlib: Compression routines
+gjs: JavaScript scripting support
+luajit: LUA scripting support
+
+%MAKEDEPENDS%
+vala
+git
+intltool>=0.40.1
+alsa-lib>=1.0.0
+libxslt
+glib-networking
+alsa-lib
+curl
+ghostscript
+libxpm
+webkit2gtk
+libheif
+libwebp
+libmng
+iso-codes
+aalib
+zlib
+gjs
+python-gobject
+luajit
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+
