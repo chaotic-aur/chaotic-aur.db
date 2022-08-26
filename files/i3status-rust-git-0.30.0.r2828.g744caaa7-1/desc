@@ -1,0 +1,70 @@
+%FILENAME%
+i3status-rust-git-0.30.0.r2828.g744caaa7-1-x86_64.pkg.tar.zst
+
+%NAME%
+i3status-rust-git
+
+%BASE%
+i3status-rust-git
+
+%VERSION%
+0.30.0.r2828.g744caaa7-1
+
+%DESC%
+Very resourcefriendly and feature-rich replacement for i3status to use with bar programs (like i3bar and swaybar), written in pure Rust
+
+%CSIZE%
+4716388
+
+%ISIZE%
+15532379
+
+%MD5SUM%
+e49ec1aaaf3c8881c010af16f8a7b706
+
+%SHA256SUM%
+dd13ea85152b623951069ef99b6b0895169f5aa1c522f0ddaf95211c39735424
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMIqfsACgkQOkDLXn5cvDC18AgAj/WNIQadU1Bwa77JvOXBYecZqif7RHZPIjd6pH/+uwRcDKLhll2OtwNoMmeht8s1X+AfcGUi1supAv51CjGSD67634iIVqFrjfm4S6d0ekmnAC6xe1Lzd3mBtUXxVm7/V3uKy5fqUOU7VM1iXoP42lXW0GEfe8n65t5G8/HFTCHjWGDLLb+Nj9z+tBGF9yZLF/r/AxClvApQYPcIC6ULZ7dYC5IVcqJkfB9E4KHQrIsQoyNweMmISX/vYy4ycqmxZCHlnfOd5Dvip5N4YlWOcfeOblU/5cZj7ys4ElbXcGxAZOVBEPp3FTyv7CiN4/KYRjGqmxEk4tEFXigFU6wXDQ==
+
+%URL%
+https://github.com/greshake/i3status-rust
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661511827
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+i3status-rust
+
+%PROVIDES%
+i3status-rust
+
+%DEPENDS%
+libpulse
+lm_sensors
+
+%OPTDEPENDS%
+alsa-utils: for the volume block
+bluez: for the bluetooth block
+fakeroot: for the pacman block to show pending updates
+kdeconnect: for the kdeconnect block
+powerline-fonts: for all themes using the powerline arrow char
+pulseaudio: for the volume block
+speedtest-cli: for the speedtest block
+ttf-font-awesome: for the awesome icons
+upower: for the battery block
+
+%MAKEDEPENDS%
+git
+rust
+
