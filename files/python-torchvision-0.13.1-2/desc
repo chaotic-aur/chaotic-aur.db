@@ -1,0 +1,65 @@
+%FILENAME%
+python-torchvision-0.13.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-torchvision
+
+%BASE%
+python-torchvision
+
+%VERSION%
+0.13.1-2
+
+%DESC%
+Datasets, transforms, and models specific to computer vision
+
+%CSIZE%
+1142384
+
+%ISIZE%
+5408466
+
+%MD5SUM%
+0230057595f1999a4463b632365581d4
+
+%SHA256SUM%
+ce645aa8f9357246180071dd5d76f63e97f192be21980c7c34094f0cb8a4c7f1
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMMWE8ACgkQOkDLXn5cvDBCsAf/e30aeuNOv9Nz3k4lqVWuzw08PTvpQhyXiBYZqpFDQRUocS4JbsAPdJG1CaKw6tipfQkMblFxBuXnNp8Ug1BX6NBO79L9KQM+G6ocXKJONjJ6GntCG2OD1RseuhT9vQqukSvvLuNXQTRNfB/xonuzx9kDxRBeWxKxET8aCfdE673R1D1K0m/kJb34D9Ul87l0SeMGupEuWqEfd/YaDSNBOYmpl3NYvzY7Q6KTZxdkkdGlCrs9ncRqo/c8Pd29dvFIcBLab3cdMndP7A2N4lUXgu3MZvXdP9Y6Nm5+iq2mvJgeR/nukn7AB56xsKW8/ZA9IrnJhtwUdXs739sdg9C3Gg==
+
+%URL%
+https://github.com/pytorch/vision
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661751619
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+python-numpy
+python-pillow
+python-requests
+python-scipy
+python-pytorch
+
+%OPTDEPENDS%
+ffmpeg4.4: video reader backend (the recommended one with better performance)
+python-av: video reader backend (the default one)
+python-pycocotools: support for MS-COCO dataset
+
+%MAKEDEPENDS%
+cuda
+ffmpeg4.4
+python-av
+python-pytorch-cuda
+python-setuptools
+qt5-base
+
