@@ -1,0 +1,86 @@
+%FILENAME%
+webcamoid-9.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+webcamoid
+
+%BASE%
+webcamoid
+
+%VERSION%
+9.0.0-2
+
+%DESC%
+Webcamoid is a full featured webcam capture application.
+
+%CSIZE%
+10589493
+
+%ISIZE%
+17746850
+
+%MD5SUM%
+b3b49d2d9d81620bea39353670595bb1
+
+%SHA256SUM%
+1b544e13e4d660a8758e556458d01f27d7c3a8d832610744db3a39fe4705e60d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMM7rsACgkQOkDLXn5cvDBWawgAhIqjHNHDPQrA2ckXXyxzjAVili5B607EgHpAJNIuGVycanXtJ5dXkxi9FNVUmlUj5bTojeo0yRJBLukk6pxnN/6UTC/hk4+m+VoXZ1sIVXmPTcnbYwpsfQZ9BEZDWTrlVxb2hD88HHjweEx3B7zMX3pA1w0+EeFH8EU84m97TAABYz1bc1xk6upSEoR8OiC/tkHDpDXC4xu8BJZpox1kIQWoSQrgLYkzdeY7M/jT4hJcDeEz+BzQQqQ+rqPkQbebr9ZkS24hq4NaHUaOW5w3yD3Y6ZbE0COkZYLwANldKqVo/VYjF9sDi6JJaTa7rxCQmgkd9oYZ+Uyit+zGWjKEyQ==
+
+%URL%
+https://webcamoid.github.io/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661791804
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+webcamoid
+
+%PROVIDES%
+webcamoid
+
+%DEPENDS%
+qt5-quickcontrols2
+qt5-svg
+
+%OPTDEPENDS%
+v4l-utils: Extra formats support for webcams
+akvcam-dkms-git: Virtual camera support (Recommended)
+v4l2loopback-dkms: Virtual camera support
+ffmpeg: Video playback/recording/conversion (Recommended)
+gst-plugins-base: Video playback/recording/conversion
+gst-plugins-good: Video playback/recording/conversion
+gst-plugins-bad: Video playback/recording/conversion
+gst-plugins-ugly: Video playback/recording/conversion
+vlc: Video playback (Recommended)
+pipewire: Screen capture
+libpulse: Audio playback (Recommended)
+alsa-lib: Audio playback
+jack: Audio playback
+libuvc: Camera capture
+polkit: Root privileges for virtual camera module (Recommended)
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+ffmpeg4.4
+git
+gst-plugins-base-libs
+jack
+libpulse
+libuvc
+pipewire
+qt5-tools
+v4l-utils
+vlc
+
