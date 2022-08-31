@@ -1,0 +1,121 @@
+%FILENAME%
+matrix-synapse-git-1.66.0.r0.g6f80fe1e1b-1-any.pkg.tar.zst
+
+%NAME%
+matrix-synapse-git
+
+%BASE%
+matrix-synapse-git
+
+%VERSION%
+1.66.0.r0.g6f80fe1e1b-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3185528
+
+%ISIZE%
+16422625
+
+%MD5SUM%
+a364c087cb16e57dccdbe6d3f4052ab1
+
+%SHA256SUM%
+faf2d42876706dd4b020cc4f24e945a892f5426a1be04c6e18e8fc7e1da14c0b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMPYPwACgkQOkDLXn5cvDC28wf/XtMLB9V6D/G8TTX6uaDdKGFJw9W8eVORy2/fYaL4RC7CVMctw799fq69pPq9ldT2TGxL/xk9EkTLFWVdKRFIbQ+4jVLO2w8YYmmgcCP553NtlXbhQn4dsegGHzBWJ7WYsHj/VqjcppVIxKbhM40WYM+ZPOBAgbnNwzV+pvd3mrY+V0ofFcYbnEsZd/cKTEzOSX6yu0QOEZdRFDZvbK65/KgnTnp8y5azuR0BdXuOEEawPPYxGW9shC4AFuSxEbvj0+3d/lrsLlCvfhWnpoELwCdCUiRrkukr4cD90viGeR3MKhIRCBcYBO7ZeXGAWB8MfCiD9rNyzGOXn3pNHKeqmA==
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1661952232
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%REPLACES%
+matrix-synapse-py3-git
+
+%CONFLICTS%
+matrix-synapse
+
+%PROVIDES%
+matrix-synapse
+
+%DEPENDS%
+libwebp
+python-jsonschema
+python-frozendict
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pynacl
+python-service-identity
+python-twisted
+python-treq
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pyasn1-modules
+python-bcrypt
+python-pillow
+python-sortedcontainers
+python-pymacaroons
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-jinja
+python-bleach
+python-typing_extensions
+python-cryptography
+python-ijson
+python-systemd
+python-matrix-common
+python-packaging
+python-importlib-metadata
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-pysaml2: SAML2 support
+python-authlib: OIDC support
+python-lxml: URL previewing
+python-sentry_sdk: Sentry support
+python-opentracing: tracing support
+python-jaeger-client: tracing support
+python-pyjwt: JWT support
+python-txredisapi: worker communication via Redis
+python-hiredis: faster worker communication via Redis
+python-pympler: experimental `caches.track_memory_usage` config option
+python-matrix-synapse-ldap3: LDAP provider
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-lxml
+python-pyjwt
+python-txredisapi
+python-hiredis
+python-parameterized
+python-idna
+
