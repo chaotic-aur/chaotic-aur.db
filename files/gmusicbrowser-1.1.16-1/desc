@@ -1,0 +1,70 @@
+%FILENAME%
+gmusicbrowser-1.1.16-1-any.pkg.tar.zst
+
+%NAME%
+gmusicbrowser
+
+%BASE%
+gmusicbrowser
+
+%VERSION%
+1.1.16-1
+
+%DESC%
+Open-source jukebox for large collections of mp3/ogg/flac files, written in perl.
+
+%CSIZE%
+1315769
+
+%ISIZE%
+3841813
+
+%MD5SUM%
+cc6e74aeadc35468aa6e735bee07baeb
+
+%SHA256SUM%
+20d5b54db434259046a8358dffeddd5ec02c555fdf9ba699e90d956c53125b6d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMQ/qYACgkQBwa5DTfZuIF0bRAAojzZear8/2O4+EM0qCbF5kGwCOO+7r0PA3kDMSVHqNXq+skUGxLzQOfdD17/4r/1DtVpBu6NbyO86UZ+Txm3l4kMt4Kap61W3VosntmErFjcV/FXkKV1+u88PQDUhXCA+5ICsyEm33xpY1tFJedBoS3nso9kxwfLpitAwFmFxf1/OjXiTwh3BTFZgxdX5DYxMCUQoFU/RA7oUI6kawpk1YRmACdu83odxgre7QWUpV5XxOi/P+n6y50oBvl31qDvtE9BYW79uvV2XHIDD77zISFKqVCLzzLnMTh6TLNT+JBDW+ChTYmNBH29mHGwL7trAXEapnuNzj8rTpbhxdPEtMx7Ty+ZLeZDRZvFW3UgcppKI2413SSsQwR+pgBAuGoqnx8aTJ7YWOcvDr2vxI0Wky46CE/XU9mkhSWz/LgvV93WfUD++dfgvXP8kpHv8VdKulBK3MYBF4rs2dqJIeAf9B5EZ0h5hkthLLXqEpDcZlv40+o/tk+vxg8MeeSTTYgjCaWOumv59M7PCY7PZfPPewc4tOXVdmEp/LFA4s8V9g80AhWLQtJwG6EMrsL7ROYXXLAq2hMZ6yFm2xEu69nEwGpjwxJZebHC2I+J1t/vzE2C47KH7Mp771uTyRhMiIbIoemkCv2MI3fQHuDWxXzItLPI6aX2/gDbSRzgsohtPaE=
+
+%URL%
+https://gmusicbrowser.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1662058142
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk2-perl
+perl-net-dbus
+perl-locale-gettext
+perl-glib-object-introspection
+
+%OPTDEPENDS%
+alsa-utils: enables the ALSA backend
+flac123: flac support for the ALSA backend
+mpg321: mp3 support for the ALSA backend
+vorbis-tools: vorbis support for the ALSA backend
+mplayer: enables the mplayer backend
+mpv: enables the mpv backend
+gst-plugins-base: vorbis support
+gst-plugins-good: flac support
+gst-plugins-ugly: mp3 support
+perl-gtk2-trayicon: tray icon support
+perl-gtk2-webkit: alternative web-based plugin support
+perl-gnome2-wnck: titlebar plugin support
+perl-html-parser: support for accented characters in lyrics plugin
+perl-gtk2-notify: support for notify plugin
+
+%MAKEDEPENDS%
+discount
+
