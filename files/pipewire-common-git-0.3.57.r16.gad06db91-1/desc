@@ -1,0 +1,119 @@
+%FILENAME%
+pipewire-common-git-0.3.57.r16.gad06db91-1-x86_64.pkg.tar.zst
+
+%NAME%
+pipewire-common-git
+
+%BASE%
+pipewire-common-git
+
+%VERSION%
+0.3.57.r16.gad06db91-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+2312136
+
+%ISIZE%
+8800829
+
+%MD5SUM%
+7f18ab2ec991ecbc12cff8da8ccb9d7e
+
+%SHA256SUM%
+cfbec47e03a10ac21bcbfa5f2ab9de17b6aaf5392ffe19de095d11f11729d7f4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMWETcACgkQOkDLXn5cvDB9Ygf/TNiS3wv8idUyHRYeTxapmqoAb0sVSWz91MmGtgwjYBCPfm2izwx51FzDrAhztYnQimMa9Xhbmh0Mh0KwXfaEcHrHfDMebfFbHEZHr4kTEDmNJknCYkZrM64H9AqIH3kd9zZlUvQRReLVqimVclBVkJoWrMQmr36bwKqVX5hwp3H3fwF3zm7xV1nATegm4fGakq8UjsEAPBXdXUrBSiiiMnZO0eqpD910l1v6BP2ChrxdpCtlZUV2nhCEhgrQ3ho/N6gSTclvZOTf6hncXmGTxyperX1g0/Des1Zv4jcgeKIMB8Ae2+rtAXtgmKZtno4+b/iRLD94gxa/wk7FhSlL6g==
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662390477
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+pipewire
+alsa-card-profiles
+
+%PROVIDES%
+pipewire=0.3.57
+alsa-card-profiles
+libpipewire-0.3.so=0-64
+
+%DEPENDS%
+rtkit
+libdbus-1.so=3-64
+libncursesw.so=6-64
+libreadline.so=8-64
+libsndfile.so=1-64
+libudev.so=1-64
+libasound.so=2-64
+libsystemd.so=0-64
+libwebrtc_audio_processing.so=1-64
+libusb-1.0.so=0-64
+libbluetooth.so=3-64
+libsbc.so=1-64
+libldacBT_enc.so=2-64
+libldacBT_abr.so=2-64
+libfreeaptx.so=0-64
+libfdk-aac.so=2-64
+libopus.so=0-64
+liblilv-0.so=0-64
+
+%OPTDEPENDS%
+pipewire-session-manager: Session manager
+pipewire-common-docs-git: Documentation
+pipewire-common-alsa-git: ALSA configuration
+pipewire-common-jack-git: JACK support
+pipewire-common-pulse-git: PulseAudio replacement
+pipewire-common-v4l2-git: V4L2 interceptor
+pipewire-common-x11-bell-git: X11 bell
+pipewire-common-zeroconf-git: Zeroconf support
+gst-plugin-pipewire-common-git: GStreamer support
+ofono: ofono Bluetooth HFP support
+hsphfpd: hsphfpd Bluetooth HSP/HFP support
+
+%MAKEDEPENDS%
+git
+meson
+doxygen
+python-docutils
+graphviz
+ncurses
+readline
+systemd
+libsndfile
+alsa-lib
+dbus
+rtkit
+libpulse
+glib2
+webrtc-audio-processing
+libusb
+bluez-libs
+sbc
+libldac
+libfreeaptx
+libfdk-aac
+opus
+lilv
+libx11
+libxfixes
+libcanberra
+avahi
+openssl
+gst-plugins-base-libs
+
