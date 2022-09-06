@@ -1,0 +1,105 @@
+%FILENAME%
+obs-studio-tytan652-28.0.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-tytan652
+
+%BASE%
+obs-studio-tytan652
+
+%VERSION%
+28.0.1-2
+
+%DESC%
+Free and open source software for video recording and live streaming. With everything except service integrations. Plus V4L2 devices by paths, my bind interface PR, and sometimes backported fixes
+
+%CSIZE%
+185499720
+
+%ISIZE%
+519961451
+
+%MD5SUM%
+5e64a1c2c03b9b01c5a4f6a6560ca624
+
+%SHA256SUM%
+7c2bfd0f1e755c6b6ed7c389d2c3d0d93e540cfc94ca204f2e909f798b15fa68
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMXspQACgkQOkDLXn5cvDCmXQf/ap2waKSIFGZdkyrdTYCfpkbeeLBQY+pXUCmuTVvJ13Y5o5zjj2IT2tWIueYJMlvEaFTz0AQVM66VBQxLDY2DdbHkpfbmJrPQL6G/EoPPnYDe/m7GO+NuL4EXoE5LQdf01qTiGiWDetjL3pnfGs3TWMmvJOVLOsWzsRbofeWkTiMILUxSkhMkXZKZ8bPjKOid9WuQHZ40fxvuEpN4AIma8wGI3HSfOCM2EOH2P3qi53t4DA4CwWkQDwL1uQmcrJVOA3wdS+HGGLxqkBSVXcvVFM75x390T3lCZcPfzIv/2ZRMxLK15Rk0bEuyD4k3uUu7fwNliVQfNEEZYflnptc14A==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662497162
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=28.0.1
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+python>=3.10
+
