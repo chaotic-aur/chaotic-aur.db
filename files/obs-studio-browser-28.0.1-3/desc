@@ -1,0 +1,106 @@
+%FILENAME%
+obs-studio-browser-28.0.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-browser
+
+%BASE%
+obs-studio-browser
+
+%VERSION%
+28.0.1-3
+
+%DESC%
+Free and open source software for video recording and live streaming. With everything except service integration
+
+%CSIZE%
+112101642
+
+%ISIZE%
+291617789
+
+%MD5SUM%
+2f8c6b87ac33b09c64913a6d9c4750fe
+
+%SHA256SUM%
+db645f44b932dd9d61bb444de97c68a8e303c8439456779dd12cb6150c282b47
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMYg7IACgkQOkDLXn5cvDCgaQgAjhVngDAi27uawZNU0YpixkpKOn90N8PNF6abdRYpQnlq9eIJEig6nzh0en3lsdNsxOdL+L1bcne/FIYTwoOeWZCzBz8+mr4nN27ZoKJldPIF/MthgW/zFsmnrlaxw4IPyJxO6dLQElt/dOMklDeu5g7TUbmk1XN98Qzc7dYI9Rt9g+3cy+WJhEFdIBTnVmEJJuT+N4Zp3XoGKlLwG+aZgrwlQoLkvZbir87ImdrOJjczUrxhi5i+T3xJjZgrU1mfP4pPYSvGk3bZrhBtnZ3T3N/h0DkprjtPtcTMS2PWzb3F6dksAGuqHNmUz9UD07lDiNivFnFVonH5QaowYvp9+A==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662550635
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-browser
+obs-linuxbrowser
+
+%PROVIDES%
+obs-studio=28.0.1
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+cef-minimal-obs=103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+decklink: Blackmagic Design DeckLink support
+python>=3.10: Python scripting
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+python>=3.10
+
