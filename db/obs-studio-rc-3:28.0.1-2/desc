@@ -1,0 +1,105 @@
+%FILENAME%
+obs-studio-rc-3:28.0.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-rc
+
+%BASE%
+obs-studio-rc
+
+%VERSION%
+3:28.0.1-2
+
+%DESC%
+Beta cycle of the free and open source software for video recording and live streaming. With everything except service integration
+
+%CSIZE%
+185509880
+
+%ISIZE%
+519938046
+
+%MD5SUM%
+f5b90ba3694ddca2ebefc71d9cab70ef
+
+%SHA256SUM%
+afc0549f968a164f6ad02f565c0b83d9ce81eef82cb0855da069a822d6de0db5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMYdMIACgkQOkDLXn5cvDCjCAf/dCQfaolMeqHOJGky553NFSTUsoXhtBj4KKswBP9TGlKA66zl8zA8IGFKcQLK6wmGdu0Jz91Wc0Iieeeurr73Y2/Otocr035cm13AoJ5V9WYPEq8ixaCYg1I5pyeO4YaBSQjdWiKQXI9Q+IaxhIB769OXLz7qrKSLEXir/VI7T3X+eR4ri9Z8ZNgkR2qjrd8fvpIBViytzaPD9cMwMXx9oPlpOG8b0kOLiafM+XQPZ+dQPcIKCRU7qGzrn7OF+5NkMarUzKa+w49wy94IaTc45sw3sVqht1i7iiiftxf3Eut0G8CrOsrHnhHXU/dAeSWbl62zXQNJhVnILpsYeF+DGQ==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662546883
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=28.0.1
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-atk
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+python>=3.10
+
