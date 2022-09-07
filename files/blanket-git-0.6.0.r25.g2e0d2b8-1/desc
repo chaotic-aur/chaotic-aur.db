@@ -1,5 +1,5 @@
 %FILENAME%
-blanket-git-0.6.0.r25.g2e0d2b8-1-x86_64.pkg.tar.zst
+blanket-git-0.6.0.r25.g2e0d2b8-1-any.pkg.tar.zst
 
 %NAME%
 blanket-git
@@ -14,31 +14,31 @@ blanket-git
 Improve focus and increase your productivity by listening to different sounds.
 
 %CSIZE%
-19924745
+19927089
 
 %ISIZE%
-20488686
+20488733
 
 %MD5SUM%
-e186ed0c638b9598719051db34ae5d3f
+4df9e8ba50cf0cd69a148f61c8edd6ba
 
 %SHA256SUM%
-f956db4e86aee767d4c663c83f4ec1eac749692b2229ab7cc8d97791b9fb1985
+70158ac8bf17497bda6d3fcc94368d7330aef79a960474085973c947025b76d2
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMSDKIACgkQOkDLXn5cvDAl5Qf7BNhDPCQfGrR2p5SqZ+YVoGRo4lHBm6Rdccr6nCsqNF8jtB403ntneT8966js0VM2QI5XJ05pAtW6Y3OLuCDRPwojJdnEZEjt1haz2DqYcRczRp9GhpUoHX1adQ1o7DUCi2X3yrMsMxmHcOH78eKcjr4uhw9Fe5oNQXbYKTDFFmkj6VJVlRQKR404Bt4JQrage4fi/9gVZ1C6MYDVbUCLEh6Xscy8Jhe/1/4KCByqY5iGAG33DVkNbzQqaQriEzfLjWQ6RNPje5nGUpDVQ2ng1BEIyUZXzAszS2T+OnSeDyB98sSMaJTq1ZUOMGzPQ2gmlfIwOAwi3noxe0NNetWaEQ==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMY5RAACgkQOkDLXn5cvDCFRwf+NdfcrOfay+s/rZhroKLKPn9aG90bnOwkRYNMwyuQxXhQNT26g0DiKwBFK7r7ArdwW7WbQyGp1xvo2eoYf6fXDoy0YTGxYQyovAvNVwkKMRnOpWVufCWayh7I/rN0MkBe6H4kts9JRqegphIXmHQI8OEwJYwRsS1i+Zpqt2dzAl20EdUFF2tEXXLPMpjks/By9zVrASTFOEbgI6SlT3YDwFyKffTFQ4Oz0o2jGqhiebAfh5yf8Ha+LX/6ToWPSz2E3HKy5Y7RLGY4fT59btj6IwVn+z2KKRwhMMTIa0WcYYY7xpgAUpIkLHgPm/9VM+E0SWkxKEtxNCgCVHVO3LJlNQ==
 
 %URL%
-https://github.com/rafaelmardojai/blanket
+https://apps.gnome.org/app/com.rafaelmardojai.Blanket
 
 %LICENSE%
 GPL3
 
 %ARCH%
-x86_64
+any
 
 %BUILDDATE%
-1662127249
+1662575845
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -50,13 +50,17 @@ blanket
 blanket
 
 %DEPENDS%
-gstreamer
-gtk4
+gst-plugins-bad-libs
+gst-plugins-base
+gst-plugins-good
+gst-python
 libadwaita
-python
 python-gobject
 
 %MAKEDEPENDS%
-git
 meson
+git
+
+%CHECKDEPENDS%
+appstream-glib
 
