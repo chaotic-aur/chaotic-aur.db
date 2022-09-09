@@ -1,0 +1,97 @@
+%FILENAME%
+firefox-appmenu-104.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+firefox-appmenu
+
+%BASE%
+firefox-appmenu
+
+%VERSION%
+104.0.2-1
+
+%DESC%
+Firefox from extra with appmenu patch
+
+%CSIZE%
+84452501
+
+%ISIZE%
+244697458
+
+%MD5SUM%
+650d95da4826afce913173c7186aca58
+
+%SHA256SUM%
+643c6821497f3dd25dc0c4c8952fc616879525b0d65b5cd059a1f0ace0053349
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMbfTgACgkQBwa5DTfZuIEnKQ//XPp7NVoFkH0AEF6wSrK5DC6eH+sz+o/4CS0kDZIoB549jKThEIq3CE2kV/ZGXQclywcmMjx4yhBLm079gh3Osl5oXr3gNS7/5lTs2Tqhif/QT5Q8hdKE/z6qv0HUr1o8dCO1iPviPGTzXHFEjgl5B/KSgUrCCGxXa/WzNYTaKBmOFAT+WEmk9N88a9ZpZQEQmZG+S+VlTgjdvxoCSpXn21bSnrSkR05a9LYR9Z0DKwlKCels16DR2coJi9/SmRIdjlTGk+qU8RGjmcaxk4domL7YECdthqWghLGf0l9BB2AchxH2+dp+8EFmorylqnGaeCDW+BDVWZ2ckmeWsFZIIgYMLF9rbJU+TowGmz2imkoXVwcSr6QGxO5brdgeL2VT4iJaqYpeQ37efcPPzQ7W8YcteIvTL60ryZ61+51lW81EQVIr8t016y5zTsUWFUlyce9Nomey8xjZNuN4Sdo+2Ncs4mnkDNELslSwgRU5ICaFY7v6C0vWwZNNIdpaCYtaclbsb4sawHOPG05n06K0tDYhBGdiI0AI/PhVzh4HFZ96FhBFEjNL8+MyHFSiipCRRcBrCatOsPX8Www86/I1W+AsYTlAFKL7HN1bv2IeLlwh2bZGjSKLX3vxr1ZgnQK1XUgVQ6eeGMrt8eb47FKr26N2IH+aGCx0TucTfV+uH10=
+
+%URL%
+https://www.mozilla.org/firefox/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662726043
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+firefox
+
+%PROVIDES%
+firefox=104.0.2
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+ffmpeg
+nss
+ttf-font
+libpulse
+libdbusmenu-gtk3
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+xdg-desktop-portal: Screensharing with Wayland
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python
+lld
+dump_syms
+wasi-compiler-rt
+wasi-libc
+wasi-libc++
+wasi-libc++abi
+
