@@ -1,0 +1,116 @@
+%FILENAME%
+xpra-git-v4.3.r1167.g429f3bebd-1-x86_64.pkg.tar.zst
+
+%NAME%
+xpra-git
+
+%BASE%
+xpra-git
+
+%VERSION%
+v4.3.r1167.g429f3bebd-1
+
+%DESC%
+multi-platform screen and application forwarding system screen for X11
+
+%CSIZE%
+5130036
+
+%ISIZE%
+17622587
+
+%MD5SUM%
+0ed8e1e8f1a0ffca14f2d776c0ae9f26
+
+%SHA256SUM%
+054edf88f249aa59cd63a92a1a29748ad12857ed11cd36635a2030d300ee003c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMa2mYACgkQOkDLXn5cvDD0WAgAhmC6kr6joMHixXVrDtILcVBoJNo/o8rPh4qY9rZNmKiqhkoDv0MicBMijFYItUXMr79flm9HWtVsGupqDeM5gP/MTInkzkY4JqFLgJHkDdOHYGBhUKK9wJhugwjrev/5lEclpiImde9yCke9TwGMTpCsOWhveSGGPLVf0LQwoOPO9W0gsaJLeuTF/OtYqj4NWDWC6dv5/YxXyCDllVpLsw4KLXXH+JXX5DD959w8FwwT5YI3peqccCUrOb+PLC12dxAt4jPK303YqRn2WJs6veYRe5JOxV3mb5O99RnvnvDxp1OBLKETBJDEYoGCEY3KBmoJdKIUay1XFP9xAekfKw==
+
+%URL%
+https://www.xpra.org
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662704000
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+xpra
+run_scaled-git
+
+%PROVIDES%
+xpra
+
+%DEPENDS%
+gtk3
+python-rencode
+python-lz4
+openssl
+python-paramiko
+python-pillow
+python-cairo
+python-gobject
+libxtst
+xf86-video-dummy
+libxkbfile
+libxres
+
+%OPTDEPENDS%
+python-opengl: client OpenGL accelerated rendering (client)
+python-pycups: Printing
+xf86-video-dummy-xpra-patch: Xdummy with constant-dpi. Recommended by Xpra
+python-pyaml: alternative packet encoder
+python-cryptography: encryption
+python-zeroconf: Multicast DNS session publishing (server)
+python-netifaces: Multicast DNS session publishing (server)
+python-dbus: desktop integration, server control interface
+python-paramiko: ssh integration
+sshpass: non-interactive SSH password authentication
+brotli: HTML client compression
+python-gssapi: GSSAPI authentication (server)
+python-pykerberos: Kerberos authentication (server)
+python-ldap: LDAP authentication (server)
+python-ldap3: LDAP v3 authentication (server)
+python-pyu2f: U2F authentication (server)
+x264: h264 encoding (server)
+ffmpeg: h264, h265, vp8 and vp9 decoding (client)
+libvpx: vp8 and vp9 codec
+libwebp: webp codec
+libpng: png encoding
+libjpeg-turbo: jpeg encoding
+opencv: Webcam capture (client)
+libyuv: Colourspace Conversion
+python-pycuda: NVENC (server)
+python-pynvml: NVENC (server)
+gstreamer: audio framework
+libogg: ogg container format
+opus: opus codec
+flac: flac codec
+speex: speex codec
+libvorbis: vorbis codec
+wavpack: wavpack codec
+faac: aac encoder
+faad: aac decoder
+lame: MP3 encoder
+twolame: MP2 encoder
+libmad: MP3 encoder
+python-numpy: GPU accelerated capture and compression for NVIDIA cards
+python-pyinotify: watch for application menu changes
+xpra-html5: HTML5 client. Can be used with Xpra proxy
+python-uinput: fine-grained scrolling using virtual input
+
+%MAKEDEPENDS%
+git
+python-setuptools
+cython
+pandoc
+
