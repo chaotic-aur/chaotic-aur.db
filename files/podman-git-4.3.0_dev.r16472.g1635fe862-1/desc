@@ -1,0 +1,91 @@
+%FILENAME%
+podman-git-4.3.0_dev.r16472.g1635fe862-1-x86_64.pkg.tar.zst
+
+%NAME%
+podman-git
+
+%BASE%
+podman-git
+
+%VERSION%
+4.3.0_dev.r16472.g1635fe862-1
+
+%DESC%
+Tool and library for running OCI-based containers in pods (git)
+
+%CSIZE%
+24916971
+
+%ISIZE%
+69757265
+
+%MD5SUM%
+aa2c087e9e8347e78e69f048460a717a
+
+%SHA256SUM%
+d2873c4e2031f4777836cb4090ca25692f3bc16ae5b02105d73b4f28a41b3f35
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMevl4ACgkQBwa5DTfZuIEU3w//d54E8Mv2QVSO3ZmOZjkUBf9p07JU0DHceCVADp34oOnhFAoFeqk4RtCbyyyXDZfjCs9xMj8+J1LLSVuiinZgo6wqKx1kknBVC1yfuC/Ii1t5xjP0cqzCCFw2+vLLVBMyqTzMdWcRHTAFPLPUbaXh32pDFyZ0HI7WkIICzRKXE3v1ANP604Ggny4P5TIE7um8IaKOuGlU3dyPFqpFuEljm6rhMM2dFNiUcstMiVCIlvfDwpqGsz51EcuLCe+B8BLK1LXraHTJ2HirwFuTgHOGDOhMGuuta4RuM/FQCUBTH4fACnBOciSbH+J7Se9Hw3z/HNrX/N9/KopIEJlhQKUhxNFEvfquC3mMit+X7zGpqsxIs6fbJtLDsiN6pQbi9Er6Gf1JVePWKEtlsASFa9FBnYnHRYjnR7HPobopkUu74rO/bUDFKCRROCoq5Ekj5dyTo3bYD6Fl841NIyQDR7ImtyosM05vWZj5NyhDR6foog45taIn+oeFdE6WfGrTTy/fORuY1Q5G+HTxjnQTaRW5ANONNObTIQyxvdsbPPrAF6/6SI1F8caxy8VhyY1xCohPvWstvN9EEMmUFK9uot3sUBuXG5Q5bnUII8hBQw6sX2ySQPWP0Z5z6qu1c/Cl/BbVYFmpyZhYZvFGo+3zN5IB7hniDHwDIfA/poom7o1ZxSA=
+
+%URL%
+https://github.com/containers/podman.git
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662958998
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+podman
+podman-remote
+
+%PROVIDES%
+podman
+podman-remote
+
+%DEPENDS%
+catatonit>=0.1.7-2
+conmon
+containers-common
+crun
+iptables
+libdevmapper.so
+libgpgme.so=11-64
+libseccomp.so=2-64
+libsystemd.so
+systemd
+slirp4netns
+netavark
+aardvark-dns
+
+%OPTDEPENDS%
+libapparmor.so: support for apparmor
+libselinux: support for selinux
+btrfs-progs: support btrfs backend devices
+cni-plugins: for the old cni networking implementation
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+go
+go-md2man
+git
+gcc
+glibc
+btrfs-progs
+catatonit>=0.1.7-2
+libapparmor.so
+libdevmapper.so
+libgpgme.so
+libseccomp.so
+libsystemd.so
+systemd
+
