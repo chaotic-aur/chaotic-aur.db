@@ -1,0 +1,75 @@
+%FILENAME%
+polymc-qt5-git-1.4.0.r219.g69d18f17-1-x86_64.pkg.tar.zst
+
+%NAME%
+polymc-qt5-git
+
+%BASE%
+polymc-qt5-git
+
+%VERSION%
+1.4.0.r219.g69d18f17-1
+
+%DESC%
+Minecraft launcher with ability to manage multiple instances.
+
+%CSIZE%
+3355800
+
+%ISIZE%
+7877783
+
+%MD5SUM%
+964ca829603693297f8c7e1b8baf19fa
+
+%SHA256SUM%
+f3a623f612a5028e9e6168f560263e085a2dd3d362624e4170ca26424f7e72ec
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMfG0sACgkQOkDLXn5cvDDL6wf+MfhwEdGKD3C7trlhG/iGNZ1NAXTRWGxeVwCWMbLyxEGZVw7mLSctUhCvaEcq+BiN7FYLDtmqLXgkUOxbzjTJ9Oxpnv0tB2eZ3eAaF8oa8+bt/49fxX0uXUaF9pU7e3Z3hTD8nVWruopwsn2duyIoCyI4zv9XQeYY/t7tkHuDZ+e591bqe6n8T/rQ4bsHwNpHj4YfcgVjIdhHy3N1Qlks916hsVBe/tMu5nzF+Q/cR/Kge8U6KKDCEBu6Qyv9nQ0DpungqJCXDOoOMtbdZEzxMowaCY+XU0rXGYhAB+agy26aPl78VI0wJ3IQJuBCwSCHVaqxtSA3vxzt4BgOnI5i7w==
+
+%URL%
+https://github.com/PolyMC/PolyMC
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1662982685
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+polymc
+polymc-qt5
+
+%PROVIDES%
+polymc
+polymc-qt5
+
+%DEPENDS%
+java-runtime
+libgl
+qt5-base
+qt5-svg
+qt5-imageformats
+zlib
+hicolor-icon-theme
+
+%OPTDEPENDS%
+glfw: to use system GLFW libraries
+openal: to use system OpenAL libraries
+visualvm: Profiling support
+xorg-xrandr: for older minecraft versions
+
+%MAKEDEPENDS%
+cmake
+extra-cmake-modules
+git
+java-environment
+scdoc
+
