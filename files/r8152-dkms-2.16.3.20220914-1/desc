@@ -1,0 +1,56 @@
+%FILENAME%
+r8152-dkms-2.16.3.20220914-1-x86_64.pkg.tar.zst
+
+%NAME%
+r8152-dkms
+
+%BASE%
+r8152-dkms
+
+%VERSION%
+2.16.3.20220914-1
+
+%DESC%
+A kernel module for Realtek RTL8152/RTL8153/RTL8154/RTL8156 Based USB Ethernet Adapters
+
+%CSIZE%
+101367
+
+%ISIZE%
+658669
+
+%MD5SUM%
+abf88d0641684b9d3611f1393349f4f9
+
+%SHA256SUM%
+d2d2a5ef098cd1bf0159903b89e1489fdd314912c4f7d3c1cf26d529f4c98866
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMiXwEACgkQBwa5DTfZuIG2ig/6A6ZjTvcfftlDxHny6nFl1RNlRdKmx0sxgTZPOV6FANrLbIRuxkIeLusVp10+VFXRXoVYvFLczAn4xVP0oy9JESL6P5+/6YANCbIIBvbKe81d45YlG9GYL0Jh7zTlnY/WQ6rE2LBXSyuT9IfjlF1NrRVO+PKGhuP6GvU1gJn1a5IAi6DxiKXw6YxUHilnKJnLgkKi9QBS+/j3oR/nlU5cShaAxhxRdsTICd+YWfurJmHfbmbmPYUGgsQvDHZv9QqNWiZ+tG/V9eBk64nr6tXGge7soOIj8vI6Bv1hoM61Jmg/WTDilheq7/6jtZy6Nir+VGxOSIsLU5FTKHxs+/CoPEAWeIEwzKTe9UwGdTAQtdpFhDRuki53Q4PEEdRVSH/9EoDTrCWrxHesqotIW1wjNZd0yYiboS1GKPMGatFOxp/wUOSqmi8LYybyQLx8RttOca4mk0CJ76lp9+NIt+IuUKcFOceZKO5DbOtbOpcLvPn2kjx+e9+AtEZO0HJLy3Hc4EBOXuNkc9PYM565hS16AaEZE4BAn+YiSp1TpJYXsP/2M46twDh3ZmJafXIwuYcFZ0jSqy54nX2X2Re5RXtEJigfqWtI2gy/1PoO6r9VpObrV9aCe2EqHAvCHl6X/cgWd6NLKPKHsPQmElQJXccVe4CE5saNg2ceerCAm/B/C5w=
+
+%URL%
+http://www.realtek.com
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663196798
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+r8152
+
+%DEPENDS%
+glibc
+dkms
+
+%OPTDEPENDS%
+linux-headers: Build the module for Arch kernel
+linux-lts-headers: Build the module for LTS Arch kernel
+
