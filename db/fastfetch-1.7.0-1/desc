@@ -1,0 +1,80 @@
+%FILENAME%
+fastfetch-1.7.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+1.7.0-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+172044
+
+%ISIZE%
+479663
+
+%MD5SUM%
+6e37cadbeeb385c72e0e3ba419a5b29c
+
+%SHA256SUM%
+25f2bfd9643ef0f302bbb143dde4f5727e1607f05df0d96eead5717af34dcd74
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMjFicACgkQBwa5DTfZuIGsew/+PKcN/qJ8hZwJa5P9VXQb8Ux9XR7ul6ETyGrU6PDUxd92NqpjLLV+jZpPEcFn5cdQTirfbH/Jha97nBKKF02vrjWawviHb2LKvW64yT00jk2T36B6dEjF5iGQURg7XD39vi4E3fZJ1L20dvfwXbQbyTd6OwfZRQ3d1f0QPC1szTmYkG/9PGWJXBwfow8iA/4w2k+gBnwu3aN8l5QE7Vy3C9w0jLIAKqtglm/KpkdfuwTiwqxIhUQZoq8ZXaZi50MUAqk38ELiKsRUtg6us+WTOMV8S6i4AF/hX5Gl5GoQi1u4SmvpBuLS9Kz0+w4tm7Tvlg+PYGBRA6+xwM2FPs9QaqC9A8puumWL+8a4B3OfIjFBEN7gTlmU+w2cq47rQCFVsQTRAusQ4PzJeUa8+e1JJuZNqUfDl/YD2AVUK9b4F3L6Z457ZBw0g3EyAROWTwHOizH3gXfK6tLA4LMj4V8n4plb8d1t+NhOwVYH4okoW+7WoqUztSmPvsk98DvgyEo8EfN1+PPLNVLgO0ao2Hsj578c4biuU3uw5wLV7Bo5GoPjuv/RUfRlGr2ctw6xInwnj4umqfk42yAom7bnIFZz1Y4lR5DDbBbD/sVTDWZIsYQHT7vXHfg+qHy3uw2T+U4OBZ+pkaO5Dw6DrSCqb95ykEA2iVPg2mdVcEdikVeuCXU=
+
+%URL%
+https://github.com/LinusDierheimer/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663243741
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Needed for detecting current media player and song
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+mesa: OpenGL module / Improved AMD GPU output
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+pciutils: GPU output
+vulkan-icd-loader: Fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+imagemagick
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
