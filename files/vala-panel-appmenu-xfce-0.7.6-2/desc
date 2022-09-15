@@ -1,0 +1,76 @@
+%FILENAME%
+vala-panel-appmenu-xfce-0.7.6-2-x86_64.pkg.tar.zst
+
+%NAME%
+vala-panel-appmenu-xfce
+
+%BASE%
+vala-panel-appmenu
+
+%VERSION%
+0.7.6-2
+
+%DESC%
+AppMenu (Global Menu) plugin for xfce4-panel
+
+%CSIZE%
+77719
+
+%ISIZE%
+195583
+
+%MD5SUM%
+b64597bc23df4800faee8b6d2e5fb7e2
+
+%SHA256SUM%
+2b09052c4e4ea1fa975085b3c051e5b6bc57d2c06a546173f7efda53846b9e0e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMilIgACgkQBwa5DTfZuIEB1A//U1Wq/NxFWi2WBut2OUsaSknnXhJILuVGt2xL1rsy9N53K4NR3rr1ARSHU5WjfAqPyEfoYb39yjSf1OuxQqC77g7uTIDUBjaGBHxW0ik8sukvInxmBqJ1bAJyT9bhTCZ+fMFeCQ+bXu2AJDC6P7QK+jtuXoZjMlLsvQUPjUIrzPe+GnO0OtCuhMZJFnn2F/rkFTuwmq4gRzjleyqWYNWbfGVF06/GyVwEolF+d4laXxgslV00/ghLYMs2D1LrFs1C7fVZVpARmeNinj71fuQAHyqXVLoJABhCOBXodTKPkU6xrrPt7Xf1d6lwQnHpFN+ukFgfhq30UqEgeQqwuTOrHNFK39NQpby2Tw1jlg8p9jKooNo2JGcoqitfXHK1YU8XG6ivcYID3ATDO182r/nBf+0DubD0K56hgBjCvMPxH4OMlGETAtQjIeDxLSv+yCW7PT5FmRmVpnLeRA3WAwhgnIqOotCKF40+mw8xSNL1BrRi/ROR4T/ABkvyarBQTLMQyT+0rSFovYw3j9sZLInHcEqpqFLhQuVBukim8/RAW31sOcmYt6UdIC05ULRi0DRsrUrUvBFftPBaBS+OEaK884T9bg4M1nD2mZdC9uZg1v7nfv3IbUegsEejQgRRRGh6EU+05r1Nl/y13rUMvSl692nnaNwi4sv1yWLxXc5atVI=
+
+%URL%
+https://gitlab.com/vala-panel-project/vala-panel-appmenu
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663210607
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+vala-panel-appmenu-xfce-git
+
+%DEPENDS%
+gtk3
+bamf>=0.5.0
+xfce4-panel>=4.11.2
+xfconf
+libwnck3
+vala-panel-appmenu-common
+
+%OPTDEPENDS%
+gtk2-ubuntu: for hiding gtk2 menus
+unity-gtk-module: for gtk2/gtk3 menus
+vala-panel-appmenu-registrar: for DBusMenu registrar
+jayatana: for Java applications support
+appmenu-qt4: for qt4 menus
+appmenu-qt5: for qt5 menus
+
+%MAKEDEPENDS%
+meson
+vala
+gtk3
+libwnck3
+bamf>=0.5.0
+mate-panel
+xfce4-panel>=4.11.2
+xfconf
+vala-panel>=0.4.50
+git
+
