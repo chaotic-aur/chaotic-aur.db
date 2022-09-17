@@ -1,0 +1,103 @@
+%FILENAME%
+qtile-git-0.21.0.r112.g65a30e5e-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile-git
+
+%BASE%
+qtile-git
+
+%VERSION%
+0.21.0.r112.g65a30e5e-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager - X11. (git version)
+
+%CSIZE%
+862966
+
+%ISIZE%
+4121529
+
+%MD5SUM%
+3abb7dd883be3c4ad98d1f56cf332924
+
+%SHA256SUM%
+b1a50fc0fd3a4559a2fe06dd4b152be29c00355731a1e3bdad9a39d7689802e9
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMl2p8ACgkQOkDLXn5cvDCJgwf8DyIPtF+KupjCxnBFMOF9gQWRcBlsZPLKk18i/cBBduBxptxuz6ABSfYUIL0QPEdjfOEYIdkI9/wq6PE3xO7t8VIrFIk6VgBhYCdyD2L0UoP+CBPrPkRER46uQH7+dMgeNEScn0EoYbVlKkMIi0210ez9RfRnbn4t3jwQfcDtaWc+2SIAjjDcSfa5FTD422lsVoXS23jtu5FyUOYN8fMhdfEPPQ/ke36S2A0HI+wsSbeerzyWd5RrdRNYPyl4/+WgitaixlEU66X61mXF/5ruI11o7/j2SixRHl2Z1dBVv9O/cQtpvM4mOaiUXED3m8xAN2Q0yIInUu1RStSKuUKFNw==
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663425138
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+qtile
+
+%PROVIDES%
+qtile
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+pango
+python-cairocffi
+python-cffi
+python-xcffib
+
+%OPTDEPENDS%
+alsa-utils: volume widget
+canto-daemon: canto widget
+cmus: cmus widget
+jupyter_console: interaction with qtile via Jupyter
+khal: khal_calendar widget
+libpulse: for pulse_volume and pulseaudio_ffi widget
+librsvg: for SVG support in some widgets widgets or wallpapers
+lm_sensors: sensors widget
+moc: moc widget
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: wlan widget
+python-keyring: imapwidget widget
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywlroots: Wayland backend
+xorg-xwayland: Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+
+%MAKEDEPENDS%
+git
+python-setuptools
+python-setuptools-scm
+libpulse
+python-pip
+
+%CHECKDEPENDS%
+dbus
+graphviz
+gtk3
+imagemagick
+libnotify
+librsvg
+mypy
+python-bowler
+python-dbus-next
+python-gobject
+python-pytest
+python-xdg
+python-xvfbwrapper
+xorg-server-xephyr
+xorg-xrandr
+
