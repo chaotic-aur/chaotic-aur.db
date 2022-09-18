@@ -14,19 +14,19 @@ kitty-git
 Modern, hackable, featureful, OpenGL based terminal emulator
 
 %CSIZE%
-5088908
+5062628
 
 %ISIZE%
-23511605
+23422061
 
 %MD5SUM%
-4760a1f19e8276a572126948ecc586a5
+10786941eead219cb4ecc0a772eac88c
 
 %SHA256SUM%
-d163bd05712cdb9ef6b44602bd7c418918bdde458c2fcec773d794feefa9b5a7
+4cc8fe9eab2b80c906626860aa87ac9c5bf1a05a1bc96c511d17a380be91a46a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMmjEoACgkQOkDLXn5cvDCIEQf/f94LRu6+jzASCKT2el+kcmpA4Qtc1HWkAgHAJFzVzo6HOHcxTVAoambfPnI79oo3tfDLskyC5N06Nj7ahm8TmP1eAjKbEcdSHmZS61SYH+PXoktge+TkVxFyqqzyW9ZpC3Na9PCyab+2PyOsNSzOjQEw/5A4q0y9YUnyc2sZZ2w4g+cJSaLlEB43TVnmQaQL4Ft7JoSu75qKtUDHfVGsOuC0NDe/bAMQZxGUv73HTg8dK7JvCybhTDsMDX6Of09xbRS8evdYwl5H0VxZ/dpvv7aU6wS78InoXuaKtL1yirZUjiuXeWUiSOBbLzMf9YGKtsk9j9//1sQwnNPO9+HKQw==
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMm/QkACgkQOkDLXn5cvDCjhwgAnGOV00bKSeiY9I7nfkdD58Mi12CWHEbVmSpD5cNIO+3phgyBBfO+4e28oOB4NzUOKMgJQ3hYikX1y1sMsareTckggPKvfChXmvs1xPzSi74nb3FUk0xInA1BdBbSeckhhqp+uralgG4kZWdnNaVHSbsvB7ouINjHSdkF9ckbo9pxeKQ6mZz9OPEUCZj6Cg1cvo6Nsdz8wAJnSTQO1OoIWOICVU0uTklbhpHkMVkIMBLLenv1RLfrRu8JDoBBL02LuJcKIfpIjjCRy+DIIIdCkey9J//b2Uo1xivACArgpTmMxhQOyj5cxULygscKUfI6OSnMtIrgkfzA1VFklz4rkQ==
 
 %URL%
 https://sw.kovidgoyal.net/kitty/
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1663470561
+1663499449
 
 %PACKAGER%
 UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
@@ -60,7 +60,11 @@ libgl
 libcanberra
 dbus
 lcms2
-kitty-terminfo
+libxkbcommon-x11
+librsync
+python-pygments
+kitty-terminfo-git
+kitty-shell-integration-git
 
 %OPTDEPENDS%
 imagemagick: viewing images with icat
@@ -73,12 +77,10 @@ libxcursor
 libxrandr
 libxkbcommon
 mesa
-libxkbcommon-x11
 wayland-protocols
 python-sphinx
 python-sphinx-copybutton
 python-sphinx-inline-tabs
 python-sphinxext-opengraph
 python-sphinx-furo
-librsync
 
