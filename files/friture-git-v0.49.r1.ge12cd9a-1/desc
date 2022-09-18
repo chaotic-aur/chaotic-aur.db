@@ -14,22 +14,22 @@ v0.49.r1.ge12cd9a-1
 An application to visualize and analyze live audio data in real-time.
 
 %CSIZE%
-788373
+788309
 
 %ISIZE%
 2163070
 
 %MD5SUM%
-f874fe738ad27e7f34b41b0f8c471e48
+fc525e235af937104430ee262667d078
 
 %SHA256SUM%
-89e757eb62162953b683c60576f764115b6ae98da2cee77f962458665e3a9385
+4ad3999cbb8c270f92ba6418079ad85be691eef91f97d18d02cdbd8e28fe1c06
 
 %PGPSIG%
-iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMi69gACgkQBwa5DTfZuIGoRxAAgQe5T2jwGHb23S+naieGoCqBH+UTUh2gXDYBkSBFmFoJ8a9LgLmSfxE1djLx8OQcwCPuK8cDEzsLAV+ksC1XYNBD6U4f8slhPjtmkCS4I+2cT2eIXeV1YErT+mJG1U7lb6KfojifNxpHQnXOszUyQcnA4msaZjZdpWJhCYJ+aoG5rl/ojCUCgq9JHs016UvMRY8rA09Rvu2KCX0V0DDRRL+L3UFN0lA4fPOd7j7nwAuslocId0CN73BP2DNtlL1UzzKl1lR8xE9yJKyYaA/6HbPJz3ItcHLCyO857HdcIxDua7xDT/sIfLvYHe6jfPStShA7UvPSGH/SJqd/cPmrnyqc4D/k//JFr3hJGfnl8YDYPvTnNbkYSR7eLRYMQn2OjmRLscPY3iBd6q55wcedj1ecFolrF0OJXgg/Uet94t/+cP4N/7cFz5jATJ2pI75RsbQfkiPSn0StGh2WJnevRrRV0t+z6Ta4zpWvg16FM4u9c/Th0c8TFV+Ki6cNrwaDNJM2QpkR/3vENCXmD/RYOh//P1Y45gWyn7VmimEO2SzOEZs3Q2WCUc4UVATRw2/TJt77mJsj4vB+C09asHmssF9XYG8v55tn9HKXIWcL2g3fqwA+zhIEb5gDDpUVKjAc+5XFz87hJkyKt5/GbelCAiOYtxbmlXJGpWOE2vanTw8=
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMmcBYACgkQBwa5DTfZuIEljQ/+LVxIiLYSybwOfBngZLMIvIgNvWAkX9GsT/tvkLgkZwtKdVK4R52e62UsNatxKdIJtfcGiNgjjBPwO91JDiP1eKrMEWdIYZF9AwwUEaHtVs+R4IoUEBdanRwJhZq+DB3S5wFD7eNT1k0A3vREQtZA+iCE0LnuFfy6MAmub5uUgsJH2Mx+KsNq1IB0F8SP659w1PceuKl4ZM410uq2xpqKz3WiMmqv+JMabyUfKOsyDMuK//Fy3a/jrfR/4FDBHHyxwqwZ1UBAUWLBkYEx/L/CkunRaz6ZT/HuUThhQGrfiNgu83PItJe09SltfODtSXgAil1OKCUC8ZoD1O2jyOnucetIr4o1yVJPGlcSdwJ2sDbo77YePjYqNzpH2qZEvRL5ZE6B1wSK63NmnFOSNdRphNeGHfCISaLQvN2dl0Z0icDVF5ovqvJvrC554PUXgRfqU8vW1e6se12oiS0lZzoDIAo7Q16J7bEb4+ibu6tQTF0HPpd+tSVxXJs5WH6aBJcu7+vjIH+VPacalhX7zx1JKF6Pghm7bSgESKPH1zqtA7eGB8l6CHLwTIe5iN5y6K1H5ZsZBQ/ZkvbenJ4fEzCfMglb3u84FlwJzOSr9X1dTXFMYXvnZmo5aD5YJgfYkwqYEBWnInV5oqhD+1Gh3OfMdoR6lTtbtVw5E/BIY4muvZk=
 
 %URL%
-http://tlecomte.github.com/friture/
+https://friture.org/
 
 %LICENSE%
 GPL3
@@ -38,10 +38,13 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1663232943
+1663463409
 
 %PACKAGER%
 Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+friture
 
 %CONFLICTS%
 friture
@@ -51,7 +54,6 @@ python-appdirs
 python-docutils
 python-multipledispatch
 python-numpy
-python-opengl
 python-pa-ringbuffer
 python-pyqt5
 python-pyrr
@@ -64,6 +66,8 @@ jack: for JACK I/O support
 %MAKEDEPENDS%
 cython
 git
+python-pip
+python-setuptools
 python-wheel
 python-pip
 python-setuptools
