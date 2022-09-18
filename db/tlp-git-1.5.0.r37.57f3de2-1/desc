@@ -1,0 +1,73 @@
+%FILENAME%
+tlp-git-1.5.0.r37.57f3de2-1-any.pkg.tar.zst
+
+%NAME%
+tlp-git
+
+%BASE%
+tlp-git
+
+%VERSION%
+1.5.0.r37.57f3de2-1
+
+%DESC%
+Linux Advanced Power Management
+
+%CSIZE%
+100680
+
+%ISIZE%
+495291
+
+%MD5SUM%
+5808bfde041c5c31718bb43a26995707
+
+%SHA256SUM%
+90d6d6d0f8501d48b24f60a818dfeb8ff90d06621cfa88ff3ddc3ad99da27a48
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMnU8QACgkQOkDLXn5cvDBUtwf+PvCjuCWV6sSrAAMklj6mhGOo2rvw07AJnes6GNba9hEE5atrs6J1WitezuS6OKscDHSQL1801Mrl3TQaZTI5Z3jpPOgVWGE+CaOXt+Pkf5vGhv1vJblFYM8Ih/eysn5QM/179iAEyswaoRRgj8u7DC3Zfn3tK0E/bsVtc9SILQIM6OLOGTXyDMowktFTZkZU113/heuNDNsNTV+IeyS9Ytq88o4d9JqQc5z2WtKuYRyfBeVH+UPuyVNRE4RP/u7VikiC4cyHCx31/bzhvgxLkwKQGw+TiBbrHTXGjCwt8WFhS0NumfIZNx0qYHbgrPZarIJ39cyTw5o9n7oo2v3ZdA==
+
+%URL%
+https://linrunner.de/en/tlp/tlp.html
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1663521708
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+laptop-mode-tools
+pm-utils
+power-profiles-daemon
+tlp
+
+%PROVIDES%
+tlp
+
+%DEPENDS%
+hdparm
+iw
+pciutils
+perl
+rfkill
+usbutils
+util-linux
+
+%OPTDEPENDS%
+acpi_call: ThinkPad battery functions, Sandy Bridge and newer
+bash-completion: Bash completion
+ethtool: Disable Wake On Lan
+smartmontools: Display S.M.A.R.T. data in tlp-stat
+tp_smapi: ThinkPad battery functions
+
+%MAKEDEPENDS%
+git
+
