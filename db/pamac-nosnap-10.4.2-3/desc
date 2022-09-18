@@ -1,0 +1,83 @@
+%FILENAME%
+pamac-nosnap-10.4.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+pamac-nosnap
+
+%BASE%
+pamac-nosnap
+
+%VERSION%
+10.4.2-3
+
+%DESC%
+A Gtk3 frontend from Manjaro Linux for libalpm with AUR, flatpak, and appindicator support.
+
+%CSIZE%
+268224
+
+%ISIZE%
+794058
+
+%MD5SUM%
+947140853225fc437911878c3498ef56
+
+%SHA256SUM%
+3599ed2d83562336d58c769dee7acc4a1e40867de8e023eeabe6caf17d8f0b5e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMnnYcACgkQOkDLXn5cvDAI1wgAqRpqmhBhWFXhrGj9xI5HrRFc7m4aTx2tAeS/OInXkPPZPbjXw+4yDUYsqpqwBonXic1gt7BqMS15vAQrYlmiRyjwS/syBQF58Wp08Vde1KgG/DuPvPZaohxFRMin63goHtoQgl/x7r4D99cp0NAZSTs7SiUuD5yGqznXQz7hxury1vvTwiwnh50Le1sT2H/pRb8bRgnG9V9YAYQJWmD6KdsPberLg5XEakQU//hl8D2qx2Cx7GDSZcxVo32REX9SVITx1gcUxhHuLNP70RU7VMldT5QiaIMBqff1MmrwQD41e5tO51Plzdz43px9NAlpYkd29i9WUE3FLDpxkt1zuw==
+
+%URL%
+https://gitlab.manjaro.org/applications/pamac
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663540591
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+pamac
+pamac-all
+pamac-gtk
+pamac-cli
+pamac-common
+pamac-aur
+pamac-aur-git
+pamac-flatpak
+pamac-flatpak-gnome
+gnome-software
+gnome-software-git
+
+%PROVIDES%
+pamac
+
+%DEPENDS%
+libnotify
+libpamac-nosnap>=10.3.0
+libhandy
+appstream-glib
+
+%OPTDEPENDS%
+polkit-gnome: needed for authentification in Cinnamon, Gnome
+fwupd: support firmware updates
+git: use git repositories as package sources
+svn: use svn repositories as package sources
+mercurial: use mercurial (hg) repositories as package sources
+
+%MAKEDEPENDS%
+gettext
+itstool
+vala>=0.45
+meson
+gobject-introspection
+xorgproto
+asciidoc
+
