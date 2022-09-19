@@ -1,0 +1,77 @@
+%FILENAME%
+siril-git-1.0.0.4990.f0651806-1-x86_64.pkg.tar.zst
+
+%NAME%
+siril-git
+
+%BASE%
+siril-git
+
+%VERSION%
+1.0.0.4990.f0651806-1
+
+%DESC%
+An astronomical image processing software for Linux. (IRIS clone)
+
+%CSIZE%
+3402484
+
+%ISIZE%
+10196021
+
+%MD5SUM%
+b06a21300d14562695b1984e01bf1b38
+
+%SHA256SUM%
+122cf531c6a93839671adba8b6838a38a1e3541afe9ca7ab21041c5ca6ed324e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMnpacACgkQBwa5DTfZuIHjeA//egC8XXX1+GwZdgILbjFQ4bKi3aLIOs3p0TLYEpTS0MeCB0h8jc5Bv6DzMCNEHQbn2a9jr5T/AgKZdv8i07PGxUmcPZWFTkpCRG4yxUbLgBYEKOj8DI/JEX7QC0t4aWAAcbwvtl+E3/yz75yOl0R9XXhOLMxbRuM1ONDNa/BmVIQkkLRAqziTvRLRaKlhEd0qCEU10zWgIjovcwXD1rqmKCx4FOPbotS440Lrj++0QU0oXA1RQkNDa70ri1/jijkETb1ca7tHnrW5uN+FkPsfhH9Hrf0/rx1bBFxSXARuigfnkOQUK/iAD2qC2MKRq3+AsQs4DD/96Zoz3qQ/g7/8ESC0NIX7E/foBce9OkQbiceFCEQw3MCsyOSLXOeR1Lb6XGeWuM45mpT588DA4g5efgkBhve7Kx3lLzPyVrkcEVI+JCLcYAkMew5xMEHdC4HmIUhOlb2BXVXGNjqQEHtgdOxlTjbBjKsZnchwLZ8DKobyu76F3eso9vDDPxw1K3i7Etz4MNuea01a4/c2QDz1KgH+sW9mkQCumyqPwYxjXEPN8WPkI4KiFzHCI3LBe3z93cgKC7gEBDrdfFVGCLihBTHiDJ3XD+JSBCMCl5+y6xuZ+Dg3s33Ya1Yb+nL1Blw9Qhc0pMiktQKM2ucH2+mWu6s9ZZPo6V1TJLJ+plLIFh0=
+
+%URL%
+https://www.siril.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663542626
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%REPLACES%
+siril
+
+%CONFLICTS%
+siril
+
+%PROVIDES%
+siril=1.0.0.4990.f0651806
+
+%DEPENDS%
+gtk3
+fftw
+cfitsio
+gsl
+libconfig
+opencv
+exiv2
+libheif
+libraw
+
+%OPTDEPENDS%
+libpng: PNG import
+libjpeg: JPEG import and export
+libtiff: TIFF import and export
+ffms2: films native support as image sequences and import
+libcurl-gnutls: online astrometry
+
+%MAKEDEPENDS%
+intltool
+cmake
+git
+
