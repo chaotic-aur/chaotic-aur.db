@@ -1,0 +1,74 @@
+%FILENAME%
+opensnitch-git-1.6.0rc2.r16.96cccb8-1-x86_64.pkg.tar.zst
+
+%NAME%
+opensnitch-git
+
+%BASE%
+opensnitch-git
+
+%VERSION%
+1.6.0rc2.r16.96cccb8-1
+
+%DESC%
+A GNU/Linux port of the Little Snitch application firewall
+
+%CSIZE%
+4953277
+
+%ISIZE%
+14463268
+
+%MD5SUM%
+59575ddf44a66e8f89ef558a56230822
+
+%SHA256SUM%
+c450903ef4deb70d551963d2a2e3177466b09fb9dad97f7a3304f7aaca431dc0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMrGp8ACgkQBwa5DTfZuIHg1A//Rw+aBVP7SRATNDUlO9Hxbi1AZR8G9omc0KwmGceH5M0shGjS3N5RB5GJkPbyjYZ61s3v5Oq3uqo0RM+hW3+7WsMR0Zaa3zqSTBtxs6vrJRISBforCxeweyGi6wsOGYlaGxUSmoIBNHJEvdnzVvV9GqRBpAHE9vnMnSIze2SBXI0zAaACBSKL2bZxsg6msdc1BzbImH6+UrpvvLANlFIKUo2jpxK42hzYe+TOHpkHZG/VRp/C8HUviNxTzxhCYP7lT2R67Yy9FzBYoACVFJRjPsIol8ygGLe8+Ba3ILiu4isLNnXbNpF2T3FvktiowNC6MnjDyzLoiu6rcIo5ftNQYK+Xlo/UFYTI0/A3QlzmYOnEm1RKhmR48SJTL/vJtU406BitGH52DHWPd+if5TwWYHugf+mVNw2kLvM53ZVW9PkS1KkjOce9RTKlHXk981cvup5GhPWacngyeAm6FGhG9YQVesR6+6PYIMtABGPQrejgS6svtArbr2leK2DIhZBLUW+REacCqq7oLGfMY2KdBgTlwvqEjURNQf9wsxlaRR7P9Y3fNDIUzpFs49Z3WQNBbf/AjszMTH5iABzjyR1rhWoiRAKwkGF8Ui/smGfz6zKRINVdI1fERcITunFvu36c+d95jEEzl7C1ynvjKubGNN8C3BaLCW+AMc/AHmZHARE=
+
+%URL%
+https://github.com/evilsocket/opensnitch
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663769070
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+opensnitch
+
+%PROVIDES%
+opensnitch
+
+%DEPENDS%
+libnetfilter_queue
+libpcap
+python-grpcio
+python-protobuf
+python-pyinotify
+python-slugify
+python-pyqt5
+
+%OPTDEPENDS%
+logrotate: for logfile rotation support
+opensnitch-ebpf-module-git: eBPF process monitor method (non-hardened kernel only)
+python-notify2: desktop notifications
+python-pyasn: display network names
+python-qt-material-git: theming
+
+%MAKEDEPENDS%
+git
+go
+python-setuptools
+python-grpcio-tools
+qt5-tools
+
