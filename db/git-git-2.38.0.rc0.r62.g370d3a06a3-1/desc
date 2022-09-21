@@ -1,0 +1,85 @@
+%FILENAME%
+git-git-2.38.0.rc0.r62.g370d3a06a3-1-x86_64.pkg.tar.zst
+
+%NAME%
+git-git
+
+%BASE%
+git-git
+
+%VERSION%
+2.38.0.rc0.r62.g370d3a06a3-1
+
+%DESC%
+A fast distributed version control system
+
+%CSIZE%
+16441222
+
+%ISIZE%
+38710571
+
+%MD5SUM%
+6251cd3faf707d3b9f3ca4dd764e96b7
+
+%SHA256SUM%
+bd6b858af2d4b0de972abc595dbcbe5c7af953d3e69ee00ddd901270f2da1d19
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMri98ACgkQBwa5DTfZuIGDrRAAo82EmYG2QdrLWUjT5Csn7nLu07ChhQ7joqJxHy08nTN7fPjLTnbUHhFff0A6pDifjPWhWFjpucBEiCucHXBbXHraUPNvmNYaDBURbEmhW53Q8nwEWB3RFtT0HAtEVG2xGZBnh3dfAu05+3Cs8stQvGBPTwFwQ+SP3AaoByrCZY2Mt/7VGXiHJUGyDUpksHFhTg2gPas2Hh2LResbBehd023Bdtyp0BqXo34oobPf64Ad0a+LpGCyp9+PfAVX55W4l42nbd1ykRN2SozX34WmYk6gNXPWnN0jTRnAklEu1exJFI0D2OhhU+SF2T1goEnUbW9Y7QzzmLGZWVr/ws6Vq7OMUgWmvy1s8uCiiF5Yriw8YfuVvi5L//Y/0LiOPX1N4+3FY44c3FB3geSuJ2saMeyom7RkxYepyu9Zrqll1FVcnMf7xCQx7DrmBohRflNtAR+R+QkKLVhYstlsttXv7IjA1yYPbQJR0LHGH5mRz8+EDgZ5JsoypB0hkf4Zd7SCNaw44GoOph52Pg/gITc1FJyWdNjWJDYFr21sxvhfEHhMQMwld+G08UwPMXmhdmSgAZUTSX612NP5RtKLmbYRCuag3ZXA4Ybr58x17NIErARneRW8YZ5MYuprUcI+wyEy89L3sS5xnUi2ns45Rnyo2xMPuF/bGsdtAGXeZ0LJVOY=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663797690
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+git
+
+%PROVIDES%
+git
+
+%DEPENDS%
+curl
+expat
+perl-error
+perl
+openssl
+perl-mailtools
+pcre2
+grep
+shadow
+zlib
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+libgnome-keyring
+git
+
