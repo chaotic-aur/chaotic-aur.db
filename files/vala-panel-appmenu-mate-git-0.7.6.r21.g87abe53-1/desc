@@ -1,0 +1,74 @@
+%FILENAME%
+vala-panel-appmenu-mate-git-0.7.6.r21.g87abe53-1-x86_64.pkg.tar.zst
+
+%NAME%
+vala-panel-appmenu-mate-git
+
+%BASE%
+vala-panel-appmenu-xfce-git
+
+%VERSION%
+0.7.6.r21.g87abe53-1
+
+%DESC%
+AppMenu (Global Menu) plugin for mate-panel
+
+%CSIZE%
+79074
+
+%ISIZE%
+196170
+
+%MD5SUM%
+c3255ebdb3c2fefa602139c849001da8
+
+%SHA256SUM%
+485b8c8ed35180ca7396fac8fd6263c117e46942340329d603cac592a660d6fe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmMs+XgACgkQBwa5DTfZuIEf+w/+PcdygiilkAE/nKAehRLLYzHhZFYAUtAdZ+lrqavakMUTDtlVWsNZGHbZEvK0/s6zg5+TeQWFnfNoMdbmjP8G1EwPfhYGusszt3eQ8gMNeUHjlbe0PnMcB0k/PfgbGx/fuT66HAPmdSOik1kjm9erMbb+5TZDOgZnpcFonoS7y4ailifAVtbhxM4qETyEh/hMJFhwfHtfuAUWlectEViIvBwnHA7HqbHY2HGKDhPyZNql4kE5gDwM/Mdjor7JB6XQrxy/vJPohiiS1EopWBnRGk/Mtc7+X4VKUrWKNnTyiHN8vQuYTGhoqLjLDLRBbBi8IOgmQmfb8d3bc1uQUIwZ4uJPf7vg7YzU8JYyq+eA68yOfAJjhNQJKsLvH1lVzGrkmpJ+qR67d3lCP3jQ82pl4Wnpt1mmWn89O0IX4Ogz8OfXDglbR0JuXBM5jb87vY4oQDinwfnifR6V98F/jpDFgUVG8X5ZygMx6CVDkrqNLmf5UraZ7E95cK8m2Av5+JLTzse2MjvGn4DYSxBdOXveJjkszvA6XQmP9845z5sFHUcwAbjdpK8iJ9ykgnnQkkR3Tf61UfFjco7u3iXM2cIfFSYGLVE2HGFch+Ens+qt1yzm/2rmnGbLivW6/1W/P8HqUuCppGD1htpu/8dubZzLcVFk33i3M/6syBboC9IOkYQ=
+
+%URL%
+https://gitlab.com/vala-panel-project/vala-panel-appmenu
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663891753
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+bamf>=0.5.0
+mate-panel
+libwnck3
+vala-panel-appmenu-common-git
+
+%OPTDEPENDS%
+gtk2-ubuntu: for hiding gtk2 menus
+unity-gtk-module: for gtk2/gtk3 menus
+vala-panel-appmenu-registrar: for DBusMenu registrar
+jayatana: for Java applications support
+appmenu-qt: for qt4 menus
+appmenu-qt5: for qt5 menus
+
+%MAKEDEPENDS%
+meson
+vala
+gtk3
+libwnck3
+bamf>=0.5.0
+git
+mate-panel
+xfce4-panel>=4.11.2
+xfconf
+vala-panel>=0.4.50
+budgie-desktop
+gobject-introspection
+
