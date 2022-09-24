@@ -1,0 +1,103 @@
+%FILENAME%
+qtile-git-0.22.1.r2.g2c3afe90-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile-git
+
+%BASE%
+qtile-git
+
+%VERSION%
+0.22.1.r2.g2c3afe90-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager - X11. (git version)
+
+%CSIZE%
+866402
+
+%ISIZE%
+4139926
+
+%MD5SUM%
+237547221b29eb9c2a904f343c1517c2
+
+%SHA256SUM%
+faa27904a5afd17dd0c20fd747a8d80ccb860820e643cb41d937b78729f72174
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmMvIswACgkQOkDLXn5cvDDMVwgAheSSLsad5kAdfqm7S/JC5Vv+we+ZF7LbizVoVy4egOAUCh8iZSSi5lKP1rt61/Rt0xjUCsSZ2vNy/4E7QwSuy3CjWa8Wrz8jroFkgyTf9Qrb4bMa/NzTXDFAaXDFHCsNaNnjLFe47TH+ctoJQgRVawZPPfkB+4PV0WgM6hVpQiUeCfyAFYcYni/dt64cQn4pfjY9+tfcvQGNZbyUtCHy+Ri9MtFr8rpJkgB5BXpjqxzXCbXPtdjW0Pybn+GZxXAmvxlEwzhUITEfyqrKtu1BBvUvtwXbp6OZir93szf3NWfDl5SHjzbeWMJbyGrn8PgSIrVw5ZV/P2YsTFuT26qK0g==
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664033433
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+qtile
+
+%PROVIDES%
+qtile
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+pango
+python-cairocffi
+python-cffi
+python-xcffib
+
+%OPTDEPENDS%
+alsa-utils: volume widget
+canto-daemon: canto widget
+cmus: cmus widget
+jupyter_console: interaction with qtile via Jupyter
+khal: khal_calendar widget
+libpulse: for pulse_volume and pulseaudio_ffi widget
+librsvg: for SVG support in some widgets widgets or wallpapers
+lm_sensors: sensors widget
+moc: moc widget
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: wlan widget
+python-keyring: imapwidget widget
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywlroots: Wayland backend
+xorg-xwayland: Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+
+%MAKEDEPENDS%
+git
+python-setuptools
+python-setuptools-scm
+libpulse
+python-pip
+
+%CHECKDEPENDS%
+dbus
+graphviz
+gtk3
+imagemagick
+libnotify
+librsvg
+mypy
+python-bowler
+python-dbus-next
+python-gobject
+python-pytest
+python-xdg
+python-xvfbwrapper
+xorg-server-xephyr
+xorg-xrandr
+
