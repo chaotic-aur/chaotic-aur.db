@@ -1,0 +1,70 @@
+%FILENAME%
+linux-lqx-5.19.12.lqx1-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lqx
+
+%BASE%
+linux-lqx
+
+%VERSION%
+5.19.12.lqx1-1
+
+%DESC%
+The Linux Liquorix kernel and modules
+
+%CSIZE%
+96678053
+
+%ISIZE%
+379145818
+
+%MD5SUM%
+151fe72a375b6e12891cf6759677db41
+
+%SHA256SUM%
+516c3e7808475dd4cf2d20858b0153b0d736346a967c6d67caca04a50b131589
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM1qh0ACgkQOkDLXn5cvDD4Owf/ZBoHQNjNgycO1//BbI+WsKRyJfsGHAa35bAsLsBLkwK9bEAD/k5iX3Wg2T4PGX2lgJxecNaXgqx4b23yZgEEgzGI7RDquvcUsgtOdrjrG7ucWNTIYozUBYoYZqBKp0nIhMJsZ4+k5ngqAMsxxVeY6EsUSQ2ZibOLHVD7z6d+MNp5mHadqEtLqig17FACUeUTqJdRWNc+WdVJ16123UJJqetDg0qLI9YNtdYU3l+VHPNdSh00w096k3CKgYaWaHe3n8xV0GuTrOrE9MhT5ECNUvZlmPRbNy7QcGW3xiBJ1Vsxm6vh70Yd6LaoNAHkmPTyY9aRA3pawaY6aU1DATIAqw==
+
+%URL%
+https://liquorix.net/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664459307
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+UKSMD-BUILTIN
+VHBA-MODULE
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+sof-firmware: firmware images needed for Sound Open Firmware capable devices
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed - useful for those of us who make localmodconfig
+uksmd: Userspace KSM helper daemon
+
+%MAKEDEPENDS%
+bc
+libelf
+cpio
+python
+pahole
+
