@@ -1,0 +1,85 @@
+%FILENAME%
+git-git-2.38.0.rc2.r0.gbcd6bc478a-1-x86_64.pkg.tar.zst
+
+%NAME%
+git-git
+
+%BASE%
+git-git
+
+%VERSION%
+2.38.0.rc2.r0.gbcd6bc478a-1
+
+%DESC%
+A fast distributed version control system
+
+%CSIZE%
+16430067
+
+%ISIZE%
+38710660
+
+%MD5SUM%
+4841052243dc36f8cbbcc270f427d596
+
+%SHA256SUM%
+088d51ea2d91d876bf165dc1ec0d245e44707aa9d1eb62f3e8a859b74baf4e32
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmM21v4ACgkQBwa5DTfZuIFggw//fZTxgB5GxFZYhwYhur/eiimqndATZ43ZeqCEhElmbtvq516jqCNWPamByIOqX7Nd5xZ5jOa6cp9+xg9kWBKJd3l6vqXrmKy8ss9rxQt9oed+gJfDz3vSR7NF/E9wjORBpbRKLwDm/SYqwcOjfhO9w4EZquPo9984/g04aJzHBk7TTOZnLvd0pc0wMVy/qaE+95IiOFJL0rMDW5XuQoNh22gVKCfQNNWLs0jGuZ6qlocIOWW3+AIQnhdqhCOcK5VDxSmLiTtYST32l7HLfZgEi0eOS3rJC72Cjz0pXuoflkARUynY+eRisCAJfMGXtdEUep8SuTQkzOQmqBQj5njfkpq3TGsNlY0ZPOzq4RPxi+HAYLS2iyiA4cN8BdwsQNxTIwU01CsZjdjnGI7SAnZAHpMFw2khnlPGsN3WVh875fFHwmBraalbkArBoproj91NRU4zh9/AhNTMAlb93D+5aIAYssy28EM9NtgUO8VUpYGPd7sLHTxGFD3GQh6MWhi4+2ar6mkt2UzXJnT5wfkjifjTf3NYS/TzQUMDn/VnkCg/ZpF06yi/rZF8b0wgJQU3GZ8Y1wfRG2xivKx3yUMOw9FGbXc2wTcmc0OIGYXGniofScOXwCujXjtOEhjH9WbQgLe6ibaLQTNWoF39GU0pWSuZDg2Prrmb5TFm3iwgUd4=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664538026
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+git
+
+%PROVIDES%
+git
+
+%DEPENDS%
+curl
+expat
+perl-error
+perl
+openssl
+perl-mailtools
+pcre2
+grep
+shadow
+zlib
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+libgnome-keyring
+git
+
