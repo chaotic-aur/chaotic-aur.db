@@ -1,0 +1,76 @@
+%FILENAME%
+polymc-git-1.4.0.r301.gc97a47dc-2-x86_64.pkg.tar.zst
+
+%NAME%
+polymc-git
+
+%BASE%
+polymc-git
+
+%VERSION%
+1.4.0.r301.gc97a47dc-2
+
+%DESC%
+Minecraft launcher with ability to manage multiple instances.
+
+%CSIZE%
+3453369
+
+%ISIZE%
+8327874
+
+%MD5SUM%
+74984305b3ebb7a0e8f175f1addebad4
+
+%SHA256SUM%
+a3fae54f887a8cc063b551da2df97be4d142be49fc354805800170f75574dc50
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM4QCoACgkQOkDLXn5cvDD6WQf/YvvtTVwQsHcbvYXu5rYzajDpDM0EcIO63Cos8z3cEl6B5vt7kaPT6v5c3qXoabDQycf/YPVpGtyRI6AkaQhev36CXV0hncOkyvBvXHpn2FcYKjvnu1cOf2B4EHxmV13z8/KdCTyfv3Qy7nkh5dn1RuL3VbrbJkFNnjXWjJ2b9zhwqN59J8ht9Ft8hBup5VQrUYWQSixwH/WzNIqkS6i1Oxz4nryv+UT4Z/u8bQMaymcqJzpIVMri5mEmaNUVJMPVTXMOHl/WcrX22Rg1WF3HOYpCqgjbeZ4PjRhZWFCPvCTMCB/vCT4+03OGK7N9B3LXWUobFz03/fDRmIOdUNkVhg==
+
+%URL%
+https://github.com/PolyMC/PolyMC
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664630565
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+polymc
+
+%PROVIDES%
+polymc
+
+%DEPENDS%
+java-runtime
+libgl
+qt6-base
+qt6-5compat
+qt6-svg
+qt6-imageformats
+zlib
+hicolor-icon-theme
+quazip-qt6
+
+%OPTDEPENDS%
+glfw: to use system GLFW libraries
+openal: to use system OpenAL libraries
+visualvm: Profiling support
+xorg-xrandr: for older minecraft versions
+
+%MAKEDEPENDS%
+cmake
+extra-cmake-modules
+git
+java-environment
+scdoc
+tomlplusplus
+
