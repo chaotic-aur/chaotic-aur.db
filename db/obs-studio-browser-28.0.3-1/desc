@@ -1,0 +1,106 @@
+%FILENAME%
+obs-studio-browser-28.0.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-browser
+
+%BASE%
+obs-studio-browser
+
+%VERSION%
+28.0.3-1
+
+%DESC%
+Free and open source software for video recording and live streaming. With everything except service integration
+
+%CSIZE%
+112021594
+
+%ISIZE%
+291486807
+
+%MD5SUM%
+2d74116b8ff49948f7ea5fb80796040f
+
+%SHA256SUM%
+1e2d16eb2f7128eb2b6c5f3012e5a58f114ccfbf6c40398fdafcbf870e088b65
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM5akQACgkQOkDLXn5cvDDs6Af+LS+GJISlN8o0KpSBQGfvYIJtv1Uql2JpMUd/Mu0GEzLMVVeewDZEFQM2/CnRkIbqS0hkNoAfn7w+KUYlKotaRwyL9ooPFxDmfvFjOzBKCinK8XjQb4cDpMXTOnws4Um0y0lT8ywH5SJ0cnLxqZcY4u2VC7HcvSikte6RndIXMaTQ3c/HEmfqL/00ZhE+OeTB0dUxR0a/BrDK8VhphY9WXLpXOYRV0GkfmRJ+a2h4KaAHd56/5Zi3Vri5MrzEV64rVbglHH4TrcPioJW4yJBvdM9HfVrjd+mquUPlTq+CA91WBBVdRKN5TPxMYzE0VhNoCDn0LEuwf9Ec6AmMUVEN7w==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664706611
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-browser
+obs-linuxbrowser
+
+%PROVIDES%
+obs-studio=28.0.3
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-core
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+decklink: Blackmagic Design DeckLink support
+python>=3.10: Python scripting
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+cef-minimal-obs=103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1
+python>=3.10
+

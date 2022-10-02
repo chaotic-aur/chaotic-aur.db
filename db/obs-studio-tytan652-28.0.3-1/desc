@@ -1,0 +1,106 @@
+%FILENAME%
+obs-studio-tytan652-28.0.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-tytan652
+
+%BASE%
+obs-studio-tytan652
+
+%VERSION%
+28.0.3-1
+
+%DESC%
+Free and open source software for video recording and live streaming. With everything except service integrations. Plus V4L2 devices by paths, my bind interface PR, and sometimes backported fixes
+
+%CSIZE%
+112023582
+
+%ISIZE%
+291486877
+
+%MD5SUM%
+7b72d53bc993b905f140305f8049abf1
+
+%SHA256SUM%
+23b7a0c6eaa200c898a209a4c3e5041212973ca49cadee285bf30c1f2292e8a5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM5a2kACgkQOkDLXn5cvDBPYQgAp0cYa+ZNF/E72m0va3j5bsLExeNKgizeHsFqLlPiimmiUCDHXyt89yOR6IOatkfGXexB3PbWA+pa/tClbWtQvSGGSGva+MpnTont9Aa6wuTMatWJ8VsHrJgDnk/oXxrblsW4gXhvH0uaBFsfYsNGx4HWdKd6O/RyF+xNBYfQ8uovMqiFZ/wRrol5mhE9w3zM/ANhYEJaLZht6/u4NGxLlzropPHlFp/Z2teHUO3gCclr7q7aTkJTb98d9eMRsDD1+j01iR7dkGQgYuw6p2RBJdh22QPGtaET9S/m407zrii8LA8xqxN4ctiBmsgmup1xBcVfSrBzVPmYqHgYK2TDSA==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664706794
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=28.0.3
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-core
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+python>=3.10
+cef-minimal-obs=103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1
+
