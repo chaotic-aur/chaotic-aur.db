@@ -1,0 +1,106 @@
+%FILENAME%
+obs-studio-rc-3:28.0.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio-rc
+
+%BASE%
+obs-studio-rc
+
+%VERSION%
+3:28.0.3-1
+
+%DESC%
+Beta cycle of the free and open source software for video recording and live streaming. With everything except service integration
+
+%CSIZE%
+112021507
+
+%ISIZE%
+291486800
+
+%MD5SUM%
+828a646e31851e65cb007469fb52306a
+
+%SHA256SUM%
+09a3159560454fd36009b0c41ce0ba5629402bd236ff6e299cab22619074ccdb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM5h00ACgkQOkDLXn5cvDCG8gf/e1Y+OOZdq4FsKn1JT7eGgdCOgFKxosDSlN4+o1oWlyjkY9xfFdNsh4g4Kidao34rkZ3FTuekUmjccvr80DxvMk4S1iKOSU4XnCNHFiuF56lvD2PSiXbpb2wWV8WXG+LnN8lDnqUOrARtWA+O/TC/wzwdJlt6wKIgLHmbFuo8ruiseWPx/oevDmjXrRkYPM238bhf2dGuapTMbaot5Nmjo3HD2/ESxgFxW2z0TpGgCXPNVE3x4eWq68WLLWQDUTuW7KOc4SYGOAQ4OKBKsG+wDGbpuEPZaD7QaMYyjghmlwyGVREzV0sFmZ5FbNcXQfhEVlnayHoHvRxRB6oS69n3QA==
+
+%URL%
+https://github.com/obsproject/obs-studio
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664713987
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+obs-studio
+obs-vst
+obs-websocket
+obs-linuxbrowser
+obs-browser
+
+%PROVIDES%
+obs-studio=28.0.3
+obs-vst
+obs-websocket
+obs-browser
+
+%DEPENDS%
+jack
+gtk-update-icon-cache
+x264
+rnnoise
+pciutils
+qt6-svg
+qt6-wayland
+libxcomposite
+pipewire
+xdg-desktop-portal
+libxss
+libxrandr
+nss
+at-spi2-core
+ffmpeg-obs>=5
+vlc-luajit
+ftl-sdk
+mbedtls>=2.28
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+intel-media-driver: Hardware encoding (>= Broadwell)
+libva-intel-driver: Hardware encoding (<= Haswell)
+libva-mesa-driver: Hardware encoding
+swig: Scripting
+luajit: Lua scripting
+sndio: Sndio input client
+v4l2loopback-dkms: Virtual camera output
+libajantv2: AJA NTV 2 support
+python>=3.10: Python scripting
+decklink: Blackmagic Design DeckLink support
+
+%MAKEDEPENDS%
+cmake
+git
+libfdk-aac
+swig
+luajit
+sndio
+lsb-release
+asio
+nlohmann-json
+websocketpp
+libajantv2
+python>=3.10
+cef-minimal-obs=103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1
+
