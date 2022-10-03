@@ -1,0 +1,101 @@
+%FILENAME%
+firedragon-105.0.1-3.2-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+105.0.1-3.2
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+83368434
+
+%ISIZE%
+242433835
+
+%MD5SUM%
+235bc36c4fcd42d39307953d1af4922c
+
+%SHA256SUM%
+4be16994cce56089a5d96972551052fbcbd51a6f228b87e8b034a746dd876562
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmM6tA8ACgkQBwa5DTfZuIF6LA//c9wmdkFOf3boR/azcQpyJaS/4WXc+LtNMXCCqnAV8kbGOv3eZcZoZAofNGSsdemSOQ3xpdFJE+NTfTx576cvklJEwret9H1XBWoiflmAFJpLbv7+Qee/Rh9j8rGJMkDA35Hm1vjoWCQQEOwQTHGwh6ROKHL6mzwpEZzpfqjjD5X2lUviAWxVXs2acbYoZ3ZWiTzPslt631QWW/K47c9aru5GhuZvGrjKkYcnqJb61VTR7eCcwm6Z7SqLlhX3kzdggIn4LQzNzIw86rRHOAtKdmsLz6Tu8nvZWVYCL8Tq1bVJz11R4KYsZHzwT3g5GdKQdxiWAgdarCYnpMrWNYAVuVbLRh3xaQkSWMsBbN3aeIZJSXKC7W5/M49Y03AJaVh8dZvbXuACsKTSIOfdIMANbaUAh11+2Gg/ZTJ3UV5Ca4ZAwHW5A30MV52Omt27IxxRHpbU1YoM8FAzC7m0ADn2ICYgsqAiXkLj1kDm90ZfPMVCNqGIMbGckJc6KuCyVrGsUSTn3Y767YK3JBYd0BPuGij9LTZv0DlzvvKAoMbCKE84aq+e9oEqpNBnJMYyhg+e7VQpe+J3vuNxPhMCTjAjFz5U/xIJY+EwyHsMqscfikNWgqpx4YLvbHmE+VUrT9Qu4wxQf0X557lBaZ+25aC8SRHxUwiM3POZe1qUFlq7uNY=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1664786828
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+nss
+ttf-font
+libpulse
+ffmpeg
+kfiredragonhelper
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt>13
+wasi-libc>=1:0+258+30094b6
+wasi-libc++>13
+wasi-libc++abi>13
+pciutils
+
