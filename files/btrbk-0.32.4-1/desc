@@ -1,0 +1,57 @@
+%FILENAME%
+btrbk-0.32.4-1-any.pkg.tar.zst
+
+%NAME%
+btrbk
+
+%BASE%
+btrbk
+
+%VERSION%
+0.32.4-1
+
+%DESC%
+Backup tool for btrfs subvolumes, taking advantage of btrfs specific capabilities to create atomic snapshots and transfer them incrementally to your backup locations
+
+%CSIZE%
+130857
+
+%ISIZE%
+410495
+
+%MD5SUM%
+3e997871edcf355ffd7c6ec3364ac57f
+
+%SHA256SUM%
+6833f1d969611a7715873566e232cb9de53423250b9b4867a40c13d6c79163b0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmM60NUACgkQBwa5DTfZuIF98g//VMV5Eie4kwrMgIZRc+qFgbOWhw5ce63crCR0ENLmuovg43IG3wlktTIKRCjaJoMNyGuVuyWwmL3O2R0Bdv7m1A7tUiRU4yQF6s4h6MxJUvFmtq/KuV0mtQX+Ql74ceRiyiR0+cU8CvYQnCEoNjuDtu0j1UnfI76PonpvqLSzOBa/kEuzyaRRyqwoR2G8w3RyH/6vukPvBTMo1Oa9Y1kJkETkSn/Ret45cy8aDLL5aXBHvxIu51G4PhWy82EL3Q/Lok2bWQ+V/lDRAebKjcS5nj5gyeseH6Ugh8uc1mTyO295zvn8/Azz8Cf3UUIRu7X4MAIUkcNzgxQU/L8vyluxBsWMisirSyx/jzlcEZE/k9l2Zs36iLGyGrT+AhJr1U56t9TNfnsuMopzX5/4p9hUzHGPR43jKiRBQ5v4/O5OfKlFolI9NvDDVRUiaLt0Y7dpcSrzuuq+IH3bq1rX3MAnKqHEkCQ6Ind3KV4Ul5Ia1SLY5bEkaaqxAeEboloUc9sYlOOAUNr/KJJtyCO5lH1zGmDS1VDK8DZVZl0PCE4JgZuSqEkP8hrm8KWwMrraKbZ+cXmU0QUKkRIOPrqAnoZHkZgt7l8B+nI9quyIpqob6F6UjcdaVizlf/lKuBlCHIdCPIeYsiR6+zfpMcRbLWnUmr+BffByIG+TQrcXwtkC4AQ=
+
+%URL%
+https://digint.ch/btrbk
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1664798927
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+perl
+btrfs-progs
+
+%OPTDEPENDS%
+openssh: remote backup support,
+mbuffer: --progress support and add buffering to send-stream
+sudo: support for the btrfs-progs-sudo backend
+
+%MAKEDEPENDS%
+asciidoctor
+
