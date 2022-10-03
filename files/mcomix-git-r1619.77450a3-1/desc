@@ -1,0 +1,74 @@
+%FILENAME%
+mcomix-git-r1619.77450a3-1-any.pkg.tar.zst
+
+%NAME%
+mcomix-git
+
+%BASE%
+mcomix-git
+
+%VERSION%
+r1619.77450a3-1
+
+%DESC%
+A user-friendly, customizable image viewer specifically designed to handle comic books
+
+%CSIZE%
+671601
+
+%ISIZE%
+2650481
+
+%MD5SUM%
+17a40288cb6574685436b63ba5f8748b
+
+%SHA256SUM%
+77063bb055c5fdf5ec08a4d73f44bd3951eebb3db15f2e7ec2d0d09e5f19e309
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM66qUACgkQOkDLXn5cvDCeEAgApApyuuevhF2icCecsnz5ZXU8Nh7HJZYJFQwDYjl9afRktmwpWp/NWVfhf2ErdERiwyMcFohKofSsnxZXsOpIton8yj7n+Y13wMd2wliAmQjxyf0CjWATzRYzOf1njYnJS0W1dVSlwDgTjnJ8G73kkdz3sr9+nzsbhYdCir3xnpWi3oQL2uiJSWT19SloS9+PU46abShb43L9jaj1dIj6sAEO5f/vUEXPcueQ4DVTzjMXNgvKnWsbIiYKj+r2z9F4wwx426O+DVJDdPZBG0dMmIKRt9muuHyNKKgUkdkvK/0RguVZMasqQVQmB0DjOkzZ9kGrTlXpyzOw74WoHzVC4A==
+
+%URL%
+https://sourceforge.net/projects/mcomix/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1664805503
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%CONFLICTS%
+mcomix
+
+%PROVIDES%
+mcomix
+
+%DEPENDS%
+gtk3
+python-pillow>=6.0.0
+xdg-utils
+python>=3.7
+desktop-file-utils
+hicolor-icon-theme
+python-gobject>=3.36.0
+python-cairo>=1.16.0
+
+%OPTDEPENDS%
+libunrar: for rar compressed comics
+p7zip: for 7z compressed comics
+unrar: for rar compressed comics
+unzip: for zip compressed comics
+lhasa: for lha compressed comics
+mupdf: for PDF comics
+
+%MAKEDEPENDS%
+gettext
+intltool
+python-setuptools
+
