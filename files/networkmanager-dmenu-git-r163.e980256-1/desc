@@ -1,0 +1,64 @@
+%FILENAME%
+networkmanager-dmenu-git-r163.e980256-1-any.pkg.tar.zst
+
+%NAME%
+networkmanager-dmenu-git
+
+%BASE%
+networkmanager-dmenu-git
+
+%VERSION%
+r163.e980256-1
+
+%DESC%
+Control NetworkManager via dmenu
+
+%CSIZE%
+16061
+
+%ISIZE%
+38854
+
+%MD5SUM%
+809e8a0de2aac76ac0bd12d45e79af38
+
+%SHA256SUM%
+c36f39bb1e905f79e27cec802136d668dd1e0dcf841a3d995ff3e8424b207096
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmM82G4ACgkQBwa5DTfZuIFjJg/8ChXZF60DUg9a2fApHtXqX59OhUo4BmmubaYzWnHs70SWtmNtomDRAshzciCRNcyqF1Zb5s0NrzznWiXj9qiXat0zkt9rKuSQ3Xyr9z25ZCNItTl+YMTFE+QLzdpn+iH4VzM3nz9DpA7xPu794QzIo3M6DTx/cFZ8io33FAtJcqRVrAKVAFVffv++VnDtAMUo/bUI8YWo7dC8cwfyu1fAvizEi5+ZKEdrXixA01xuHXQv1Ct1+r/ZGSAJ38EKCu/I5ESCjcA8qTVeeu848Dxzli17ZE9rgr8YgwD6pSwce4qFpA+d2hYlKBS7rMK0AqAaZGb5FqIjExNg2A+JZAAict4Yg9VbovLUCgxtBKrJLXlvOrIdpo8JNDPbj8p4+NAWwX1ac1vmx5avIaSgnwVC6VCyviZEjBz4Mvli+2sYmNwhZXDZ80FdNAKVU7k9UptZEc2axW3WnneUABnseMhKOaPCxv7O/YlHZ7CntdgaxLmd4dfBtPsi/GBwGLltYb31OUGnv+i+SH6pNBps6UPblqfgC2/EiSJWMAnjfwgl1vhjdYTRx+LyRCtwH2VIjV4rxVCRbKO7MwFbd79AzoGUh3GnJ5gS5Lt9HU0Uws7ckY0jeb7j6glp1YM+17zhPKhyUOgbihK32KMAIFZcemxzsSget+7hdfzLWKHZozCGbDc=
+
+%URL%
+https://github.com/firecat53/networkmanager-dmenu
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1664931937
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%CONFLICTS%
+networkmanager-dmenu
+
+%PROVIDES%
+networkmanager-dmenu
+
+%DEPENDS%
+python
+networkmanager
+python-gobject
+
+%OPTDEPENDS%
+dmenu: either dmenu or rofi is required
+rofi: either dmenu or rofi is required
+network-manager-applet: for the nm-connection-editor GUI
+
+%MAKEDEPENDS%
+git
+
