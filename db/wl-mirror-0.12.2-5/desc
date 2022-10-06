@@ -1,0 +1,60 @@
+%FILENAME%
+wl-mirror-0.12.2-5-x86_64.pkg.tar.zst
+
+%NAME%
+wl-mirror
+
+%BASE%
+wl-mirror
+
+%VERSION%
+0.12.2-5
+
+%DESC%
+a simple Wayland output mirror client
+
+%CSIZE%
+35142
+
+%ISIZE%
+81183
+
+%MD5SUM%
+f28281021a136db58baec23ac2dc978a
+
+%SHA256SUM%
+734c049423fd6799da6137f54f7e0b0df6cee6f1289a2a9852d00b2cfe3eeb16
+
+%PGPSIG%
+iQEzBAABCAAdFiEEv7E+pQfv2ttkqUSBOkDLXn5cvDAFAmM/GLUACgkQOkDLXn5cvDD5Ygf+K92bCBS9aVXXzQvuJvSZqxikSnPxSvBjFLw0c/LgNUnngHQzHdQVjMEHhNMDQ1BA2p+Ome3+u7y/nf5ik0rhUcOJ0tLstCgpBdqJAJeNaduqQmALZWgdmAEqw2qC/TuNwnqaRyAYQ1m4BCUL1FR3tpiTJv3/YjO3DpBmuQ2FmNbYu1lqshCVsXlhh1l/qIwwBrQeo4DhFN66zUNYfddJl+QEf2ZpTfeRZaiqWTSiazsm7XdX/ApLmQvch4cyA+zVZXY7+Pl+/WZOEZ0jjf+FdGo7VDKkjat6v9Vdlo5EiLo+FiEoG8oWUi2oF6b/aHa9AwON5IwQPsP7WExwr8JAHw==
+
+%URL%
+https://github.com/Ferdi265/wl-mirror
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1665079467
+
+%PACKAGER%
+UFSCar HPC Builder <hpc.ufscar@chaotic.cx>
+
+%DEPENDS%
+libglvnd
+wayland
+
+%OPTDEPENDS%
+pipectl: named pipe manager, for wl-present script
+slurp: selecting regions and outputs, for wl-present script
+rofi: interactively selecting options, for wl-present script
+dmenu: interactively selecting options, alternative, for wl-present script
+
+%MAKEDEPENDS%
+cmake
+ninja
+scdoc
+
