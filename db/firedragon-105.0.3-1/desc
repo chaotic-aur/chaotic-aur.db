@@ -1,0 +1,100 @@
+%FILENAME%
+firedragon-105.0.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+firedragon
+
+%BASE%
+firedragon
+
+%VERSION%
+105.0.3-1
+
+%DESC%
+Librewolf fork build using custom branding, settings & KDE patches by OpenSUSE
+
+%CSIZE%
+83431143
+
+%ISIZE%
+242395532
+
+%MD5SUM%
+4faee885e987f1f0a5fde44f1e8d7664
+
+%SHA256SUM%
+40f1e5b024a280ae46859bd5ef935368834e50d9ec4fe2dd947f9accfc96c28d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEReynBeOJdSRlSjeIBwa5DTfZuIEFAmNBkRoACgkQBwa5DTfZuIE6iw//XX8+eb+74+H3ISoF2ujapwpFpWnK5AJNWZm3AtKc/8bfs5T2IVCfTJc+xBwVHIcq3uRPfjT/u6WwM8PdwhpKONO7g4RXRK1n9UyfEAe+58xXOga9Xl13GsZErCFCq5Rpq4Xx3JQ85i9prWgQXCdejmWSMuhSQO4+q1O+0o6aC7BcYn2o7c9dxaU24EwTJRnf2tEqEkF+r1o4d92P040WnfEQx29Wl0HSoo3hiYvumzjb5spO7I4+dM3YNEHbJoeyygmQiJfLBT6skJahXXrnor1sNt3E7wF2y2ZhEC32wZXZ12ql7CWTQ7jToGkF9RuVJGjR8oyKhy3OakMNMtuBxlPzbIeJ+KpcVW1v/B7e9Cg7jweeMWGV4xfg55K59QvR6E00C4PFPKZ+fs5Enq8LVYsBqqlakq2X5zRd8dwcE5fRHN3PhWVXhdVcHo5/Go3c3ZLC1DqiSdFpMT9qHofGhQj6zZHRX/sT44kh/Juh4diAV+JFuWGzXeu4vZTXFMU8jXL+VRtCE+UT/G6eWBiRIalOfdb3F4Ij9zxslhxtojpekcdhgQ/3xz6pRmeJtefr3TYhjfNU+4arHG95M06r+ISnCm3HPmr1sp5VhDVo0UKCv2bOU3x3oifrVz6ylTlaSPJtNsZwEA2kBUYGEz1oJ4Nm+265+vWg/Ub7Hn+R0Vg=
+
+%URL%
+https://gitlab.com/dr460nf1r3/settings/
+
+%LICENSE%
+MPL
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1665237051
+
+%PACKAGER%
+Nico Jensch <dr460nf1r3@chaotic.cx>
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+nss
+ttf-font
+libpulse
+ffmpeg
+
+%OPTDEPENDS%
+firejail-git: Sandboxing the browser using the included profiles
+profile-sync-daemon: Load the browser profile into RAM
+whoogle: Searching the web using a locally running Whoogle instance
+searx: Searching the web using a locally running searX instance
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulseaudio: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+libappindicator-gtk3: Global menu support for GTK apps
+appmenu-gtk-module-git: Appmenu for GTK only
+plasma5-applets-window-appmenu: Appmenu for Plasma only
+
+%MAKEDEPENDS%
+unzip
+zip
+diffutils
+yasm
+mesa
+imake
+inetutils
+xorg-server-xvfb
+autoconf2.13
+rust
+clang
+llvm
+jack
+nodejs
+cbindgen
+nasm
+python-setuptools
+python-zstandard
+git
+binutils
+lld
+dump_syms
+wasi-compiler-rt>13
+wasi-libc>=1:0+258+30094b6
+wasi-libc++>13
+wasi-libc++abi>13
+pciutils
+
